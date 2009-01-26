@@ -11,7 +11,7 @@ else
 	#
 	# Tagging it with release tag
 	#
-	svn copy . http://svn.wikimedia.org/viewvc/mediawiki/tags/extensions/Widgets/REL_${subst .,_,${v}}/
+	svn copy . http://svn.wikimedia.org/svnroot/mediawiki/tags/extensions/Widgets/REL_${subst .,_,${v}}/
 	#
 	# Creating release tarball and zip
 	#
