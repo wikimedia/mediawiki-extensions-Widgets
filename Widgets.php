@@ -10,7 +10,7 @@
 $wgExtensionCredits['parserhook'][] = array(
         'name' => 'Widgets',
         'description' => 'Allows wiki administrators to add free-form widgets to wiki by just editing pages within Widget namespace. Originally developed for [http://www.ardorado.com Ardorado.com]',
-	'version' => 0.8,
+	'version' => '0.8.2',
         'author' => '[http://www.sergeychernyshev.com Sergey Chernyshev] (for [http://www.semanticcommunities.com Semantic Communities LLC.])',
         'url' => 'http://www.mediawiki.org/wiki/Extension:Widgets'
 );
@@ -169,7 +169,7 @@ function wiki_get_template ($widgetName, &$widgetCode, &$smarty_obj)
 	$widgetTitle = Title::newFromText($widgetName, NS_WIDGET);
 	if ($widgetTitle && $widgetTitle->exists())
 	{
-		$widgetArticle = new Article($widgetTitle);
+		$widgetArticle = new Article($widgetTitle, 0);
 		$widgetCode = $widgetArticle->getContent();
 
 		// Remove <noinclude> sections and <includeonly> tags from form definition
@@ -189,7 +189,7 @@ function wiki_get_timestamp($widgetName, &$widgetTimestamp, &$smarty_obj)
 	$widgetTitle = Title::newFromText($widgetName, NS_WIDGET);
 	if ($widgetTitle && $widgetTitle->exists())
 	{
-		$widgetArticle = new Article($widgetTitle);
+		$widgetArticle = new Article($widgetTitle, 0);
 		$widgetTimestamp = $widgetArticle->getTouched();
 
 		return true;
