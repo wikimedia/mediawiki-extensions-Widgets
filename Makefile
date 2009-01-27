@@ -19,7 +19,7 @@ else
 	svn export smarty Widgets/smarty
 	# Not including Makefile into the package since it's not doing anything but release packaging
 	rm Widgets/Makefile
-	tar -c Widgets -zf Widgets_${v}.tgz
+	tar -c Widgets |gzip > Widgets_${v}.tgz
 	zip -r Widgets_${v}.zip Widgets
 	rm -rf Widgets
 
