@@ -10,7 +10,7 @@
 $wgExtensionCredits['parserhook'][] = array(
         'name' => 'Widgets',
         'description' => 'Allows wiki administrators to add free-form widgets to wiki by just editing pages within Widget namespace. Originally developed for [http://www.ardorado.com Ardorado.com]',
-	'version' => '0.8.2',
+	'version' => '0.8.3',
         'author' => '[http://www.sergeychernyshev.com Sergey Chernyshev] (for [http://www.semanticcommunities.com Semantic Communities LLC.])',
         'url' => 'http://www.mediawiki.org/wiki/Extension:Widgets'
 );
@@ -49,9 +49,25 @@ function renderWidget (&$parser, $widgetName)
 	$smarty->left_delimiter = '<!--{';
 	$smarty->right_delimiter = '}-->';
 	$smarty->compile_dir  = "$IP/extensions/Widgets/compiled_templates/";
+
+	// registering custom Smarty plugins
+	$smarty->plugins_dir[] = "$IP/extensions/Widgets/smarty_plugins/";
+
 	$smarty->security = true;
 	$smarty->security_settings = array(
-		'IF_FUNCS' => array('is_array', 'isset', 'array', 'list', 'count', 'sizeof', 'in_array', 'true', 'false', 'null')
+		'IF_FUNCS' => array(
+				'is_array',
+				'isset',
+				'array',
+				'list',
+				'count',
+				'sizeof',
+				'in_array',
+				'true',
+				'false',
+				'null'
+				),
+		'MODIFIER_FUNCS' => array('validate')
 	);
 
 	// register the resource name "db"
