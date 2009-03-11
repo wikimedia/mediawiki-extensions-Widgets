@@ -10,7 +10,7 @@
 $wgExtensionCredits['parserhook'][] = array(
         'name' => 'Widgets',
         'description' => 'Allows wiki administrators to add free-form widgets to wiki by just editing pages within Widget namespace. Originally developed for [http://www.ardorado.com Ardorado.com]',
-	'version' => '0.8.3',
+	'version' => '0.8.4',
         'author' => '[http://www.sergeychernyshev.com Sergey Chernyshev] (for [http://www.semanticcommunities.com Semantic Communities LLC.])',
         'url' => 'http://www.mediawiki.org/wiki/Extension:Widgets'
 );
