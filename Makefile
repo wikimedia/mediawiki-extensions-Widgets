@@ -22,10 +22,4 @@ else
 	tar -c Widgets |gzip > Widgets_${v}.tgz
 	zip -r Widgets_${v}.zip Widgets
 	rm -rf Widgets
-
-	#
-	# Copying tarball and zip to destination
-	#
-	mv Widgets_${v}.tgz ${dest}
-	mv Widgets_${v}.zip ${dest}
 endif
