@@ -10,7 +10,7 @@
 $wgExtensionCredits['parserhook'][] = array(
         'name' => 'Widgets',
         'description' => 'Allows wiki administrators to add free-form widgets to wiki by just editing pages within Widget namespace. Originally developed for [http://www.ardorado.com Ardorado.com]',
-	'version' => '0.8.4',
+	'version' => '0.8.5',
         'author' => '[http://www.sergeychernyshev.com Sergey Chernyshev] (for [http://www.semanticcommunities.com Semantic Communities LLC.])',
         'url' => 'http://www.mediawiki.org/wiki/Extension:Widgets'
 );
@@ -90,51 +90,61 @@ function renderWidget (&$parser, $widgetName)
                 {
 			$key = trim($pair[0]);
 			$val = trim($pair[1]);
+		}
+		else
+		{
+			$key = $param;
+			$val = true;
+		}
 
-			/* If the name of the parameter has object notation
+		if ($val == 'false')
+		{
+			$val = false;
+		}
 
-				a.b.c.d
+		/* If the name of the parameter has object notation
 
-			   then we assign stuff to hash of hashes, not scalar
+			a.b.c.d
 
-			*/
-			$keys = explode('.', $key);
+		   then we assign stuff to hash of hashes, not scalar
 
-			// $subtree will be moved from top to the bottom and at the end will point to the last level
-			$subtree =& $params_tree;
+		*/
+		$keys = explode('.', $key);
 
-			// go throught all the keys but last one
-			$last_key = array_pop($keys);
+		// $subtree will be moved from top to the bottom and at the end will point to the last level
+		$subtree =& $params_tree;
 
-			foreach ($keys as $subkey)
+		// go throught all the keys but last one
+		$last_key = array_pop($keys);
+
+		foreach ($keys as $subkey)
+		{
+			// if next level of subtree doesn't exist yet, create an empty one
+			if (!array_key_exists($subkey, $subtree))
 			{
-				// if next level of subtree doesn't exist yet, create an empty one
-				if (!array_key_exists($subkey, $subtree))
-				{
-					$subtree[$subkey] = array();
-				}
-
-				// move to the lower level
-				$subtree =& $subtree[$subkey];
+				$subtree[$subkey] = array();
 			}
 
-			// last portion of the key points to itself
-			if (isset($subtree[$last_key]))
-			{
-				// if already an array, push into it, otherwise, convert into array first
-				if (!is_array($subtree[$last_key]))
-				{
-					$subtree[$last_key] = array($subtree[$last_key]);
-				}
+			// move to the lower level
+			$subtree =& $subtree[$subkey];
+		}
 
-				$subtree[$last_key][] = $val;
-			}
-			else
+		// last portion of the key points to itself
+		if (isset($subtree[$last_key]))
+		{
+			// if already an array, push into it, otherwise, convert into array first
+			if (!is_array($subtree[$last_key]))
 			{
-				// doesn't exist yet, just setting a value
-				$subtree[$last_key] = $val;
+				$subtree[$last_key] = array($subtree[$last_key]);
 			}
-                }
+
+			$subtree[$last_key][] = $val;
+		}
+		else
+		{
+			// doesn't exist yet, just setting a value
+			$subtree[$last_key] = $val;
+		}
         }
 
 	$smarty->assign($params_tree);
