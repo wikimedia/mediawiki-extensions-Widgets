@@ -8,6 +8,7 @@
  */
 
 $wgExtensionCredits['parserhook'][] = array(
+	'path' => __FILE__,
         'name' => 'Widgets',
         'description' => 'Allows wiki administrators to add free-form widgets to wiki by just editing pages within Widget namespace. Originally developed for [http://www.ardorado.com Ardorado.com]',
 	'version' => '0.8.5',
