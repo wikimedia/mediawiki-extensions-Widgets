@@ -7,6 +7,11 @@
  * @version $Id: Widgets.php 15 2008-06-25 21:22:40Z sergey.chernyshev $
  */
 
+if ( !defined( 'MEDIAWIKI' ) ) {
+    echo "This file is not a valid entry point.";
+    exit( 1 );
+}
+
 $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
         'name' => 'Widgets',
@@ -16,21 +21,24 @@ $wgExtensionCredits['parserhook'][] = array(
         'url' => 'http://www.mediawiki.org/wiki/Extension:Widgets'
 );
 
+/**
+ * Set this to the index of the Widget namespace
+ */
+$widgetNamespaceIndex = 274;
+
+
 // Initialize Smarty
 
-require "$IP/extensions/Widgets/smarty/Smarty.class.php";
+require dirname(__FILE__)."/smarty/Smarty.class.php";
 
 // Parser function registration
-$wgExtensionFunctions[] = 'widgetParserFunctions';
+$wgExtensionFunctions[] = 'widgetNamespacesInit';
 $wgHooks['LanguageGetMagic'][] = 'widgetLanguageGetMagic';
+$wgHooks['ParserFirstCallInit'][] = 'widgetParserFunctions';
 
-// Init Widget namespaces
-widgetNamespacesInit();
-
-function widgetParserFunctions()
+function widgetParserFunctions( &$parser )
 {
-    global $wgParser;
-    $wgParser->setFunctionHook('widget', 'renderWidget');
+    $parser->setFunctionHook('widget', 'renderWidget');
 }
 
 function widgetLanguageGetMagic( &$magicWords, $langCode = "en" )
@@ -165,10 +173,6 @@ function renderWidget (&$parser, $widgetName)
 function widgetNamespacesInit() {
 	global $widgetNamespaceIndex, $wgExtraNamespaces, $wgNamespacesWithSubpages,
 			$wgGroupPermissions, $wgNamespaceProtection;
-
-	if (!isset($widgetNamespaceIndex)) {
-		$widgetNamespaceIndex = 274;
-	}
 
 	define('NS_WIDGET',       $widgetNamespaceIndex);
 	define('NS_WIDGET_TALK',  $widgetNamespaceIndex+1);
