@@ -39,6 +39,8 @@ $wgHooks['ParserFirstCallInit'][] = 'widgetParserFunctions';
 function widgetParserFunctions( &$parser )
 {
     $parser->setFunctionHook('widget', 'renderWidget');
+
+    return true;
 }
 
 function widgetLanguageGetMagic( &$magicWords, $langCode = "en" )
