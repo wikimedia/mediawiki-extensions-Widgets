@@ -24,11 +24,16 @@ $wgExtensionCredits['parserhook'][] = array(
 /**
  * Set this to the index of the Widget namespace
  */
-$widgetNamespaceIndex = 274;
-
+if ( !defined( 'NS_WIDGET' ) ) {
+   define( 'NS_WIDGET', 274 );
+}
+if ( !defined( 'NS_WIDGET_TALK' ) ) {
+   define( 'NS_WIDGET_TALK', NS_WIDGET + 1 );
+} elseif ( NS_WIDGET_TALK != NS_WIDGET + 1 ) {
+   throw new MWException( 'Configuration error. Do not define NS_WIDGET_TALK, it is automatically set based on NS_WIDGET.' );
+}
 
 // Initialize Smarty
-
 require dirname(__FILE__)."/smarty/Smarty.class.php";
 
 // Parser function registration
@@ -173,11 +178,8 @@ function renderWidget (&$parser, $widgetName)
 }
 
 function widgetNamespacesInit() {
-	global $widgetNamespaceIndex, $wgExtraNamespaces, $wgNamespacesWithSubpages,
+	global $wgExtraNamespaces, $wgNamespacesWithSubpages,
 			$wgGroupPermissions, $wgNamespaceProtection;
-
-	define('NS_WIDGET',       $widgetNamespaceIndex);
-	define('NS_WIDGET_TALK',  $widgetNamespaceIndex+1);
 
 	// Register namespace identifiers
 	if (!is_array($wgExtraNamespaces)) { $wgExtraNamespaces=array(); }
