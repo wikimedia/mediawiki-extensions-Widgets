@@ -41,11 +41,14 @@ $wgExtraNamespaces[NS_WIDGET_TALK] = 'Widget_talk';
 // Support subpages only for talk pages by default
 $wgNamespacesWithSubpages[NS_WIDGET_TALK] = true;
 
+// Define new right
+$wgAvailableRights[] = 'editwidgets';
+
 $dir = dirname( __FILE__ ) . '/';
 
 // Initialize Smarty
 require_once( $dir . 'smarty/Smarty.class.php' );
-$wgExtensionMessagesFile['Widgets'] = $dir . 'Widgets.i18n.php';
+$wgExtensionMessagesFiles['Widgets'] = $dir . 'Widgets.i18n.php';
 
 // Parser function registration
 $wgExtensionFunctions[] = 'widgetNamespacesInit';
