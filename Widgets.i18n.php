@@ -26,38 +26,51 @@ $messages['qqq'] = array(
 );
 
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author EugeneZelenko
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
-	'widgets-desc' => 'Дазволіць адміністратарам вікі дадаваць вольную форму кіраваньня акном ў вікі праз рэдагаваньне старонак у прасторы назваў Widget. Арыгінальная распрацоўка для [http://www.ardorado.com Ardorado.com]',
-	'widgets-error' => 'Памылка ў [[Widget:$1|кіраваньні акном $1]]',
+	'widgets-desc' => 'Дазваляе адміністратарам {{GRAMMAR:родны|{{SITENAME}}}} дадаваць вольныя формы ў вікі праз рэдагаваньне старонак у прасторы назваў {{ns:widget}}. Арыгінальная распрацоўка для [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Памылка ў [[{{ns:widget}}:$1|кіраваньні акном $1]]',
 	'group-widgeteditor' => 'Рэдактар кіраваньня акном',
 	'group-widgeteditor-member' => 'Рэдактар кіраваньня акном',
 	'grouppage-widgeteditor' => 'Праект:Рэдактар кіраваньня акном',
-	'right-editwidgets' => 'Рэдагаваць старонкі ў прасторы назваў «Widget»',
+	'right-editwidgets' => 'рэдагаваньне старонкі ў прасторы назваў «{{ns:widget}}»',
+);
+
+/** French (Français)
+ * @author IAlex
+ */
+$messages['fr'] = array(
+	'widgets-desc' => "Permet aux administrateurs du wiki d'ajouter des widgets au wiki en modifiant des pages dans l'espace de noms {{ns:widget}}. Développé à la base pour [http://www.ardorado.com Ardorado.com]",
+	'widgets-error' => 'Erreur dans le [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Modificateurs de widgets',
+	'group-widgeteditor-member' => 'modificateur de widgets',
+	'grouppage-widgeteditor' => 'Project:Modificateurs de widgets',
+	'right-editwidgets' => "Modifier les pages dans l'espace de noms « {{ns:widget}} »",
 );
 
 /** Japanese (日本語)
  * @author Fryed-peach
  */
 $messages['ja'] = array(
-	'widgets-desc' => '管理者が「Widget」名前空間内のページを編集し、ウィキに自由な形式のウィジェットを追加できるようにする。元々は [http://www.ardorado.com Ardorado.com] のために開発されました',
-	'widgets-error' => '[[Widget:$1|ウィジェット $1]]にエラー',
+	'widgets-desc' => '管理者が「{{ns:widget}}」名前空間内のページを編集し、ウィキに自由な形式のウィジェットを追加できるようにする。元々は [http://www.ardorado.com Ardorado.com] のために開発されました',
+	'widgets-error' => '[[{{ns:widget}}:$1|ウィジェット $1]]にエラー',
 	'group-widgeteditor' => 'ウィジェット編集者',
 	'group-widgeteditor-member' => 'ウィジェット編集者',
 	'grouppage-widgeteditor' => 'Project:ウィジェット編集者',
-	'right-editwidgets' => '「Widget」名前空間のページを編集する',
+	'right-editwidgets' => '「{{ns:widget}}」名前空間のページを編集する',
 );
 
 /** Dutch (Nederlands)
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'widgets-desc' => "Stelt wikibeheerders in staat naar eigen inzicht widgets aan de wiki toe te voegen door het bewerken van pagina's in de naamruimte Widget. Oorspronkelijk ontwikkeld voor [http://www.ardorado.com Ardorado.com]",
-	'widgets-error' => 'Fout in [[Widget:$1|widget $1]]',
+	'widgets-desc' => "Stelt wikibeheerders in staat naar eigen inzicht widgets aan de wiki toe te voegen door het bewerken van pagina's in de naamruimte {{ns:widget}}. Oorspronkelijk ontwikkeld voor [http://www.ardorado.com Ardorado.com]",
+	'widgets-error' => 'Fout in [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Widgetbewerkers',
 	'group-widgeteditor-member' => 'Widgetbewerker',
 	'grouppage-widgeteditor' => 'Project:Widgetbewerkers',
-	'right-editwidgets' => 'Pagina\'s bewerken in de naamruimte "Widget"',
+	'right-editwidgets' => 'Pagina\'s bewerken in de naamruimte "{{ns:widget}}"',
 );
 
