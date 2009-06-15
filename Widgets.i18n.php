@@ -40,6 +40,19 @@ $messages['be-tarask'] = array(
 	'right-editwidgets' => 'рэдагаваньне старонкі ў прасторы назваў «{{ns:widget}}»',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'widgets-desc' => 'Dowólujo wikijowym administratoram wikijeju pśez wobźěłowanje w mjenjowem rumje {{ns:widget}} swójske miniprogramy pśidaś.
+Spócetnje wuwity za [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Zmólka w [[{{ns:widget}}:$1|miniprogramje $1]]',
+	'group-widgeteditor' => 'Wobźěłowarje miniprogramow',
+	'group-widgeteditor-member' => 'Wobźěłowaŕ miniprogramow',
+	'grouppage-widgeteditor' => 'Project: Wobźěłowarje miniprogramow',
+	'right-editwidgets' => 'Boki w mjenjowem rumje "{{ns:widget}}" wobźěłaś',
+);
+
 /** French (Français)
  * @author IAlex
  */
@@ -50,6 +63,45 @@ $messages['fr'] = array(
 	'group-widgeteditor-member' => 'modificateur de widgets',
 	'grouppage-widgeteditor' => 'Project:Modificateurs de widgets',
 	'right-editwidgets' => "Modifier les pages dans l'espace de noms « {{ns:widget}} »",
+);
+
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'widgets-desc' => 'Permite aos administradores do wiki engadir widgets cando se editan as páxinas do espazo de nomes "{{ns:widget}}".
+Desenvolvido orixinalmente para [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Erro no [[{{ns:widget}}:$1|widget "$1"]]',
+	'group-widgeteditor' => 'Editores de widgets',
+	'group-widgeteditor-member' => 'Editor de widgets',
+	'grouppage-widgeteditor' => 'Project:Editores de widgets',
+	'right-editwidgets' => 'Editar as páxinas do espazo de nomes "{{ns:widget}}"',
+);
+
+/** Swiss German (Alemannisch)
+ * @author Als-Holder
+ */
+$messages['gsw'] = array(
+	'widgets-desc' => 'Erlaubt Wikiadministratore Frej-Form-Widgets zum Wiki zuezfiege dur d Bearbeitig vu Syte im {{ns:widget}}-Namensruum.
+Urspringlig entwicklet fir [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Fähler im [[{{ns:widget}}:$1|Widget $1]]',
+	'group-widgeteditor' => 'Widget-Editore',
+	'group-widgeteditor-member' => 'Widget-Editor',
+	'grouppage-widgeteditor' => 'Project:Widget-Editore',
+	'right-editwidgets' => 'Syte im „{{ns:widget}}“-Namensruum bearbeite',
+);
+
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'widgets-desc' => 'Dowola wikijowym administratoram wikijej přez wobdźěłowanje stronow znutřka mjenjoweho ruma {{ns:widget}} swójske miniprogramy přidać.
+Prěnjotnje za [http://www.ardorado.com Ardorado.com] wuwity.',
+	'widgets-error' => 'Zmylk w [[{{ns:widget}}:$1|miniprogramje $1]]',
+	'group-widgeteditor' => 'Wobdźěłowarjo miniprogramow',
+	'group-widgeteditor-member' => 'Wobdźěłowar miniprogramow',
+	'grouppage-widgeteditor' => 'Project:Wobdźěłowarjo miniprogramow',
+	'right-editwidgets' => 'Strony w mjenowym rumje "{{ns:widget}}" wobdźěłać',
 );
 
 /** Japanese (日本語)
@@ -87,5 +139,30 @@ $messages['nl'] = array(
 	'group-widgeteditor-member' => 'Widgetbewerker',
 	'grouppage-widgeteditor' => 'Project:Widgetbewerkers',
 	'right-editwidgets' => 'Pagina\'s bewerken in de naamruimte "{{ns:widget}}"',
+);
+
+/** Russian (Русский)
+ * @author Александр Сигачёв
+ */
+$messages['ru'] = array(
+	'widgets-desc' => 'Позволяет администраторам вики добавлять различные виджеты, посредством редактирования страниц пространства имён {{ns:widget}}. Изначально разработано для [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Ошибка в [[{{ns:widget}}:$1|виджете $1]]',
+	'group-widgeteditor' => 'Редакторы виджетов',
+	'group-widgeteditor-member' => 'Редактор виджетов',
+	'grouppage-widgeteditor' => 'Project:Редакторы виджетов',
+	'right-editwidgets' => 'редактировать страницы в пространстве имён {{ns:widget}}',
+);
+
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
+$messages['sk'] = array(
+	'widgets-desc' => 'Umožňuje správcom wiki pridávať ovládacie prvky na wiki úpravou stránky v mennom priestore {{ns:widget}}.
+Pôvodne vyvinuté pre [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Chyba v [[{{ns:widget}}:$1|ovládacom prvku $1]]',
+	'group-widgeteditor' => 'Editori ovládacích prvkov',
+	'group-widgeteditor-member' => 'Editor ovládacích prvkov',
+	'grouppage-widgeteditor' => 'Project:Editori ovládacích prvkov',
+	'right-editwidgets' => 'upravovať stránky v mennom priestore „{{ns:widget}}“',
 );
 
