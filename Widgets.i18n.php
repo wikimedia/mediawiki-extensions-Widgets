@@ -18,9 +18,11 @@ Originally developed for [http://www.ardorado.com Ardorado.com]',
 
 /** Message documentation (Message documentation)
  * @author Fryed-peach
+ * @author Purodha
  * @author Siebrand
  */
 $messages['qqq'] = array(
+	'widgets-desc' => 'Dat es en koot Verklierung för hee dat Zohsatzprojramm. Donn dä Lengk un dä Name dren nit övversäze.',
 	'grouppage-widgeteditor' => '{{doc-important|Leave "Project:" untranslated}}',
 	'right-editwidgets' => '{{doc-right}}',
 );
@@ -60,6 +62,19 @@ $messages['ja'] = array(
 	'group-widgeteditor-member' => 'ウィジェット編集者',
 	'grouppage-widgeteditor' => 'Project:ウィジェット編集者',
 	'right-editwidgets' => '「{{ns:widget}}」名前空間のページを編集する',
+);
+
+/** Ripoarisch (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'widgets-desc' => 'Määt et müjjelesch, dat Wiki-Köbeße <i lang="en">Widgets</i> en ene freie Forrem en däm Appachtemang „{{ns:widget}}“ enndraare.
+Dat wood aanfänglesch projrammeert för <span lang="en">[http://www.ardorado.com Ardorado.com]</span>',
+	'widgets-error' => 'Doh es ene Fähler em [[{{ns:widget}}:$1|<i lang="en">Widget</i> $1]]',
+	'group-widgeteditor' => 'Schriiver för <i lang="en">Widgets</i>',
+	'group-widgeteditor-member' => '<i lang="en">Widget</i>-Schriiver',
+	'grouppage-widgeteditor' => 'Project:Widget-Schriiver',
+	'right-editwidgets' => 'Sigge em Appachemang „{{ns:widget}}“ ändere',
 );
 
 /** Dutch (Nederlands)
