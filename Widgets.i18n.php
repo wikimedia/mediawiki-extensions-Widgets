@@ -33,10 +33,10 @@ $messages['qqq'] = array(
  */
 $messages['be-tarask'] = array(
 	'widgets-desc' => 'Дазваляе адміністратарам {{GRAMMAR:родны|{{SITENAME}}}} дадаваць вольныя формы ў вікі праз рэдагаваньне старонак у прасторы назваў {{ns:widget}}. Арыгінальная распрацоўка для [http://www.ardorado.com Ardorado.com]',
-	'widgets-error' => 'Памылка ў [[{{ns:widget}}:$1|кіраваньні акном $1]]',
-	'group-widgeteditor' => 'Рэдактар кіраваньня акном',
-	'group-widgeteditor-member' => 'Рэдактар кіраваньня акном',
-	'grouppage-widgeteditor' => 'Праект:Рэдактар кіраваньня акном',
+	'widgets-error' => 'Памылка ў [[{{ns:widget}}:$1|віджэце $1]]',
+	'group-widgeteditor' => 'Рэдактар віджэтаў',
+	'group-widgeteditor-member' => 'Рэдактар віджэта',
+	'grouppage-widgeteditor' => 'Project:Рэдактары віджэтаў',
 	'right-editwidgets' => 'рэдагаваньне старонкі ў прасторы назваў «{{ns:widget}}»',
 );
 
@@ -139,6 +139,18 @@ $messages['nl'] = array(
 	'group-widgeteditor-member' => 'Widgetbewerker',
 	'grouppage-widgeteditor' => 'Project:Widgetbewerkers',
 	'right-editwidgets' => 'Pagina\'s bewerken in de naamruimte "{{ns:widget}}"',
+);
+
+/** Occitan (Occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'widgets-desc' => "Permet als administrators del wiki d'apondre de widgets al wiki en modificant de paginas dins l'espac de noms {{ns:widget}}. Desvolopat a la basa per [http://www.ardorado.com Ardorado.com]",
+	'widgets-error' => 'Error dins lo [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Modificators de widgets',
+	'group-widgeteditor-member' => 'modificator de widgets',
+	'grouppage-widgeteditor' => 'Project:Modificators de widgets',
+	'right-editwidgets' => "Modificar las paginas dins l'espaci de noms « {{ns:widget}} »",
 );
 
 /** Russian (Русский)
