@@ -40,6 +40,15 @@ $messages['be-tarask'] = array(
 	'right-editwidgets' => 'рэдагаваньне старонкі ў прасторы назваў «{{ns:widget}}»',
 );
 
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'widgets-error' => 'Greška u [[{{ns:widget}}:$1|widgetu $1]]',
+	'grouppage-widgeteditor' => 'Project:Uređivač dodataka',
+	'right-editwidgets' => 'Uređivanje stranica u "{{ns:widget}}" imenskom prostoru',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
@@ -139,6 +148,16 @@ $messages['nl'] = array(
 	'group-widgeteditor-member' => 'Widgetbewerker',
 	'grouppage-widgeteditor' => 'Project:Widgetbewerkers',
 	'right-editwidgets' => 'Pagina\'s bewerken in de naamruimte "{{ns:widget}}"',
+);
+
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['no'] = array(
+	'widgets-desc' => 'Tillater wikiadministratorer å legge til fri-form widgets til wikien ved å redigere siden innen {{ns:widget}}-navnerommet.
+Opprinnelig utviklet for [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Feil i [[{{ns:widget}}:$1|widget $1]]',
+	'right-editwidgets' => 'Rediger sider i "{{ns:widget}}"-navnerommet',
 );
 
 /** Occitan (Occitan)
