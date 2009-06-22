@@ -113,6 +113,14 @@ Prěnjotnje za [http://www.ardorado.com Ardorado.com] wuwity.',
 	'right-editwidgets' => 'Strony w mjenowym rumje "{{ns:widget}}" wobdźěłać',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'widgets-desc' => 'Permitte al administratores del wiki inserer widgets qualcunque in le wiki, per modificar paginas intra le spatio de nomines {{ns:widget}}.
+Originalmente disveloppate pro [http://www.ardorado.com Ardorado.com]',
+);
+
 /** Japanese (日本語)
  * @author Fryed-peach
  */
