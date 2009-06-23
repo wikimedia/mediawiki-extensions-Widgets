@@ -119,6 +119,11 @@ Prěnjotnje za [http://www.ardorado.com Ardorado.com] wuwity.',
 $messages['ia'] = array(
 	'widgets-desc' => 'Permitte al administratores del wiki inserer widgets qualcunque in le wiki, per modificar paginas intra le spatio de nomines {{ns:widget}}.
 Originalmente disveloppate pro [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Error in [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Modificatores de widgets',
+	'group-widgeteditor-member' => 'Modificator de widgets',
+	'grouppage-widgeteditor' => 'Project:Modificatores de widgets',
+	'right-editwidgets' => 'Modificar paginas in le spatio de nomines "{{ns:widget}}"',
 );
 
 /** Japanese (日本語)
