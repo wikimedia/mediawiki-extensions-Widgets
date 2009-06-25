@@ -126,6 +126,20 @@ Originalmente disveloppate pro [http://www.ardorado.com Ardorado.com]',
 	'right-editwidgets' => 'Modificar paginas in le spatio de nomines "{{ns:widget}}"',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Bennylin
+ */
+$messages['id'] = array(
+	'widgets-desc' => 'Mengijinkan admin wiki untuk menambahkan widget ke wiki dengan menyunting halaman di ruang nama {{ns:widget}}.
+
+Mulanya dibuat untuk [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Kesalahan pada [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Penyunting widget',
+	'group-widgeteditor-member' => 'Penyunting widget',
+	'grouppage-widgeteditor' => 'Project:Penyunting widget',
+	'right-editwidgets' => 'Sunting halaman di ruang nama "{{ns:widget}}"',
+);
+
 /** Japanese (日本語)
  * @author Fryed-peach
  */
@@ -161,6 +175,13 @@ $messages['nl'] = array(
 	'group-widgeteditor-member' => 'Widgetbewerker',
 	'grouppage-widgeteditor' => 'Project:Widgetbewerkers',
 	'right-editwidgets' => 'Pagina\'s bewerken in de naamruimte "{{ns:widget}}"',
+);
+
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Harald Khan
+ */
+$messages['nn'] = array(
+	'right-editwidgets' => 'Endra sider i «{{ns:widget}}»-namnerommet',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
