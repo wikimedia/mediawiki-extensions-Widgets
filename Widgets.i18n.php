@@ -62,6 +62,17 @@ Spócetnje wuwity za [http://www.ardorado.com Ardorado.com]',
 	'right-editwidgets' => 'Boki w mjenjowem rumje "{{ns:widget}}" wobźěłaś',
 );
 
+/** Spanish (Español)
+ * @author Crazymadlover
+ */
+$messages['es'] = array(
+	'widgets-error' => 'Error en [[{{ns:widget}}:$1|artilugio $1]]',
+	'group-widgeteditor' => 'Editores de artilugio',
+	'group-widgeteditor-member' => 'Editor de artilugio',
+	'grouppage-widgeteditor' => 'Project:Editor de artilugio',
+	'right-editwidgets' => 'Páginas editadas en el espacio de nombre "{{ns:widget}}"',
+);
+
 /** French (Français)
  * @author IAlex
  */
