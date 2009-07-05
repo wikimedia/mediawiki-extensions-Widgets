@@ -111,6 +111,16 @@ Urspringlig entwicklet fir [http://www.ardorado.com Ardorado.com]',
 	'right-editwidgets' => 'Syte im „{{ns:widget}}“-Namensruum bearbeite',
 );
 
+/** Hebrew (עברית)
+ * @author Rotemliss
+ * @author YaronSh
+ */
+$messages['he'] = array(
+	'group-widgeteditor' => "עורכי וידג'טים",
+	'group-widgeteditor-member' => "עורך וידג'טים",
+	'right-editwidgets' => 'עריכת דפים במרחב השם "{{ns:widget}}"',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
