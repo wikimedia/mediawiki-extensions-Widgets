@@ -44,7 +44,11 @@ $messages['be-tarask'] = array(
  * @author CERminator
  */
 $messages['bs'] = array(
+	'widgets-desc' => 'Omogućuje wiki administratorima da dodaju dodatke u slobodnoj formi na wiki putem uređivanja stranica unutar imenskog prostora {{ns:widget}}.
+Prvobitno razvijeno za [http://www.ardorado.com Ardorado.com]',
 	'widgets-error' => 'Greška u [[{{ns:widget}}:$1|widgetu $1]]',
+	'group-widgeteditor' => 'Uređivači dodataka',
+	'group-widgeteditor-member' => 'Uređivač dodataka',
 	'grouppage-widgeteditor' => 'Project:Uređivač dodataka',
 	'right-editwidgets' => 'Uređivanje stranica u "{{ns:widget}}" imenskom prostoru',
 );
