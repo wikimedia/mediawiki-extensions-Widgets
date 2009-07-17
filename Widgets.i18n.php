@@ -70,10 +70,10 @@ Spócetnje wuwity za [http://www.ardorado.com Ardorado.com]',
  * @author Crazymadlover
  */
 $messages['es'] = array(
-	'widgets-error' => 'Error en [[{{ns:widget}}:$1|artilugio $1]]',
-	'group-widgeteditor' => 'Editores de artilugio',
-	'group-widgeteditor-member' => 'Editor de artilugio',
-	'grouppage-widgeteditor' => 'Project:Editor de artilugio',
+	'widgets-error' => 'Error en [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Editores de widget',
+	'group-widgeteditor-member' => 'Editor de widget',
+	'grouppage-widgeteditor' => 'Project:Editores de widget',
 	'right-editwidgets' => 'Páginas editadas en el espacio de nombre "{{ns:widget}}"',
 );
 
