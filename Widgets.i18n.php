@@ -18,11 +18,12 @@ Originally developed for [http://www.ardorado.com Ardorado.com]',
 
 /** Message documentation (Message documentation)
  * @author Fryed-peach
+ * @author Khaledelmansoury
  * @author Purodha
  * @author Siebrand
  */
 $messages['qqq'] = array(
-	'widgets-desc' => 'Dat es en koot Verklierung för hee dat Zohsatzprojramm. Donn dä Lengk un dä Name dren nit övversäze.',
+	'widgets-desc' => '',
 	'grouppage-widgeteditor' => '{{doc-important|Leave "Project:" untranslated}}',
 	'right-editwidgets' => '{{doc-right}}',
 );
@@ -188,6 +189,15 @@ Dat wood aanfänglesch projrammeert för <span lang="en">[http://www.ardorado.co
 	'group-widgeteditor-member' => '<i lang="en">Widget</i>-Schriiver',
 	'grouppage-widgeteditor' => 'Project:Widget-Schriiver',
 	'right-editwidgets' => 'Sigge em Appachemang „{{ns:widget}}“ ändere',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'widgets-error' => 'Feeler an [[{{ns:widget}}:$1|widget $1]]',
+	'grouppage-widgeteditor' => 'Project:Widget Editeuren',
+	'right-editwidgets' => 'Säiten am "{{ns:widget}}" Nummraum änneren',
 );
 
 /** Dutch (Nederlands)
