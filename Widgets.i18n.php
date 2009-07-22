@@ -121,6 +121,9 @@ Urspringlig entwicklet fir [http://www.ardorado.com Ardorado.com]',
  * @author YaronSh
  */
 $messages['he'] = array(
+	'widgets-desc' => "מתן האפשרות למנהלי אתר הוויקי להוסיף וידג'טים הבנויים בצורה חופשית לאתר הוויקי באמצעות עריכת הדפים שבמרחב השם {{ns:widget}}.
+פותח במקור עבור [http://www.ardorado.com Ardorado.com]",
+	'widgets-error' => "שגיאה ב[[{{ns:widget}}:$1|ווידג'ט $1]]",
 	'group-widgeteditor' => "עורכי וידג'טים",
 	'group-widgeteditor-member' => "עורך וידג'טים",
 	'right-editwidgets' => 'עריכת דפים במרחב השם "{{ns:widget}}"',
