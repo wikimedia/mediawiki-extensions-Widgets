@@ -244,6 +244,13 @@ $messages['oc'] = array(
 	'right-editwidgets' => "Modificar las paginas dins l'espaci de noms « {{ns:widget}} »",
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'widgets-error' => "Errore jndr'à [[{{ns:widget}}:$1|widget $1]]",
+);
+
 /** Russian (Русский)
  * @author Александр Сигачёв
  */
