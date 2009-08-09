@@ -78,6 +78,18 @@ $messages['es'] = array(
 	'right-editwidgets' => 'Páginas editadas en el espacio de nombre "{{ns:widget}}"',
 );
 
+/** Finnish (Suomi)
+ * @author Cimon Avaro
+ * @author Crt
+ */
+$messages['fi'] = array(
+	'widgets-error' => 'Virhe [[{{ns:widget}}:$1|pienoisohjelmassa $1]]',
+	'group-widgeteditor' => 'pienoisohjelmien muokkaajat',
+	'group-widgeteditor-member' => 'pienoisohjelman muokkaaja',
+	'grouppage-widgeteditor' => 'Project:Pienoisohjelmien muokkaajat',
+	'right-editwidgets' => 'Muokata sivuja ”{{ns:widget}}”-nimiavaruudessa',
+);
+
 /** French (Français)
  * @author IAlex
  */
@@ -243,6 +255,20 @@ $messages['oc'] = array(
 	'group-widgeteditor-member' => 'modificator de widgets',
 	'grouppage-widgeteditor' => 'Project:Modificators de widgets',
 	'right-editwidgets' => "Modificar las paginas dins l'espaci de noms « {{ns:widget}} »",
+);
+
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Eduardo.mps
+ * @author Heldergeovane
+ */
+$messages['pt-br'] = array(
+	'widgets-desc' => 'Permite a administradores de wiki adicionar "widgets" para a wiki editando páginas no domínio {{ns:widget}}.
+Desenvolvido originalmente para [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Erro em [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Editores de widget',
+	'group-widgeteditor-member' => 'Editor de widget',
+	'grouppage-widgeteditor' => 'Project:Editores de widget',
+	'right-editwidgets' => 'Páginas editadas no espaço nominal "{{ns:widget}}"',
 );
 
 /** Tarandíne (Tarandíne)
