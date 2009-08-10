@@ -54,6 +54,21 @@ Prvobitno razvijeno za [http://www.ardorado.com Ardorado.com]',
 	'right-editwidgets' => 'Uređivanje stranica u "{{ns:widget}}" imenskom prostoru',
 );
 
+/** German (Deutsch)
+ * @author Jan Luca
+ * @author Pill
+ * @author Sebastian Wallroth
+ */
+$messages['de'] = array(
+	'widgets-desc' => 'Ermöglicht Wiki-Administratoren das Hinzufügen von Freiformat-Widgets durch das Bearbeiten von Seiten im {{ns:widget}}-Namensraum.
+Ursprünglich für [http://www.ardorado.com Ardorado.com] entwickelt.',
+	'widgets-error' => 'Fehler im [[{{ns:widget}}:$1|Widget $1]]',
+	'group-widgeteditor' => 'Widget-Bearbeiter',
+	'group-widgeteditor-member' => 'Widget-Bearbeiter',
+	'grouppage-widgeteditor' => 'Project:Widget-Bearbeiter',
+	'right-editwidgets' => 'Erlaubt Seiten im „{{ns:widget}}“-Namensraum zu bearbeiten',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
@@ -65,6 +80,17 @@ Spócetnje wuwity za [http://www.ardorado.com Ardorado.com]',
 	'group-widgeteditor-member' => 'Wobźěłowaŕ miniprogramow',
 	'grouppage-widgeteditor' => 'Project: Wobźěłowarje miniprogramow',
 	'right-editwidgets' => 'Boki w mjenjowem rumje "{{ns:widget}}" wobźěłaś',
+);
+
+/** Greek (Ελληνικά)
+ * @author ZaDiak
+ */
+$messages['el'] = array(
+	'widgets-error' => 'Σφάλμα στο [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Επεξεργαστές Widget',
+	'group-widgeteditor-member' => 'Επεξεργαστής Widget',
+	'grouppage-widgeteditor' => 'Project:Επεξεργαστές Widget',
+	'right-editwidgets' => 'Επεξεργασία σελίδων στην περιοχή "{{ns:widget}}"',
 );
 
 /** Spanish (Español)
