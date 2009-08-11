@@ -123,6 +123,8 @@ $messages['es'] = array(
  * @author Crt
  */
 $messages['fi'] = array(
+	'widgets-desc' => 'Mahdollistaa wikien ylläpitäjille pienoisohjelmien lisäyksen vapaa-muotoisina muokkaamalla sivua {{ns:widget}} nimiavaruudessa.
+Ensimmäisenä kehitetty[http://www.ardorado.com Ardorado.com] sivustoa varten',
 	'widgets-error' => 'Virhe [[{{ns:widget}}:$1|pienoisohjelmassa $1]]',
 	'group-widgeteditor' => 'pienoisohjelmien muokkaajat',
 	'group-widgeteditor-member' => 'pienoisohjelman muokkaaja',
