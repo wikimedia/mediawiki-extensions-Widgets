@@ -28,6 +28,19 @@ $messages['qqq'] = array(
 	'right-editwidgets' => '{{doc-right}}',
 );
 
+/** Arabic (العربية)
+ * @author OsamaK
+ */
+$messages['ar'] = array(
+	'widgets-desc' => 'يسمح لإداري الويكي بإضافة ودجات حرة الشكل إلى الويكي بتحرير صفحات النطاق {{ns:widget}}.
+طُور أصلًا ب[http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'خطأ في [[{{ns:widget}}:$1|الودجة $1]]',
+	'group-widgeteditor' => 'محررو الودجات',
+	'group-widgeteditor-member' => 'محرر ودجات',
+	'grouppage-widgeteditor' => 'Project:محررو الودجات',
+	'right-editwidgets' => 'تحرير الصفحات في نطاق "{{ns:widget}}"',
+);
+
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
  * @author Jim-by
@@ -58,15 +71,16 @@ Prvobitno razvijeno za [http://www.ardorado.com Ardorado.com]',
  * @author Jan Luca
  * @author Pill
  * @author Sebastian Wallroth
+ * @author Umherirrender
  */
 $messages['de'] = array(
 	'widgets-desc' => 'Ermöglicht Wiki-Administratoren das Hinzufügen von Freiformat-Widgets durch das Bearbeiten von Seiten im {{ns:widget}}-Namensraum.
-Ursprünglich für [http://www.ardorado.com Ardorado.com] entwickelt.',
+Ursprünglich für [http://www.ardorado.com Ardorado.com] entwickelt',
 	'widgets-error' => 'Fehler im [[{{ns:widget}}:$1|Widget $1]]',
 	'group-widgeteditor' => 'Widget-Bearbeiter',
 	'group-widgeteditor-member' => 'Widget-Bearbeiter',
 	'grouppage-widgeteditor' => 'Project:Widget-Bearbeiter',
-	'right-editwidgets' => 'Erlaubt Seiten im „{{ns:widget}}“-Namensraum zu bearbeiten',
+	'right-editwidgets' => 'Seiten im „{{ns:widget}}“-Namensraum bearbeiten',
 );
 
 /** Lower Sorbian (Dolnoserbski)
