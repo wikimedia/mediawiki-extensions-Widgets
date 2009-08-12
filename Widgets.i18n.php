@@ -4,6 +4,8 @@
  *
  */
 
+require_once( dirname(__FILE__) . '/Widgets.i18n.magic.php' );
+
 $messages = array();
 
 $messages['en'] = array(

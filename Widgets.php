@@ -17,7 +17,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'name' => 'Widgets',
 	'description' => 'Allows wiki administrators to add free-form widgets to wiki by just editing pages within Widget namespace. Originally developed for [http://www.ardorado.com Ardorado.com]',
 	'descriptionmsg' => 'widgets-desc',
-	'version' => '0.8.8-dev',
+	'version' => '0.9.0-dev',
 	'author' => '[http://www.sergeychernyshev.com Sergey Chernyshev] (for [http://www.semanticcommunities.com Semantic Communities LLC.])',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:Widgets'
 );
@@ -52,21 +52,12 @@ $wgExtensionMessagesFiles['Widgets'] = $dir . 'Widgets.i18n.php';
 
 // Parser function registration
 $wgExtensionFunctions[] = 'widgetNamespacesInit';
-$wgHooks['LanguageGetMagic'][] = 'widgetLanguageGetMagic';
 $wgHooks['ParserFirstCallInit'][] = 'widgetParserFunctions';
 
 function widgetParserFunctions( &$parser ) {
     $parser->setFunctionHook( 'widget', 'renderWidget' );
 
     return true;
-}
-
-function widgetLanguageGetMagic( &$magicWords, $langCode = 'en' ) {
-	switch ( $langCode ) {
-	default:
-		$magicWords['widget']	= array ( 0, 'widget' );
-	}
-	return true;
 }
 
 function renderWidget ( &$parser, $widgetName ) {
@@ -221,11 +212,10 @@ function wiki_get_timestamp( $widgetName, &$widgetTimestamp, &$smarty_obj ) {
 }
 
 function wiki_get_secure( $tpl_name, &$smarty_obj ) {
-    // assume all templates are secure
-    return true;
+	// assume all templates are secure
+	return true;
 }
 
 function wiki_get_trusted( $tpl_name, &$smarty_obj ) {
-    // not used for templates
+	// not used for templates
 }
-
