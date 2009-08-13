@@ -69,6 +69,13 @@ Prvobitno razvijeno za [http://www.ardorado.com Ardorado.com]',
 	'right-editwidgets' => 'Uređivanje stranica u "{{ns:widget}}" imenskom prostoru',
 );
 
+/** Catalan (Català)
+ * @author Paucabot
+ */
+$messages['ca'] = array(
+	'right-editwidgets' => 'Edita pàgines a l\'espai de noms "{{ns:widget}}"',
+);
+
 /** German (Deutsch)
  * @author Jan Luca
  * @author Pill
@@ -125,8 +132,8 @@ $messages['es'] = array(
  * @author Crt
  */
 $messages['fi'] = array(
-	'widgets-desc' => 'Mahdollistaa wikien ylläpitäjille pienoisohjelmien lisäyksen vapaa-muotoisina muokkaamalla sivua {{ns:widget}} nimiavaruudessa.
-Ensimmäisenä kehitetty[http://www.ardorado.com Ardorado.com] sivustoa varten',
+	'widgets-desc' => 'Mahdollistaa wikin ylläpitäjille pienoisohjelmien lisäyksen vapaamuotoisina muokkaamalla sivua nimiavaruudessa {{ns:widget}}.
+Alun perin kehitetty [http://www.ardorado.com Ardorado.com]-sivustoa varten.',
 	'widgets-error' => 'Virhe [[{{ns:widget}}:$1|pienoisohjelmassa $1]]',
 	'group-widgeteditor' => 'pienoisohjelmien muokkaajat',
 	'group-widgeteditor-member' => 'pienoisohjelman muokkaaja',
@@ -258,6 +265,18 @@ $messages['lb'] = array(
 	'widgets-error' => 'Feeler an [[{{ns:widget}}:$1|widget $1]]',
 	'grouppage-widgeteditor' => 'Project:Widget Editeuren',
 	'right-editwidgets' => 'Säiten am "{{ns:widget}}" Nummraum änneren',
+);
+
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'widgets-desc' => 'Им овозможува на вики-администраторите да додаваат интерфејс-елементи со слободна форма на викито со уредување на страниците во рамките на именскиот простор {{ns:widget}}.
+Првобитно развиено за потребите на [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Грешка во [[{{ns:widget}}:$1|интерфејс-елемент $1]]',
+	'group-widgeteditor-member' => 'Уредник на интерфејс-елементи (widgets)',
+	'grouppage-widgeteditor' => 'Project:Уредници на интерфејс-елементи (widgets)',
+	'right-editwidgets' => 'Уреди страници во именскиот простор „{{ns:widget}}“',
 );
 
 /** Dutch (Nederlands)
