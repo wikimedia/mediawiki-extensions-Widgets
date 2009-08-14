@@ -233,6 +233,19 @@ Mulanya dibuat untuk [http://www.ardorado.com Ardorado.com]',
 	'right-editwidgets' => 'Sunting halaman di ruang nama "{{ns:widget}}"',
 );
 
+/** Italian (Italiano)
+ * @author Darth Kule
+ */
+$messages['it'] = array(
+	'widgets-desc' => 'Permette agli amministratori del sito di aggiungere widget al sito modificando pagine nel namespace {{ns:widget}}.
+Sviluppato inizialmente per [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Errore nel [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Editori widget',
+	'group-widgeteditor-member' => 'Editore widget',
+	'grouppage-widgeteditor' => 'Project:Editori widget',
+	'right-editwidgets' => 'Modifica pagine nel namespace "{{ns:widget}}"',
+);
+
 /** Japanese (日本語)
  * @author Fryed-peach
  */
@@ -274,6 +287,7 @@ $messages['mk'] = array(
 	'widgets-desc' => 'Им овозможува на вики-администраторите да додаваат интерфејс-елементи со слободна форма на викито со уредување на страниците во рамките на именскиот простор {{ns:widget}}.
 Првобитно развиено за потребите на [http://www.ardorado.com Ardorado.com]',
 	'widgets-error' => 'Грешка во [[{{ns:widget}}:$1|интерфејс-елемент $1]]',
+	'group-widgeteditor' => 'Уредници на елементи од интерфејсот',
 	'group-widgeteditor-member' => 'Уредник на интерфејс-елементи (widgets)',
 	'grouppage-widgeteditor' => 'Project:Уредници на интерфејс-елементи (widgets)',
 	'right-editwidgets' => 'Уреди страници во именскиот простор „{{ns:widget}}“',
