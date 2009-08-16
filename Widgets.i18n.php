@@ -334,6 +334,19 @@ $messages['oc'] = array(
 	'right-editwidgets' => "Modificar las paginas dins l'espaci de noms « {{ns:widget}} »",
 );
 
+/** Polish (Polski)
+ * @author ToSter
+ */
+$messages['pl'] = array(
+	'widgets-desc' => 'Pozwala administratorom wiki na dodawanie widgetów w dowolnej formie do wiki poprzez edycję stron w przestrzeni {{ns:widget}}.
+Pierwotnie stworzone dla [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Błąd w [[{{ns:widget}}:$1|widgecie $1]]',
+	'group-widgeteditor' => 'Edytorzy widgetów',
+	'group-widgeteditor-member' => 'Edytor widgetów',
+	'grouppage-widgeteditor' => 'Project:Edytorzy widgetów',
+	'right-editwidgets' => 'Edytuj strony w przestrzeni nazw "{{ns:widget}}"',
+);
+
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
  * @author Heldergeovane
