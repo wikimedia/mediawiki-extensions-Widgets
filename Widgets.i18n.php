@@ -406,3 +406,33 @@ Mới đầu được phát triển cho [http://www.ardorado.com Ardorado.com].'
 	'right-editwidgets' => 'Sửa các trang trong không gian tên “{{ns:widget}}”',
 );
 
+$messages['yue'] = array(
+	'widgets-desc' => '容許wiki管理員響{{ns:widget}}空間名度加入自由形式嘅widget響個wiki度。
+原先為[http://www.ardorado.com Ardorado.com]而設計嘅',
+	'widgets-error' => '響[[{{ns:widget}}:$1|widget $1]]出錯',
+	'group-widgeteditor' => 'Widget編輯器',
+	'group-widgeteditor-member' => 'Widget編輯器',
+	'grouppage-widgeteditor' => 'Project:Widget編輯器',
+	'right-editwidgets' => '響"{{ns:widget}}"空間名度編輯頁',
+);
+
+$messages['zh-hans'] = array(
+	'widgets-desc' => '容许wiki管理员在{{ns:widget}}名字空间中加入自由形式的widget至wiki中。
+原先为[http://www.ardorado.com Ardorado.com]设计',
+	'widgets-error' => '在[[{{ns:widget}}:$1|widget $1]]发生错误',
+	'group-widgeteditor' => 'Widget编辑器',
+	'group-widgeteditor-member' => 'Widget编辑器',
+	'grouppage-widgeteditor' => 'Project:Widget编辑器',
+	'right-editwidgets' => '在"{{ns:widget}}"名字空间中编辑页面',
+);
+
+$messages['zh-hant'] = array(
+	'widgets-desc' => '容許wiki管理員在{{ns:widget}}名字空間中加入自由形式的widget至wiki中。
+原先為[http://www.ardorado.com Ardorado.com]設計',
+	'widgets-error' => '在[[{{ns:widget}}:$1|widget $1]]發生錯誤',
+	'group-widgeteditor' => 'Widget編輯器',
+	'group-widgeteditor-member' => 'Widget編輯器',
+	'grouppage-widgeteditor' => 'Project:Widget編輯器',
+	'right-editwidgets' => '在"{{ns:widget}}"名字空間中編輯頁面',
+);
+
