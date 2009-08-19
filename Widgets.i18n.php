@@ -335,16 +335,17 @@ $messages['oc'] = array(
 );
 
 /** Polish (Polski)
+ * @author Sp5uhe
  * @author ToSter
  */
 $messages['pl'] = array(
-	'widgets-desc' => 'Pozwala administratorom wiki na dodawanie widgetów w dowolnej formie do wiki poprzez edycję stron w przestrzeni {{ns:widget}}.
+	'widgets-desc' => 'Pozwala administratorom wiki na dodawanie widgetów w dowolnej formie do wiki poprzez edycję stron w przestrzeni nazw {{ns:widget}}.
 Pierwotnie stworzone dla [http://www.ardorado.com Ardorado.com]',
 	'widgets-error' => 'Błąd w [[{{ns:widget}}:$1|widgecie $1]]',
 	'group-widgeteditor' => 'Edytorzy widgetów',
 	'group-widgeteditor-member' => 'Edytor widgetów',
 	'grouppage-widgeteditor' => 'Project:Edytorzy widgetów',
-	'right-editwidgets' => 'Edytuj strony w przestrzeni nazw "{{ns:widget}}"',
+	'right-editwidgets' => 'Edycja stron w przestrzeni nazw „{{ns:widget}}”',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
@@ -406,6 +407,7 @@ Mới đầu được phát triển cho [http://www.ardorado.com Ardorado.com].'
 	'right-editwidgets' => 'Sửa các trang trong không gian tên “{{ns:widget}}”',
 );
 
+/** Yue (粵語) */
 $messages['yue'] = array(
 	'widgets-desc' => '容許wiki管理員響{{ns:widget}}空間名度加入自由形式嘅widget響個wiki度。
 原先為[http://www.ardorado.com Ardorado.com]而設計嘅',
@@ -416,6 +418,7 @@ $messages['yue'] = array(
 	'right-editwidgets' => '響"{{ns:widget}}"空間名度編輯頁',
 );
 
+/** Simplified Chinese (‪中文(简体)‬) */
 $messages['zh-hans'] = array(
 	'widgets-desc' => '容许wiki管理员在{{ns:widget}}名字空间中加入自由形式的widget至wiki中。
 原先为[http://www.ardorado.com Ardorado.com]设计',
@@ -426,6 +429,7 @@ $messages['zh-hans'] = array(
 	'right-editwidgets' => '在"{{ns:widget}}"名字空间中编辑页面',
 );
 
+/** Traditional Chinese (‪中文(繁體)‬) */
 $messages['zh-hant'] = array(
 	'widgets-desc' => '容許wiki管理員在{{ns:widget}}名字空間中加入自由形式的widget至wiki中。
 原先為[http://www.ardorado.com Ardorado.com]設計',
