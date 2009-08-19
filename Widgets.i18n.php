@@ -117,9 +117,12 @@ $messages['el'] = array(
 );
 
 /** Spanish (Español)
+ * @author Antur
  * @author Crazymadlover
  */
 $messages['es'] = array(
+	'widgets-desc' => 'Permite a los administradores agregar widgets a la wiki editando páginas dentro del espacio de nombres {{ns:widget}}.
+Desarrollado originalmente para [http://www.ardorado.com Ardorado.com]',
 	'widgets-error' => 'Error en [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Editores de widget',
 	'group-widgeteditor-member' => 'Editor de widget',
