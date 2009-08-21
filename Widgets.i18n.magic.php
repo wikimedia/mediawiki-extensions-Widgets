@@ -9,3 +9,7 @@ $magicWords['en'] = array(
 $magicWords['ar'] = array(
 	'widget'   => array( '0', 'ودجة', 'widget' ),
 );
+
+$magicWords['ru'] = array(
+	'widget'   => array( '0', 'виджет', 'widget' ),
+);
