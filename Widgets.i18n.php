@@ -56,6 +56,18 @@ $messages['be-tarask'] = array(
 	'right-editwidgets' => 'рэдагаваньне старонкі ў прасторы назваў «{{ns:widget}}»',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'widgets-desc' => "Talvezout a ra d'ar verourien da ouzhpennañ widgetoù d'ar wiki en ur gemmañ pajennoù en esaouenn anv {{ns:widget}}. Diorroet e penn-kentañ evit [http://www.ardorado.com Ardorado.com]",
+	'widgets-error' => 'Fazi e [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Aozerien widget',
+	'group-widgeteditor-member' => 'Aozer widget',
+	'grouppage-widgeteditor' => 'Project:Aozerien widget',
+	'right-editwidgets' => 'Kemmañ pajennoù en esaouenn anv "{{ns:widget}}"',
+);
+
 /** Bosnian (Bosanski)
  * @author CERminator
  */
@@ -141,7 +153,7 @@ Alun perin kehitetty [http://www.ardorado.com Ardorado.com]-sivustoa varten.',
 	'group-widgeteditor' => 'pienoisohjelmien muokkaajat',
 	'group-widgeteditor-member' => 'pienoisohjelman muokkaaja',
 	'grouppage-widgeteditor' => 'Project:Pienoisohjelmien muokkaajat',
-	'right-editwidgets' => 'Muokata sivuja ”{{ns:widget}}”-nimiavaruudessa',
+	'right-editwidgets' => 'Muokata sivuja nimiavaruudessa ”{{ns:widget}}”',
 );
 
 /** French (Français)
