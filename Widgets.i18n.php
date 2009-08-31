@@ -363,6 +363,19 @@ Pierwotnie stworzone dla [http://www.ardorado.com Ardorado.com]',
 	'right-editwidgets' => 'Edycja stron w przestrzeni nazw „{{ns:widget}}”',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'widgets-desc' => "A përmëtt a j'aministrador dla wiki ëd gionté ëd widget a forma lìbera a la wiki an modificand ëd le pàgine ant lë spassi nominal {{ns:widget}}.
+An prinsipi dësvilupà për [http://www.ardorado.com Ardorado.com]",
+	'widgets-error' => 'Eror an [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Editor ëd widget',
+	'group-widgeteditor-member' => 'Editor ëd widget',
+	'grouppage-widgeteditor' => 'Project:Editor ëd widget',
+	'right-editwidgets' => 'Modìfica pàgine ant lë spassi nominal "{{ns:widget}}"',
+);
+
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
  * @author Heldergeovane
