@@ -118,9 +118,12 @@ Spócetnje wuwity za [http://www.ardorado.com Ardorado.com]',
 );
 
 /** Greek (Ελληνικά)
+ * @author Omnipaedista
  * @author ZaDiak
  */
 $messages['el'] = array(
+	'widgets-desc' => 'Επιτρέπει στους βικι-διαχειριστές να προσθέσουν ελεύθερης μορφής γουίτζετ στο βίκι μέσω της επεξεργασίας σελίδων μέσα στον ονοματικό χώρο {{ns:widget}}.
+Ανεπτυγμένο αρχικά για το [http://www.ardorado.com Ardorado.com]',
 	'widgets-error' => 'Σφάλμα στο [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Επεξεργαστές Widget',
 	'group-widgeteditor-member' => 'Επεξεργαστής Widget',
