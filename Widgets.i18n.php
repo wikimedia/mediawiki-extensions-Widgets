@@ -224,6 +224,16 @@ Prěnjotnje za [http://www.ardorado.com Ardorado.com] wuwity.',
 	'right-editwidgets' => 'Strony w mjenowym rumje "{{ns:widget}}" wobdźěłać',
 );
 
+/** Hungarian (Magyar)
+ * @author Glanthor Reviol
+ */
+$messages['hu'] = array(
+	'widgets-desc' => 'Lehetővé teszi a wiki adminisztrátorainak, hogy kötetlen alakú minialkalmazásokat adjanak a wikihez lapok szerkesztésével a(z) {{ns:widget}} névtérben. Eredetileg az [http://www.ardorado.com Ardorado.com] számára kifejlesztve',
+	'widgets-error' => 'Hiba a(z) [[{{ns:widget}}:$1|$1 minialkalmazásban]]',
+	'group-widgeteditor' => 'Minialkalmazás szerkesztői',
+	'group-widgeteditor-member' => 'Minialkalmazás-szerkesztő',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
