@@ -232,6 +232,8 @@ $messages['hu'] = array(
 	'widgets-error' => 'Hiba a(z) [[{{ns:widget}}:$1|$1 minialkalmazásban]]',
 	'group-widgeteditor' => 'Minialkalmazás szerkesztői',
 	'group-widgeteditor-member' => 'Minialkalmazás-szerkesztő',
+	'grouppage-widgeteditor' => 'Project:Minialkalmazás-szerkesztők',
+	'right-editwidgets' => 'lapok szerkesztése a „{{ns:widget}}” névtérben',
 );
 
 /** Interlingua (Interlingua)
