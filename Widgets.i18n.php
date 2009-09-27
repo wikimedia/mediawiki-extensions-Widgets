@@ -23,9 +23,10 @@ Originally developed for [http://www.ardorado.com Ardorado.com]',
  * @author Khaledelmansoury
  * @author Purodha
  * @author Siebrand
+ * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'widgets-desc' => '',
+	'widgets-desc' => '{{desc}}',
 	'grouppage-widgeteditor' => '{{doc-important|Leave "Project:" untranslated}}',
 	'right-editwidgets' => '{{doc-right}}',
 );
