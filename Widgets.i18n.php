@@ -392,6 +392,19 @@ An prinsipi dësvilupà për [http://www.ardorado.com Ardorado.com]",
 	'right-editwidgets' => 'Modìfica pàgine ant lë spassi nominal "{{ns:widget}}"',
 );
 
+/** Portuguese (Português)
+ * @author Hamilton Abreu
+ */
+$messages['pt'] = array(
+	'widgets-desc' => "Permite que os administradores da wiki adicionem ''widgets free-form'' à wiki, editando páginas no espaço nominal {{ns:widget}}.
+Desenvolvido originalmente por [http://www.ardorado.com Ardorado.com]",
+	'widgets-error' => "Erro no [[{{ns:widget}}:$1|''widget'' $1]]",
+	'group-widgeteditor' => "Editores de ''widgets''",
+	'group-widgeteditor-member' => "Editor de ''widgets''",
+	'grouppage-widgeteditor' => "Project:Editores de ''widgets''",
+	'right-editwidgets' => 'Editar páginas no espaço nominal "{{ns:widget}}"',
+);
+
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
  * @author Heldergeovane
