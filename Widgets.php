@@ -64,6 +64,7 @@ function widgetLanguageGetMagic( &$magicWords, $langCode = 'en' ) {
 // Parser function registration
 $wgExtensionFunctions[] = 'widgetNamespacesInit';
 $wgHooks['ParserFirstCallInit'][] = 'widgetParserFunctions';
+$wgHooks['ParserAfterTidy'][] = 'processEncodedWidgetOutput';
 
 function widgetParserFunctions( &$parser ) {
     $parser->setFunctionHook( 'widget', 'renderWidget' );
@@ -179,7 +180,20 @@ function renderWidget ( &$parser, $widgetName ) {
 		return '<div class=\"error\">' . wfMsgExt( 'widgets-desc', array( 'parsemag' ), $widgetName ) . '</div>';
 	}
 
+	// Hide the widget from the parser
+	$output = '<!-- ENCODED_CONTENT '.base64_encode($output).' -->';
 	return $parser->insertStripItem( $output, $parser->mStripState );
+}
+
+function processEncodedWidgetOutput( &$out, &$text ) {
+	// Find all hidden content and restore to normal
+	$text = preg_replace(
+		'/<!-- ENCODED_CONTENT ([0-9a-zA-Z\\+]+=*) -->/esm',
+		'base64_decode("$1")',
+		$text
+	);
+
+	return true;
 }
 
 function widgetNamespacesInit() {
