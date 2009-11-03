@@ -50,6 +50,17 @@ $dir = dirname( __FILE__ ) . '/';
 require_once( $dir . 'smarty/Smarty.class.php' );
 $wgExtensionMessagesFiles['Widgets'] = $dir . 'Widgets.i18n.php';
 
+// Magic words handling
+// FIXME: Can be disabled when new style magic words are used (introduced in r52503)
+$wgHooks['LanguageGetMagic'][] = 'widgetLanguageGetMagic';
+function widgetLanguageGetMagic( &$magicWords, $langCode = 'en' ) {
+	switch ( $langCode ) {
+	default:
+		$magicWords['widget']	= array ( 0, 'widget' );
+	}
+	return true;
+}
+
 // Parser function registration
 $wgExtensionFunctions[] = 'widgetNamespacesInit';
 $wgHooks['ParserFirstCallInit'][] = 'widgetParserFunctions';

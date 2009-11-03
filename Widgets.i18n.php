@@ -4,7 +4,8 @@
  *
  */
 
-require_once( dirname(__FILE__) . '/Widgets.i18n.magic.php' );
+// FIXME: Can be enabled when new style magic words are used (introduced in r52503)
+// require_once( dirname(__FILE__) . '/Widgets.i18n.magic.php' );
 
 $messages = array();
 
