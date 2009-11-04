@@ -51,7 +51,7 @@ require_once( $dir . 'smarty/Smarty.class.php' );
 $wgExtensionMessagesFiles['Widgets'] = $dir . 'Widgets.i18n.php';
 
 if( version_compare( $wgVersion, '1.16alpha', '>=' ) ) {
-	$wgExtensionMessagesFiles['WidgetsMagic'] = $edgIP . '/Widgets.i18n.magic.php';
+	$wgExtensionMessagesFiles['WidgetsMagic'] = $dir . 'Widgets.i18n.magic.php';
 } else {
 	// Pre 1.16alpha backward compatibility for magic words
 	$wgHooks['LanguageGetMagic'][] = 'widgetLanguageGetMagic';
@@ -60,7 +60,7 @@ if( version_compare( $wgVersion, '1.16alpha', '>=' ) ) {
 function widgetLanguageGetMagic( &$magicWords, $langCode = 'en' ) {
 	switch ( $langCode ) {
 	default:
-		$magicWords['widget']	= array ( 0, 'widget' );
+		$magicWords['widget'] = array ( 0, 'widget' );
 	}
 	return true;
 }
