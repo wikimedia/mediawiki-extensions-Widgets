@@ -395,7 +395,7 @@ An prinsipi dësvilupà për [http://www.ardorado.com Ardorado.com]",
  */
 $messages['pt'] = array(
 	'widgets-desc' => "Permite que os administradores da wiki adicionem ''widgets free-form'' à wiki, editando páginas no espaço nominal {{ns:widget}}.
-Desenvolvido originalmente por [http://www.ardorado.com Ardorado.com]",
+Desenvolvido originalmente para [http://www.ardorado.com Ardorado.com]",
 	'widgets-error' => "Erro no [[{{ns:widget}}:$1|''widget'' $1]]",
 	'group-widgeteditor' => "Editores de ''widgets''",
 	'group-widgeteditor-member' => "Editor de ''widgets''",
