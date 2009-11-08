@@ -449,6 +449,14 @@ Pôvodne vyvinuté pre [http://www.ardorado.com Ardorado.com]',
 	'right-editwidgets' => 'upravovať stránky v mennom priestore „{{ns:widget}}“',
 );
 
+/** Ukrainian (Українська)
+ * @author Prima klasy4na
+ */
+$messages['uk'] = array(
+	'widgets-desc' => 'Дозволяє адміністраторам вікі додавати різноманітні віджети шляхом редагування сторінок простору назв {{ns:widget}}. Спочатку розроблений для [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Помилка [[{{ns:widget}}:$1|віджету $1]]',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
