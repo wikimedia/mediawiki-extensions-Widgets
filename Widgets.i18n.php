@@ -455,6 +455,10 @@ Pôvodne vyvinuté pre [http://www.ardorado.com Ardorado.com]',
 $messages['uk'] = array(
 	'widgets-desc' => 'Дозволяє адміністраторам вікі додавати різноманітні віджети шляхом редагування сторінок простору назв {{ns:widget}}. Спочатку розроблений для [http://www.ardorado.com Ardorado.com]',
 	'widgets-error' => 'Помилка [[{{ns:widget}}:$1|віджету $1]]',
+	'group-widgeteditor' => 'Редактори віджетів',
+	'group-widgeteditor-member' => 'Редактор віджетів',
+	'grouppage-widgeteditor' => 'Project:Редактори віджетів',
+	'right-editwidgets' => 'Редагувати сторінки простору назв "{{ns:widget}}"',
 );
 
 /** Vietnamese (Tiếng Việt)
