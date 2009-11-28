@@ -192,7 +192,7 @@ function renderWidget ( &$parser, $widgetName ) {
 function processEncodedWidgetOutput( &$out, &$text ) {
 	// Find all hidden content and restore to normal
 	$text = preg_replace(
-		'/<!-- ENCODED_CONTENT ([0-9a-zA-Z\/+]+=*) -->/esm',
+		'/<!-- ENCODED_CONTENT ([0-9a-zA-Z\/+]+=*)* -->/esm',
 		'base64_decode("$1")',
 		$text
 	);
