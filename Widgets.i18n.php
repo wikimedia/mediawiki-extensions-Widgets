@@ -87,6 +87,13 @@ $messages['ca'] = array(
 	'right-editwidgets' => 'Edita pàgines a l\'espai de noms "{{ns:widget}}"',
 );
 
+/** Czech (Česky)
+ * @author Kuvaly
+ */
+$messages['cs'] = array(
+	'widgets-error' => 'Chyba ve [[{{ns:widget}}:$1|widgetu $1]]',
+);
+
 /** German (Deutsch)
  * @author Jan Luca
  * @author Pill
