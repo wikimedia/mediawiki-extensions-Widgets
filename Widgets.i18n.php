@@ -456,6 +456,13 @@ Pôvodne vyvinuté pre [http://www.ardorado.com Ardorado.com]',
 	'right-editwidgets' => 'upravovať stránky v mennom priestore „{{ns:widget}}“',
 );
 
+/** Swedish (Svenska)
+ * @author Per
+ */
+$messages['sv'] = array(
+	'widgets-error' => 'Fel i [[{{ns:widget}}:$1|widget $1]]',
+);
+
 /** Ukrainian (Українська)
  * @author Prima klasy4na
  */
