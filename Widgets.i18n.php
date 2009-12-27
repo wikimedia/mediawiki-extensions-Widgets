@@ -89,9 +89,13 @@ $messages['ca'] = array(
 
 /** Czech (Česky)
  * @author Kuvaly
+ * @author Matěj Grabovský
  */
 $messages['cs'] = array(
+	'widgets-desc' => 'Umožňuje správcům wiki přidávat na wiki ovládací prvky úpravou stránek ve jmenném prostoru {{ns:widget}}.
+Původně vyvinuto pro [http://www.ardorado.com Ardorado.com]',
 	'widgets-error' => 'Chyba ve [[{{ns:widget}}:$1|widgetu $1]]',
+	'group-widgeteditor' => 'Editoři ovládacích prvků',
 );
 
 /** German (Deutsch)
