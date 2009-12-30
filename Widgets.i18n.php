@@ -465,10 +465,12 @@ Pôvodne vyvinuté pre [http://www.ardorado.com Ardorado.com]',
 );
 
 /** Swedish (Svenska)
+ * @author Ozp
  * @author Per
  */
 $messages['sv'] = array(
 	'widgets-error' => 'Fel i [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Widgeteditorer',
 );
 
 /** Ukrainian (Українська)
