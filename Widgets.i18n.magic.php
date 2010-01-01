@@ -10,6 +10,10 @@ $magicWords['ar'] = array(
 	'widget'   => array( '0', 'ودجة', 'widget' ),
 );
 
+$magicWords['arz'] = array(
+	'widget'   => array( '0', 'ودجة', 'widget' ),
+);
+
 $magicWords['ko'] = array(
 	'widget'   => array( '0', '위젯', 'widget' ),
 );
