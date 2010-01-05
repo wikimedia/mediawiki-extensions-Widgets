@@ -50,7 +50,7 @@ $dir = dirname( __FILE__ ) . '/';
 require_once( $dir . 'smarty/Smarty.class.php' );
 $wgExtensionMessagesFiles['Widgets'] = $dir . 'Widgets.i18n.php';
 
-if( version_compare( $wgVersion, '1.16alpha', '>=' ) ) {
+if( defined('MW_SUPPORTS_LOCALISATIONCACHE') ) {
 	$wgExtensionMessagesFiles['WidgetsMagic'] = $dir . 'Widgets.i18n.magic.php';
 } else {
 	// Pre 1.16alpha backward compatibility for magic words
