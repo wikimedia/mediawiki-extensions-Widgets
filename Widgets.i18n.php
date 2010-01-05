@@ -330,7 +330,7 @@ $messages['lb'] = array(
 $messages['mk'] = array(
 	'widgets-desc' => 'Им овозможува на вики-администраторите да додаваат интерфејс-елементи со слободна форма на викито со уредување на страниците во рамките на именскиот простор {{ns:widget}}.
 Првобитно развиено за потребите на [http://www.ardorado.com Ardorado.com]',
-	'widgets-error' => 'Грешка во [[{{ns:widget}}:$1|интерфејс-елемент $1]]',
+	'widgets-error' => 'Грешка во [[{{ns:widget}}:$1|интерфејс-елементот $1]]',
 	'group-widgeteditor' => 'Уредници на елементи од интерфејсот',
 	'group-widgeteditor-member' => 'Уредник на интерфејс-елементи (widgets)',
 	'grouppage-widgeteditor' => 'Project:Уредници на интерфејс-елементи (widgets)',
