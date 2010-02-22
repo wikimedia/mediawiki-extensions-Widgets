@@ -182,7 +182,7 @@ $messages['fr'] = array(
 	'group-widgeteditor' => 'Modificateurs de widgets',
 	'group-widgeteditor-member' => 'modificateur de widgets',
 	'grouppage-widgeteditor' => 'Project:Modificateurs de widgets',
-	'right-editwidgets' => "Modifier les pages dans l'espace de noms « {{ns:widget}} »",
+	'right-editwidgets' => "Créer et modifier les [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dans l'espace de noms « {{ns:widget}} »",
 );
 
 /** Galician (Galego)
