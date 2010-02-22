@@ -13,7 +13,7 @@ Originally developed for [http://www.ardorado.com Ardorado.com]',
 	'group-widgeteditor' => 'Widget editors',
 	'group-widgeteditor-member' => 'Widget editor',
 	'grouppage-widgeteditor' => 'Project:Widget editors',
-	'right-editwidgets' => 'Edit pages in the "{{ns:widget}}" namespace',
+	'right-editwidgets' => 'Create and edit [http://www.mediawiki.org/wiki/Extension:Widgets widgets] in the <tt>{{ns:widget}}</tt> namespace',
 );
 
 /** Message documentation (Message documentation)
