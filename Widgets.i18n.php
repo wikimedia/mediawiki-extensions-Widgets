@@ -52,11 +52,12 @@ $messages['be-tarask'] = array(
 	'group-widgeteditor' => 'Рэдактар віджэтаў',
 	'group-widgeteditor-member' => 'Рэдактар віджэта',
 	'grouppage-widgeteditor' => 'Project:Рэдактары віджэтаў',
-	'right-editwidgets' => 'рэдагаваньне старонкі ў прасторы назваў «{{ns:widget}}»',
+	'right-editwidgets' => 'стварэньне і рэдагаваньне [http://www.mediawiki.org/wiki/Extension:Widgets дапаўненьняў] у прасторы назваў <tt>{{ns:widget}}</tt>',
 );
 
 /** Breton (Brezhoneg)
  * @author Fulup
+ * @author Y-M D
  */
 $messages['br'] = array(
 	'widgets-desc' => "Talvezout a ra d'ar verourien da ouzhpennañ widgetoù d'ar wiki en ur gemmañ pajennoù en esaouenn anv {{ns:widget}}. Diorroet e penn-kentañ evit [http://www.ardorado.com Ardorado.com]",
@@ -64,7 +65,7 @@ $messages['br'] = array(
 	'group-widgeteditor' => 'Aozerien widget',
 	'group-widgeteditor-member' => 'Aozer widget',
 	'grouppage-widgeteditor' => 'Project:Aozerien widget',
-	'right-editwidgets' => 'Kemmañ pajennoù en esaouenn anv "{{ns:widget}}"',
+	'right-editwidgets' => 'Krouiñ ha kemmañ ar [http://www.mediawiki.org/wiki/Extension:Widgets widgetoù] en esaouenn anv <tt>{{ns:widget}}<tt>',
 );
 
 /** Bosnian (Bosanski)
@@ -170,7 +171,7 @@ Alun perin kehitetty [http://www.ardorado.com Ardorado.com]-sivustoa varten.',
 	'group-widgeteditor' => 'pienoisohjelmien muokkaajat',
 	'group-widgeteditor-member' => 'pienoisohjelman muokkaaja',
 	'grouppage-widgeteditor' => 'Project:Pienoisohjelmien muokkaajat',
-	'right-editwidgets' => 'Muokata sivuja nimiavaruudessa ”{{ns:widget}}”',
+	'right-editwidgets' => 'Luoda ja muokata [http://www.mediawiki.org/wiki/Extension:Widgets pienoisohjelmia] nimiavaruudessa <tt>{{ns:widget}}</tt>',
 );
 
 /** French (Français)
@@ -195,7 +196,7 @@ Desenvolvido orixinalmente para [http://www.ardorado.com Ardorado.com]',
 	'group-widgeteditor' => 'Editores de widgets',
 	'group-widgeteditor-member' => 'Editor de widgets',
 	'grouppage-widgeteditor' => 'Project:Editores de widgets',
-	'right-editwidgets' => 'Editar as páxinas do espazo de nomes "{{ns:widget}}"',
+	'right-editwidgets' => 'Crear e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espazo de nomes <tt>{{ns:widget}}</tt>',
 );
 
 /** Swiss German (Alemannisch)
@@ -208,7 +209,7 @@ Urspringlig entwicklet fir [http://www.ardorado.com Ardorado.com]',
 	'group-widgeteditor' => 'Widget-Editore',
 	'group-widgeteditor-member' => 'Widget-Editor',
 	'grouppage-widgeteditor' => 'Project:Widget-Editore',
-	'right-editwidgets' => 'Syte im „{{ns:widget}}“-Namensruum bearbeite',
+	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] im <tt>{{ns:widget}}</tt>-Namensruum aalege un bearbeite',
 );
 
 /** Hebrew (עברית)
@@ -334,7 +335,7 @@ $messages['mk'] = array(
 	'group-widgeteditor' => 'Уредници на елементи од интерфејсот',
 	'group-widgeteditor-member' => 'Уредник на интерфејс-елементи (widgets)',
 	'grouppage-widgeteditor' => 'Project:Уредници на интерфејс-елементи (widgets)',
-	'right-editwidgets' => 'Уреди страници во именскиот простор „{{ns:widget}}“',
+	'right-editwidgets' => 'Создавање и уредување на [http://www.mediawiki.org/wiki/Extension:Widgets интерфејс-елементи] во именскиот простор <tt>{{ns:widget}}</tt>',
 );
 
 /** Dutch (Nederlands)
@@ -346,7 +347,7 @@ $messages['nl'] = array(
 	'group-widgeteditor' => 'Widgetbewerkers',
 	'group-widgeteditor-member' => 'Widgetbewerker',
 	'grouppage-widgeteditor' => 'Project:Widgetbewerkers',
-	'right-editwidgets' => 'Pagina\'s bewerken in de naamruimte "{{ns:widget}}"',
+	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] aanmaken en bewerken in de naamruimte <tt>{{ns:widget}}</tt>',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -402,7 +403,7 @@ An prinsipi dësvilupà për [http://www.ardorado.com Ardorado.com]",
 	'group-widgeteditor' => 'Editor ëd widget',
 	'group-widgeteditor-member' => 'Editor ëd widget',
 	'grouppage-widgeteditor' => 'Project:Editor ëd widget',
-	'right-editwidgets' => 'Modìfica pàgine ant lë spassi nominal "{{ns:widget}}"',
+	'right-editwidgets' => 'Crea e modìfica [http://www.mediawiki.org/wiki/Extension:Widgets widgets] ant lë spassi nominal <tt>{{ns:widget}}</tt>',
 );
 
 /** Portuguese (Português)
@@ -448,7 +449,7 @@ $messages['ru'] = array(
 	'group-widgeteditor' => 'Редакторы виджетов',
 	'group-widgeteditor-member' => 'Редактор виджетов',
 	'grouppage-widgeteditor' => 'Project:Редакторы виджетов',
-	'right-editwidgets' => 'редактировать страницы в пространстве имён {{ns:widget}}',
+	'right-editwidgets' => 'создавать и редактировать [http://www.mediawiki.org/wiki/Extension:Widgets виджеты] страницы в пространстве имён <tt>{{ns:widget}}</tt>',
 );
 
 /** Slovak (Slovenčina)
@@ -482,7 +483,7 @@ $messages['uk'] = array(
 	'group-widgeteditor' => 'Редактори віджетів',
 	'group-widgeteditor-member' => 'Редактор віджетів',
 	'grouppage-widgeteditor' => 'Project:Редактори віджетів',
-	'right-editwidgets' => 'Редагувати сторінки простору назв "{{ns:widget}}"',
+	'right-editwidgets' => 'Створювати і редагувати [http://www.mediawiki.org/wiki/Extension:Widgets віджети] у просторі назв <tt>{{ns:widget}}</tt>',
 );
 
 /** Vietnamese (Tiếng Việt)
