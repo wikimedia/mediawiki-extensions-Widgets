@@ -248,7 +248,7 @@ $messages['hu'] = array(
 	'group-widgeteditor' => 'Minialkalmazás szerkesztői',
 	'group-widgeteditor-member' => 'Minialkalmazás-szerkesztő',
 	'grouppage-widgeteditor' => 'Project:Minialkalmazás-szerkesztők',
-	'right-editwidgets' => 'lapok szerkesztése a „{{ns:widget}}” névtérben',
+	'right-editwidgets' => 'widgetek létrehozása és szerkesztése a <tt>{{ns:widget}}</tt> névtérben',
 );
 
 /** Interlingua (Interlingua)
@@ -261,7 +261,7 @@ Originalmente disveloppate pro [http://www.ardorado.com Ardorado.com]',
 	'group-widgeteditor' => 'Modificatores de widgets',
 	'group-widgeteditor-member' => 'Modificator de widgets',
 	'grouppage-widgeteditor' => 'Project:Modificatores de widgets',
-	'right-editwidgets' => 'Modificar paginas in le spatio de nomines "{{ns:widget}}"',
+	'right-editwidgets' => 'Crear e modificar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] in le spatio de nomines <tt>{{ns:widget}}</tt>',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -321,8 +321,10 @@ Dat wood aanfänglesch projrammeert för <span lang="en">[http://www.ardorado.co
  */
 $messages['lb'] = array(
 	'widgets-error' => 'Feeler an [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Widget-Editeuren',
+	'group-widgeteditor-member' => 'Widget-Editeur',
 	'grouppage-widgeteditor' => 'Project:Widget Editeuren',
-	'right-editwidgets' => 'Säiten am "{{ns:widget}}" Nummraum änneren',
+	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets widgets] am <tt>{{ns:widget}}</tt> Nummraum uleeën an  änneren',
 );
 
 /** Macedonian (Македонски)
@@ -364,7 +366,10 @@ $messages['no'] = array(
 	'widgets-desc' => 'Tillater wikiadministratorer å legge til fri-form widgets til wikien ved å redigere siden innen {{ns:widget}}-navnerommet.
 Opprinnelig utviklet for [http://www.ardorado.com Ardorado.com]',
 	'widgets-error' => 'Feil i [[{{ns:widget}}:$1|widget $1]]',
-	'right-editwidgets' => 'Rediger sider i "{{ns:widget}}"-navnerommet',
+	'group-widgeteditor' => 'Bidragsytere for skjermelement',
+	'group-widgeteditor-member' => 'Bidragsyter for skjermelement',
+	'grouppage-widgeteditor' => 'Project:Bidragsytere for skjermelement',
+	'right-editwidgets' => 'Lag og rediger [http://www.mediawiki.org/wiki/Extension:Widgets skjermelement] i <tt>{{ns:widget}}</tt>-navnerommet',
 );
 
 /** Occitan (Occitan)
@@ -496,7 +501,7 @@ Mới đầu được phát triển cho [http://www.ardorado.com Ardorado.com].'
 	'group-widgeteditor' => 'Người sửa công cụ đa năng',
 	'group-widgeteditor-member' => 'Người sửa công cụ đa năng',
 	'grouppage-widgeteditor' => 'Project:Người sửa công cụ đa năng',
-	'right-editwidgets' => 'Sửa các trang trong không gian tên “{{ns:widget}}”',
+	'right-editwidgets' => 'Tạo và sửa [http://www.mediawiki.org/wiki/Extension:Widgets?uselang=vi công cụ đa năng] trong không gian tên <tt>{{ns:widget}}</tt>',
 );
 
 /** Yue (粵語) */
