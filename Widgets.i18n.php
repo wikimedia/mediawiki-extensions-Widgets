@@ -236,7 +236,7 @@ Prěnjotnje za [http://www.ardorado.com Ardorado.com] wuwity.',
 	'group-widgeteditor' => 'Wobdźěłowarjo miniprogramow',
 	'group-widgeteditor-member' => 'Wobdźěłowar miniprogramow',
 	'grouppage-widgeteditor' => 'Project:Wobdźěłowarjo miniprogramow',
-	'right-editwidgets' => 'Strony w mjenowym rumje "{{ns:widget}}" wobdźěłać',
+	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Woknowe elementy] w mjenowym rumje <tt>{{ns:widget}}</tt> wutworić a wobdźěłać',
 );
 
 /** Hungarian (Magyar)
