@@ -381,7 +381,7 @@ $messages['oc'] = array(
 	'group-widgeteditor' => 'Modificators de widgets',
 	'group-widgeteditor-member' => 'modificator de widgets',
 	'grouppage-widgeteditor' => 'Project:Modificators de widgets',
-	'right-editwidgets' => "Modificar las paginas dins l'espaci de noms « {{ns:widget}} »",
+	'right-editwidgets' => "Crear e modificar las [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dins l'espaci de noms « {{ns:widget}} »",
 );
 
 /** Polish (Polski)
