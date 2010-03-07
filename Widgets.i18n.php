@@ -293,6 +293,7 @@ Sviluppato inizialmente per [http://www.ardorado.com Ardorado.com]',
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author 青子守歌
  */
 $messages['ja'] = array(
 	'widgets-desc' => '管理者が「{{ns:widget}}」名前空間内のページを編集し、ウィキに自由な形式のウィジェットを追加できるようにする。元々は [http://www.ardorado.com Ardorado.com] のために開発されました',
@@ -300,7 +301,7 @@ $messages['ja'] = array(
 	'group-widgeteditor' => 'ウィジェット編集者',
 	'group-widgeteditor-member' => 'ウィジェット編集者',
 	'grouppage-widgeteditor' => 'Project:ウィジェット編集者',
-	'right-editwidgets' => '「{{ns:widget}}」名前空間のページを編集する',
+	'right-editwidgets' => '<tt>{{ns:widget}}</tt>名前空間で[http://www.mediawiki.org/wiki/Extension:Widgets ウィジット]を作成または編集する',
 );
 
 /** Ripoarisch (Ripoarisch)
