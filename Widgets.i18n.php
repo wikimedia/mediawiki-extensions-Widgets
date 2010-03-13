@@ -133,6 +133,7 @@ Spócetnje wuwity za [http://www.ardorado.com Ardorado.com]',
 );
 
 /** Greek (Ελληνικά)
+ * @author Lou
  * @author Omnipaedista
  * @author ZaDiak
  */
@@ -143,12 +144,13 @@ $messages['el'] = array(
 	'group-widgeteditor' => 'Επεξεργαστές Widget',
 	'group-widgeteditor-member' => 'Επεξεργαστής Widget',
 	'grouppage-widgeteditor' => 'Project:Επεξεργαστές Widget',
-	'right-editwidgets' => 'Επεξεργασία σελίδων στην περιοχή "{{ns:widget}}"',
+	'right-editwidgets' => 'Δημιουργία και επεξεργασία [http://www.mediawiki.org/wiki/Extension:Widgets widgets] στην περιοχή ονομάτων <tt>{{ns:widget}}</tt>',
 );
 
 /** Spanish (Español)
  * @author Antur
  * @author Crazymadlover
+ * @author Peter17
  */
 $messages['es'] = array(
 	'widgets-desc' => 'Permite a los administradores agregar widgets a la wiki editando páginas dentro del espacio de nombres {{ns:widget}}.
@@ -157,7 +159,7 @@ Desarrollado originalmente para [http://www.ardorado.com Ardorado.com]',
 	'group-widgeteditor' => 'Editores de widget',
 	'group-widgeteditor-member' => 'Editor de widget',
 	'grouppage-widgeteditor' => 'Project:Editores de widget',
-	'right-editwidgets' => 'Páginas editadas en el espacio de nombre "{{ns:widget}}"',
+	'right-editwidgets' => 'Crear y editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] en el espacio de nombre "{{ns:widget}}"',
 );
 
 /** Finnish (Suomi)
