@@ -129,7 +129,7 @@ Spócetnje wuwity za [http://www.ardorado.com Ardorado.com]',
 	'group-widgeteditor' => 'Wobźěłowarje miniprogramow',
 	'group-widgeteditor-member' => 'Wobźěłowaŕ miniprogramow',
 	'grouppage-widgeteditor' => 'Project: Wobźěłowarje miniprogramow',
-	'right-editwidgets' => 'Boki w mjenjowem rumje "{{ns:widget}}" wobźěłaś',
+	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Woknowe elementy] w mjenjowem rumje <tt>{{ns:widget}}</tt> napóraś a wobźěłaś',
 );
 
 /** Greek (Ελληνικά)
