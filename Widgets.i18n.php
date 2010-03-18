@@ -424,7 +424,7 @@ Desenvolvido originalmente para [http://www.ardorado.com Ardorado.com]",
 	'group-widgeteditor' => "Editores de ''widgets''",
 	'group-widgeteditor-member' => "Editor de ''widgets''",
 	'grouppage-widgeteditor' => "Project:Editores de ''widgets''",
-	'right-editwidgets' => 'Editar páginas no espaço nominal "{{ns:widget}}"',
+	'right-editwidgets' => 'Criar e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
