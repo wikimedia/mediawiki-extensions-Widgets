@@ -107,6 +107,7 @@ Původně vyvinuto pro [http://www.ardorado.com Ardorado.com]',
  * @author Jan Luca
  * @author Pill
  * @author Sebastian Wallroth
+ * @author The Evil IP address
  * @author Umherirrender
  */
 $messages['de'] = array(
@@ -116,7 +117,7 @@ Ursprünglich für [http://www.ardorado.com Ardorado.com] entwickelt',
 	'group-widgeteditor' => 'Widget-Bearbeiter',
 	'group-widgeteditor-member' => 'Widget-Bearbeiter',
 	'grouppage-widgeteditor' => 'Project:Widget-Bearbeiter',
-	'right-editwidgets' => 'Seiten im „{{ns:widget}}“-Namensraum bearbeiten',
+	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] im <tt>{{ns:widget}}</tt>-Namensraum bearbeiten und erstellen',
 );
 
 /** Lower Sorbian (Dolnoserbski)
