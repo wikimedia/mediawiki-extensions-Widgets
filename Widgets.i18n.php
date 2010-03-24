@@ -78,7 +78,7 @@ Prvobitno razvijeno za [http://www.ardorado.com Ardorado.com]',
 	'group-widgeteditor' => 'Uređivači dodataka',
 	'group-widgeteditor-member' => 'Uređivač dodataka',
 	'grouppage-widgeteditor' => 'Project:Uređivač dodataka',
-	'right-editwidgets' => 'Uređivanje stranica u "{{ns:widget}}" imenskom prostoru',
+	'right-editwidgets' => 'Pravljenje i uređivanje [http://www.mediawiki.org/wiki/Extension:Widgets widgeta] u imenskom prostoru <tt>{{ns:widget}}</tt>',
 );
 
 /** Catalan (Català)
