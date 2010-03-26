@@ -179,14 +179,15 @@ Alun perin kehitetty [http://www.ardorado.com Ardorado.com]-sivustoa varten.',
 
 /** French (Français)
  * @author IAlex
+ * @author Urhixidur
  */
 $messages['fr'] = array(
-	'widgets-desc' => "Permet aux administrateurs du wiki d'ajouter des widgets au wiki en modifiant des pages dans l'espace de noms {{ns:widget}}. Développé à la base pour [http://www.ardorado.com Ardorado.com]",
+	'widgets-desc' => "Permet aux administrateurs du wiki d'ajouter des ''widgets'' (gadgets logiciels) au wiki en modifiant des pages dans l’espace de noms {{ns:widget}}. Développé à la base pour [http://www.ardorado.com Ardorado.com]",
 	'widgets-error' => 'Erreur dans le [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Modificateurs de widgets',
 	'group-widgeteditor-member' => 'modificateur de widgets',
 	'grouppage-widgeteditor' => 'Project:Modificateurs de widgets',
-	'right-editwidgets' => "Créer et modifier les [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dans l'espace de noms « {{ns:widget}} »",
+	'right-editwidgets' => 'Créer et modifier les [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dans l’espace de noms « {{ns:widget}} »',
 );
 
 /** Galician (Galego)
