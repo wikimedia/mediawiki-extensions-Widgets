@@ -400,7 +400,7 @@ Pierwotnie stworzone dla [http://www.ardorado.com Ardorado.com]',
 	'group-widgeteditor' => 'Edytorzy widgetów',
 	'group-widgeteditor-member' => 'Edytor widgetów',
 	'grouppage-widgeteditor' => 'Project:Edytorzy widgetów',
-	'right-editwidgets' => 'Edycja stron w przestrzeni nazw „{{ns:widget}}”',
+	'right-editwidgets' => 'Tworzenie i edycja [http://www.mediawiki.org/wiki/Extension:Widgets wzorów] w przestrzeni nazw <tt>{{ns:widget}}</tt>',
 );
 
 /** Piedmontese (Piemontèis)
