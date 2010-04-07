@@ -394,13 +394,13 @@ $messages['oc'] = array(
  * @author ToSter
  */
 $messages['pl'] = array(
-	'widgets-desc' => 'Pozwala administratorom wiki na dodawanie widgetów w dowolnej formie do wiki poprzez edycję stron w przestrzeni nazw {{ns:widget}}.
+	'widgets-desc' => 'Pozwala administratorom wiki na dodawanie widżetów w dowolnej formie do wiki poprzez edycję stron w przestrzeni nazw {{ns:widget}}.
 Pierwotnie stworzone dla [http://www.ardorado.com Ardorado.com]',
-	'widgets-error' => 'Błąd w [[{{ns:widget}}:$1|widgecie $1]]',
-	'group-widgeteditor' => 'Edytorzy widgetów',
-	'group-widgeteditor-member' => 'Edytor widgetów',
-	'grouppage-widgeteditor' => 'Project:Edytorzy widgetów',
-	'right-editwidgets' => 'Tworzenie i edycja [http://www.mediawiki.org/wiki/Extension:Widgets wzorów] w przestrzeni nazw <tt>{{ns:widget}}</tt>',
+	'widgets-error' => 'Błąd w [[{{ns:widget}}:$1|widżecie $1]]',
+	'group-widgeteditor' => 'Edytorzy widżetów',
+	'group-widgeteditor-member' => 'Edytor widżetów',
+	'grouppage-widgeteditor' => 'Project:Edytorzy widżetów',
+	'right-editwidgets' => 'Tworzenie i edycja [http://www.mediawiki.org/wiki/Extension:Widgets widżetów] w przestrzeni nazw <tt>{{ns:widget}}</tt>',
 );
 
 /** Piedmontese (Piemontèis)
