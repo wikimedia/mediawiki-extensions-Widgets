@@ -85,7 +85,7 @@ Prvobitno razvijeno za [http://www.ardorado.com Ardorado.com]',
  * @author Paucabot
  */
 $messages['ca'] = array(
-	'right-editwidgets' => 'Edita pàgines a l\'espai de noms "{{ns:widget}}"',
+	'right-editwidgets' => "Creeu i editeu [http://www.mediawiki.org/wiki/Extension:Widgets ginys] a l'espai de noms <tt>{{ns:widget}}</tt>",
 );
 
 /** Czech (Česky)
