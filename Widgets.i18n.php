@@ -92,6 +92,7 @@ $messages['ca'] = array(
  * @author Kuvaly
  * @author Matěj Grabovský
  * @author Mormegil
+ * @author Reaperman
  */
 $messages['cs'] = array(
 	'widgets-desc' => 'Umožňuje správcům wiki přidávat na wiki ovládací prvky úpravou stránek ve jmenném prostoru {{ns:widget}}.
@@ -100,7 +101,7 @@ Původně vyvinuto pro [http://www.ardorado.com Ardorado.com]',
 	'group-widgeteditor' => 'Editoři ovládacích prvků',
 	'group-widgeteditor-member' => 'editor ovládacích prvků',
 	'grouppage-widgeteditor' => 'Project:Editoři ovládacích prvků',
-	'right-editwidgets' => 'Upravování stránek ve jmenném prostoru „{{ns:widget}}“',
+	'right-editwidgets' => 'Tvorba a úprava stránek [http://www.mediawiki.org/wiki/Extension:Widgets ovládacích prvků] ve jmenném prostoru „{{ns:widget}}“',
 );
 
 /** German (Deutsch)
