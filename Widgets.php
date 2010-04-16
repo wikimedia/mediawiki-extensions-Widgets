@@ -16,7 +16,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'Widgets',
 	'descriptionmsg' => 'widgets-desc',
-	'version' => '0.9.0-dev',
+	'version' => '0.9.1-dev',
 	'author' => '[http://www.sergeychernyshev.com Sergey Chernyshev]',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:Widgets'
 );
@@ -42,6 +42,9 @@ $wgNamespacesWithSubpages[NS_WIDGET_TALK] = true;
 
 // Define new right
 $wgAvailableRights[] = 'editwidgets';
+
+// Set this to true to use FlaggedRevs extension's stable version for widget security
+$wgWidgetsUseFlaggedRevs = false;
 
 $dir = dirname( __FILE__ ) . '/';
 
@@ -200,22 +203,36 @@ function processEncodedWidgetOutput( &$out, &$text ) {
 }
 
 function widgetNamespacesInit() {
-	global $wgGroupPermissions, $wgNamespaceProtection;
+	global $wgGroupPermissions, $wgNamespaceProtection, $wgWidgetsUseFlaggedRevs;
 
-	// Assign editing to widgeteditor group only (widgets can be dangerous so we do it here, not in LocalSettings)
-	$wgGroupPermissions['*']['editwidgets'] = false;
-	$wgGroupPermissions['widgeteditor']['editwidgets'] = true;
+	if (!$wgWidgetsUseFlaggedRevs)
+	{
+		// Assign editing to widgeteditor group only (widgets can be dangerous so we do it here, not in LocalSettings)
+		$wgGroupPermissions['*']['editwidgets'] = false;
+		$wgGroupPermissions['widgeteditor']['editwidgets'] = true;
 
-	// Setting required namespace permission rights
-	$wgNamespaceProtection[NS_WIDGET] = array( 'editwidgets' );
+		// Setting required namespace permission rights
+		$wgNamespaceProtection[NS_WIDGET] = array( 'editwidgets' );
+	}
 }
 
 // put these function somewhere in your application
 function wiki_get_template( $widgetName, &$widgetCode, &$smarty_obj ) {
+	global $wgWidgetsUseFlaggedRevs;
+	
 	$widgetTitle = Title::newFromText($widgetName, NS_WIDGET);
 	if ( $widgetTitle && $widgetTitle->exists() ) {
-		$widgetArticle = new Article( $widgetTitle, 0 );
-		$widgetCode = $widgetArticle->getContent();
+		if ($wgWidgetsUseFlaggedRevs)
+		{
+			$flaggedWidgetArticle = FlaggedArticle::getTitleInstance( $widgetTitle );
+			$flaggedWidgetArticleRevision = $flaggedWidgetArticle->getStableRev();
+			$widgetCode = $flaggedWidgetArticleRevision->getRevText();
+		}
+		else
+		{
+			$widgetArticle = new Article( $widgetTitle, 0 );
+			$widgetCode = $widgetArticle->getContent();
+		}
 
 		// Remove <noinclude> sections and <includeonly> tags from form definition
 		$widgetCode = StringUtils::delimiterReplace( '<noinclude>', '</noinclude>', '', $widgetCode );
