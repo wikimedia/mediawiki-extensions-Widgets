@@ -16,7 +16,6 @@ else
 	# Creating release tarball and zip
 	#
 	svn export http://svn.wikimedia.org/svnroot/mediawiki/tags/extensions/Widgets/REL_${subst .,_,${v}}/ Widgets
-	svn export smarty Widgets/smarty
 	# Not including Makefile into the package since it's not doing anything but release packaging
 	rm Widgets/Makefile
 	tar -c Widgets |gzip > Widgets_${v}.tgz
