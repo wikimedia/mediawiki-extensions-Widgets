@@ -187,14 +187,14 @@ function renderWidget ( &$parser, $widgetName ) {
 	}
 
 	// Hide the widget from the parser
-	$output = '<!-- ENCODED_CONTENT '.base64_encode($output).' -->';
+	$output = 'ENCODED_CONTENT '.base64_encode($output).' END_ENCODED_CONTENT';
 	return $parser->insertStripItem( $output, $parser->mStripState );
 }
 
 function processEncodedWidgetOutput( &$out, &$text ) {
 	// Find all hidden content and restore to normal
 	$text = preg_replace(
-		'/<!-- ENCODED_CONTENT ([0-9a-zA-Z\/+]+=*)* -->/esm',
+		'/ENCODED_CONTENT ([0-9a-zA-Z\/+]+=*)* END_ENCODED_CONTENT/esm',
 		'base64_decode("$1")',
 		$text
 	);
@@ -226,7 +226,14 @@ function wiki_get_template( $widgetName, &$widgetCode, &$smarty_obj ) {
 		{
 			$flaggedWidgetArticle = FlaggedArticle::getTitleInstance( $widgetTitle );
 			$flaggedWidgetArticleRevision = $flaggedWidgetArticle->getStableRev();
-			$widgetCode = $flaggedWidgetArticleRevision->getRevText();
+			if ($flaggedWidgetArticleRevision)
+			{
+				$widgetCode = $flaggedWidgetArticleRevision->getRevText();
+			}
+			else
+			{
+				$widgetCode = '';
+			}
 		}
 		else
 		{
