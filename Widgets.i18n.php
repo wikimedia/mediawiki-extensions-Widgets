@@ -284,6 +284,7 @@ Mulanya dibuat untuk [http://www.ardorado.com Ardorado.com]',
 );
 
 /** Italian (Italiano)
+ * @author Civvì
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -293,7 +294,7 @@ Sviluppato inizialmente per [http://www.ardorado.com Ardorado.com]',
 	'group-widgeteditor' => 'Editori widget',
 	'group-widgeteditor-member' => 'Editore widget',
 	'grouppage-widgeteditor' => 'Project:Editori widget',
-	'right-editwidgets' => 'Modifica pagine nel namespace "{{ns:widget}}"',
+	'right-editwidgets' => 'Crea e modifica [http://www.mediawiki.org/wiki/Extension:Widgets widget] nel namespace <tt>{{ns:widget}}</tt>',
 );
 
 /** Japanese (日本語)
