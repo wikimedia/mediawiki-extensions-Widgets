@@ -101,7 +101,7 @@ Původně vyvinuto pro [http://www.ardorado.com Ardorado.com]',
 	'group-widgeteditor' => 'Editoři ovládacích prvků',
 	'group-widgeteditor-member' => 'editor ovládacích prvků',
 	'grouppage-widgeteditor' => 'Project:Editoři ovládacích prvků',
-	'right-editwidgets' => 'Tvorba a úprava stránek [http://www.mediawiki.org/wiki/Extension:Widgets ovládacích prvků] ve jmenném prostoru „{{ns:widget}}“',
+	'right-editwidgets' => 'Tvorba a úprava stránek [http://www.mediawiki.org/wiki/Extension:Widgets ovládacích prvků] ve jmenném prostoru <tt>{{ns:widget}}</tt>',
 );
 
 /** German (Deutsch)
