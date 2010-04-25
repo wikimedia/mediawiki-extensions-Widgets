@@ -310,7 +310,7 @@ $messages['ja'] = array(
 	'right-editwidgets' => '<tt>{{ns:widget}}</tt>名前空間で[http://www.mediawiki.org/wiki/Extension:Widgets ウィジット]を作成または編集する',
 );
 
-/** Ripoarisch (Ripoarisch)
+/** Colognian (Ripoarisch)
  * @author Purodha
  */
 $messages['ksh'] = array(
@@ -511,7 +511,7 @@ Mới đầu được phát triển cho [http://www.ardorado.com Ardorado.com].'
 	'right-editwidgets' => 'Tạo và sửa [http://www.mediawiki.org/wiki/Extension:Widgets?uselang=vi công cụ đa năng] trong không gian tên <tt>{{ns:widget}}</tt>',
 );
 
-/** Yue (粵語) */
+/** Cantonese (粵語) */
 $messages['yue'] = array(
 	'widgets-desc' => '容許wiki管理員響{{ns:widget}}空間名度加入自由形式嘅widget響個wiki度。
 原先為[http://www.ardorado.com Ardorado.com]而設計嘅',
