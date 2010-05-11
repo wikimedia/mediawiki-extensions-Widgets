@@ -486,6 +486,14 @@ $messages['sv'] = array(
 	'group-widgeteditor' => 'Widgeteditorer',
 );
 
+/** Telugu (తెలుగు)
+ * @author Ravichandra
+ */
+$messages['te'] = array(
+	'group-widgeteditor' => 'విడ్జెట్ ఎడిటర్లు',
+	'group-widgeteditor-member' => 'విడ్జెట్ ఎడిటర్',
+);
+
 /** Ukrainian (Українська)
  * @author Prima klasy4na
  */
