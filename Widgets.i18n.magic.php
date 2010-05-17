@@ -14,6 +14,14 @@ $magicWords['arz'] = array(
 	'widget'   => array( '0', 'ودجة', 'widget' ),
 );
 
+$magicWords['eo'] = array(
+	'widget'   => array( '0', 'fenestraĵo', 'fenestrajxo', 'widget' ),
+);
+
+$magicWords['ja'] = array(
+	'widget'   => array( '0', 'ウィジェット', 'widget' ),
+);
+
 $magicWords['ko'] = array(
 	'widget'   => array( '0', '위젯', 'widget' ),
 );
