@@ -182,7 +182,6 @@ function renderWidget ( &$parser, $widgetName ) {
 	try {
 		$output = $smarty->fetch( "wiki:$widgetName" );
 	} catch ( Exception $e ) {
-		wfLoadExtensionMessages( 'Widgets' );
 		return '<div class=\"error\">' . wfMsgExt( 'widgets-desc', array( 'parsemag' ), htmlentities($widgetName) ) . '</div>';
 	}
 
