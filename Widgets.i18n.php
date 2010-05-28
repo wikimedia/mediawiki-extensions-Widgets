@@ -506,6 +506,19 @@ $messages['te'] = array(
 	'group-widgeteditor-member' => 'విడ్జెట్ ఎడిటర్',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'widgets-desc' => 'Nagpapahintulot sa mga tagapangasiwa ng wiki na makapagdagdag ng mga widyet na may malayang anyo sa wiki sa pamamagitan ng pagbago ng mga pahinang nasa loob ng puwang pampangalang {{ns:widget}}.
+Orihinal na pinaunlad para sa [http://www.ardorado.com Ardorado.com]',
+	'widgets-error' => 'Kamalian sa loob ng [[{{ns:widget}}:$1|widyet na $1]]',
+	'group-widgeteditor' => 'Mga patnugot ng widyet',
+	'group-widgeteditor-member' => 'Patnugot ng widyet',
+	'grouppage-widgeteditor' => 'Project:Mga patnugot ng widyet',
+	'right-editwidgets' => 'Lumikha at baguhin ang [http://www.mediawiki.org/wiki/Extension:Widgets mga widyet] sa loob ng puwang na pampangalan ng <tt>{{ns:widget}}</tt>',
+);
+
 /** Ukrainian (Українська)
  * @author Prima klasy4na
  */
