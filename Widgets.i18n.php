@@ -350,13 +350,13 @@ $messages['lb'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'widgets-desc' => 'Им овозможува на вики-администраторите да додаваат интерфејс-елементи со слободна форма на викито со уредување на страниците во рамките на именскиот простор {{ns:widget}}.
+	'widgets-desc' => 'Им овозможува на вики-администраторите да додаваат направи (widgets) со слободна форма на викито со уредување на страниците во рамките на именскиот простор {{ns:widget}}.
 Првобитно развиено за потребите на [http://www.ardorado.com Ardorado.com]',
-	'widgets-error' => 'Грешка во [[{{ns:widget}}:$1|интерфејс-елементот $1]]',
-	'group-widgeteditor' => 'Уредници на елементи од интерфејсот',
-	'group-widgeteditor-member' => 'Уредник на интерфејс-елементи (widgets)',
-	'grouppage-widgeteditor' => 'Project:Уредници на интерфејс-елементи (widgets)',
-	'right-editwidgets' => 'Создавање и уредување на [http://www.mediawiki.org/wiki/Extension:Widgets интерфејс-елементи] во именскиот простор <tt>{{ns:widget}}</tt>',
+	'widgets-error' => 'Грешка во [[{{ns:widget}}:$1|посредничкиот елемент $1]]',
+	'group-widgeteditor' => 'Уредници на направи',
+	'group-widgeteditor-member' => 'Уредник на направи',
+	'grouppage-widgeteditor' => 'Project:Уредници на направи',
+	'right-editwidgets' => 'Создавање и уредување на [http://www.mediawiki.org/wiki/Extension:Widgets направи] во именскиот простор <tt>{{ns:widget}}</tt>',
 );
 
 /** Dutch (Nederlands)
