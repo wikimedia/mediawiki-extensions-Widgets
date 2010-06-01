@@ -350,12 +350,12 @@ $messages['lb'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'widgets-desc' => 'Им овозможува на вики-администраторите да додаваат елементи (widgets) со слободна форма на викито со уредување на страниците во рамките на именскиот простор {{ns:widget}}.
-Првобитно развиено за потребите на [http://www.ardorado.com Ardorado.com]',
+	'widgets-desc' => 'Им овозможува на вики-администраторите да додаваат посреднички елементи (widgets) со слободна форма на викито со уредување на страниците во рамките на именскиот простор {{ns:widget}}.
+Првично развиено за потребите на [http://www.ardorado.com Ardorado.com]',
 	'widgets-error' => 'Грешка во [[{{ns:widget}}:$1|посредничкиот елемент $1]]',
-	'group-widgeteditor' => 'Уредници на направи',
-	'group-widgeteditor-member' => 'Уредник на направи',
-	'grouppage-widgeteditor' => 'Project:Уредници на направи',
+	'group-widgeteditor' => 'Уредници на посреднички елементи',
+	'group-widgeteditor-member' => 'Уредник на посреднички елементи',
+	'grouppage-widgeteditor' => 'Project:Уредници на посреднички елементи',
 	'right-editwidgets' => 'Создавање и уредување на [http://www.mediawiki.org/wiki/Extension:Widgets направи] во именскиот простор <tt>{{ns:widget}}</tt>',
 );
 
