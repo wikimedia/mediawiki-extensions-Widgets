@@ -125,7 +125,7 @@ Původně vyvinuto pro [http://www.ardorado.com Ardorado.com]',
  */
 $messages['de'] = array(
 	'widgets-desc' => 'Ermöglicht Wiki-Administratoren das Hinzufügen von Freiformat-Widgets durch das Bearbeiten von Seiten im {{ns:widget}}-Namensraum.
-Ursprünglich für [http://www.ardorado.com Ardorado.com] entwickelt',
+Von der Gemeinschaft erstellte Widgets können unter [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] gefunden werden.',
 	'widgets-error' => 'Fehler im [[{{ns:widget}}:$1|Widget $1]]',
 	'group-widgeteditor' => 'Widget-Bearbeiter',
 	'group-widgeteditor-member' => 'Widget-Bearbeiter',
@@ -283,6 +283,7 @@ Originalmente disveloppate pro [http://www.ardorado.com Ardorado.com]',
 
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
+ * @author Irwangatot
  */
 $messages['id'] = array(
 	'widgets-desc' => 'Mengijinkan admin wiki untuk menambahkan widget ke wiki dengan menyunting halaman di ruang nama {{ns:widget}}.
@@ -292,7 +293,7 @@ Mulanya dibuat untuk [http://www.ardorado.com Ardorado.com]',
 	'group-widgeteditor' => 'Penyunting widget',
 	'group-widgeteditor-member' => 'Penyunting widget',
 	'grouppage-widgeteditor' => 'Project:Penyunting widget',
-	'right-editwidgets' => 'Sunting halaman di ruang nama "{{ns:widget}}"',
+	'right-editwidgets' => 'Buat dan Sunting halaman [http://www.mediawiki.org/wiki/Extension:Widgets widgets]  di <tt>{{ns:widget}}</tt> ruang nama',
 );
 
 /** Italian (Italiano)
