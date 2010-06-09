@@ -8,7 +8,7 @@ $messages = array();
 
 $messages['en'] = array(
 	'widgets-desc' => 'Allows wiki administrators to add free-form widgets to the wiki by editing pages within the {{ns:widget}} namespace.
-Originally developed for [http://www.ardorado.com Ardorado.com]',
+Community-contributed widgets can be found on [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Error in [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Widget editors',
 	'group-widgeteditor-member' => 'Widget editor',
