@@ -210,8 +210,8 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'widgets-desc' => 'Permite aos administradores do wiki engadir widgets cando se editan as páxinas do espazo de nomes "{{ns:widget}}".
-Desenvolvido orixinalmente para [http://www.ardorado.com Ardorado.com]',
+	'widgets-desc' => 'Permite aos administradores do wiki engadir widgets ao editar páxinas no espazo de nomes "{{ns:widget}}".
+Pódense atopar os widgets desenvolvidos para a comunidade en [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Erro no [[{{ns:widget}}:$1|widget "$1"]]',
 	'group-widgeteditor' => 'Editores de widgets',
 	'group-widgeteditor-member' => 'Editor de widgets',
