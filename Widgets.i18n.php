@@ -423,11 +423,12 @@ Pierwotnie stworzone dla [http://www.ardorado.com Ardorado.com]',
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'widgets-desc' => "A përmëtt a j'aministrador dla wiki ëd gionté ëd widget a forma lìbera a la wiki an modificand ëd le pàgine ant lë spassi nominal {{ns:widget}}.
-An prinsipi dësvilupà për [http://www.ardorado.com Ardorado.com]",
+	'widgets-desc' => "A përmët a j'aministrator dla wiki ëd gionté ëd widget a forma lìbera a la wiki an modificand dle pàgine ant lë spassi nominal {{ns:widget}}.
+Dij widget creà da la comunità a peulo esse trovà su [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	'widgets-error' => 'Eror an [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Editor ëd widget',
 	'group-widgeteditor-member' => 'Editor ëd widget',
