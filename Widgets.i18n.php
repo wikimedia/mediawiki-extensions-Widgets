@@ -315,10 +315,12 @@ Sviluppato inizialmente per [http://www.ardorado.com Ardorado.com]',
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Iwai.masaharu
  * @author 青子守歌
  */
 $messages['ja'] = array(
-	'widgets-desc' => '管理者が「{{ns:widget}}」名前空間内のページを編集し、ウィキに自由な形式のウィジェットを追加できるようにする。元々は [http://www.ardorado.com Ardorado.com] のために開発されました',
+	'widgets-desc' => '管理者が「{{ns:widget}}」名前空間内のページを編集し、ウィキに自由な形式のウィジェットを追加できるようにする。
+コミュニティから提供されているウィジェットは [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] にあります。',
 	'widgets-error' => '[[{{ns:widget}}:$1|ウィジェット $1]]にエラー',
 	'group-widgeteditor' => 'ウィジェット編集者',
 	'group-widgeteditor-member' => 'ウィジェット編集者',
@@ -414,7 +416,7 @@ $messages['oc'] = array(
  */
 $messages['pl'] = array(
 	'widgets-desc' => 'Pozwala administratorom wiki na dodawanie widżetów w dowolnej formie do wiki poprzez edycję stron w przestrzeni nazw {{ns:widget}}.
-Pierwotnie stworzone dla [http://www.ardorado.com Ardorado.com]',
+Widżety stworzone przez społeczność można odnaleźć na stronie [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Błąd w [[{{ns:widget}}:$1|widżecie $1]]',
 	'group-widgeteditor' => 'Edytorzy widżetów',
 	'group-widgeteditor-member' => 'Edytor widżetów',
