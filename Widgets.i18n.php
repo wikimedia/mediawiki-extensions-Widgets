@@ -453,16 +453,17 @@ Widgets fornecidos pela comunidade podem ser encontrados na [http://www.mediawik
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
+ * @author Giro720
  * @author Heldergeovane
  */
 $messages['pt-br'] = array(
-	'widgets-desc' => 'Permite a administradores de wiki adicionar "widgets" para a wiki editando páginas no domínio {{ns:widget}}.
-Desenvolvido originalmente para [http://www.ardorado.com Ardorado.com]',
+	'widgets-desc' => "Permite que os administradores da wiki adicionem ''widgets free-form'' à wiki, editando páginas no espaço nominal {{ns:widget}}.
+Widgets fornecidos pela comunidade podem ser encontrados na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	'widgets-error' => 'Erro em [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Editores de widget',
 	'group-widgeteditor-member' => 'Editor de widget',
 	'grouppage-widgeteditor' => 'Project:Editores de widget',
-	'right-editwidgets' => 'Páginas editadas no espaço nominal "{{ns:widget}}"',
+	'right-editwidgets' => 'Criar e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>',
 );
 
 /** Tarandíne (Tarandíne)
