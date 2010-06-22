@@ -289,9 +289,8 @@ Le widgets contribuite per le communitate se trova a [http://www.mediawikiwidget
  * @author Irwangatot
  */
 $messages['id'] = array(
-	'widgets-desc' => 'Mengijinkan admin wiki untuk menambahkan widget ke wiki dengan menyunting halaman di ruang nama {{ns:widget}}.
-
-Mulanya dibuat untuk [http://www.ardorado.com Ardorado.com]',
+	'widgets-desc' => 'Mengijinkan pengurus wiki untuk menambahkan formulir bebas widget ke wiki dengan menyunting halaman di ruang nama {{ns:widget}}.
+komunitas kontribusi widgets dapat di temuai pada [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Kesalahan pada [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Penyunting widget',
 	'group-widgeteditor-member' => 'Penyunting widget',
