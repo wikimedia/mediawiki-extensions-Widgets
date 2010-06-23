@@ -224,7 +224,7 @@ Pódense atopar os widgets desenvolvidos para a comunidade en [http://www.mediaw
  */
 $messages['gsw'] = array(
 	'widgets-desc' => 'Erlaubt Wikiadministratore Frej-Form-Widgets zum Wiki zuezfiege dur d Bearbeitig vu Syte im {{ns:widget}}-Namensruum.
-Urspringlig entwicklet fir [http://www.ardorado.com Ardorado.com]',
+Vu dr Gmeinschaft aagleiti Widgets chenne unter [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] gfunde wäre.',
 	'widgets-error' => 'Fähler im [[{{ns:widget}}:$1|Widget $1]]',
 	'group-widgeteditor' => 'Widget-Editore',
 	'group-widgeteditor-member' => 'Widget-Editor',
