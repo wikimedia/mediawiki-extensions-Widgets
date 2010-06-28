@@ -73,7 +73,8 @@ $messages['be-tarask'] = array(
  * @author Y-M D
  */
 $messages['br'] = array(
-	'widgets-desc' => "Talvezout a ra d'ar verourien da ouzhpennañ widgetoù d'ar wiki en ur gemmañ pajennoù en esaouenn anv {{ns:widget}}. Diorroet e penn-kentañ evit [http://www.ardorado.com Ardorado.com]",
+	'widgets-desc' => "Talvezout a ra d'ar verourien da ouzhpennañ widgetoù d'ar wiki en ur gemmañ pajennoù en esaouenn anv {{ns:widget}}.
+Ar widgetoù kinniget gant ar gumuniezh a gaver war [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	'widgets-error' => 'Fazi e [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Aozerien widget',
 	'group-widgeteditor-member' => 'Aozer widget',
