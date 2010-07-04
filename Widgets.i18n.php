@@ -532,9 +532,11 @@ Ang mga widyet na inambag ng pamayan ay matatagpuan sa [http://www.mediawikiwidg
 
 /** Ukrainian (Українська)
  * @author Prima klasy4na
+ * @author Тест
  */
 $messages['uk'] = array(
-	'widgets-desc' => 'Дозволяє адміністраторам вікі додавати різноманітні віджети шляхом редагування сторінок простору назв {{ns:widget}}. Спочатку розроблений для [http://www.ardorado.com Ardorado.com]',
+	'widgets-desc' => 'Дозволяє адміністраторам вікі додавати різноманітні віджети шляхом редагування сторінок простору назв {{ns:widget}}.
+Підтримувані спільнотою віджети можна знайти на [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Помилка [[{{ns:widget}}:$1|віджету $1]]',
 	'group-widgeteditor' => 'Редактори віджетів',
 	'group-widgeteditor-member' => 'Редактор віджетів',
