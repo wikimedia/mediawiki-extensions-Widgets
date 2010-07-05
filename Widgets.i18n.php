@@ -549,7 +549,7 @@ $messages['uk'] = array(
  */
 $messages['vi'] = array(
 	'widgets-desc' => 'Cho phép các quản lý viên wiki thêm công cụ đa năng vào wiki bằng cách sửa đổi trang trong không gian tên {{ns:widget}}.
-Mới đầu được phát triển cho [http://www.ardorado.com Ardorado.com].',
+Có thể lấy thêm công cụ đa năng do cộng đồng đóng góp tại [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].',
 	'widgets-error' => 'Lỗi trong [[{{ns:widget}}:$1|công cụ đa năng $1]]',
 	'group-widgeteditor' => 'Người sửa công cụ đa năng',
 	'group-widgeteditor-member' => 'Người sửa công cụ đa năng',
