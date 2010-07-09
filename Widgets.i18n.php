@@ -390,9 +390,9 @@ $messages['nn'] = array(
  * @author Nghtwlkr
  */
 $messages['no'] = array(
-	'widgets-desc' => 'Tillater wikiadministratorer å legge til fri-form widgets til wikien ved å redigere siden innen {{ns:widget}}-navnerommet.
-Opprinnelig utviklet for [http://www.ardorado.com Ardorado.com]',
-	'widgets-error' => 'Feil i [[{{ns:widget}}:$1|widget $1]]',
+	'widgets-desc' => 'Tillater wikiadministratorer å legge til fri-form skjermelement til wikien ved å redigere siden innen {{ns:widget}}-navnerommet.
+Fellesskaps-bidratte skjermelement kan finnes på [http://mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
+	'widgets-error' => 'Feil i [[{{ns:widget}}:$1|skjermelement $1]]',
 	'group-widgeteditor' => 'Bidragsytere for skjermelement',
 	'group-widgeteditor-member' => 'Bidragsyter for skjermelement',
 	'grouppage-widgeteditor' => 'Project:Bidragsytere for skjermelement',
