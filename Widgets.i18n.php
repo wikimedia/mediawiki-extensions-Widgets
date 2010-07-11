@@ -42,6 +42,7 @@ $messages['aln'] = array(
 );
 
 /** Arabic (العربية)
+ * @author ;Hiba;1
  * @author OsamaK
  */
 $messages['ar'] = array(
@@ -51,7 +52,7 @@ $messages['ar'] = array(
 	'group-widgeteditor' => 'محررو الودجات',
 	'group-widgeteditor-member' => 'محرر ودجات',
 	'grouppage-widgeteditor' => 'Project:محررو الودجات',
-	'right-editwidgets' => 'تحرير الصفحات في نطاق "{{ns:widget}}"',
+	'right-editwidgets' => 'إنشاء وتحرير [http://www.mediawiki.org/wiki/Extension:Widgets widgets] في الــ <tt>{{ns:widget}}</tt> مكان الاسم',
 );
 
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
