@@ -88,7 +88,7 @@ Ar widgetoù kinniget gant ar gumuniezh a gaver war [http://www.mediawikiwidgets
  */
 $messages['bs'] = array(
 	'widgets-desc' => 'Omogućuje wiki administratorima da dodaju dodatke u slobodnoj formi na wiki putem uređivanja stranica unutar imenskog prostora {{ns:widget}}.
-Prvobitno razvijeno za [http://www.ardorado.com Ardorado.com]',
+Prvobitno razvijeni dodaci se mogu naći na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].',
 	'widgets-error' => 'Greška u [[{{ns:widget}}:$1|widgetu $1]]',
 	'group-widgeteditor' => 'Uređivači dodataka',
 	'group-widgeteditor-member' => 'Uređivač dodataka',
