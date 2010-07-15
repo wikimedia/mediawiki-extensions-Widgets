@@ -302,12 +302,13 @@ komunitas kontribusi widgets dapat di temuai pada [http://www.mediawikiwidgets.o
 );
 
 /** Italian (Italiano)
+ * @author Beta16
  * @author Civvì
  * @author Darth Kule
  */
 $messages['it'] = array(
-	'widgets-desc' => 'Permette agli amministratori del sito di aggiungere widget al sito modificando pagine nel namespace {{ns:widget}}.
-Sviluppato inizialmente per [http://www.ardorado.com Ardorado.com]',
+	'widgets-desc' => 'Permette agli amministratori del sito di aggiungere widget liberi al sito modificando pagine nel namespace {{ns:widget}}.
+Widget creati dalla comunità possono essere trovati su [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Errore nel [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Editori widget',
 	'group-widgeteditor-member' => 'Editore widget',
