@@ -188,7 +188,7 @@ function renderWidget ( &$parser, $widgetName ) {
 
 	// Hide the widget from the parser
 	$output = 'ENCODED_CONTENT '.base64_encode($output).' END_ENCODED_CONTENT';
-	return $parser->insertStripItem( $output, $parser->mStripState );
+	return $output;
 }
 
 function processEncodedWidgetOutput( &$out, &$text ) {
