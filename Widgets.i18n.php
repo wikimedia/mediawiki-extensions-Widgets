@@ -336,12 +336,12 @@ $messages['ja'] = array(
  */
 $messages['ksh'] = array(
 	'widgets-desc' => 'Määt et müjjelesch, dat Wiki-Köbeße <i lang="en">Widgets</i> en ene freie Forrem en däm Appachtemang „{{ns:widget}}“ enndraare.
-Dat wood aanfänglesch projrammeert för <span lang="en">[http://www.ardorado.com Ardorado.com]</span>',
+Divärse Lück han ehr <i lang="en">Widgets</i> op <i lang="en">[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]</i> öffentlesch jemaat.',
 	'widgets-error' => 'Doh es ene Fähler em [[{{ns:widget}}:$1|<i lang="en">Widget</i> $1]]',
 	'group-widgeteditor' => 'Schriiver för <i lang="en">Widgets</i>',
 	'group-widgeteditor-member' => '<i lang="en">Widget</i>-Schriiver',
 	'grouppage-widgeteditor' => 'Project:Widget-Schriiver',
-	'right-editwidgets' => 'Sigge em Appachemang „{{ns:widget}}“ ändere',
+	'right-editwidgets' => 'Sigge, alsu <i lang="en">[http://www.mediawiki.org/wiki/Extension:Widgets Widgets]</i>, em Appachemang „{{ns:widget}}“ ändere udder aanlääje',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
