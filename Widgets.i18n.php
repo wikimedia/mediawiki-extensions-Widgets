@@ -165,6 +165,17 @@ $messages['el'] = array(
 	'right-editwidgets' => 'Δημιουργία και επεξεργασία [http://www.mediawiki.org/wiki/Extension:Widgets widgets] στην περιοχή ονομάτων <tt>{{ns:widget}}</tt>',
 );
 
+/** Esperanto (Esperanto)
+ * @author Airon90
+ */
+$messages['eo'] = array(
+	'widgets-error' => 'Eraro en [[{{ns:widget}}:$1|fenestraĵo $1]]',
+	'group-widgeteditor' => 'Fenestraĵaj eldonistoj',
+	'group-widgeteditor-member' => 'Fenestraĵa eldonisto',
+	'grouppage-widgeteditor' => 'Project:Fenestraĵaj eldonistoj',
+	'right-editwidgets' => 'Krei kaj redakti [http://www.mediawiki.org/vikia/Extension:Widgets fenestraĵojn] en la nomspaco <tt>{{ns:widget}}</tt>',
+);
+
 /** Spanish (Español)
  * @author Antur
  * @author Crazymadlover
