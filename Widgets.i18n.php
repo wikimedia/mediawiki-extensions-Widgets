@@ -581,15 +581,17 @@ $messages['yue'] = array(
 	'right-editwidgets' => '響"{{ns:widget}}"空間名度編輯頁',
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Xiaomingyan
+ */
 $messages['zh-hans'] = array(
-	'widgets-desc' => '容许wiki管理员在{{ns:widget}}名字空间中加入自由形式的widget至wiki中。
-原先为[http://www.ardorado.com Ardorado.com]设计',
-	'widgets-error' => '在[[{{ns:widget}}:$1|widget $1]]发生错误',
-	'group-widgeteditor' => 'Widget编辑器',
-	'group-widgeteditor-member' => 'Widget编辑器',
-	'grouppage-widgeteditor' => 'Project:Widget编辑器',
-	'right-editwidgets' => '在"{{ns:widget}}"名字空间中编辑页面',
+	'widgets-desc' => '允许wiki管理员通过编辑{{ns:widget}}名称空间中的页面以添加自由形式的小工具至wiki。
+[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]提供社区贡献的小工具',
+	'widgets-error' => '[[{{ns:widget}}:$1|小工具$1]]出错',
+	'group-widgeteditor' => '小工具编辑器',
+	'group-widgeteditor-member' => '小工具编辑器',
+	'grouppage-widgeteditor' => 'Project:小工具编辑器',
+	'right-editwidgets' => '创建并编辑<tt>{{ns:widget}}</tt>名称空间中的[http://www.mediawiki.org/wiki/Extension:Widgets 小工具]',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬) */
