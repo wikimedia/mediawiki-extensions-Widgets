@@ -220,6 +220,16 @@ $messages['fr'] = array(
 	'right-editwidgets' => 'Créer et modifier les [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dans l’espace de noms « {{ns:widget}} »',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'widgets-error' => 'Èrror dens lo [[{{ns:widget}}:$1|vouidgèt $1]]',
+	'group-widgeteditor' => 'Changiors de vouidgèts',
+	'group-widgeteditor-member' => 'Changior de vouidgèts',
+	'grouppage-widgeteditor' => 'Project:Changiors de vouidgèts',
+);
+
 /** Galician (Galego)
  * @author Toliño
  */
