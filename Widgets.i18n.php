@@ -228,6 +228,7 @@ $messages['frp'] = array(
 	'group-widgeteditor' => 'Changiors de vouidgèts',
 	'group-widgeteditor-member' => 'Changior de vouidgèts',
 	'grouppage-widgeteditor' => 'Project:Changiors de vouidgèts',
+	'right-editwidgets' => 'Fâre et changiér los [http://www.mediawiki.org/wiki/Extension:Widgets vouidgèts] dens l’èspâço de noms « {{ns:widget}} »',
 );
 
 /** Galician (Galego)
