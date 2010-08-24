@@ -14,6 +14,10 @@ $magicWords['arz'] = array(
 	'widget'   => array( '0', 'ودجة', 'widget' ),
 );
 
+$magicWords['ce'] = array(
+	'widget'   => array( '0', 'тlехьажар', 'виджет', 'widget' ),
+);
+
 $magicWords['eo'] = array(
 	'widget'   => array( '0', 'fenestraĵo', 'fenestrajxo', 'widget' ),
 );
@@ -32,4 +36,8 @@ $magicWords['mr'] = array(
 
 $magicWords['ru'] = array(
 	'widget'   => array( '0', 'виджет', 'widget' ),
+);
+
+$magicWords['si'] = array(
+	'widget'   => array( '0', 'ගැජට්', 'widget' ),
 );
