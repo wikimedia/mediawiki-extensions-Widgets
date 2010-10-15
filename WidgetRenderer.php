@@ -42,10 +42,10 @@ public static function renderWidget ( &$parser, $widgetName ) {
 	$smarty->register_resource(
 		'wiki',
 		array(
-			'WidgetRenderer::wiki_get_template',
-			'WidgetRenderer::wiki_get_timestamp',
-			'WidgetRenderer::wiki_get_secure',
-			'WidgetRenderer::wiki_get_trusted'
+			array('WidgetRenderer', 'wiki_get_template'),
+			array('WidgetRenderer', 'wiki_get_timestamp'),
+			array('WidgetRenderer', 'wiki_get_secure'),
+			array('WidgetRenderer', 'wiki_get_trusted')
 		)
 	);
 
