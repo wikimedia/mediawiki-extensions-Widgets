@@ -607,14 +607,16 @@ $messages['zh-hans'] = array(
 	'right-editwidgets' => '创建并编辑<tt>{{ns:widget}}</tt>名称空间中的[http://www.mediawiki.org/wiki/Extension:Widgets 小工具]',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Mark85296341
+ */
 $messages['zh-hant'] = array(
-	'widgets-desc' => '容許wiki管理員在{{ns:widget}}名字空間中加入自由形式的widget至wiki中。
-原先為[http://www.ardorado.com Ardorado.com]設計',
-	'widgets-error' => '在[[{{ns:widget}}:$1|widget $1]]發生錯誤',
-	'group-widgeteditor' => 'Widget編輯器',
-	'group-widgeteditor-member' => 'Widget編輯器',
-	'grouppage-widgeteditor' => 'Project:Widget編輯器',
-	'right-editwidgets' => '在"{{ns:widget}}"名字空間中編輯頁面',
+	'widgets-desc' => '容許 wiki 管理員通過編輯 {{ns:widget}} 名子空間中加入自由形式的 widget 至 wiki 中。
+[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] 提供社群貢獻的 widget',
+	'widgets-error' => '在 [[{{ns:widget}}:$1|widget $1]] 發生錯誤',
+	'group-widgeteditor' => 'Widget 編輯器',
+	'group-widgeteditor-member' => 'Widget 編輯器',
+	'grouppage-widgeteditor' => 'Project:Widget 編輯器',
+	'right-editwidgets' => '建立並編輯 <tt>{{ns:widget}}</tt> 名子空間中的 [http://www.mediawiki.org/wiki/Extension:Widgets Widgets]',
 );
 
