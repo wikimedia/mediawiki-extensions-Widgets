@@ -526,6 +526,19 @@ Pôvodne vyvinuté pre [http://www.ardorado.com Ardorado.com]',
 	'right-editwidgets' => 'upravovať stránky v mennom priestore „{{ns:widget}}“',
 );
 
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'widgets-desc' => 'Омогућава администраторима да додају виџете на викију уређивањем страница унутар {{ns:widget}} именског простора.
+Виџети направљени од стране заједнице могу се наћи на [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
+	'widgets-error' => 'Грешка у [[{{ns:widget}}:$1|$1 виџету]]',
+	'group-widgeteditor' => 'Уређивачи виџета',
+	'group-widgeteditor-member' => 'Уређивач виџета',
+	'grouppage-widgeteditor' => 'Project:Уређивачи виџета',
+	'right-editwidgets' => 'прављење и уређивање [http://www.mediawiki.org/wiki/Extension:Widgets виџета] у <tt>{{ns:widget}}</tt> именском простору',
+);
+
 /** Swedish (Svenska)
  * @author Ozp
  * @author Per
