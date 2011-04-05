@@ -276,7 +276,7 @@ $messages['he'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'widgets-desc' => '↓ Dowola wikijowym administratoram wikijej přez wobdźěłowanje stronow znutřka mjenjoweho ruma {{ns:widget}} swójske miniprogramy přidać.
+	'widgets-desc' => 'Dowola wikijowym administratoram wikijej přez wobdźěłowanje stronow znutřka mjenjoweho ruma {{ns:widget}} swójske miniprogramy přidać.
 Wot zhromadźenstwa wutowrjene miniprogramy móžeš na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] namakać.',
 	'widgets-error' => 'Zmylk w [[{{ns:widget}}:$1|miniprogramje $1]]',
 	'group-widgeteditor' => 'Wobdźěłowarjo miniprogramow',
