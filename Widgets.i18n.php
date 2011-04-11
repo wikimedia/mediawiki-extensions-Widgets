@@ -98,9 +98,10 @@ Prvobitno razvijeni dodaci se mogu naći na [http://www.mediawikiwidgets.org/Mai
 
 /** Catalan (Català)
  * @author Paucabot
+ * @author SMP
  */
 $messages['ca'] = array(
-	'right-editwidgets' => "Creeu i editeu [http://www.mediawiki.org/wiki/Extension:Widgets ginys] a l'espai de noms <tt>{{ns:widget}}</tt>",
+	'right-editwidgets' => "Crear i editar [http://www.mediawiki.org/wiki/Extension:Widgets ginys] a l'espai de noms <tt>{{ns:widget}}</tt>",
 );
 
 /** Czech (Česky)
