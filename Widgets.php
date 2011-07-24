@@ -74,10 +74,14 @@ $wgExtensionFunctions[] = 'widgetNamespacesInit';
 $wgHooks['ParserFirstCallInit'][] = 'widgetParserFunctions';
 $wgHooks['ParserAfterTidy'][] = 'processEncodedWidgetOutput';
 
+/**
+ * @param $parser Parser
+ * @return bool
+ */
 function widgetParserFunctions( &$parser ) {
-    $parser->setFunctionHook( 'widget', array( 'WidgetRenderer', 'renderWidget' ) );
+	$parser->setFunctionHook( 'widget', array( 'WidgetRenderer', 'renderWidget' ) );
 
-    return true;
+	return true;
 }
 
 function processEncodedWidgetOutput( &$out, &$text ) {
