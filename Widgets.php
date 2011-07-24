@@ -42,6 +42,7 @@ $wgNamespacesWithSubpages[NS_WIDGET_TALK] = true;
 
 // Define new right
 $wgAvailableRights[] = 'editwidgets';
+$wgGroupPermissions['sysop']['editwidgets'] = true;
 
 // Set this to true to use FlaggedRevs extension's stable version for widget security
 $wgWidgetsUseFlaggedRevs = false;
@@ -93,8 +94,7 @@ function processEncodedWidgetOutput( &$out, &$text ) {
 function widgetNamespacesInit() {
 	global $wgGroupPermissions, $wgNamespaceProtection, $wgWidgetsUseFlaggedRevs;
 
-	if (!$wgWidgetsUseFlaggedRevs)
-	{
+	if ( !$wgWidgetsUseFlaggedRevs ) {
 		// Assign editing to widgeteditor group only (widgets can be dangerous so we do it here, not in LocalSettings)
 		$wgGroupPermissions['*']['editwidgets'] = false;
 		$wgGroupPermissions['widgeteditor']['editwidgets'] = true;
