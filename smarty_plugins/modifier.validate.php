@@ -9,8 +9,7 @@
  *           Useful when you need to validate but not escape.
  * -------------------------------------------------------------
  */
-function smarty_modifier_validate($string, $type='url')
-{
+function smarty_modifier_validate( $string, $type='url' ) {
 	// mapping for PHP filters (http://us2.php.net/manual/en/filter.constants.php)
 	$filters = array(
 		'url' => FILTER_VALIDATE_URL,
@@ -21,8 +20,7 @@ function smarty_modifier_validate($string, $type='url')
 		'ip' => FILTER_VALIDATE_IP
 	);
 
-	if (array_key_exists($type, $filters) && filter_var($string, $filters[$type]) !== FALSE)
-	{
+	if ( array_key_exists($type, $filters) && filter_var($string, $filters[$type]) !== FALSE ) {
 		return $string;
 	}
 
