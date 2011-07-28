@@ -543,10 +543,12 @@ $messages['sr-ec'] = array(
 /** Swedish (Svenska)
  * @author Ozp
  * @author Per
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'widgets-error' => 'Fel i [[{{ns:widget}}:$1|widget $1]]',
-	'group-widgeteditor' => 'Widgeteditorer',
+	'group-widgeteditor' => 'Widget-redigerare',
+	'group-widgeteditor-member' => 'Widget-redigerare',
 );
 
 /** Telugu (తెలుగు)
