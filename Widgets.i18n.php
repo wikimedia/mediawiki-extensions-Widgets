@@ -611,16 +611,16 @@ $messages['yue'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author PhiLiP
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
-	'widgets-desc' => '允许wiki管理员通过编辑{{ns:widget}}名称空间中的页面以添加自由形式的小工具至wiki。
-[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]提供社区贡献的小工具',
+	'widgets-desc' => '允许wiki的管理员编辑{{ns:widget}}名字空间页面以添加各种形式的小工具。您可以在[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]中找到社区贡献的小工具',
 	'widgets-error' => '[[{{ns:widget}}:$1|小工具$1]]出错',
 	'group-widgeteditor' => '小工具编辑器',
 	'group-widgeteditor-member' => '小工具编辑器',
 	'grouppage-widgeteditor' => 'Project:小工具编辑器',
-	'right-editwidgets' => '创建并编辑<tt>{{ns:widget}}</tt>名称空间中的[http://www.mediawiki.org/wiki/Extension:Widgets 小工具]',
+	'right-editwidgets' => '在<tt>{{ns:widget}}</tt>名字空间中创建和编辑[http://www.mediawiki.org/wiki/Extension:Widgets 小工具]',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
