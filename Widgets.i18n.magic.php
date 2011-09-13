@@ -70,7 +70,7 @@ $magicWords['si'] = array(
 	'widget' => array( 0, 'ගැජට්', 'widget' ),
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
 $magicWords['sr-ec'] = array(
 	'widget' => array( 0, 'виџет' ),
 );
@@ -82,5 +82,5 @@ $magicWords['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬) */
 $magicWords['zh-hans'] = array(
-	'widget' => array( 0, '部件' ),
+	'widget' => array( 0, '小工具' ),
 );
