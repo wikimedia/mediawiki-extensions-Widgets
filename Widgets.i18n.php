@@ -25,8 +25,10 @@ Community-contributed widgets can be found on [http://www.mediawikiwidgets.org/M
  */
 $messages['qqq'] = array(
 	'widgets-desc' => '{{desc}}',
-	'grouppage-widgeteditor' => '{{doc-important|Leave "Project:" untranslated}}',
-	'right-editwidgets' => '{{doc-right}}',
+	'group-widgeteditor' => '{{doc-group|widgeteditor}}',
+	'group-widgeteditor-member' => '{{doc-group|widgeteditor|member}}',
+	'grouppage-widgeteditor' => '{{doc-group|widgeteditor|page}}',
+	'right-editwidgets' => '{{doc-right|editwidgets}}',
 );
 
 /** Gheg Albanian (Gegë)
