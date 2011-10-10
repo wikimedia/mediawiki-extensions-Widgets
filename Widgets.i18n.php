@@ -135,7 +135,7 @@ $messages['de'] = array(
 Von der Gemeinschaft erstellte Widgets können unter [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] gefunden werden',
 	'widgets-error' => 'Fehler im [[{{ns:widget}}:$1|Widget $1]]',
 	'group-widgeteditor' => 'Widget-Bearbeiter',
-	'group-widgeteditor-member' => 'Widget-Bearbeiter',
+	'group-widgeteditor-member' => '{{GENDER:$1|Widget-Bearbeiter|Widget-Bearbeiterin}}',
 	'grouppage-widgeteditor' => 'Project:Widget-Bearbeiter',
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] im <tt>{{ns:widget}}</tt>-Namensraum bearbeiten und erstellen',
 );
@@ -174,7 +174,7 @@ $messages['el'] = array(
 $messages['eo'] = array(
 	'widgets-error' => 'Eraro en [[{{ns:widget}}:$1|fenestraĵo $1]]',
 	'group-widgeteditor' => 'Fenestraĵaj eldonistoj',
-	'group-widgeteditor-member' => 'Fenestraĵa eldonisto',
+	'group-widgeteditor-member' => 'Fenestraĵa eldonist{{GENDER:$1||in}}o',
 	'grouppage-widgeteditor' => 'Project:Fenestraĵaj eldonistoj',
 	'right-editwidgets' => 'Krei kaj redakti [http://www.mediawiki.org/vikia/Extension:Widgets fenestraĵojn] en la nomspaco <tt>{{ns:widget}}</tt>',
 );
@@ -243,7 +243,7 @@ $messages['gl'] = array(
 Pódense atopar os widgets desenvolvidos para a comunidade en [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Erro no [[{{ns:widget}}:$1|widget "$1"]]',
 	'group-widgeteditor' => 'Editores de widgets',
-	'group-widgeteditor-member' => 'Editor de widgets',
+	'group-widgeteditor-member' => '{{GENDER:$1|editor|editora}} de widgets',
 	'grouppage-widgeteditor' => 'Project:Editores de widgets',
 	'right-editwidgets' => 'Crear e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espazo de nomes <tt>{{ns:widget}}</tt>',
 );
@@ -529,7 +529,7 @@ Pôvodne vyvinuté pre [http://www.ardorado.com Ardorado.com]',
 	'right-editwidgets' => 'upravovať stránky v mennom priestore „{{ns:widget}}“',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
