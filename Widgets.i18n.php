@@ -230,7 +230,7 @@ $messages['fr'] = array(
 $messages['frp'] = array(
 	'widgets-error' => 'Èrror dens lo [[{{ns:widget}}:$1|vouidgèt $1]]',
 	'group-widgeteditor' => 'Changiors de vouidgèts',
-	'group-widgeteditor-member' => 'Changior de vouidgèts',
+	'group-widgeteditor-member' => 'changio{{GENDER:$1|r|sa}} de vouidgèts',
 	'grouppage-widgeteditor' => 'Project:Changiors de vouidgèts',
 	'right-editwidgets' => 'Fâre et changiér los [http://www.mediawiki.org/wiki/Extension:Widgets vouidgèts] dens l’èspâço de noms « {{ns:widget}} »',
 );
@@ -389,7 +389,7 @@ $messages['mk'] = array(
 Елементи изработени од учесници од заедницата можете да најдете на  [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Грешка во [[{{ns:widget}}:$1|посредничкиот елемент $1]]',
 	'group-widgeteditor' => 'Уредници на посреднички елементи',
-	'group-widgeteditor-member' => 'Уредник на посреднички елементи',
+	'group-widgeteditor-member' => '{{GENDER:$1|уредник на посреднички елементи}}',
 	'grouppage-widgeteditor' => 'Project:Уредници на посреднички елементи',
 	'right-editwidgets' => 'Создавање и уредување на [http://www.mediawiki.org/wiki/Extension:Widgets направи] во именскиот простор <tt>{{ns:widget}}</tt>',
 );
