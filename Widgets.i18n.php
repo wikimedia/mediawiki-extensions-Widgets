@@ -211,6 +211,7 @@ Yhteisön tekemiä pienoisohjelmia löytyy osoitteesta [http://www.mediawikiwidg
 );
 
 /** French (Français)
+ * @author Gomoko
  * @author IAlex
  * @author Jean-Frédéric
  * @author Urhixidur
@@ -219,7 +220,7 @@ $messages['fr'] = array(
 	'widgets-desc' => "Permet aux administrateurs du wiki d'ajouter des ''widgets'' (gadgets logiciels) au wiki en modifiant des pages dans l’espace de noms {{ns:widget}}. Les ''widgets'' proposés par la communauté sont disponibles sur [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	'widgets-error' => 'Erreur dans le [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Modificateurs de widgets',
-	'group-widgeteditor-member' => 'modificateur de widgets',
+	'group-widgeteditor-member' => '{{GENDER:$1|Éditeur de widget}}',
 	'grouppage-widgeteditor' => 'Project:Modificateurs de widgets',
 	'right-editwidgets' => 'Créer et modifier les [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dans l’espace de noms « {{ns:widget}} »',
 );
@@ -308,7 +309,7 @@ $messages['ia'] = array(
 Le widgets contribuite per le communitate se trova a [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Error in [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Modificatores de widgets',
-	'group-widgeteditor-member' => 'Modificator de widgets',
+	'group-widgeteditor-member' => '{{GENDER:$1|modificator|modificatrice}} de widgets',
 	'grouppage-widgeteditor' => 'Project:Modificatores de widgets',
 	'right-editwidgets' => 'Crear e modificar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] in le spatio de nomines <tt>{{ns:widget}}</tt>',
 );
@@ -395,6 +396,7 @@ $messages['mk'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author SPQRobin
  * @author Siebrand
  */
 $messages['nl'] = array(
@@ -402,7 +404,7 @@ $messages['nl'] = array(
 Door de gemeenschap ontwikkelde widgets zijn te vinden op [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	'widgets-error' => 'Fout in [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Widgetbewerkers',
-	'group-widgeteditor-member' => 'Widgetbewerker',
+	'group-widgeteditor-member' => '{{GENDER:$1|Widgetbewerker}}',
 	'grouppage-widgeteditor' => 'Project:Widgetbewerkers',
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] aanmaken en bewerken in de naamruimte <tt>{{ns:widget}}</tt>',
 );
