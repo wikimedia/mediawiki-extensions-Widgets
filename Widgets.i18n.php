@@ -250,6 +250,7 @@ Pódense atopar os widgets desenvolvidos para a comunidade en [http://www.mediaw
 );
 
 /** Swiss German (Alemannisch)
+ * @author Als-Chlämens
  * @author Als-Holder
  */
 $messages['gsw'] = array(
@@ -257,7 +258,7 @@ $messages['gsw'] = array(
 Vu dr Gmeinschaft aagleiti Widgets chenne unter [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] gfunde wäre.',
 	'widgets-error' => 'Fähler im [[{{ns:widget}}:$1|Widget $1]]',
 	'group-widgeteditor' => 'Widget-Editore',
-	'group-widgeteditor-member' => 'Widget-Editor',
+	'group-widgeteditor-member' => '{{GENDER:$1|Widget-Bearbeiter|Widget-Bearbeiteri}}',
 	'grouppage-widgeteditor' => 'Project:Widget-Editore',
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] im <tt>{{ns:widget}}</tt>-Namensruum aalege un bearbeite',
 );
