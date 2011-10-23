@@ -205,7 +205,7 @@ $messages['fi'] = array(
 Yhteisön tekemiä pienoisohjelmia löytyy osoitteesta [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].',
 	'widgets-error' => 'Virhe [[{{ns:widget}}:$1|pienoisohjelmassa $1]]',
 	'group-widgeteditor' => 'pienoisohjelmien muokkaajat',
-	'group-widgeteditor-member' => 'pienoisohjelman muokkaaja',
+	'group-widgeteditor-member' => '{{GENDER:$1|pienoisohjelman muokkaaja}}',
 	'grouppage-widgeteditor' => 'Project:Pienoisohjelmien muokkaajat',
 	'right-editwidgets' => 'Luoda ja muokata [http://www.mediawiki.org/wiki/Extension:Widgets pienoisohjelmia] nimiavaruudessa <tt>{{ns:widget}}</tt>',
 );
