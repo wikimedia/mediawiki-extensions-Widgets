@@ -285,7 +285,7 @@ $messages['hsb'] = array(
 Wot zhromadźenstwa wutowrjene miniprogramy móžeš na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] namakać.',
 	'widgets-error' => 'Zmylk w [[{{ns:widget}}:$1|miniprogramje $1]]',
 	'group-widgeteditor' => 'Wobdźěłowarjo miniprogramow',
-	'group-widgeteditor-member' => 'Wobdźěłowar miniprogramow',
+	'group-widgeteditor-member' => '{{GENDER:$1|Wobdźěłar miniprogramow|Wobdźěłarka miniprogramow}}',
 	'grouppage-widgeteditor' => 'Project:Wobdźěłowarjo miniprogramow',
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Woknowe elementy] w mjenowym rumje <tt>{{ns:widget}}</tt> wutworić a wobdźěłać',
 );
