@@ -451,9 +451,9 @@ $messages['pl'] = array(
 	'widgets-desc' => 'Pozwala administratorom wiki na dodawanie widżetów w dowolnej formie do wiki poprzez edycję stron w przestrzeni nazw {{ns:widget}}.
 Widżety stworzone przez społeczność można odnaleźć na stronie [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Błąd w [[{{ns:widget}}:$1|widżecie $1]]',
-	'group-widgeteditor' => 'Edytorzy widżetów',
-	'group-widgeteditor-member' => '{{GENDER:$1|Edytor|Edytorka}} widżetów',
-	'grouppage-widgeteditor' => 'Project:Edytorzy widżetów',
+	'group-widgeteditor' => 'Redaktorzy widżetów',
+	'group-widgeteditor-member' => '{{GENDER:$1|Redaktor|Redaktorka}} widżetów',
+	'grouppage-widgeteditor' => 'Project:Redaktorzy widżetów',
 	'right-editwidgets' => 'Tworzenie i edycja [http://www.mediawiki.org/wiki/Extension:Widgets widżetów] w przestrzeni nazw <tt>{{ns:widget}}</tt>',
 );
 
