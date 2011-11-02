@@ -148,7 +148,7 @@ $messages['dsb'] = array(
 Miniprogramy, kótarež su se napórali wót zromaźeństwa, móžoš na  [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] namakaś.',
 	'widgets-error' => 'Zmólka w [[{{ns:widget}}:$1|miniprogramje $1]]',
 	'group-widgeteditor' => 'Wobźěłowarje miniprogramow',
-	'group-widgeteditor-member' => 'Wobźěłowaŕ miniprogramow',
+	'group-widgeteditor-member' => '{{GENDER:$1|Wobźěłaŕ miniprogramow|Wobźěłarka miniprogramow}}',
 	'grouppage-widgeteditor' => 'Project: Wobźěłowarje miniprogramow',
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Woknowe elementy] w mjenjowem rumje <tt>{{ns:widget}}</tt> napóraś a wobźěłaś',
 );
