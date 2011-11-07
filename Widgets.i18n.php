@@ -363,11 +363,11 @@ $messages['ja'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'widgets-desc' => 'Määt et müjjelesch, dat Wiki-Köbeße <i lang="en">Widgets</i> en ene freie Forrem en däm Appachtemang „{{ns:widget}}“ enndraare.
+	'widgets-desc' => 'Määt et müjjelesch, dat Wiki-Köbeße <i lang="en">Widgets</i> en ene freie Forrem en däm Appachtemang „{{ns:widget}}“ enndraare. 
 Divärse Lück han ehr <i lang="en">Widgets</i> op <i lang="en">[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]</i> öffentlesch jemaat.',
 	'widgets-error' => 'Doh es ene Fähler em [[{{ns:widget}}:$1|<i lang="en">Widget</i> $1]]',
 	'group-widgeteditor' => 'Schriiver för <i lang="en">Widgets</i>',
-	'group-widgeteditor-member' => '<i lang="en">Widget</i>-Schriiver',
+	'group-widgeteditor-member' => '{{GENDER:$1|<i lang="en">Widget</i>-Schriiver}}',
 	'grouppage-widgeteditor' => 'Project:Widget-Schriiver',
 	'right-editwidgets' => 'Sigge, alsu <i lang="en">[http://www.mediawiki.org/wiki/Extension:Widgets Widgets]</i>, em Appachemang „{{ns:widget}}“ ändere udder aanlääje',
 );
@@ -466,7 +466,7 @@ $messages['pms'] = array(
 Dij widget creà da la comunità a peulo esse trovà su [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	'widgets-error' => 'Eror an [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Editor ëd widget',
-	'group-widgeteditor-member' => 'Editor ëd widget',
+	'group-widgeteditor-member' => '{{GENDER:$1|Editor ëd widget}}',
 	'grouppage-widgeteditor' => 'Project:Editor ëd widget',
 	'right-editwidgets' => 'Crea e modìfica [http://www.mediawiki.org/wiki/Extension:Widgets widgets] ant lë spassi nominal <tt>{{ns:widget}}</tt>',
 );
