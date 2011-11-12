@@ -80,7 +80,7 @@ $messages['br'] = array(
 Ar widgetoù kinniget gant ar gumuniezh a gaver war [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	'widgets-error' => 'Fazi e [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Aozerien widget',
-	'group-widgeteditor-member' => 'Aozer widget',
+	'group-widgeteditor-member' => '{{GENDER:$1|Aozer|Aozerez}} Widget',
 	'grouppage-widgeteditor' => 'Project:Aozerien widget',
 	'right-editwidgets' => 'Krouiñ ha kemmañ ar [http://www.mediawiki.org/wiki/Extension:Widgets widgetoù] en esaouenn anv <tt>{{ns:widget}}<tt>',
 );
