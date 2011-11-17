@@ -540,9 +540,9 @@ $messages['sr-ec'] = array(
 	'widgets-desc' => 'Омогућава администраторима да додају виџете на викију уређивањем страница унутар {{ns:widget}} именског простора.
 Виџети направљени од стране заједнице могу се наћи на [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Грешка у [[{{ns:widget}}:$1|$1 виџету]]',
-	'group-widgeteditor' => 'Уређивачи виџета',
-	'group-widgeteditor-member' => 'Уређивач виџета',
-	'grouppage-widgeteditor' => 'Project:Уређивачи виџета',
+	'group-widgeteditor' => 'Уредници елемената',
+	'group-widgeteditor-member' => '{{GENDER:$1|Уредник елемената|Уредница елемената|Уредник елемената}}',
+	'grouppage-widgeteditor' => 'Project:Уредници елемената',
 	'right-editwidgets' => 'прављење и уређивање [http://www.mediawiki.org/wiki/Extension:Widgets виџета] у <tt>{{ns:widget}}</tt> именском простору',
 );
 
