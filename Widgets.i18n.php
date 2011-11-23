@@ -291,10 +291,11 @@ Wot zhromadźenstwa wutowrjene miniprogramy móžeš na [http://www.mediawikiwid
 );
 
 /** Hungarian (Magyar)
+ * @author Dj
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
-	'widgets-desc' => 'Lehetővé teszi a wiki adminisztrátorainak, hogy kötetlen alakú minialkalmazásokat adjanak a wikihez lapok szerkesztésével a(z) {{ns:widget}} névtérben. Eredetileg az [http://www.ardorado.com Ardorado.com] számára kifejlesztve',
+	'widgets-desc' => 'Lehetővé teszi a wiki adminisztrátorainak, hogy kötetlen alakú minialkalmazásokat adjanak a wikihez lapok szerkesztésével a(z) {{ns:widget}} névtérben. Közösség által fejlesztett minialkalmazások a [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] oldalon találhatók.',
 	'widgets-error' => 'Hiba a(z) [[{{ns:widget}}:$1|$1 minialkalmazásban]]',
 	'group-widgeteditor' => 'Minialkalmazás szerkesztői',
 	'group-widgeteditor-member' => 'Minialkalmazás-szerkesztő',
