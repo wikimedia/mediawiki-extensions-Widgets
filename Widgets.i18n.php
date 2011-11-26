@@ -397,6 +397,19 @@ $messages['mk'] = array(
 	'right-editwidgets' => 'Создавање и уредување на [http://www.mediawiki.org/wiki/Extension:Widgets направи] во именскиот простор <tt>{{ns:widget}}</tt>',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'widgets-desc' => 'Membolehkan pentadbir wiki untuk menambahkan widget berbentuk bebas pada wiki dengan menyunting laman di dalam ruang nama {{ns:widget}}.
+Widget sumbangan komuniti boleh didapati di [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
+	'widgets-error' => 'Ralat pada [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Penyunting widget',
+	'group-widgeteditor-member' => '{{GENDER:$1|Penyunting widget}}',
+	'grouppage-widgeteditor' => 'Project:Penyunting widget',
+	'right-editwidgets' => 'Mencipta dan menyunting [http://www.mediawiki.org/wiki/Extension:Widgets widget] dalam ruang nama <tt>{{ns:widget}}</tt>',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -618,6 +631,7 @@ $messages['yue'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Anakmalaysia
  * @author PhiLiP
  * @author Xiaomingyan
  */
@@ -625,12 +639,13 @@ $messages['zh-hans'] = array(
 	'widgets-desc' => '允许wiki的管理员编辑{{ns:widget}}名字空间页面以添加各种形式的小工具。您可以在[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]中找到社区贡献的小工具',
 	'widgets-error' => '[[{{ns:widget}}:$1|小工具$1]]出错',
 	'group-widgeteditor' => '小工具编辑器',
-	'group-widgeteditor-member' => '小工具编辑器',
+	'group-widgeteditor-member' => '{{GENDER:$1|小工具编辑器}}',
 	'grouppage-widgeteditor' => 'Project:小工具编辑器',
 	'right-editwidgets' => '在<tt>{{ns:widget}}</tt>名字空间中创建和编辑[http://www.mediawiki.org/wiki/Extension:Widgets 小工具]',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
+ * @author Anakmalaysia
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
@@ -638,7 +653,7 @@ $messages['zh-hant'] = array(
 [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] 提供社群貢獻的 widget',
 	'widgets-error' => '在 [[{{ns:widget}}:$1|widget $1]] 發生錯誤',
 	'group-widgeteditor' => 'Widget 編輯器',
-	'group-widgeteditor-member' => 'Widget 編輯器',
+	'group-widgeteditor-member' => '{{GENDER:$1|Widget 編輯器}}',
 	'grouppage-widgeteditor' => 'Project:Widget 編輯器',
 	'right-editwidgets' => '建立並編輯 <tt>{{ns:widget}}</tt> 名子空間中的 [http://www.mediawiki.org/wiki/Extension:Widgets Widgets]',
 );
