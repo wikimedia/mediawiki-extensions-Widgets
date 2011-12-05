@@ -131,8 +131,8 @@ Prvky vytvořené komunitou lze nalézt na [http://www.mediawikiwidgets.org/Main
  * @author Umherirrender
  */
 $messages['de'] = array(
-	'widgets-desc' => 'Ermöglicht Administratoren das Hinzufügen von Freiformat-Widgets durch das Bearbeiten von Seiten im {{ns:widget}}-Namensraum.
-Von der Gemeinschaft erstellte Widgets können unter [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] gefunden werden',
+	'widgets-desc' => 'Ermöglicht das Hinzufügen von Freiformat-Widgets durch das Bearbeiten von Seiten im Namensraum {{ns:widget}}.
+Von der Gemeinschaft erstellte Widgets werden auf der Website [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] gesammelt.',
 	'widgets-error' => 'Fehler im [[{{ns:widget}}:$1|Widget $1]]',
 	'group-widgeteditor' => 'Widget-Bearbeiter',
 	'group-widgeteditor-member' => '{{GENDER:$1|Widget-Bearbeiter|Widget-Bearbeiterin}}',
