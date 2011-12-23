@@ -12,7 +12,7 @@ Community-contributed widgets can be found on [http://www.mediawikiwidgets.org/M
 	'widgets-error' => 'Error in [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Widget editors',
 	'group-widgeteditor-member' => '{{GENDER:$1|Widget editor}}',
-	'grouppage-widgeteditor' => 'Project:Widget editors',
+	'grouppage-widgeteditor' => '{{ns:project}}:Widget editors',
 	'right-editwidgets' => 'Create and edit [http://www.mediawiki.org/wiki/Extension:Widgets widgets] in the <tt>{{ns:widget}}</tt> namespace',
 );
 
