@@ -53,7 +53,7 @@ $messages['ar'] = array(
 	'widgets-error' => 'خطأ في [[{{ns:widget}}:$1|الودجة $1]]',
 	'group-widgeteditor' => 'محررو الودجات',
 	'group-widgeteditor-member' => 'محرر ودجات',
-	'grouppage-widgeteditor' => 'Project:محررو الودجات',
+	'grouppage-widgeteditor' => '{{ns:project}}:محررو الودجات',
 	'right-editwidgets' => 'إنشاء وتحرير [http://www.mediawiki.org/wiki/Extension:Widgets widgets] في الــ <tt>{{ns:widget}}</tt> مكان الاسم',
 );
 
@@ -67,7 +67,7 @@ $messages['be-tarask'] = array(
 	'widgets-error' => 'Памылка ў [[{{ns:widget}}:$1|віджэце $1]]',
 	'group-widgeteditor' => 'Рэдактар віджэтаў',
 	'group-widgeteditor-member' => 'Рэдактар віджэта',
-	'grouppage-widgeteditor' => 'Project:Рэдактары віджэтаў',
+	'grouppage-widgeteditor' => '{{ns:project}}:Рэдактары віджэтаў',
 	'right-editwidgets' => 'стварэньне і рэдагаваньне [http://www.mediawiki.org/wiki/Extension:Widgets дапаўненьняў] у прасторы назваў <tt>{{ns:widget}}</tt>',
 );
 
@@ -81,7 +81,7 @@ Ar widgetoù kinniget gant ar gumuniezh a gaver war [http://www.mediawikiwidgets
 	'widgets-error' => 'Fazi e [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Aozerien widget',
 	'group-widgeteditor-member' => '{{GENDER:$1|Aozer|Aozerez}} Widget',
-	'grouppage-widgeteditor' => 'Project:Aozerien widget',
+	'grouppage-widgeteditor' => '{{ns:project}}:Aozerien widget',
 	'right-editwidgets' => 'Krouiñ ha kemmañ ar [http://www.mediawiki.org/wiki/Extension:Widgets widgetoù] en esaouenn anv <tt>{{ns:widget}}<tt>',
 );
 
@@ -94,7 +94,7 @@ Prvobitno razvijeni dodaci se mogu naći na [http://www.mediawikiwidgets.org/Mai
 	'widgets-error' => 'Greška u [[{{ns:widget}}:$1|widgetu $1]]',
 	'group-widgeteditor' => 'Uređivači dodataka',
 	'group-widgeteditor-member' => 'Uređivač dodataka',
-	'grouppage-widgeteditor' => 'Project:Uređivač dodataka',
+	'grouppage-widgeteditor' => '{{ns:project}}:Uređivač dodataka',
 	'right-editwidgets' => 'Pravljenje i uređivanje [http://www.mediawiki.org/wiki/Extension:Widgets widgeta] u imenskom prostoru <tt>{{ns:widget}}</tt>',
 );
 
@@ -118,7 +118,7 @@ Prvky vytvořené komunitou lze nalézt na [http://www.mediawikiwidgets.org/Main
 	'widgets-error' => 'Chyba ve [[{{ns:widget}}:$1|widgetu $1]]',
 	'group-widgeteditor' => 'Editoři ovládacích prvků',
 	'group-widgeteditor-member' => 'editor ovládacích prvků',
-	'grouppage-widgeteditor' => 'Project:Editoři ovládacích prvků',
+	'grouppage-widgeteditor' => '{{ns:project}}:Editoři ovládacích prvků',
 	'right-editwidgets' => 'Tvorba a úprava stránek [http://www.mediawiki.org/wiki/Extension:Widgets ovládacích prvků] ve jmenném prostoru <tt>{{ns:widget}}</tt>',
 );
 
@@ -136,7 +136,7 @@ Von der Gemeinschaft erstellte Widgets werden auf der Website [http://www.mediaw
 	'widgets-error' => 'Fehler im [[{{ns:widget}}:$1|Widget $1]]',
 	'group-widgeteditor' => 'Widget-Bearbeiter',
 	'group-widgeteditor-member' => '{{GENDER:$1|Widget-Bearbeiter|Widget-Bearbeiterin}}',
-	'grouppage-widgeteditor' => 'Project:Widget-Bearbeiter',
+	'grouppage-widgeteditor' => '{{ns:project}}:Widget-Bearbeiter',
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] im <tt>{{ns:widget}}</tt>-Namensraum bearbeiten und erstellen',
 );
 
@@ -149,7 +149,7 @@ Miniprogramy, kótarež su se napórali wót zromaźeństwa, móžoš na  [http:
 	'widgets-error' => 'Zmólka w [[{{ns:widget}}:$1|miniprogramje $1]]',
 	'group-widgeteditor' => 'Wobźěłowarje miniprogramow',
 	'group-widgeteditor-member' => '{{GENDER:$1|Wobźěłaŕ miniprogramow|Wobźěłarka miniprogramow}}',
-	'grouppage-widgeteditor' => 'Project: Wobźěłowarje miniprogramow',
+	'grouppage-widgeteditor' => '{{ns:project}}: Wobźěłowarje miniprogramow',
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Woknowe elementy] w mjenjowem rumje <tt>{{ns:widget}}</tt> napóraś a wobźěłaś',
 );
 
@@ -164,7 +164,7 @@ $messages['el'] = array(
 	'widgets-error' => 'Σφάλμα στο [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Επεξεργαστές Widget',
 	'group-widgeteditor-member' => 'Επεξεργαστής Widget',
-	'grouppage-widgeteditor' => 'Project:Επεξεργαστές Widget',
+	'grouppage-widgeteditor' => '{{ns:project}}:Επεξεργαστές Widget',
 	'right-editwidgets' => 'Δημιουργία και επεξεργασία [http://www.mediawiki.org/wiki/Extension:Widgets widgets] στην περιοχή ονομάτων <tt>{{ns:widget}}</tt>',
 );
 
@@ -175,7 +175,7 @@ $messages['eo'] = array(
 	'widgets-error' => 'Eraro en [[{{ns:widget}}:$1|fenestraĵo $1]]',
 	'group-widgeteditor' => 'Fenestraĵaj eldonistoj',
 	'group-widgeteditor-member' => 'Fenestraĵa eldonist{{GENDER:$1||in}}o',
-	'grouppage-widgeteditor' => 'Project:Fenestraĵaj eldonistoj',
+	'grouppage-widgeteditor' => '{{ns:project}}:Fenestraĵaj eldonistoj',
 	'right-editwidgets' => 'Krei kaj redakti [http://www.mediawiki.org/vikia/Extension:Widgets fenestraĵojn] en la nomspaco <tt>{{ns:widget}}</tt>',
 );
 
@@ -191,7 +191,7 @@ Widgets desarrollados comunitariamente pueden ser encontrados en [http://www.med
 	'widgets-error' => 'Error en [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Editores de widget',
 	'group-widgeteditor-member' => 'Editor de widget',
-	'grouppage-widgeteditor' => 'Project:Editores de widget',
+	'grouppage-widgeteditor' => '{{ns:project}}:Editores de widget',
 	'right-editwidgets' => 'Crear y editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] en el espacio de nombre "{{ns:widget}}"',
 );
 
@@ -206,7 +206,7 @@ Yhteisön tekemiä pienoisohjelmia löytyy osoitteesta [http://www.mediawikiwidg
 	'widgets-error' => 'Virhe [[{{ns:widget}}:$1|pienoisohjelmassa $1]]',
 	'group-widgeteditor' => 'pienoisohjelmien muokkaajat',
 	'group-widgeteditor-member' => '{{GENDER:$1|pienoisohjelman muokkaaja}}',
-	'grouppage-widgeteditor' => 'Project:Pienoisohjelmien muokkaajat',
+	'grouppage-widgeteditor' => '{{ns:project}}:Pienoisohjelmien muokkaajat',
 	'right-editwidgets' => 'Luoda ja muokata [http://www.mediawiki.org/wiki/Extension:Widgets pienoisohjelmia] nimiavaruudessa <tt>{{ns:widget}}</tt>',
 );
 
@@ -221,7 +221,7 @@ $messages['fr'] = array(
 	'widgets-error' => 'Erreur dans le [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Modificateurs de widgets',
 	'group-widgeteditor-member' => '{{GENDER:$1|Éditeur de widget}}',
-	'grouppage-widgeteditor' => 'Project:Modificateurs de widgets',
+	'grouppage-widgeteditor' => '{{ns:project}}:Modificateurs de widgets',
 	'right-editwidgets' => 'Créer et modifier les [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dans l’espace de noms « {{ns:widget}} »',
 );
 
@@ -232,7 +232,7 @@ $messages['frp'] = array(
 	'widgets-error' => 'Èrror dens lo [[{{ns:widget}}:$1|vouidgèt $1]]',
 	'group-widgeteditor' => 'Changiors de vouidgèts',
 	'group-widgeteditor-member' => 'changio{{GENDER:$1|r|sa}} de vouidgèts',
-	'grouppage-widgeteditor' => 'Project:Changiors de vouidgèts',
+	'grouppage-widgeteditor' => '{{ns:project}}:Changiors de vouidgèts',
 	'right-editwidgets' => 'Fâre et changiér los [http://www.mediawiki.org/wiki/Extension:Widgets vouidgèts] dens l’èspâço de noms « {{ns:widget}} »',
 );
 
@@ -245,7 +245,7 @@ Pódense atopar os widgets desenvolvidos para a comunidade en [http://www.mediaw
 	'widgets-error' => 'Erro no [[{{ns:widget}}:$1|widget "$1"]]',
 	'group-widgeteditor' => 'Editores de widgets',
 	'group-widgeteditor-member' => '{{GENDER:$1|editor|editora}} de widgets',
-	'grouppage-widgeteditor' => 'Project:Editores de widgets',
+	'grouppage-widgeteditor' => '{{ns:project}}:Editores de widgets',
 	'right-editwidgets' => 'Crear e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espazo de nomes <tt>{{ns:widget}}</tt>',
 );
 
@@ -259,7 +259,7 @@ Vu dr Gmeinschaft aagleiti Widgets chenne unter [http://www.mediawikiwidgets.org
 	'widgets-error' => 'Fähler im [[{{ns:widget}}:$1|Widget $1]]',
 	'group-widgeteditor' => 'Widget-Editore',
 	'group-widgeteditor-member' => '{{GENDER:$1|Widget-Bearbeiter|Widget-Bearbeiteri}}',
-	'grouppage-widgeteditor' => 'Project:Widget-Editore',
+	'grouppage-widgeteditor' => '{{ns:project}}:Widget-Editore',
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] im <tt>{{ns:widget}}</tt>-Namensruum aalege un bearbeite',
 );
 
@@ -273,7 +273,7 @@ $messages['he'] = array(
 	'widgets-error' => "שגיאה ב[[{{ns:widget}}:$1|ווידג'ט $1]]",
 	'group-widgeteditor' => "עורכי וידג'טים",
 	'group-widgeteditor-member' => "עורך וידג'טים",
-	'grouppage-widgeteditor' => "Project:עורכי וידג'טים",
+	'grouppage-widgeteditor' => "{{ns:project}}:עורכי וידג'טים",
 	'right-editwidgets' => 'יצירה ועריכה של [http://www.mediawiki.org/wiki/Extension:Widgets וידג׳טים] במרחב השם <tt>{{ns:widget}}</tt>',
 );
 
@@ -286,7 +286,7 @@ Wot zhromadźenstwa wutowrjene miniprogramy móžeš na [http://www.mediawikiwid
 	'widgets-error' => 'Zmylk w [[{{ns:widget}}:$1|miniprogramje $1]]',
 	'group-widgeteditor' => 'Wobdźěłowarjo miniprogramow',
 	'group-widgeteditor-member' => '{{GENDER:$1|Wobdźěłar miniprogramow|Wobdźěłarka miniprogramow}}',
-	'grouppage-widgeteditor' => 'Project:Wobdźěłowarjo miniprogramow',
+	'grouppage-widgeteditor' => '{{ns:project}}:Wobdźěłowarjo miniprogramow',
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Woknowe elementy] w mjenowym rumje <tt>{{ns:widget}}</tt> wutworić a wobdźěłać',
 );
 
@@ -299,7 +299,7 @@ $messages['hu'] = array(
 	'widgets-error' => 'Hiba a(z) [[{{ns:widget}}:$1|$1 minialkalmazásban]]',
 	'group-widgeteditor' => 'Minialkalmazás szerkesztői',
 	'group-widgeteditor-member' => 'Minialkalmazás-szerkesztő',
-	'grouppage-widgeteditor' => 'Project:Minialkalmazás-szerkesztők',
+	'grouppage-widgeteditor' => '{{ns:project}}:Minialkalmazás-szerkesztők',
 	'right-editwidgets' => 'widgetek létrehozása és szerkesztése a <tt>{{ns:widget}}</tt> névtérben',
 );
 
@@ -312,7 +312,7 @@ Le widgets contribuite per le communitate se trova a [http://www.mediawikiwidget
 	'widgets-error' => 'Error in [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Modificatores de widgets',
 	'group-widgeteditor-member' => '{{GENDER:$1|modificator|modificatrice}} de widgets',
-	'grouppage-widgeteditor' => 'Project:Modificatores de widgets',
+	'grouppage-widgeteditor' => '{{ns:project}}:Modificatores de widgets',
 	'right-editwidgets' => 'Crear e modificar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] in le spatio de nomines <tt>{{ns:widget}}</tt>',
 );
 
@@ -326,7 +326,7 @@ komunitas kontribusi widgets dapat di temuai pada [http://www.mediawikiwidgets.o
 	'widgets-error' => 'Kesalahan pada [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Penyunting widget',
 	'group-widgeteditor-member' => 'Penyunting widget',
-	'grouppage-widgeteditor' => 'Project:Penyunting widget',
+	'grouppage-widgeteditor' => '{{ns:project}}:Penyunting widget',
 	'right-editwidgets' => 'Buat dan Sunting halaman [http://www.mediawiki.org/wiki/Extension:Widgets widgets]  di <tt>{{ns:widget}}</tt> ruang nama',
 );
 
@@ -341,7 +341,7 @@ Widget creati dalla comunità possono essere trovati su [http://www.mediawikiwid
 	'widgets-error' => 'Errore nel [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Editori widget',
 	'group-widgeteditor-member' => 'Editore widget',
-	'grouppage-widgeteditor' => 'Project:Editori widget',
+	'grouppage-widgeteditor' => '{{ns:project}}:Editori widget',
 	'right-editwidgets' => 'Crea e modifica [http://www.mediawiki.org/wiki/Extension:Widgets widget] nel namespace <tt>{{ns:widget}}</tt>',
 );
 
@@ -356,7 +356,7 @@ $messages['ja'] = array(
 	'widgets-error' => '[[{{ns:widget}}:$1|ウィジェット $1]]にエラー',
 	'group-widgeteditor' => 'ウィジェット編集者',
 	'group-widgeteditor-member' => 'ウィジェット編集者',
-	'grouppage-widgeteditor' => 'Project:ウィジェット編集者',
+	'grouppage-widgeteditor' => '{{ns:project}}:ウィジェット編集者',
 	'right-editwidgets' => '<tt>{{ns:widget}}</tt>名前空間で[http://www.mediawiki.org/wiki/Extension:Widgets ウィジット]を作成または編集する',
 );
 
@@ -369,7 +369,7 @@ Divärse Lück han ehr <i lang="en">Widgets</i> op <i lang="en">[http://www.medi
 	'widgets-error' => 'Doh es ene Fähler em [[{{ns:widget}}:$1|<i lang="en">Widget</i> $1]]',
 	'group-widgeteditor' => 'Schriiver för <i lang="en">Widgets</i>',
 	'group-widgeteditor-member' => '{{GENDER:$1|<i lang="en">Widget</i>-Schriiver}}',
-	'grouppage-widgeteditor' => 'Project:Widget-Schriiver',
+	'grouppage-widgeteditor' => '{{ns:project}}:Widget-Schriiver',
 	'right-editwidgets' => 'Sigge, alsu <i lang="en">[http://www.mediawiki.org/wiki/Extension:Widgets Widgets]</i>, em Appachemang „{{ns:widget}}“ ändere udder aanlääje',
 );
 
@@ -380,7 +380,7 @@ $messages['lb'] = array(
 	'widgets-error' => 'Feeler an [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Widget-Editeuren',
 	'group-widgeteditor-member' => 'Widget-Editeur',
-	'grouppage-widgeteditor' => 'Project:Widget Editeuren',
+	'grouppage-widgeteditor' => '{{ns:project}}:Widget Editeuren',
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets widgets] am <tt>{{ns:widget}}</tt> Nummraum uleeën an  änneren',
 );
 
@@ -393,7 +393,7 @@ $messages['mk'] = array(
 	'widgets-error' => 'Грешка во [[{{ns:widget}}:$1|посредничкиот елемент $1]]',
 	'group-widgeteditor' => 'Уредници на посреднички елементи',
 	'group-widgeteditor-member' => '{{GENDER:$1|уредник на посреднички елементи}}',
-	'grouppage-widgeteditor' => 'Project:Уредници на посреднички елементи',
+	'grouppage-widgeteditor' => '{{ns:project}}:Уредници на посреднички елементи',
 	'right-editwidgets' => 'Создавање и уредување на [http://www.mediawiki.org/wiki/Extension:Widgets направи] во именскиот простор <tt>{{ns:widget}}</tt>',
 );
 
@@ -406,7 +406,7 @@ Widget sumbangan komuniti boleh didapati di [http://www.mediawikiwidgets.org/Mai
 	'widgets-error' => 'Ralat pada [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Penyunting widget',
 	'group-widgeteditor-member' => '{{GENDER:$1|Penyunting widget}}',
-	'grouppage-widgeteditor' => 'Project:Penyunting widget',
+	'grouppage-widgeteditor' => '{{ns:project}}:Penyunting widget',
 	'right-editwidgets' => 'Mencipta dan menyunting [http://www.mediawiki.org/wiki/Extension:Widgets widget] dalam ruang nama <tt>{{ns:widget}}</tt>',
 );
 
@@ -420,7 +420,7 @@ Door de gemeenschap ontwikkelde widgets zijn te vinden op [http://www.mediawikiw
 	'widgets-error' => 'Fout in [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Widgetbewerkers',
 	'group-widgeteditor-member' => '{{GENDER:$1|Widgetbewerker}}',
-	'grouppage-widgeteditor' => 'Project:Widgetbewerkers',
+	'grouppage-widgeteditor' => '{{ns:project}}:Widgetbewerkers',
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] aanmaken en bewerken in de naamruimte <tt>{{ns:widget}}</tt>',
 );
 
@@ -440,7 +440,7 @@ Fellesskaps-bidratte skjermelement kan finnes på [http://mediawikiwidgets.org/M
 	'widgets-error' => 'Feil i [[{{ns:widget}}:$1|skjermelement $1]]',
 	'group-widgeteditor' => 'Bidragsytere for skjermelement',
 	'group-widgeteditor-member' => 'Bidragsyter for skjermelement',
-	'grouppage-widgeteditor' => 'Project:Bidragsytere for skjermelement',
+	'grouppage-widgeteditor' => '{{ns:project}}:Bidragsytere for skjermelement',
 	'right-editwidgets' => 'Lag og rediger [http://www.mediawiki.org/wiki/Extension:Widgets skjermelement] i <tt>{{ns:widget}}</tt>-navnerommet',
 );
 
@@ -452,7 +452,7 @@ $messages['oc'] = array(
 	'widgets-error' => 'Error dins lo [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Modificators de widgets',
 	'group-widgeteditor-member' => 'modificator de widgets',
-	'grouppage-widgeteditor' => 'Project:Modificators de widgets',
+	'grouppage-widgeteditor' => '{{ns:project}}:Modificators de widgets',
 	'right-editwidgets' => "Crear e modificar las [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dins l'espaci de noms « {{ns:widget}} »",
 );
 
@@ -467,7 +467,7 @@ Widżety stworzone przez społeczność można odnaleźć na stronie [http://www
 	'widgets-error' => 'Błąd w [[{{ns:widget}}:$1|widżecie $1]]',
 	'group-widgeteditor' => 'Redaktorzy widżetów',
 	'group-widgeteditor-member' => '{{GENDER:$1|Redaktor|Redaktorka}} widżetów',
-	'grouppage-widgeteditor' => 'Project:Redaktorzy widżetów',
+	'grouppage-widgeteditor' => '{{ns:project}}:Redaktorzy widżetów',
 	'right-editwidgets' => 'Tworzenie i edycja [http://www.mediawiki.org/wiki/Extension:Widgets widżetów] w przestrzeni nazw <tt>{{ns:widget}}</tt>',
 );
 
@@ -481,7 +481,7 @@ Dij widget creà da la comunità a peulo esse trovà su [http://www.mediawikiwid
 	'widgets-error' => 'Eror an [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Editor ëd widget',
 	'group-widgeteditor-member' => '{{GENDER:$1|Editor ëd widget}}',
-	'grouppage-widgeteditor' => 'Project:Editor ëd widget',
+	'grouppage-widgeteditor' => '{{ns:project}}:Editor ëd widget',
 	'right-editwidgets' => 'Crea e modìfica [http://www.mediawiki.org/wiki/Extension:Widgets widgets] ant lë spassi nominal <tt>{{ns:widget}}</tt>',
 );
 
@@ -494,7 +494,7 @@ Widgets fornecidos pela comunidade podem ser encontrados na [http://www.mediawik
 	'widgets-error' => "Erro no [[{{ns:widget}}:$1|''widget'' $1]]",
 	'group-widgeteditor' => "Editores de ''widgets''",
 	'group-widgeteditor-member' => "Editor de ''widgets''",
-	'grouppage-widgeteditor' => "Project:Editores de ''widgets''",
+	'grouppage-widgeteditor' => "{{ns:project}}:Editores de ''widgets''",
 	'right-editwidgets' => 'Criar e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>',
 );
 
@@ -510,7 +510,7 @@ Widgets fornecidos pela comunidade podem ser encontrados na [http://www.mediawik
 	'widgets-error' => 'Erro em [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Editores de widget',
 	'group-widgeteditor-member' => 'Editor de widget',
-	'grouppage-widgeteditor' => 'Project:Editores de widget',
+	'grouppage-widgeteditor' => '{{ns:project}}:Editores de widget',
 	'right-editwidgets' => 'Criar e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>',
 );
 
@@ -530,7 +530,7 @@ $messages['ru'] = array(
 	'widgets-error' => 'Ошибка в [[{{ns:widget}}:$1|виджете $1]]',
 	'group-widgeteditor' => 'Редакторы виджетов',
 	'group-widgeteditor-member' => 'Редактор виджетов',
-	'grouppage-widgeteditor' => 'Project:Редакторы виджетов',
+	'grouppage-widgeteditor' => '{{ns:project}}:Редакторы виджетов',
 	'right-editwidgets' => 'создавать и редактировать [http://www.mediawiki.org/wiki/Extension:Widgets виджеты] страницы в пространстве имён <tt>{{ns:widget}}</tt>',
 );
 
@@ -543,7 +543,7 @@ Pôvodne vyvinuté pre [http://www.ardorado.com Ardorado.com]',
 	'widgets-error' => 'Chyba v [[{{ns:widget}}:$1|ovládacom prvku $1]]',
 	'group-widgeteditor' => 'Editori ovládacích prvkov',
 	'group-widgeteditor-member' => 'Editor ovládacích prvkov',
-	'grouppage-widgeteditor' => 'Project:Editori ovládacích prvkov',
+	'grouppage-widgeteditor' => '{{ns:project}}:Editori ovládacích prvkov',
 	'right-editwidgets' => 'upravovať stránky v mennom priestore „{{ns:widget}}“',
 );
 
@@ -556,8 +556,19 @@ $messages['sr-ec'] = array(
 	'widgets-error' => 'Грешка у [[{{ns:widget}}:$1|$1 виџету]]',
 	'group-widgeteditor' => 'Уредници елемената',
 	'group-widgeteditor-member' => '{{GENDER:$1|Уредник елемената|Уредница елемената|Уредник елемената}}',
-	'grouppage-widgeteditor' => 'Project:Уредници елемената',
+	'grouppage-widgeteditor' => '{{ns:project}}:Уредници елемената',
 	'right-editwidgets' => 'прављење и уређивање [http://www.mediawiki.org/wiki/Extension:Widgets виџета] у <tt>{{ns:widget}}</tt> именском простору',
+);
+
+/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+$messages['sr-el'] = array(
+	'widgets-desc' => 'Omogućava administratorima da dodaju vidžete na vikiju uređivanjem stranica unutar {{ns:widget}} imenskog prostora.
+Vidžeti napravljeni od strane zajednice mogu se naći na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
+	'widgets-error' => 'Greška u [[{{ns:widget}}:$1|$1 vidžetu]]',
+	'group-widgeteditor' => 'Urednici elemenata',
+	'group-widgeteditor-member' => '{{GENDER:$1|Urednik elemenata|Urednica elemenata|Urednik elemenata}}',
+	'grouppage-widgeteditor' => '{{ns:project}}:Urednici elemenata',
+	'right-editwidgets' => 'pravljenje i uređivanje [http://www.mediawiki.org/wiki/Extension:Widgets vidžeta] u <tt>{{ns:widget}}</tt> imenskom prostoru',
 );
 
 /** Swedish (Svenska)
@@ -588,7 +599,7 @@ Ang mga widyet na inambag ng pamayan ay matatagpuan sa [http://www.mediawikiwidg
 	'widgets-error' => 'Kamalian sa loob ng [[{{ns:widget}}:$1|widyet na $1]]',
 	'group-widgeteditor' => 'Mga patnugot ng widyet',
 	'group-widgeteditor-member' => 'Patnugot ng widyet',
-	'grouppage-widgeteditor' => 'Project:Mga patnugot ng widyet',
+	'grouppage-widgeteditor' => '{{ns:project}}:Mga patnugot ng widyet',
 	'right-editwidgets' => 'Lumikha at baguhin ang [http://www.mediawiki.org/wiki/Extension:Widgets mga widyet] sa loob ng puwang na pampangalan ng <tt>{{ns:widget}}</tt>',
 );
 
@@ -602,7 +613,7 @@ $messages['uk'] = array(
 	'widgets-error' => 'Помилка [[{{ns:widget}}:$1|віджету $1]]',
 	'group-widgeteditor' => 'Редактори віджетів',
 	'group-widgeteditor-member' => 'Редактор віджетів',
-	'grouppage-widgeteditor' => 'Project:Редактори віджетів',
+	'grouppage-widgeteditor' => '{{ns:project}}:Редактори віджетів',
 	'right-editwidgets' => 'Створювати і редагувати [http://www.mediawiki.org/wiki/Extension:Widgets віджети] у просторі назв <tt>{{ns:widget}}</tt>',
 );
 
@@ -615,7 +626,7 @@ Có thể lấy thêm công cụ đa năng do cộng đồng đóng góp tại [
 	'widgets-error' => 'Lỗi trong [[{{ns:widget}}:$1|công cụ đa năng $1]]',
 	'group-widgeteditor' => 'Người sửa công cụ đa năng',
 	'group-widgeteditor-member' => 'Người sửa công cụ đa năng',
-	'grouppage-widgeteditor' => 'Project:Người sửa công cụ đa năng',
+	'grouppage-widgeteditor' => '{{ns:project}}:Người sửa công cụ đa năng',
 	'right-editwidgets' => 'Tạo và sửa [http://www.mediawiki.org/wiki/Extension:Widgets?uselang=vi công cụ đa năng] trong không gian tên <tt>{{ns:widget}}</tt>',
 );
 
@@ -626,7 +637,7 @@ $messages['yue'] = array(
 	'widgets-error' => '響[[{{ns:widget}}:$1|widget $1]]出錯',
 	'group-widgeteditor' => 'Widget編輯器',
 	'group-widgeteditor-member' => 'Widget編輯器',
-	'grouppage-widgeteditor' => 'Project:Widget編輯器',
+	'grouppage-widgeteditor' => '{{ns:project}}:Widget編輯器',
 	'right-editwidgets' => '響"{{ns:widget}}"空間名度編輯頁',
 );
 
@@ -640,7 +651,7 @@ $messages['zh-hans'] = array(
 	'widgets-error' => '[[{{ns:widget}}:$1|小工具$1]]出错',
 	'group-widgeteditor' => '小工具编辑器',
 	'group-widgeteditor-member' => '{{GENDER:$1|小工具编辑器}}',
-	'grouppage-widgeteditor' => 'Project:小工具编辑器',
+	'grouppage-widgeteditor' => '{{ns:project}}:小工具编辑器',
 	'right-editwidgets' => '在<tt>{{ns:widget}}</tt>名字空间中创建和编辑[http://www.mediawiki.org/wiki/Extension:Widgets 小工具]',
 );
 
@@ -654,7 +665,7 @@ $messages['zh-hant'] = array(
 	'widgets-error' => '在 [[{{ns:widget}}:$1|widget $1]] 發生錯誤',
 	'group-widgeteditor' => 'Widget 編輯器',
 	'group-widgeteditor-member' => '{{GENDER:$1|Widget 編輯器}}',
-	'grouppage-widgeteditor' => 'Project:Widget 編輯器',
+	'grouppage-widgeteditor' => '{{ns:project}}:Widget 編輯器',
 	'right-editwidgets' => '建立並編輯 <tt>{{ns:widget}}</tt> 名子空間中的 [http://www.mediawiki.org/wiki/Extension:Widgets Widgets]',
 );
 
