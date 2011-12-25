@@ -434,7 +434,7 @@ $messages['nn'] = array(
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'widgets-desc' => 'Tillater wikiadministratorer å legge til fri-form skjermelement til wikien ved å redigere siden innen {{ns:widget}}-navnerommet.
 Fellesskaps-bidratte skjermelement kan finnes på [http://mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Feil i [[{{ns:widget}}:$1|skjermelement $1]]',
