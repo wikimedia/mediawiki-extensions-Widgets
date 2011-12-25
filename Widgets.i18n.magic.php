@@ -75,6 +75,11 @@ $magicWords['sr-ec'] = array(
 	'widget' => array( 0, 'виџет' ),
 );
 
+/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+$magicWords['sr-el'] = array(
+	'widget' => array( 0, 'vidžet', 'element' ),
+);
+
 /** Vietnamese (Tiếng Việt) */
 $magicWords['vi'] = array(
 	'widget' => array( 0, 'côngcụđanăng' ),
