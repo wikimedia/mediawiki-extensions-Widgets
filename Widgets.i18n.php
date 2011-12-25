@@ -410,6 +410,19 @@ Widget sumbangan komuniti boleh didapati di [http://www.mediawikiwidgets.org/Mai
 	'right-editwidgets' => 'Mencipta dan menyunting [http://www.mediawiki.org/wiki/Extension:Widgets widget] dalam ruang nama <tt>{{ns:widget}}</tt>',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'widgets-desc' => 'Tillater wikiadministratorer å legge til fri-form skjermelement til wikien ved å redigere siden innen {{ns:widget}}-navnerommet.
+Fellesskaps-bidratte skjermelement kan finnes på [http://mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
+	'widgets-error' => 'Feil i [[{{ns:widget}}:$1|skjermelement $1]]',
+	'group-widgeteditor' => 'Bidragsytere for skjermelement',
+	'group-widgeteditor-member' => 'Bidragsyter for skjermelement',
+	'grouppage-widgeteditor' => '{{ns:project}}:Bidragsytere for skjermelement',
+	'right-editwidgets' => 'Lag og rediger [http://www.mediawiki.org/wiki/Extension:Widgets skjermelement] i <tt>{{ns:widget}}</tt>-navnerommet',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -429,19 +442,6 @@ Door de gemeenschap ontwikkelde widgets zijn te vinden op [http://www.mediawikiw
  */
 $messages['nn'] = array(
 	'right-editwidgets' => 'Endra sider i «{{ns:widget}}»-namnerommet',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'widgets-desc' => 'Tillater wikiadministratorer å legge til fri-form skjermelement til wikien ved å redigere siden innen {{ns:widget}}-navnerommet.
-Fellesskaps-bidratte skjermelement kan finnes på [http://mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
-	'widgets-error' => 'Feil i [[{{ns:widget}}:$1|skjermelement $1]]',
-	'group-widgeteditor' => 'Bidragsytere for skjermelement',
-	'group-widgeteditor-member' => 'Bidragsyter for skjermelement',
-	'grouppage-widgeteditor' => '{{ns:project}}:Bidragsytere for skjermelement',
-	'right-editwidgets' => 'Lag og rediger [http://www.mediawiki.org/wiki/Extension:Widgets skjermelement] i <tt>{{ns:widget}}</tt>-navnerommet',
 );
 
 /** Occitan (Occitan)
