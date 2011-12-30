@@ -348,6 +348,7 @@ Widget creati dalla comunità possono essere trovati su [http://www.mediawikiwid
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author Iwai.masaharu
+ * @author Whym
  * @author 青子守歌
  */
 $messages['ja'] = array(
@@ -355,7 +356,7 @@ $messages['ja'] = array(
 コミュニティから提供されているウィジェットは [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] にあります。',
 	'widgets-error' => '[[{{ns:widget}}:$1|ウィジェット $1]]にエラー',
 	'group-widgeteditor' => 'ウィジェット編集者',
-	'group-widgeteditor-member' => 'ウィジェット編集者',
+	'group-widgeteditor-member' => '{{GENDER:$1|ウィジェット編集者}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:ウィジェット編集者',
 	'right-editwidgets' => '<tt>{{ns:widget}}</tt>名前空間で[http://www.mediawiki.org/wiki/Extension:Widgets ウィジット]を作成または編集する',
 );
@@ -551,13 +552,13 @@ Pôvodne vyvinuté pre [http://www.ardorado.com Ardorado.com]',
  * @author Rancher
  */
 $messages['sr-ec'] = array(
-	'widgets-desc' => 'Омогућава администраторима да додају виџете на викију уређивањем страница унутар {{ns:widget}} именског простора.
-Виџети направљени од стране заједнице могу се наћи на [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
-	'widgets-error' => 'Грешка у [[{{ns:widget}}:$1|$1 виџету]]',
+	'widgets-desc' => 'Омогућава администраторима да додају елементе на викију уређивањем страница унутар именског простора {{ns:widget}}.
+Елементи које је направила заједница могу се наћи на [http://www.mediawikiwidgets.org/Main_Page?setlang=sr-ec MediaWikiWidgets.org]',
+	'widgets-error' => 'Грешка у [[{{ns:widget}}:$1|$1 елементу]]',
 	'group-widgeteditor' => 'Уредници елемената',
 	'group-widgeteditor-member' => '{{GENDER:$1|Уредник елемената|Уредница елемената|Уредник елемената}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Уредници елемената',
-	'right-editwidgets' => 'прављење и уређивање [http://www.mediawiki.org/wiki/Extension:Widgets виџета] у <tt>{{ns:widget}}</tt> именском простору',
+	'right-editwidgets' => 'прављење и уређивање [http://www.mediawiki.org/wiki/Extension:Widgets елемената] у именском простору <tt>{{ns:widget}}</tt>',
 );
 
 /** Serbian (Latin script) (‪Srpski (latinica)‬) */
