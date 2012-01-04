@@ -264,6 +264,7 @@ Vu dr Gmeinschaft aagleiti Widgets chenne unter [http://www.mediawikiwidgets.org
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author Rotemliss
  * @author YaronSh
  */
@@ -272,7 +273,7 @@ $messages['he'] = array(
 ניתן למצוא וידג׳טים שנתרמו על ידי הקהילה ב־[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => "שגיאה ב[[{{ns:widget}}:$1|ווידג'ט $1]]",
 	'group-widgeteditor' => "עורכי וידג'טים",
-	'group-widgeteditor-member' => "עורך וידג'טים",
+	'group-widgeteditor-member' => "{{GENDER:$1|עורך|עורכת}} וידג'טים",
 	'grouppage-widgeteditor' => "{{ns:project}}:עורכי וידג'טים",
 	'right-editwidgets' => 'יצירה ועריכה של [http://www.mediawiki.org/wiki/Extension:Widgets וידג׳טים] במרחב השם <tt>{{ns:widget}}</tt>',
 );
