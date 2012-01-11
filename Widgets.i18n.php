@@ -60,13 +60,14 @@ $messages['ar'] = array(
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'widgets-desc' => 'Дазваляе адміністратарам {{GRAMMAR:родны|{{SITENAME}}}} дадаваць віджэты вольных формаў у {{GRAMMAR:вінавальны|{{SITENAME}}}} праз рэдагаваньне старонак у прасторы назваў {{ns:widget}}. 
 Віджэты, якія падтрымліваюцца супольнасьцю, можна знайсьці на [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Памылка ў [[{{ns:widget}}:$1|віджэце $1]]',
 	'group-widgeteditor' => 'Рэдактар віджэтаў',
-	'group-widgeteditor-member' => 'Рэдактар віджэта',
+	'group-widgeteditor-member' => '{{GENDER:$1|Рэдактар|Рэдактарка}} віджэтаў',
 	'grouppage-widgeteditor' => '{{ns:project}}:Рэдактары віджэтаў',
 	'right-editwidgets' => 'стварэньне і рэдагаваньне [http://www.mediawiki.org/wiki/Extension:Widgets дапаўненьняў] у прасторы назваў <tt>{{ns:widget}}</tt>',
 );
