@@ -342,7 +342,7 @@ $messages['it'] = array(
 Widget creati dalla comunità possono essere trovati su [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Errore nel [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Editori widget',
-	'group-widgeteditor-member' => 'Editore widget',
+	'group-widgeteditor-member' => '{{GENDER:$1|Editore widget|Editrice widget|Editore\\trice widget}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Editori widget',
 	'right-editwidgets' => 'Crea e modifica [http://www.mediawiki.org/wiki/Extension:Widgets widget] nel namespace <tt>{{ns:widget}}</tt>',
 );
