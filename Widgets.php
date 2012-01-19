@@ -16,7 +16,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'Widgets',
 	'descriptionmsg' => 'widgets-desc',
-	'version' => '0.9.2',
+	'version' => '0.10.0',
 	'author' => '[http://www.sergeychernyshev.com Sergey Chernyshev]',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Widgets'
 );
@@ -58,20 +58,7 @@ require_once( $dir . 'smarty/Smarty.class.php' );
 $wgExtensionMessagesFiles['Widgets'] = $dir . 'Widgets.i18n.php';
 $wgAutoloadClasses['WidgetRenderer'] = $dir . 'WidgetRenderer.php';
 
-if( defined('MW_SUPPORTS_LOCALISATIONCACHE') ) {
-	$wgExtensionMessagesFiles['WidgetsMagic'] = $dir . 'Widgets.i18n.magic.php';
-} else {
-	// Pre 1.16alpha backward compatibility for magic words
-	$wgHooks['LanguageGetMagic'][] = 'widgetLanguageGetMagic';
-}
-
-function widgetLanguageGetMagic( &$magicWords, $langCode = 'en' ) {
-	switch ( $langCode ) {
-	default:
-		$magicWords['widget'] = array ( 0, 'widget' );
-	}
-	return true;
-}
+$wgExtensionMessagesFiles['WidgetsMagic'] = $dir . 'Widgets.i18n.magic.php';
 
 // Parser function registration
 $wgExtensionFunctions[] = 'widgetNamespacesInit';
