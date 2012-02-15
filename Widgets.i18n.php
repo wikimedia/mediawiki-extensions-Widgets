@@ -460,6 +460,7 @@ $messages['oc'] = array(
 );
 
 /** Polish (Polski)
+ * @author BeginaFelicysym
  * @author Sp5uhe
  * @author ToSter
  * @author Woytecr
@@ -469,7 +470,7 @@ $messages['pl'] = array(
 Widżety stworzone przez społeczność można odnaleźć na stronie [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Błąd w [[{{ns:widget}}:$1|widżecie $1]]',
 	'group-widgeteditor' => 'Redaktorzy widżetów',
-	'group-widgeteditor-member' => '{{GENDER:$1|Redaktor|Redaktorka}} widżetów',
+	'group-widgeteditor-member' => '{{GENDER:$1|Redaktor widżetów|Redaktorka widżetów}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Redaktorzy widżetów',
 	'right-editwidgets' => 'Tworzenie i edycja [http://www.mediawiki.org/wiki/Extension:Widgets widżetów] w przestrzeni nazw <tt>{{ns:widget}}</tt>',
 );
