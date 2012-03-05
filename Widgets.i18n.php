@@ -196,6 +196,17 @@ Widgets desarrollados comunitariamente pueden ser encontrados en [http://www.med
 	'right-editwidgets' => 'Crear y editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] en el espacio de nombre "{{ns:widget}}"',
 );
 
+/** Persian (فارسی)
+ * @author ZxxZxxZ
+ */
+$messages['fa'] = array(
+	'widgets-error' => 'خطا در [[{{ns:widget}}:$1|ابزار $1]]',
+	'group-widgeteditor' => 'ویرایشگران ابزار',
+	'group-widgeteditor-member' => '{{GENDER:$1|ویرایشگر ابزار}}',
+	'grouppage-widgeteditor' => '{{ns:project}}:ویرایشگران ابزار',
+	'right-editwidgets' => 'ایجاد و ویرایش [http://www.mediawiki.org/wiki/Extension:Widgets ابزارها] در فضای‌نام <tt>{{ns:widget}}</tt>',
+);
+
 /** Finnish (Suomi)
  * @author Cimon Avaro
  * @author Crt
