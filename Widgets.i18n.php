@@ -14,6 +14,9 @@ Community-contributed widgets can be found on [http://www.mediawikiwidgets.org/M
 	'group-widgeteditor-member' => '{{GENDER:$1|widget editor}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Widget editors',
 	'right-editwidgets' => 'Create and edit [http://www.mediawiki.org/wiki/Extension:Widgets widgets] in the <tt>{{ns:widget}}</tt> namespace',
+
+	'group-widgeteditor.css' => '/* CSS placed here will affect widget editors only */', # only translate this message to other languages if you have to change it
+	'group-widgeteditor.js'  => '/* JS placed here will affect widget editors only */', # only translate this message to other languages if you have to change it
 );
 
 /** Message documentation (Message documentation)
