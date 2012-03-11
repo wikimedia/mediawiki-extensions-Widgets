@@ -185,6 +185,7 @@ $messages['eo'] = array(
 
 /** Spanish (Español)
  * @author Antur
+ * @author Armando-Martin
  * @author Crazymadlover
  * @author Diego Grez
  * @author Peter17
@@ -194,7 +195,7 @@ $messages['es'] = array(
 Widgets desarrollados comunitariamente pueden ser encontrados en [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Error en [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Editores de widget',
-	'group-widgeteditor-member' => 'Editor de widget',
+	'group-widgeteditor-member' => '{{GENDER:$1|editor|editora}} de widgets',
 	'grouppage-widgeteditor' => '{{ns:project}}:Editores de widget',
 	'right-editwidgets' => 'Crear y editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] en el espacio de nombre "{{ns:widget}}"',
 );
