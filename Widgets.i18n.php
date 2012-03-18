@@ -598,7 +598,9 @@ Vidžeti napravljeni od strane zajednice mogu se naći na [http://www.mediawikiw
 $messages['sv'] = array(
 	'widgets-error' => 'Fel i [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Widget-redigerare',
-	'group-widgeteditor-member' => 'Widget-redigerare',
+	'group-widgeteditor-member' => '{{GENDER:$1|widget-redigerare}}',
+	'grouppage-widgeteditor' => '{{ns:project}}:Widget-redigerare',
+	'right-editwidgets' => 'Skapa och redigera [http://www.mediawiki.org/wiki/Extension:Widgets widgets] i namnrymden<tt>{{ns:widget}}</tt>',
 );
 
 /** Telugu (తెలుగు)
