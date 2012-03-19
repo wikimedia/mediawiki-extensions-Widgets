@@ -555,15 +555,16 @@ $messages['ru'] = array(
 
 /** Slovak (Slovenčina)
  * @author Helix84
+ * @author Teslaton
  */
 $messages['sk'] = array(
 	'widgets-desc' => 'Umožňuje správcom wiki pridávať ovládacie prvky na wiki úpravou stránky v mennom priestore {{ns:widget}}.
-Pôvodne vyvinuté pre [http://www.ardorado.com Ardorado.com]',
+Prvky vytvorené komunitou možno nájsť na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Chyba v [[{{ns:widget}}:$1|ovládacom prvku $1]]',
 	'group-widgeteditor' => 'Editori ovládacích prvkov',
-	'group-widgeteditor-member' => 'Editor ovládacích prvkov',
+	'group-widgeteditor-member' => '{{GENDER:$1|Editor|Editorka}} ovládacích prvkov',
 	'grouppage-widgeteditor' => '{{ns:project}}:Editori ovládacích prvkov',
-	'right-editwidgets' => 'upravovať stránky v mennom priestore „{{ns:widget}}“',
+	'right-editwidgets' => 'Tvorba a úprava stránok [http://www.mediawiki.org/wiki/Extension:Widgets ovládacích prvkov] v mennom priestore <tt>{{ns:widget}}</tt>',
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
