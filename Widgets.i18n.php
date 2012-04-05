@@ -121,9 +121,11 @@ $messages['cs'] = array(
 Prvky vytvořené komunitou lze nalézt na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Chyba ve [[{{ns:widget}}:$1|widgetu $1]]',
 	'group-widgeteditor' => 'Editoři ovládacích prvků',
-	'group-widgeteditor-member' => 'editor ovládacích prvků',
+	'group-widgeteditor-member' => '{{GENDER:$1|editor ovládacích prvků|editorka ovládacích prvků}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Editoři ovládacích prvků',
 	'right-editwidgets' => 'Tvorba a úprava stránek [http://www.mediawiki.org/wiki/Extension:Widgets ovládacích prvků] ve jmenném prostoru <tt>{{ns:widget}}</tt>',
+	'group-widgeteditor.css' => '/* Zde uvedené CSS bude ovlivňovat pouze editory ovládacích prvků */',
+	'group-widgeteditor.js' => '/* Zde uvedený JavaScript bude použit pouze pro editory ovládacích prvků */',
 );
 
 /** German (Deutsch)
