@@ -564,7 +564,7 @@ $messages['sk'] = array(
 Prvky vytvorené komunitou možno nájsť na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Chyba v [[{{ns:widget}}:$1|ovládacom prvku $1]]',
 	'group-widgeteditor' => 'Editori ovládacích prvkov',
-	'group-widgeteditor-member' => '{{GENDER:$1|Editor|Editorka}} ovládacích prvkov',
+	'group-widgeteditor-member' => '{{GENDER:$1|Redaktor|Redaktorka}} ovládacích prvkov',
 	'grouppage-widgeteditor' => '{{ns:project}}:Editori ovládacích prvkov',
 	'right-editwidgets' => 'Tvorba a úprava stránok [http://www.mediawiki.org/wiki/Extension:Widgets ovládacích prvkov] v mennom priestore <tt>{{ns:widget}}</tt>',
 );
