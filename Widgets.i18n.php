@@ -367,17 +367,18 @@ Widget creati dalla comunità possono essere trovati su [http://www.mediawikiwid
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author Iwai.masaharu
+ * @author Shirayuki
  * @author Whym
  * @author 青子守歌
  */
 $messages['ja'] = array(
 	'widgets-desc' => '管理者が「{{ns:widget}}」名前空間内のページを編集し、ウィキに自由な形式のウィジェットを追加できるようにする。
-コミュニティから提供されているウィジェットは [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] にあります。',
+コミュニティが提供しているウィジェットは [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] にある。',
 	'widgets-error' => '[[{{ns:widget}}:$1|ウィジェット $1]]にエラー',
 	'group-widgeteditor' => 'ウィジェット編集者',
 	'group-widgeteditor-member' => '{{GENDER:$1|ウィジェット編集者}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:ウィジェット編集者',
-	'right-editwidgets' => '<tt>{{ns:widget}}</tt>名前空間で[http://www.mediawiki.org/wiki/Extension:Widgets ウィジット]を作成または編集する',
+	'right-editwidgets' => '<tt>{{ns:widget}}</tt>名前空間で[http://www.mediawiki.org/wiki/Extension:Widgets ウィジェット]を作成または編集',
 );
 
 /** Colognian (Ripoarisch)
