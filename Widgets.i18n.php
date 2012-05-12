@@ -417,6 +417,8 @@ $messages['mk'] = array(
 	'group-widgeteditor-member' => '{{GENDER:$1|уредник на посреднички елементи}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Уредници на посреднички елементи',
 	'right-editwidgets' => 'Создавање и уредување на [http://www.mediawiki.org/wiki/Extension:Widgets направи] во именскиот простор <tt>{{ns:widget}}</tt>',
+	'group-widgeteditor.css' => '/* Тука поставениот CSS ќе се применува само врз уредниците на посреднички елементи (помагала) */',
+	'group-widgeteditor.js' => '/* Тука поставениот JS ќе се применува само врз уредниците на посреднички елементи (помагала) */',
 );
 
 /** Malay (Bahasa Melayu)
