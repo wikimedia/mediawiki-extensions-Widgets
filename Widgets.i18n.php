@@ -236,10 +236,10 @@ Yhteisön tekemiä pienoisohjelmia löytyy osoitteesta [http://www.mediawikiwidg
  * @author Urhixidur
  */
 $messages['fr'] = array(
-	'widgets-desc' => "Permet aux administrateurs du wiki d'ajouter des ''widgets'' (gadgets logiciels) au wiki en modifiant des pages dans l’espace de noms {{ns:widget}}. Les ''widgets'' proposés par la communauté sont disponibles sur [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	'widgets-desc' => "Permet aux administrateurs du wiki d’ajouter des ''widgets'' (gadgets logiciels) au wiki en modifiant des pages dans l’espace de noms {{ns:widget}}. Les ''widgets'' proposés par la communauté sont disponibles sur [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	'widgets-error' => 'Erreur dans le [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Modificateurs de widgets',
-	'group-widgeteditor-member' => '{{GENDER:$1|Éditeur de widget}}',
+	'group-widgeteditor-member' => '{{GENDER:$1|Modificateur de widget}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Modificateurs de widgets',
 	'right-editwidgets' => 'Créer et modifier les [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dans l’espace de noms « {{ns:widget}} »',
 );
@@ -401,7 +401,7 @@ Divärse Lück han ehr <i lang="en">Widgets</i> op <i lang="en">[http://www.medi
 $messages['lb'] = array(
 	'widgets-error' => 'Feeler an [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Widget-Editeuren',
-	'group-widgeteditor-member' => 'Widget-Editeur',
+	'group-widgeteditor-member' => '{{GENDER:$1|Widget-Editeur}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Widget Editeuren',
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets widgets] am <tt>{{ns:widget}}</tt> Nummraum uleeën an  änneren',
 );
