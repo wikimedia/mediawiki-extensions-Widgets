@@ -25,9 +25,19 @@ $magicWords['ce'] = array(
 	'widget' => array( 0, 'тlехьажар', 'виджет', 'widget' ),
 );
 
+/** German (Deutsch) */
+$magicWords['de'] = array(
+	'widget' => array( 0, 'steuerelement' ),
+);
+
 /** Esperanto (Esperanto) */
 $magicWords['eo'] = array(
 	'widget' => array( 0, 'fenestraĵo', 'fenestrajxo' ),
+);
+
+/** Persian (فارسی) */
+$magicWords['fa'] = array(
+	'widget' => array( 0, 'ابزار' ),
 );
 
 /** Japanese (日本語) */
