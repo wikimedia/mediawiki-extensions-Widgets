@@ -25,6 +25,7 @@ Community-contributed widgets can be found on [http://www.mediawikiwidgets.org/M
  * @author Purodha
  * @author Siebrand
  * @author Umherirrender
+ * @author 아라
  */
 $messages['qqq'] = array(
 	'widgets-desc' => '{{desc}}',
@@ -32,6 +33,8 @@ $messages['qqq'] = array(
 	'group-widgeteditor-member' => '{{doc-group|widgeteditor|member}}',
 	'grouppage-widgeteditor' => '{{doc-group|widgeteditor|page}}',
 	'right-editwidgets' => '{{doc-right|editwidgets}}',
+	'group-widgeteditor.css' => '{{doc-group|widgeteditor}}',
+	'group-widgeteditor.js' => '{{doc-group|widgeteditor}}',
 );
 
 /** Gheg Albanian (Gegë)
@@ -140,11 +143,11 @@ Prvky vytvořené komunitou lze nalézt na [http://www.mediawikiwidgets.org/Main
 $messages['de'] = array(
 	'widgets-desc' => 'Ermöglicht das Hinzufügen von Freiformat-Widgets durch das Bearbeiten von Seiten im Namensraum {{ns:widget}}.
 Vorhandene Widgets werden auf der Website [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] gesammelt',
-	'widgets-error' => 'Fehler im [[{{ns:widget}}:$1|Widget $1]]',
+	'widgets-error' => 'Fehler beim [[{{ns:widget}}:$1|Widget $1]]',
 	'group-widgeteditor' => 'Widget-Bearbeiter',
 	'group-widgeteditor-member' => '{{GENDER:$1|Widget-Bearbeiter|Widget-Bearbeiterin}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Widget-Bearbeiter',
-	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] im <tt>{{ns:widget}}</tt>-Namensraum bearbeiten und erstellen',
+	'right-editwidgets' => '[https://www.mediawiki.org/wiki/Extension:Widgets Widgets] im <code>{{ns:widget}}</code>-Namensraum bearbeiten und erstellen',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -380,6 +383,16 @@ $messages['ja'] = array(
 	'group-widgeteditor-member' => '{{GENDER:$1|ウィジェット編集者}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:ウィジェット編集者',
 	'right-editwidgets' => '<tt>{{ns:widget}}</tt>名前空間で[http://www.mediawiki.org/wiki/Extension:Widgets ウィジェット]を作成または編集',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'group-widgeteditor-member' => '{{GENDER:$1|위젯 편집자}}',
+	'grouppage-widgeteditor' => '{{ns:project}}:위젯 편집자',
+	'group-widgeteditor.css' => '/* 이 CSS 설정은 위젯 편집자에만 적용됩니다 */',
+	'group-widgeteditor.js' => '/* 이 자바스크립트 설정은 위젯 편집자에만 적용됩니다 */',
 );
 
 /** Colognian (Ripoarisch)
