@@ -377,7 +377,7 @@ Widget creati dalla comunità possono essere trovati su [http://www.mediawikiwid
  */
 $messages['ja'] = array(
 	'widgets-desc' => '管理者が「{{ns:widget}}」名前空間内のページを編集し、ウィキに自由な形式のウィジェットを追加できるようにする。
-コミュニティが提供しているウィジェットは [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] にある。',
+コミュニティが提供しているウィジェットは [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] にある',
 	'widgets-error' => '[[{{ns:widget}}:$1|ウィジェット $1]]にエラー',
 	'group-widgeteditor' => 'ウィジェット編集者',
 	'group-widgeteditor-member' => '{{GENDER:$1|ウィジェット編集者}}',
