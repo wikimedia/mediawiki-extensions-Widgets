@@ -50,7 +50,7 @@ $magicWords['ko'] = array(
 	'widget' => array( 0, '위젯' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $magicWords['mk'] = array(
 	'widget' => array( 0, 'посредничкиелемент' ),
 );
@@ -70,7 +70,7 @@ $magicWords['or'] = array(
 	'widget' => array( 0, 'ବିଗେଟ' ),
 );
 
-/** Russian (Русский) */
+/** Russian (русский) */
 $magicWords['ru'] = array(
 	'widget' => array( 0, 'виджет' ),
 );
@@ -80,14 +80,19 @@ $magicWords['si'] = array(
 	'widget' => array( 0, 'ගැජට්', 'widget' ),
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
 $magicWords['sr-ec'] = array(
 	'widget' => array( 0, 'виџет' ),
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $magicWords['sr-el'] = array(
 	'widget' => array( 0, 'vidžet', 'element' ),
+);
+
+/** Ukrainian (українська) */
+$magicWords['uk'] = array(
+	'widget' => array( 0, 'віджет' ),
 );
 
 /** Vietnamese (Tiếng Việt) */
@@ -95,7 +100,7 @@ $magicWords['vi'] = array(
 	'widget' => array( 0, 'côngcụđanăng' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $magicWords['zh-hans'] = array(
 	'widget' => array( 0, '小工具' ),
 );
