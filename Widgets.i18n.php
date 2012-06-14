@@ -79,7 +79,7 @@ $messages['be-tarask'] = array(
 	'right-editwidgets' => 'стварэньне і рэдагаваньне [http://www.mediawiki.org/wiki/Extension:Widgets дапаўненьняў] у прасторы назваў <tt>{{ns:widget}}</tt>',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -93,7 +93,7 @@ Ar widgetoù kinniget gant ar gumuniezh a gaver war [http://www.mediawikiwidgets
 	'right-editwidgets' => 'Krouiñ ha kemmañ ar [http://www.mediawiki.org/wiki/Extension:Widgets widgetoù] en esaouenn anv <tt>{{ns:widget}}<tt>',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -106,7 +106,7 @@ Prvobitno razvijeni dodaci se mogu naći na [http://www.mediawikiwidgets.org/Mai
 	'right-editwidgets' => 'Pravljenje i uređivanje [http://www.mediawiki.org/wiki/Extension:Widgets widgeta] u imenskom prostoru <tt>{{ns:widget}}</tt>',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Paucabot
  * @author SMP
  */
@@ -114,7 +114,7 @@ $messages['ca'] = array(
 	'right-editwidgets' => "Crear i editar [http://www.mediawiki.org/wiki/Extension:Widgets ginys] a l'espai de noms <tt>{{ns:widget}}</tt>",
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Kuvaly
  * @author Matěj Grabovský
  * @author Mormegil
@@ -189,7 +189,7 @@ $messages['eo'] = array(
 	'right-editwidgets' => 'Krei kaj redakti [http://www.mediawiki.org/vikia/Extension:Widgets fenestraĵojn] en la nomspaco <tt>{{ns:widget}}</tt>',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Antur
  * @author Armando-Martin
  * @author Crazymadlover
@@ -217,7 +217,7 @@ $messages['fa'] = array(
 	'right-editwidgets' => 'ایجاد و ویرایش [http://www.mediawiki.org/wiki/Extension:Widgets ابزارها] در فضای‌نام <tt>{{ns:widget}}</tt>',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Cimon Avaro
  * @author Crt
  * @author Nike
@@ -232,7 +232,7 @@ Yhteisön tekemiä pienoisohjelmia löytyy osoitteesta [http://www.mediawikiwidg
 	'right-editwidgets' => 'Luoda ja muokata [http://www.mediawiki.org/wiki/Extension:Widgets pienoisohjelmia] nimiavaruudessa <tt>{{ns:widget}}</tt>',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  * @author IAlex
  * @author Jean-Frédéric
@@ -247,7 +247,7 @@ $messages['fr'] = array(
 	'right-editwidgets' => 'Créer et modifier les [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dans l’espace de noms « {{ns:widget}} »',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -313,7 +313,7 @@ Wot zhromadźenstwa wutowrjene miniprogramy móžeš na [http://www.mediawikiwid
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Woknowe elementy] w mjenowym rumje <tt>{{ns:widget}}</tt> wutworić a wobdźěłać',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dj
  * @author Glanthor Reviol
  */
@@ -326,7 +326,7 @@ $messages['hu'] = array(
 	'right-editwidgets' => 'widgetek létrehozása és szerkesztése a <tt>{{ns:widget}}</tt> névtérben',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -353,7 +353,7 @@ komunitas kontribusi widgets dapat di temuai pada [http://www.mediawikiwidgets.o
 	'right-editwidgets' => 'Buat dan Sunting halaman [http://www.mediawiki.org/wiki/Extension:Widgets widgets]  di <tt>{{ns:widget}}</tt> ruang nama',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Civvì
  * @author Darth Kule
@@ -424,7 +424,7 @@ $messages['lb'] = array(
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets widgets] am <tt>{{ns:widget}}</tt> Nummraum uleeën an  änneren',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -479,14 +479,14 @@ Door de gemeenschap ontwikkelde widgets zijn te vinden op [http://www.mediawikiw
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] aanmaken en bewerken in de naamruimte <tt>{{ns:widget}}</tt>',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  */
 $messages['nn'] = array(
 	'right-editwidgets' => 'Endra sider i «{{ns:widget}}»-namnerommet',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -498,7 +498,7 @@ $messages['oc'] = array(
 	'right-editwidgets' => "Crear e modificar las [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dins l'espaci de noms « {{ns:widget}} »",
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Sp5uhe
  * @author ToSter
@@ -528,7 +528,7 @@ Dij widget creà da la comunità a peulo esse trovà su [http://www.mediawikiwid
 	'right-editwidgets' => 'Crea e modìfica [http://www.mediawiki.org/wiki/Extension:Widgets widgets] ant lë spassi nominal <tt>{{ns:widget}}</tt>',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
@@ -541,7 +541,7 @@ Widgets fornecidos pela comunidade podem ser encontrados na [http://www.mediawik
 	'right-editwidgets' => 'Criar e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Giro720
  * @author Helder.wiki
@@ -557,14 +557,14 @@ Widgets fornecidos pela comunidade podem ser encontrados na [http://www.mediawik
 	'right-editwidgets' => 'Criar e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'widgets-error' => "Errore jndr'à [[{{ns:widget}}:$1|widget $1]]",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author G0rn
  * @author Александр Сигачёв
  */
@@ -577,7 +577,7 @@ $messages['ru'] = array(
 	'right-editwidgets' => 'создавать и редактировать [http://www.mediawiki.org/wiki/Extension:Widgets виджеты] страницы в пространстве имён <tt>{{ns:widget}}</tt>',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  * @author Teslaton
  */
@@ -591,7 +591,7 @@ Prvky vytvorené komunitou možno nájsť na [http://www.mediawikiwidgets.org/Ma
 	'right-editwidgets' => 'Tvorba a úprava stránok [http://www.mediawiki.org/wiki/Extension:Widgets ovládacích prvkov] v mennom priestore <tt>{{ns:widget}}</tt>',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -604,7 +604,7 @@ $messages['sr-ec'] = array(
 	'right-editwidgets' => 'прављење и уређивање [http://www.mediawiki.org/wiki/Extension:Widgets елемената] у именском простору <tt>{{ns:widget}}</tt>',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'widgets-desc' => 'Omogućava administratorima da dodaju vidžete na vikiju uređivanjem stranica unutar {{ns:widget}} imenskog prostora.
 Vidžeti napravljeni od strane zajednice mogu se naći na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
@@ -615,7 +615,7 @@ Vidžeti napravljeni od strane zajednice mogu se naći na [http://www.mediawikiw
 	'right-editwidgets' => 'pravljenje i uređivanje [http://www.mediawiki.org/wiki/Extension:Widgets vidžeta] u <tt>{{ns:widget}}</tt> imenskom prostoru',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Ozp
  * @author Per
  * @author WikiPhoenix
@@ -649,7 +649,7 @@ Ang mga widyet na inambag ng pamayan ay matatagpuan sa [http://www.mediawikiwidg
 	'right-editwidgets' => 'Lumikha at baguhin ang [http://www.mediawiki.org/wiki/Extension:Widgets mga widyet] sa loob ng puwang na pampangalan ng <tt>{{ns:widget}}</tt>',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Prima klasy4na
  * @author Тест
  */
@@ -687,7 +687,7 @@ $messages['yue'] = array(
 	'right-editwidgets' => '響"{{ns:widget}}"空間名度編輯頁',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Anakmalaysia
  * @author PhiLiP
  * @author Xiaomingyan
@@ -701,7 +701,7 @@ $messages['zh-hans'] = array(
 	'right-editwidgets' => '在<tt>{{ns:widget}}</tt>名字空间中创建和编辑[http://www.mediawiki.org/wiki/Extension:Widgets 小工具]',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Anakmalaysia
  * @author Mark85296341
  */
