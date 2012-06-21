@@ -33,10 +33,6 @@ if ( !defined( 'NS_WIDGET_TALK' ) ) {
    throw new MWException( 'Configuration error. Do not define NS_WIDGET_TALK, it is automatically set based on NS_WIDGET.' );
 }
 
-// Define new namespaces
-$wgExtraNamespaces[NS_WIDGET] = 'Widget';
-$wgExtraNamespaces[NS_WIDGET_TALK] = 'Widget_talk';
-
 // Support subpages only for talk pages by default
 $wgNamespacesWithSubpages[NS_WIDGET_TALK] = true;
 
@@ -56,6 +52,7 @@ $dir = dirname( __FILE__ ) . '/';
 // Initialize Smarty
 require_once( $dir . 'smarty/Smarty.class.php' );
 $wgExtensionMessagesFiles['Widgets'] = $dir . 'Widgets.i18n.php';
+$wgExtensionMessagesFiles['WidgetsNamespaces'] = $dir . 'Widgets.i18n.namespaces.php';
 $wgAutoloadClasses['WidgetRenderer'] = $dir . 'WidgetRenderer.php';
 
 $wgExtensionMessagesFiles['WidgetsMagic'] = $dir . 'Widgets.i18n.magic.php';
@@ -87,7 +84,7 @@ function processEncodedWidgetOutput( &$out, &$text ) {
 }
 
 function widgetNamespacesInit() {
-	global $wgGroupPermissions, $wgNamespaceProtection, $wgWidgetsUseFlaggedRevs;
+	global $wgNamespaceProtection, $wgWidgetsUseFlaggedRevs;
 
 	if ( !$wgWidgetsUseFlaggedRevs ) {
 		// Setting required namespace permission rights
