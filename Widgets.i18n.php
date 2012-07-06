@@ -644,7 +644,7 @@ $messages['tl'] = array(
 Ang mga widyet na inambag ng pamayan ay matatagpuan sa [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Kamalian sa loob ng [[{{ns:widget}}:$1|widyet na $1]]',
 	'group-widgeteditor' => 'Mga patnugot ng widyet',
-	'group-widgeteditor-member' => 'Patnugot ng widyet',
+	'group-widgeteditor-member' => '{{GENDER:$1|patnugot ng widyet}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Mga patnugot ng widyet',
 	'right-editwidgets' => 'Lumikha at baguhin ang [http://www.mediawiki.org/wiki/Extension:Widgets mga widyet] sa loob ng puwang na pampangalan ng <tt>{{ns:widget}}</tt>',
 );
