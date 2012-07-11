@@ -20,7 +20,7 @@ $magicWords['arz'] = array(
 	'widget' => array( 0, 'ودجة', 'widget' ),
 );
 
-/** Chechen (Нохчийн) */
+/** Chechen (нохчийн) */
 $magicWords['ce'] = array(
 	'widget' => array( 0, 'тlехьажар', 'виджет', 'widget' ),
 );

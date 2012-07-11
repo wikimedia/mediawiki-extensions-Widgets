@@ -64,7 +64,7 @@ $messages['ar'] = array(
 	'right-editwidgets' => 'إنشاء وتحرير [http://www.mediawiki.org/wiki/Extension:Widgets widgets] في الــ <tt>{{ns:widget}}</tt> مكان الاسم',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -150,7 +150,7 @@ Vorhandene Widgets werden auf der Website [http://www.mediawikiwidgets.org/Main_
 	'right-editwidgets' => '[https://www.mediawiki.org/wiki/Extension:Widgets Widgets] im <code>{{ns:widget}}</code>-Namensraum bearbeiten und erstellen',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -258,7 +258,7 @@ $messages['frp'] = array(
 	'right-editwidgets' => 'Fâre et changiér los [http://www.mediawiki.org/wiki/Extension:Widgets vouidgèts] dens l’èspâço de noms « {{ns:widget}} »',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -300,7 +300,7 @@ $messages['he'] = array(
 	'right-editwidgets' => 'יצירה ועריכה של [http://www.mediawiki.org/wiki/Extension:Widgets וידג׳טים] במרחב השם <tt>{{ns:widget}}</tt>',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -452,7 +452,7 @@ Widget sumbangan komuniti boleh didapati di [http://www.mediawikiwidgets.org/Mai
 	'right-editwidgets' => 'Mencipta dan menyunting [http://www.mediawiki.org/wiki/Extension:Widgets widget] dalam ruang nama <tt>{{ns:widget}}</tt>',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
