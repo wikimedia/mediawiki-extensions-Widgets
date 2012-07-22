@@ -8,16 +8,22 @@ class WidgetRenderer {
     public static function renderWidget ( &$parser, $widgetName ) {
         global $IP;
 
-        $smarty = new Smarty;
+        $smarty = new Smarty();
         $smarty->left_delimiter = '<!--{';
         $smarty->right_delimiter = '}-->';
-        $smarty->compile_dir  = "$IP/extensions/Widgets/compiled_templates/";
+
+		$smarty->setCompileDir( "$IP/extensions/Widgets/templates_c/" );
+		$smarty->setTemplateDir( "$IP/extensions/Widgets/templates/" );
+		$smarty->setCacheDir( "$IP/extensions/Widgets/cache/" );
+		$smarty->setConfigDir( "$IP/extensions/Widgets/configs/" );
 
         // registering custom Smarty plugins
-        $smarty->plugins_dir[] = "$IP/extensions/Widgets/smarty_plugins/";
+        //$smarty->setPluginsDir( "$IP/extensions/Widgets/smarty_plugins/" );
 
-        $smarty->security = true;
-        $smarty->security_settings = array(
+        $smarty->enableSecurity();
+
+		/*
+        $smarty-> = array(
             'IF_FUNCS' => array(
                     'is_array',
                     'isset',
@@ -31,18 +37,18 @@ class WidgetRenderer {
                     'null'
                     ),
             'MODIFIER_FUNCS' => array( 'validate' )
-        );
+        ); */
 
-        // register the resource name "db"
-        $smarty->register_resource(
-            'wiki',
-            array(
-                array( 'WidgetRenderer', 'wiki_get_template' ),
-                array( 'WidgetRenderer', 'wiki_get_timestamp' ),
-                array( 'WidgetRenderer', 'wiki_get_secure' ),
-                array( 'WidgetRenderer', 'wiki_get_trusted' )
-            )
-        );
+		// register the resource name "wiki"
+		$smarty->registerResource(
+			'wiki',
+			array(
+				array( 'WidgetRenderer', 'wiki_get_template' ),
+				array( 'WidgetRenderer', 'wiki_get_timestamp' ),
+				array( 'WidgetRenderer', 'wiki_get_secure' ),
+				array( 'WidgetRenderer', 'wiki_get_trusted' )
+			)
+		);
 
         $params = func_get_args();
         array_shift( $params ); # first one is parser - we don't need it
@@ -109,12 +115,12 @@ class WidgetRenderer {
         try {
             $output = $smarty->fetch( "wiki:$widgetName" );
         } catch ( Exception $e ) {
-
+			throw $e;
             return '<div class=\"error\">' . wfMsgExt( 'widgets-desc', array( 'parsemag' ), htmlentities($widgetName) ) . '</div>';
         }
 
         // Hide the widget from the parser
-        $output = 'ENCODED_CONTENT '.base64_encode($output).' END_ENCODED_CONTENT';
+        $output = 'ENCODED_CONTENT '.base64_encode( $output ).' END_ENCODED_CONTENT';
         return $output;
     }
 
