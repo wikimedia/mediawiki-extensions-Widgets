@@ -647,6 +647,8 @@ Ang mga widyet na inambag ng pamayan ay matatagpuan sa [http://www.mediawikiwidg
 	'group-widgeteditor-member' => '{{GENDER:$1|patnugot ng widyet}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Mga patnugot ng widyet',
 	'right-editwidgets' => 'Lumikha at baguhin ang [http://www.mediawiki.org/wiki/Extension:Widgets mga widyet] sa loob ng puwang na pampangalan ng <tt>{{ns:widget}}</tt>',
+	'group-widgeteditor.css' => '/* Ang inilagay na Mga Pilas ng Estilong Lumalagaslas (Cascading Style Sheets o CSS) dito ay makakaapekto lamang sa mga patnugot ng widyet */',
+	'group-widgeteditor.js' => '/* Ang JavaScript o JS na inilagay dito ay makakaapekto lamang sa mga patnugot ng widyet */',
 );
 
 /** Ukrainian (українська)
