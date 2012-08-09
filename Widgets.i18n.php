@@ -530,13 +530,14 @@ Dij widget creà da la comunità a peulo esse trovà su [http://www.mediawikiwid
 
 /** Portuguese (português)
  * @author Hamilton Abreu
+ * @author SandroHc
  */
 $messages['pt'] = array(
 	'widgets-desc' => "Permite que os administradores da wiki adicionem ''widgets free-form'' à wiki, editando páginas no espaço nominal {{ns:widget}}.
 Widgets fornecidos pela comunidade podem ser encontrados na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	'widgets-error' => "Erro no [[{{ns:widget}}:$1|''widget'' $1]]",
 	'group-widgeteditor' => "Editores de ''widgets''",
-	'group-widgeteditor-member' => "Editor de ''widgets''",
+	'group-widgeteditor-member' => "{{GENDER:$1|editor|editora}} de ''widgets''",
 	'grouppage-widgeteditor' => "{{ns:project}}:Editores de ''widgets''",
 	'right-editwidgets' => 'Criar e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>',
 );
