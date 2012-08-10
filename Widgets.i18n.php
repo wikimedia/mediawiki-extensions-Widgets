@@ -558,6 +558,13 @@ Widgets fornecidos pela comunidade podem ser encontrados na [http://www.mediawik
 	'right-editwidgets' => 'Criar e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>',
 );
 
+/** Romanian (română)
+ * @author Stelistcristi
+ */
+$messages['ro'] = array(
+	'group-widgeteditor' => 'Editoarele de widgeturi',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
