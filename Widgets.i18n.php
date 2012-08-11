@@ -164,13 +164,14 @@ Miniprogramy, kótarež su se napórali wót zromaźeństwa, móžoš na  [http:
 );
 
 /** Greek (Ελληνικά)
+ * @author Geraki
  * @author Lou
  * @author Omnipaedista
  * @author ZaDiak
  */
 $messages['el'] = array(
-	'widgets-desc' => 'Επιτρέπει στους βικι-διαχειριστές να προσθέσουν ελεύθερης μορφής γουίτζετ στο βίκι μέσω της επεξεργασίας σελίδων μέσα στον ονοματικό χώρο {{ns:widget}}.
-Ανεπτυγμένο αρχικά για το [http://www.ardorado.com Ardorado.com]',
+	'widgets-desc' => 'Επιτρέπει στους διαχειριστές του wiki να προσθέσουν ελεύθερης μορφής widgets στο wiki μέσω της επεξεργασίας σελίδων εντός του χώρου ονομάτων {{ns:widget}}.
+Widget φτιαγμένα από την κοινότητα μπορούν να βρεθούν στο [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Σφάλμα στο [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Επεξεργαστές Widget',
 	'group-widgeteditor-member' => 'Επεξεργαστής Widget',
