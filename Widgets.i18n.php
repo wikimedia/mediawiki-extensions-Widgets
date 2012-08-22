@@ -560,10 +560,11 @@ Widgets fornecidos pela comunidade podem ser encontrados na [http://www.mediawik
 );
 
 /** Romanian (română)
+ * @author Minisarm
  * @author Stelistcristi
  */
 $messages['ro'] = array(
-	'group-widgeteditor' => 'Editoarele de widgeturi',
+	'group-widgeteditor' => 'Editori de widgeturi',
 );
 
 /** tarandíne (tarandíne)
