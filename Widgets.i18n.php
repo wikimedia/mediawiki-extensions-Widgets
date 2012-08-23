@@ -383,7 +383,7 @@ $messages['ja'] = array(
 	'group-widgeteditor' => 'ウィジェット編集者',
 	'group-widgeteditor-member' => '{{GENDER:$1|ウィジェット編集者}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:ウィジェット編集者',
-	'right-editwidgets' => '<tt>{{ns:widget}}</tt>名前空間で[http://www.mediawiki.org/wiki/Extension:Widgets ウィジェット]を作成または編集',
+	'right-editwidgets' => '<tt>{{ns:widget}}</tt>名前空間で[http://www.mediawiki.org/wiki/Extension:Widgets ウィジェット]を作成/編集',
 );
 
 /** Korean (한국어)
