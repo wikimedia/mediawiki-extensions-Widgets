@@ -683,9 +683,11 @@ $messages['vi'] = array(
 Có thể lấy thêm công cụ đa năng do cộng đồng đóng góp tại [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].',
 	'widgets-error' => 'Lỗi trong [[{{ns:widget}}:$1|công cụ đa năng $1]]',
 	'group-widgeteditor' => 'Người sửa công cụ đa năng',
-	'group-widgeteditor-member' => 'Người sửa công cụ đa năng',
+	'group-widgeteditor-member' => 'người sửa công cụ đa năng',
 	'grouppage-widgeteditor' => '{{ns:project}}:Người sửa công cụ đa năng',
 	'right-editwidgets' => 'Tạo và sửa [http://www.mediawiki.org/wiki/Extension:Widgets?uselang=vi công cụ đa năng] trong không gian tên <tt>{{ns:widget}}</tt>',
+	'group-widgeteditor.css' => '/* Mã CSS tại đây sẽ chỉ ảnh hưởng đến những người sửa công cụ đa năng */',
+	'group-widgeteditor.js' => '/* Mã JS tại đây sẽ chỉ ảnh hưởng đến những người sửa công cụ đa năng */',
 );
 
 /** Cantonese (粵語) */
