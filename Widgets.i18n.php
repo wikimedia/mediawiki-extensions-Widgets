@@ -53,10 +53,11 @@ $messages['aln'] = array(
  * @author ;Hiba;1
  * @author DRIHEM
  * @author OsamaK
+ * @author زكريا
  */
 $messages['ar'] = array(
-	'widgets-desc' => 'يسمح لمدراء الويكي بإضافة ودجات حرة الشكل إلى الويكي عن طريق تعديل الصفحات من {{ns:widget}} مساحة الإسم.
-يمكن إيجاد ودجات مقدمة من طرف المجتمع على [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
+	'widgets-desc' => 'يتيح لإداريي الويكي إضافة ودجات حرة الشكل إلى الويكي عن طريق تعديل صفحات نطاق {{ns:widget}}.
+الودجات التي يساهم بها المجتمع توجد في [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'خطأ في [[{{ns:widget}}:$1|الودجة $1]]',
 	'group-widgeteditor' => 'محررو الودجات',
 	'group-widgeteditor-member' => '{{GENDER:$1|محرر ودجات}}',
