@@ -457,6 +457,7 @@ Widget sumbangan komuniti boleh didapati di [http://www.mediawikiwidgets.org/Mai
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Danmichaelo
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -464,7 +465,7 @@ $messages['nb'] = array(
 Fellesskaps-bidratte skjermelement kan finnes på [http://mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Feil i [[{{ns:widget}}:$1|skjermelement $1]]',
 	'group-widgeteditor' => 'Bidragsytere for skjermelement',
-	'group-widgeteditor-member' => 'Bidragsyter for skjermelement',
+	'group-widgeteditor-member' => '{{GENDER:$1|Bidragsyter for skjermelement}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Bidragsytere for skjermelement',
 	'right-editwidgets' => 'Lag og rediger [http://www.mediawiki.org/wiki/Extension:Widgets skjermelement] i <tt>{{ns:widget}}</tt>-navnerommet',
 );
