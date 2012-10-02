@@ -65,7 +65,7 @@ $messages['ar'] = array(
 	'right-editwidgets' => 'إنشاء وتحرير [http://www.mediawiki.org/wiki/Extension:Widgets widgets] في الــ <tt>{{ns:widget}}</tt> مكان الاسم',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -456,7 +456,7 @@ Widget sumbangan komuniti boleh didapati di [http://www.mediawikiwidgets.org/Mai
 	'right-editwidgets' => 'Mencipta dan menyunting [http://www.mediawiki.org/wiki/Extension:Widgets widget] dalam ruang nama <tt>{{ns:widget}}</tt>',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Danmichaelo
  * @author Nghtwlkr
  */
@@ -484,7 +484,7 @@ Door de gemeenschap ontwikkelde widgets zijn te vinden op [http://www.mediawikiw
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] aanmaken en bewerken in de naamruimte <tt>{{ns:widget}}</tt>',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  */
 $messages['nn'] = array(
@@ -605,7 +605,7 @@ Prvky vytvorené komunitou možno nájsť na [http://www.mediawikiwidgets.org/Ma
 	'right-editwidgets' => 'Tvorba a úprava stránok [http://www.mediawiki.org/wiki/Extension:Widgets ovládacích prvkov] v mennom priestore <tt>{{ns:widget}}</tt>',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -618,7 +618,7 @@ $messages['sr-ec'] = array(
 	'right-editwidgets' => 'прављење и уређивање [http://www.mediawiki.org/wiki/Extension:Widgets елемената] у именском простору <tt>{{ns:widget}}</tt>',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'widgets-desc' => 'Omogućava administratorima da dodaju vidžete na vikiju uređivanjem stranica unutar {{ns:widget}} imenskog prostora.
 Vidžeti napravljeni od strane zajednice mogu se naći na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
@@ -705,7 +705,7 @@ $messages['yue'] = array(
 	'right-editwidgets' => '響"{{ns:widget}}"空間名度編輯頁',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Anakmalaysia
  * @author PhiLiP
  * @author Xiaomingyan
@@ -719,7 +719,7 @@ $messages['zh-hans'] = array(
 	'right-editwidgets' => '在<tt>{{ns:widget}}</tt>名字空间中创建和编辑[http://www.mediawiki.org/wiki/Extension:Widgets 小工具]',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Anakmalaysia
  * @author Mark85296341
  */
