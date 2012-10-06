@@ -630,11 +630,13 @@ Vidžeti napravljeni od strane zajednice mogu se naći na [http://www.mediawikiw
 );
 
 /** Swedish (svenska)
+ * @author Martinwiss
  * @author Ozp
  * @author Per
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'widgets-desc' => 'Gör så att administratörer kan lägga till egna manicker (widgets) till wikin genom att skapa sidor i namnrymden {{ns:widget}}. Manicker som andra har skapat finn på [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].',
 	'widgets-error' => 'Fel i [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Widget-redigerare',
 	'group-widgeteditor-member' => '{{GENDER:$1|widget-redigerare}}',
