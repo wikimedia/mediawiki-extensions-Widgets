@@ -41,11 +41,11 @@ $messages['qqq'] = array(
  * @author Mdupont
  */
 $messages['aln'] = array(
-	'widgets-desc' => 'Wiki jep mundësin administratorëve të shtoni pa-formë Widgets në wiki nga faqet redaktimi brenda {{ns:widget}} hapësira. Zhvilluar Fillimisht për [http://www.ardorado.com Ardorado.com]',
+	'widgets-desc' => 'Wiki jep mundësin administratorëve të shtoni pa-formë Widgets në wiki nga faqet redaktimi brenda {{ns:widget}} hapësira. Zhvilluar Fillimisht për [http://www.ardorado.com Ardorado.com]', # Fuzzy
 	'widgets-error' => 'Gabim në [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'redaktorët widget',
-	'group-widgeteditor-member' => 'editor widget',
-	'grouppage-widgeteditor' => 'Projekti: redaktorët widget',
+	'group-widgeteditor-member' => 'editor widget', # Fuzzy
+	'grouppage-widgeteditor' => 'Projekti: redaktorët widget', # Fuzzy
 	'right-editwidgets' => 'Krijo dhe ndrysho http://www.mediawiki.org/wiki/Extension:Widgets [Widgets] në <tt>{{ns:widget}}</tt> namespace',
 );
 
@@ -102,7 +102,7 @@ $messages['bs'] = array(
 Prvobitno razvijeni dodaci se mogu naći na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].',
 	'widgets-error' => 'Greška u [[{{ns:widget}}:$1|widgetu $1]]',
 	'group-widgeteditor' => 'Uređivači dodataka',
-	'group-widgeteditor-member' => 'Uređivač dodataka',
+	'group-widgeteditor-member' => 'Uređivač dodataka', # Fuzzy
 	'grouppage-widgeteditor' => '{{ns:project}}:Uređivač dodataka',
 	'right-editwidgets' => 'Pravljenje i uređivanje [http://www.mediawiki.org/wiki/Extension:Widgets widgeta] u imenskom prostoru <tt>{{ns:widget}}</tt>',
 );
@@ -175,7 +175,7 @@ $messages['el'] = array(
 Widget φτιαγμένα από την κοινότητα μπορούν να βρεθούν στο [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Σφάλμα στο [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Επεξεργαστές Widget',
-	'group-widgeteditor-member' => 'Επεξεργαστής Widget',
+	'group-widgeteditor-member' => 'Επεξεργαστής Widget', # Fuzzy
 	'grouppage-widgeteditor' => '{{ns:project}}:Επεξεργαστές Widget',
 	'right-editwidgets' => 'Δημιουργία και επεξεργασία [http://www.mediawiki.org/wiki/Extension:Widgets widgets] στην περιοχή ονομάτων <tt>{{ns:widget}}</tt>',
 );
@@ -350,7 +350,7 @@ $messages['id'] = array(
 komunitas kontribusi widgets dapat di temuai pada [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Kesalahan pada [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Penyunting widget',
-	'group-widgeteditor-member' => 'Penyunting widget',
+	'group-widgeteditor-member' => 'Penyunting widget', # Fuzzy
 	'grouppage-widgeteditor' => '{{ns:project}}:Penyunting widget',
 	'right-editwidgets' => 'Buat dan Sunting halaman [http://www.mediawiki.org/wiki/Extension:Widgets widgets]  di <tt>{{ns:widget}}</tt> ruang nama',
 );
@@ -488,17 +488,17 @@ Door de gemeenschap ontwikkelde widgets zijn te vinden op [http://www.mediawikiw
  * @author Harald Khan
  */
 $messages['nn'] = array(
-	'right-editwidgets' => 'Endra sider i «{{ns:widget}}»-namnerommet',
+	'right-editwidgets' => 'Endra sider i «{{ns:widget}}»-namnerommet', # Fuzzy
 );
 
 /** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
-	'widgets-desc' => "Permet als administrators del wiki d'apondre de widgets al wiki en modificant de paginas dins l'espac de noms {{ns:widget}}. Desvolopat a la basa per [http://www.ardorado.com Ardorado.com]",
+	'widgets-desc' => "Permet als administrators del wiki d'apondre de widgets al wiki en modificant de paginas dins l'espac de noms {{ns:widget}}. Desvolopat a la basa per [http://www.ardorado.com Ardorado.com]", # Fuzzy
 	'widgets-error' => 'Error dins lo [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Modificators de widgets',
-	'group-widgeteditor-member' => 'modificator de widgets',
+	'group-widgeteditor-member' => 'modificator de widgets', # Fuzzy
 	'grouppage-widgeteditor' => '{{ns:project}}:Modificators de widgets',
 	'right-editwidgets' => "Crear e modificar las [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dins l'espaci de noms « {{ns:widget}} »",
 );
@@ -558,7 +558,7 @@ $messages['pt-br'] = array(
 Widgets fornecidos pela comunidade podem ser encontrados na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	'widgets-error' => 'Erro em [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Editores de widget',
-	'group-widgeteditor-member' => 'Editor de widget',
+	'group-widgeteditor-member' => 'Editor de widget', # Fuzzy
 	'grouppage-widgeteditor' => '{{ns:project}}:Editores de widget',
 	'right-editwidgets' => 'Criar e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>',
 );
@@ -586,7 +586,7 @@ $messages['ru'] = array(
 	'widgets-desc' => 'Позволяет администраторам вики добавлять различные виджеты, посредством редактирования страниц пространства имён {{ns:widget}}. Поддерживаемые сообществом виджеты можно найти на [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].',
 	'widgets-error' => 'Ошибка в [[{{ns:widget}}:$1|виджете $1]]',
 	'group-widgeteditor' => 'Редакторы виджетов',
-	'group-widgeteditor-member' => 'Редактор виджетов',
+	'group-widgeteditor-member' => 'Редактор виджетов', # Fuzzy
 	'grouppage-widgeteditor' => '{{ns:project}}:Редакторы виджетов',
 	'right-editwidgets' => 'создавать и редактировать [http://www.mediawiki.org/wiki/Extension:Widgets виджеты] страницы в пространстве имён <tt>{{ns:widget}}</tt>',
 );
@@ -618,7 +618,8 @@ $messages['sr-ec'] = array(
 	'right-editwidgets' => 'прављење и уређивање [http://www.mediawiki.org/wiki/Extension:Widgets елемената] у именском простору <tt>{{ns:widget}}</tt>',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'widgets-desc' => 'Omogućava administratorima da dodaju vidžete na vikiju uređivanjem stranica unutar {{ns:widget}} imenskog prostora.
 Vidžeti napravljeni od strane zajednice mogu se naći na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
@@ -649,7 +650,7 @@ $messages['sv'] = array(
  */
 $messages['te'] = array(
 	'group-widgeteditor' => 'విడ్జెట్ ఎడిటర్లు',
-	'group-widgeteditor-member' => 'విడ్జెట్ ఎడిటర్',
+	'group-widgeteditor-member' => 'విడ్జెట్ ఎడిటర్', # Fuzzy
 );
 
 /** Tagalog (Tagalog)
@@ -676,7 +677,7 @@ $messages['uk'] = array(
 Підтримувані спільнотою віджети можна знайти на [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Помилка [[{{ns:widget}}:$1|віджету $1]]',
 	'group-widgeteditor' => 'Редактори віджетів',
-	'group-widgeteditor-member' => 'Редактор віджетів',
+	'group-widgeteditor-member' => 'Редактор віджетів', # Fuzzy
 	'grouppage-widgeteditor' => '{{ns:project}}:Редактори віджетів',
 	'right-editwidgets' => 'Створювати і редагувати [http://www.mediawiki.org/wiki/Extension:Widgets віджети] у просторі назв <tt>{{ns:widget}}</tt>',
 );
@@ -696,15 +697,16 @@ Có thể lấy thêm công cụ đa năng do cộng đồng đóng góp tại [
 	'group-widgeteditor.js' => '/* Mã JS tại đây sẽ chỉ ảnh hưởng đến những người sửa công cụ đa năng */',
 );
 
-/** Cantonese (粵語) */
+/** Cantonese (粵語)
+ */
 $messages['yue'] = array(
 	'widgets-desc' => '容許wiki管理員響{{ns:widget}}空間名度加入自由形式嘅widget響個wiki度。
-原先為[http://www.ardorado.com Ardorado.com]而設計嘅',
+原先為[http://www.ardorado.com Ardorado.com]而設計嘅', # Fuzzy
 	'widgets-error' => '響[[{{ns:widget}}:$1|widget $1]]出錯',
 	'group-widgeteditor' => 'Widget編輯器',
-	'group-widgeteditor-member' => 'Widget編輯器',
+	'group-widgeteditor-member' => 'Widget編輯器', # Fuzzy
 	'grouppage-widgeteditor' => '{{ns:project}}:Widget編輯器',
-	'right-editwidgets' => '響"{{ns:widget}}"空間名度編輯頁',
+	'right-editwidgets' => '響"{{ns:widget}}"空間名度編輯頁', # Fuzzy
 );
 
 /** Simplified Chinese (中文（简体）‎)
@@ -734,4 +736,3 @@ $messages['zh-hant'] = array(
 	'grouppage-widgeteditor' => '{{ns:project}}:Widget 編輯器',
 	'right-editwidgets' => '建立並編輯 <tt>{{ns:widget}}</tt> 名子空間中的 [http://www.mediawiki.org/wiki/Extension:Widgets Widgets]',
 );
-
