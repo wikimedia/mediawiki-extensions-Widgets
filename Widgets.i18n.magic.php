@@ -104,3 +104,8 @@ $magicWords['vi'] = array(
 $magicWords['zh-hans'] = array(
 	'widget' => array( 0, '小工具' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$magicWords['zh-hant'] = array(
+	'widget' => array( 0, '小工具' ),
+);
