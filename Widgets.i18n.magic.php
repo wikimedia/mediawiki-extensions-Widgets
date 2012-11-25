@@ -70,6 +70,11 @@ $magicWords['or'] = array(
 	'widget' => array( 0, 'ବିଗେଟ' ),
 );
 
+/** Punjabi (ਪੰਜਾਬੀ) */
+$magicWords['pa'] = array(
+	'widget' => array( 0, 'ਵਿਜੈਟ' ),
+);
+
 /** Russian (русский) */
 $magicWords['ru'] = array(
 	'widget' => array( 0, 'виджет' ),
