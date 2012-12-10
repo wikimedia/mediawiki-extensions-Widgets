@@ -713,26 +713,28 @@ $messages['yue'] = array(
  * @author Anakmalaysia
  * @author PhiLiP
  * @author Xiaomingyan
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'widgets-desc' => '允许wiki的管理员编辑{{ns:widget}}名字空间页面以添加各种形式的小工具。您可以在[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]中找到社区贡献的小工具',
 	'widgets-error' => '[[{{ns:widget}}:$1|小工具$1]]出错',
-	'group-widgeteditor' => '小工具编辑器',
-	'group-widgeteditor-member' => '{{GENDER:$1|小工具编辑器}}',
-	'grouppage-widgeteditor' => '{{ns:project}}:小工具编辑器',
+	'group-widgeteditor' => '小工具编辑者',
+	'group-widgeteditor-member' => '{{GENDER:$1|小工具编辑者}}',
+	'grouppage-widgeteditor' => '{{ns:project}}:小工具编辑者',
 	'right-editwidgets' => '在<tt>{{ns:widget}}</tt>名字空间中创建和编辑[http://www.mediawiki.org/wiki/Extension:Widgets 小工具]',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Anakmalaysia
  * @author Mark85296341
+ * @author Yfdyh000
  */
 $messages['zh-hant'] = array(
 	'widgets-desc' => '容許 wiki 管理員通過編輯 {{ns:widget}} 名子空間中加入自由形式的 widget 至 wiki 中。
 [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] 提供社群貢獻的 widget',
 	'widgets-error' => '在 [[{{ns:widget}}:$1|widget $1]] 發生錯誤',
-	'group-widgeteditor' => 'Widget 編輯器',
-	'group-widgeteditor-member' => '{{GENDER:$1|Widget 編輯器}}',
-	'grouppage-widgeteditor' => '{{ns:project}}:Widget 編輯器',
+	'group-widgeteditor' => 'Widget 編輯者',
+	'group-widgeteditor-member' => '{{GENDER:$1|Widget 編輯者}}',
+	'grouppage-widgeteditor' => '{{ns:project}}:Widget 編輯者',
 	'right-editwidgets' => '建立並編輯 <tt>{{ns:widget}}</tt> 名子空間中的 [http://www.mediawiki.org/wiki/Extension:Widgets Widgets]',
 );
