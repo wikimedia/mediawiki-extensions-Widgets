@@ -23,6 +23,7 @@ Community-contributed widgets can be found on [http://www.mediawikiwidgets.org/M
  * @author Fryed-peach
  * @author Khaledelmansoury
  * @author Purodha
+ * @author Shirayuki
  * @author Siebrand
  * @author Umherirrender
  * @author 아라
@@ -33,8 +34,8 @@ $messages['qqq'] = array(
 	'group-widgeteditor-member' => '{{doc-group|widgeteditor|member}}',
 	'grouppage-widgeteditor' => '{{doc-group|widgeteditor|page}}',
 	'right-editwidgets' => '{{doc-right|editwidgets}}',
-	'group-widgeteditor.css' => '{{doc-group|widgeteditor}}',
-	'group-widgeteditor.js' => '{{doc-group|widgeteditor}}',
+	'group-widgeteditor.css' => '{{doc-group|widgeteditor|css}}',
+	'group-widgeteditor.js' => '{{doc-group|widgeteditor|js}}',
 );
 
 /** Gheg Albanian (Gegë)
