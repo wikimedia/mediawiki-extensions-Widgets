@@ -20,6 +20,11 @@ $magicWords['arz'] = array(
 	'widget' => array( 0, 'ودجة', 'widget' ),
 );
 
+/** South Azerbaijani (تورکجه) */
+$magicWords['azb'] = array(
+	'widget' => array( 0, 'آراجلار' ),
+);
+
 /** Chechen (нохчийн) */
 $magicWords['ce'] = array(
 	'widget' => array( 0, 'тlехьажар', 'виджет', 'widget' ),
