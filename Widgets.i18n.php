@@ -29,7 +29,7 @@ Community-contributed widgets can be found on [http://www.mediawikiwidgets.org/M
  * @author 아라
  */
 $messages['qqq'] = array(
-	'widgets-desc' => '{{desc}}',
+	'widgets-desc' => '{{desc|name=Widgets|url=http://www.mediawiki.org/wiki/Extension:Widgets}}',
 	'group-widgeteditor' => '{{doc-group|widgeteditor}}',
 	'group-widgeteditor-member' => '{{doc-group|widgeteditor|member}}',
 	'grouppage-widgeteditor' => '{{doc-group|widgeteditor|page}}',
