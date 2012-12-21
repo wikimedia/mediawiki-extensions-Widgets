@@ -169,16 +169,17 @@ Miniprogramy, kótarež su se napórali wót zromaźeństwa, móžoš na  [http:
  * @author Geraki
  * @author Lou
  * @author Omnipaedista
+ * @author Protnet
  * @author ZaDiak
  */
 $messages['el'] = array(
-	'widgets-desc' => 'Επιτρέπει στους διαχειριστές του wiki να προσθέσουν ελεύθερης μορφής widgets στο wiki μέσω της επεξεργασίας σελίδων εντός του χώρου ονομάτων {{ns:widget}}.
+	'widgets-desc' => 'Επιτρέπει στους διαχειριστές του wiki να προσθέτουν ελεύθερης μορφής widget στο wiki μέσω επεξεργασίας σελίδων στο χώρο ονομάτων {{ns:widget}}.
 Widget φτιαγμένα από την κοινότητα μπορούν να βρεθούν στο [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Σφάλμα στο [[{{ns:widget}}:$1|widget $1]]',
-	'group-widgeteditor' => 'Επεξεργαστές Widget',
-	'group-widgeteditor-member' => 'Επεξεργαστής Widget', # Fuzzy
-	'grouppage-widgeteditor' => '{{ns:project}}:Επεξεργαστές Widget',
-	'right-editwidgets' => 'Δημιουργία και επεξεργασία [http://www.mediawiki.org/wiki/Extension:Widgets widgets] στην περιοχή ονομάτων <tt>{{ns:widget}}</tt>',
+	'group-widgeteditor' => 'Επεξεργαστές widget',
+	'group-widgeteditor-member' => 'Επεξεργαστής widget',
+	'grouppage-widgeteditor' => '{{ns:project}}:Επεξεργαστές widget',
+	'right-editwidgets' => 'Δημιουργία και επεξεργασία [http://www.mediawiki.org/wiki/Extension:Widgets widget] στο χώρο ονομάτων <tt>{{ns:widget}}</tt>',
 );
 
 /** Esperanto (Esperanto)
@@ -272,6 +273,8 @@ Pódense atopar os widgets desenvolvidos para a comunidade en [http://www.mediaw
 	'group-widgeteditor-member' => '{{GENDER:$1|editor|editora}} de widgets',
 	'grouppage-widgeteditor' => '{{ns:project}}:Editores de widgets',
 	'right-editwidgets' => 'Crear e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espazo de nomes <tt>{{ns:widget}}</tt>',
+	'group-widgeteditor.css' => '/* O CSS que se coloque aquí afectará soamente aos editores de widgets */',
+	'group-widgeteditor.js' => '/* O JS que se coloque aquí afectará soamente aos editores de widgets */',
 );
 
 /** Swiss German (Alemannisch)
