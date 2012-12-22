@@ -483,7 +483,7 @@ $messages['nl'] = array(
 Door de gemeenschap ontwikkelde widgets zijn te vinden op [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	'widgets-error' => 'Fout in [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Widgetbewerkers',
-	'group-widgeteditor-member' => '{{GENDER:$1|Widgetbewerker}}',
+	'group-widgeteditor-member' => '{{GENDER:$1|widgetbewerker}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Widgetbewerkers',
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] aanmaken en bewerken in de naamruimte <tt>{{ns:widget}}</tt>',
 );
@@ -673,6 +673,7 @@ Ang mga widyet na inambag ng pamayan ay matatagpuan sa [http://www.mediawikiwidg
 );
 
 /** Ukrainian (українська)
+ * @author Base
  * @author Prima klasy4na
  * @author Тест
  */
@@ -681,7 +682,7 @@ $messages['uk'] = array(
 Підтримувані спільнотою віджети можна знайти на [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
 	'widgets-error' => 'Помилка [[{{ns:widget}}:$1|віджету $1]]',
 	'group-widgeteditor' => 'Редактори віджетів',
-	'group-widgeteditor-member' => 'Редактор віджетів', # Fuzzy
+	'group-widgeteditor-member' => '{{GENDER:$1|Редактор віджетів|Редакторка віджетів}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Редактори віджетів',
 	'right-editwidgets' => 'Створювати і редагувати [http://www.mediawiki.org/wiki/Extension:Widgets віджети] у просторі назв <tt>{{ns:widget}}</tt>',
 );
