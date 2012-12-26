@@ -419,6 +419,8 @@ Divärse Lück han ehr <i lang="en">Widgets</i> op <i lang="en">[http://www.medi
 	'group-widgeteditor-member' => '{{GENDER:$1|<i lang="en">Widget</i>-Schriiver}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Widget-Schriiver',
 	'right-editwidgets' => 'Sigge, alsu <i lang="en">[http://www.mediawiki.org/wiki/Extension:Widgets Widgets]</i>, em Appachemang „{{ns:widget}}“ ändere udder aanlääje',
+	'group-widgeteditor.css' => '/* Dat CSS heh aan dä Stell wirrek bloß beim Ändere vun Widgets */',
+	'group-widgeteditor.js' => '/* Dat JavaSkrep heh aan dä Stell wirrek bloß beim Ändere vun Widgets */',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
