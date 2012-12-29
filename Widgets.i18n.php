@@ -597,6 +597,15 @@ $messages['ru'] = array(
 	'right-editwidgets' => 'создавать и редактировать [http://www.mediawiki.org/wiki/Extension:Widgets виджеты] страницы в пространстве имён <tt>{{ns:widget}}</tt>',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'group-widgeteditor' => 'ගැජට්ටු සංස්කාරකවරු',
+	'group-widgeteditor-member' => '{{GENDER:$1|ගැජට්ටු සංස්කාරක}}',
+	'grouppage-widgeteditor' => '{{ns:project}}:ගැජට්ටු සංස්කාරකවරු',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  * @author Teslaton
