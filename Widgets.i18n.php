@@ -683,6 +683,13 @@ Ang mga widyet na inambag ng pamayan ay matatagpuan sa [http://www.mediawikiwidg
 	'group-widgeteditor.js' => '/* Ang JavaScript o JS na inilagay dito ay makakaapekto lamang sa mga patnugot ng widyet */',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'right-editwidgets' => 'ⴰⵔⴰ ⵏⵖ ⴱⴷⴷⴻⵍ [http://www.mediawiki.org/wiki/Extension:Widgets widgets] ⴷⵉ <tt>{{ns:widget}}</tt> ⴰⵏⵙⴰ ⵏ ⵡⴰⵙⵙⴰⵖ',
+);
+
 /** Ukrainian (українська)
  * @author Base
  * @author Prima klasy4na
