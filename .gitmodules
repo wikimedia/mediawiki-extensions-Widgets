@@ -1,0 +1,3 @@
+[submodule "smarty"]
+	path = smarty
+	url = https://github.com/Fl4t/Smarty-git.git

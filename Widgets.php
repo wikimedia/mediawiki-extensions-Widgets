@@ -16,7 +16,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'Widgets',
 	'descriptionmsg' => 'widgets-desc',
-	'version' => '0.10.0',
+	'version' => '0.10.1',
 	'author' => '[http://www.sergeychernyshev.com Sergey Chernyshev]',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Widgets'
 );
@@ -50,7 +50,7 @@ $wgWidgetsUseFlaggedRevs = false;
 $dir = dirname( __FILE__ ) . '/';
 
 // Initialize Smarty
-require_once( $dir . 'smarty/Smarty.class.php' );
+require_once( $dir . 'smarty/libs/Smarty.class.php' );
 $wgExtensionMessagesFiles['Widgets'] = $dir . 'Widgets.i18n.php';
 $wgExtensionMessagesFiles['WidgetsNamespaces'] = $dir . 'Widgets.i18n.namespaces.php';
 $wgAutoloadClasses['WidgetRenderer'] = $dir . 'WidgetRenderer.php';
