@@ -8,8 +8,8 @@
  */
 
 if ( !defined( 'MEDIAWIKI' ) ) {
-    echo "This file is not a valid entry point.";
-    exit( 1 );
+	echo "This file is not a valid entry point.";
+	exit( 1 );
 }
 
 $wgExtensionCredits['parserhook'][] = array(
@@ -25,12 +25,12 @@ $wgExtensionCredits['parserhook'][] = array(
  * Set this to the index of the Widget namespace
  */
 if ( !defined( 'NS_WIDGET' ) ) {
-   define( 'NS_WIDGET', 274 );
+	define( 'NS_WIDGET', 274 );
 }
 if ( !defined( 'NS_WIDGET_TALK' ) ) {
-   define( 'NS_WIDGET_TALK', NS_WIDGET + 1 );
+	define( 'NS_WIDGET_TALK', NS_WIDGET + 1 );
 } elseif ( NS_WIDGET_TALK != NS_WIDGET + 1 ) {
-   throw new MWException( 'Configuration error. Do not define NS_WIDGET_TALK, it is automatically set based on NS_WIDGET.' );
+	throw new MWException( 'Configuration error. Do not define NS_WIDGET_TALK, it is automatically set based on NS_WIDGET.' );
 }
 
 // Support subpages only for talk pages by default
@@ -61,6 +61,7 @@ $wgExtensionMessagesFiles['WidgetsMagic'] = $dir . 'Widgets.i18n.magic.php';
 $wgExtensionFunctions[] = 'widgetNamespacesInit';
 $wgHooks['ParserFirstCallInit'][] = 'widgetParserFunctions';
 $wgHooks['ParserAfterTidy'][] = 'processEncodedWidgetOutput';
+$wgHooks['CanonicalNamespaces'][] = 'widgetsAddNamespaces';
 
 /**
  * @param $parser Parser
@@ -80,6 +81,13 @@ function processEncodedWidgetOutput( &$out, &$text ) {
 		$text
 	);
 
+	return true;
+}
+
+// Define new namespaces
+function widgetsAddNamespaces( &$list ) {
+	$list[NS_WIDGET] = 'Widget';
+	$list[NS_WIDGET_TALK] = 'Widget_talk';
 	return true;
 }
 
