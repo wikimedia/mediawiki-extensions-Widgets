@@ -1,10 +1,10 @@
 <?php
 /**
  *
- * {{#widget:<WidgetName>|<name1>=<value1>|<name2>=<value2>}}
+ * {{#widget:<WidgetName>|<param1>=<value1>|<param2>=<value2>}}
  *
  * @author Sergey Chernyshev
- * @version $Id: Widgets.php 15 2008-06-25 21:22:40Z sergey.chernyshev $
+ * @author Yaron Koren
  */
 
 if ( !defined( 'MEDIAWIKI' ) ) {
@@ -16,7 +16,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'Widgets',
 	'descriptionmsg' => 'widgets-desc',
-	'version' => '0.10.1',
+	'version' => '1.0',
 	'author' => '[http://www.sergeychernyshev.com Sergey Chernyshev]',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Widgets'
 );
