@@ -60,7 +60,7 @@ $wgExtensionMessagesFiles['WidgetsMagic'] = $dir . 'Widgets.i18n.magic.php';
 // Parser function registration
 $wgExtensionFunctions[] = 'widgetNamespacesInit';
 $wgHooks['ParserFirstCallInit'][] = 'widgetParserFunctions';
-$wgHooks['ParserAfterTidy'][] = 'processEncodedWidgetOutput';
+$wgHooks['ParserAfterTidy'][] = 'WidgetRenderer::processEncodedWidgetOutput';
 $wgHooks['CanonicalNamespaces'][] = 'widgetsAddNamespaces';
 
 /**
@@ -69,17 +69,6 @@ $wgHooks['CanonicalNamespaces'][] = 'widgetsAddNamespaces';
  */
 function widgetParserFunctions( &$parser ) {
 	$parser->setFunctionHook( 'widget', array( 'WidgetRenderer', 'renderWidget' ) );
-
-	return true;
-}
-
-function processEncodedWidgetOutput( &$out, &$text ) {
-	// Find all hidden content and restore to normal
-	$text = preg_replace(
-		'/ENCODED_CONTENT ([0-9a-zA-Z\/+]+=*)* END_ENCODED_CONTENT/esm',
-		'base64_decode("$1")',
-		$text
-	);
 
 	return true;
 }

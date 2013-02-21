@@ -5,7 +5,12 @@
 
 class WidgetRenderer {
 
-	public static function renderWidget ( &$parser, $widgetName ) {
+	// A randomly-generated string, used to prevent malicious users from
+	// spoofing the output of #widget in order to have arbitrary
+	// JavaScript show up in the page's output.
+	static $mRandomString;
+
+	public static function renderWidget( &$parser, $widgetName ) {
 		global $IP;
 
 		$smarty = new Smarty;
@@ -57,7 +62,7 @@ class WidgetRenderer {
 		$params_tree = array();
 
 		foreach ( $params as $param ) {
-			$pair = explode('=', $param, 2);
+			$pair = explode( '=', $param, 2 );
 
 			if ( count( $pair ) == 2 ) {
 				$key = trim( $pair[0] );
@@ -117,19 +122,20 @@ class WidgetRenderer {
 		try {
 			$output = $smarty->fetch( "wiki:$widgetName" );
 		} catch ( Exception $e ) {
-
-			return '<div class=\"error\">' . wfMsgExt( 'widgets-desc', array( 'parsemag' ), htmlentities($widgetName) ) . '</div>';
+			return '<div class=\"error\">' . wfMsgExt( 'widgets-desc', array( 'parsemag' ), htmlentities( $widgetName ) ) . '</div>';
 		}
 
-		// Hide the widget from the parser
-		$output = 'ENCODED_CONTENT '.base64_encode($output).' END_ENCODED_CONTENT';
+		// Set the random string, used in both encoding and decoding.
+		self::$mRandomString = substr( base64_encode( rand() ), 0, 7 );
+		// Hide the widget from the parser.
+		$output = 'ENCODED_CONTENT ' . self::$mRandomString . base64_encode($output) . ' END_ENCODED_CONTENT';
 		return $output;
 	}
 
 	public static function processEncodedWidgetOutput( &$out, &$text ) {
 		// Find all hidden content and restore to normal
 		$text = preg_replace(
-			'/ENCODED_CONTENT ([0-9a-zA-Z\/+]+=*)* END_ENCODED_CONTENT/esm',
+			'/ENCODED_CONTENT ' . self::$mRandomString . '([0-9a-zA-Z\/+]+=*)* END_ENCODED_CONTENT/esm',
 			'base64_decode("$1")',
 			$text
 		);
