@@ -14,9 +14,12 @@ class WidgetRenderer {
 		$smarty->compile_dir = "$IP/extensions/Widgets/compiled_templates/";
 
 		// registering custom Smarty plugins
-		$smarty->plugins_dir[] = "$IP/extensions/Widgets/smarty_plugins/";
+		$smarty->addPluginsDir( "$IP/extensions/Widgets/smarty_plugins/" );
 
-		$smarty->security = true;
+		$smarty->enableSecurity();
+		// These settings were for Smarty v2 - there don't seem to
+		// have an equivalent in Smarty v3.
+		/*
 		$smarty->security_settings = array(
 			'IF_FUNCS' => array(
 					'is_array',
@@ -32,9 +35,10 @@ class WidgetRenderer {
 					),
 			'MODIFIER_FUNCS' => array( 'validate' )
 		);
+		*/
 
-		// register the resource name "db"
-		$smarty->register_resource(
+		// Register the Widgets extension functions.
+		$smarty->registerResource(
 			'wiki',
 			array(
 				array( 'WidgetRenderer', 'wiki_get_template' ),
@@ -130,7 +134,7 @@ class WidgetRenderer {
 	}
 
 	// the following four functions are all registered with Smarty
-	public static function wiki_get_template( $widgetName, &$widgetCode, &$smarty_obj ) {
+	public static function wiki_get_template( $widgetName, &$widgetCode, $smarty_obj ) {
 		global $wgWidgetsUseFlaggedRevs;
 	
 		$widgetTitle = Title::newFromText( $widgetName, NS_WIDGET );
@@ -162,7 +166,7 @@ class WidgetRenderer {
 		}
 	}
 
-	public static function wiki_get_timestamp( $widgetName, &$widgetTimestamp, &$smarty_obj ) {
+	public static function wiki_get_timestamp( $widgetName, &$widgetTimestamp, $smarty_obj ) {
 		$widgetTitle = Title::newFromText( $widgetName, NS_WIDGET );
 
 		if ( $widgetTitle && $widgetTitle->exists() ) {
