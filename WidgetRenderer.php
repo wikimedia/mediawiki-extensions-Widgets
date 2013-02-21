@@ -17,7 +17,7 @@ class WidgetRenderer {
 		$smarty->addPluginsDir( "$IP/extensions/Widgets/smarty_plugins/" );
 
 		$smarty->enableSecurity();
-		// These settings were for Smarty v2 - there don't seem to
+		// These settings were for Smarty v2 - they don't seem to
 		// have an equivalent in Smarty v3.
 		/*
 		$smarty->security_settings = array(
@@ -49,8 +49,10 @@ class WidgetRenderer {
 		);
 
 		$params = func_get_args();
-		array_shift( $params ); # first one is parser - we don't need it
-		array_shift( $params ); # second one is widget name
+		// The first and second params are the parser and the widget
+		// name - we already have both.
+		array_shift( $params );
+		array_shift( $params );
 
 		$params_tree = array();
 
@@ -78,14 +80,16 @@ class WidgetRenderer {
 			*/
 			$keys = explode( '.', $key );
 
-			// $subtree will be moved from top to the bottom and at the end will point to the last level
+			// $subtree will be moved from top to the bottom and
+			// at the end will point to the last level.
 			$subtree =& $params_tree;
 
-			// go throught all the keys but last one
+			// Go through all the keys but the last one.
 			$last_key = array_pop( $keys );
 
 			foreach ( $keys as $subkey ) {
-				// if next level of subtree doesn't exist yet, create an empty one
+				// If next level of subtree doesn't exist yet,
+				// create an empty one.
 				if ( !array_key_exists( $subkey, $subtree ) ) {
 					$subtree[$subkey] = array();
 				}
@@ -96,11 +100,11 @@ class WidgetRenderer {
 
 			// last portion of the key points to itself
 			if ( isset( $subtree[$last_key] ) ) {
-				// if already an array, push into it, otherwise, convert into array first
+				// If this is already an array, push into it;
+				// otherwise, convert into an array first.
 				if ( !is_array( $subtree[$last_key] ) ) {
 					$subtree[$last_key] = array( $subtree[$last_key] );
 				}
-
 				$subtree[$last_key][] = $val;
 			} else {
 				// doesn't exist yet, just setting a value
@@ -146,12 +150,10 @@ class WidgetRenderer {
 
 				if ( $flaggedWidgetArticleRevision ) {
 					$widgetCode = $flaggedWidgetArticleRevision->getRevText();
-				}
-				else {
+				} else {
 					$widgetCode = '';
 				}
-			}
-			else {
+			} else {
 				$widgetArticle = new Article( $widgetTitle, 0 );
 				$widgetCode = $widgetArticle->getContent();
 			}
