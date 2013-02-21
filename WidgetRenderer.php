@@ -10,6 +10,11 @@ class WidgetRenderer {
 	// JavaScript show up in the page's output.
 	static $mRandomString;
 
+	public static function initRandomString() {
+		// Set the random string, used in both encoding and decoding.
+		self::$mRandomString = substr( base64_encode( rand() ), 0, 7 );
+	}
+
 	public static function renderWidget( &$parser, $widgetName ) {
 		global $IP;
 
@@ -125,8 +130,6 @@ class WidgetRenderer {
 			return '<div class=\"error\">' . wfMsgExt( 'widgets-desc', array( 'parsemag' ), htmlentities( $widgetName ) ) . '</div>';
 		}
 
-		// Set the random string, used in both encoding and decoding.
-		self::$mRandomString = substr( base64_encode( rand() ), 0, 7 );
 		// Hide the widget from the parser.
 		$output = 'ENCODED_CONTENT ' . self::$mRandomString . base64_encode($output) . ' END_ENCODED_CONTENT';
 		return $output;

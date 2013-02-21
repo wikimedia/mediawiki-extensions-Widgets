@@ -59,6 +59,7 @@ $wgExtensionMessagesFiles['WidgetsMagic'] = $dir . 'Widgets.i18n.magic.php';
 
 // Parser function registration
 $wgExtensionFunctions[] = 'widgetNamespacesInit';
+$wgExtensionFunctions[] = 'WidgetRenderer::initRandomString';
 $wgHooks['ParserFirstCallInit'][] = 'widgetParserFunctions';
 $wgHooks['ParserAfterTidy'][] = 'WidgetRenderer::processEncodedWidgetOutput';
 $wgHooks['CanonicalNamespaces'][] = 'widgetsAddNamespaces';
