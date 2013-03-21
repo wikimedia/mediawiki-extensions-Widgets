@@ -30,6 +30,9 @@ Community-contributed widgets can be found on [http://www.mediawikiwidgets.org/M
  */
 $messages['qqq'] = array(
 	'widgets-desc' => '{{desc|name=Widgets|url=http://www.mediawiki.org/wiki/Extension:Widgets}}',
+	'widgets-error' => '{{doc-important|Do not translate <code><nowiki>{{ns:widget}}</nowiki></code>.}}
+Used as error message. Parameters:
+* $1 - widget name',
 	'group-widgeteditor' => '{{doc-group|widgeteditor}}',
 	'group-widgeteditor-member' => '{{doc-group|widgeteditor|member}}',
 	'grouppage-widgeteditor' => '{{doc-group|widgeteditor|page}}',
