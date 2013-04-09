@@ -70,7 +70,7 @@ $magicWords['mr'] = array(
 	'widget' => array( 0, 'विसाधन', 'widget' ),
 );
 
-/** Oriya (ଓଡ଼ିଆ) */
+/** Oriya (ଓଡ଼ିଆ) */
 $magicWords['or'] = array(
 	'widget' => array( 0, 'ବିଗେଟ' ),
 );
