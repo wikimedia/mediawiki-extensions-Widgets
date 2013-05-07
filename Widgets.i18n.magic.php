@@ -52,7 +52,7 @@ $magicWords['ja'] = array(
 
 /** Korean (한국어) */
 $magicWords['ko'] = array(
-	'widget' => array( 0, '위젯' ),
+	'widget' => array( 0, '소도구', '위젯' ),
 );
 
 /** Macedonian (македонски) */
