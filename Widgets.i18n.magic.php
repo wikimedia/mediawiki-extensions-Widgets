@@ -67,7 +67,7 @@ $magicWords['ml'] = array(
 
 /** Marathi (मराठी) */
 $magicWords['mr'] = array(
-	'widget' => array( 0, 'विसाधन', 'widget' ),
+	'widget' => array( 0, 'विसाधन' ),
 );
 
 /** Oriya (ଓଡ଼ିଆ) */
