@@ -27,7 +27,7 @@ $magicWords['azb'] = array(
 
 /** Chechen (нохчийн) */
 $magicWords['ce'] = array(
-	'widget' => array( 0, 'тlехьажар', 'виджет', 'widget' ),
+	'widget' => array( 0, 'тlехьажар', 'виджет' ),
 );
 
 /** German (Deutsch) */
