@@ -69,6 +69,19 @@ $messages['ar'] = array(
 	'right-editwidgets' => 'إنشاء وتحرير [http://www.mediawiki.org/wiki/Extension:Widgets widgets] في الــ <tt>{{ns:widget}}</tt> مكان الاسم',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'widgets-desc' => 'Permite a los alministradores de la wiki amestar widgets de mou llibre editando páxines del espaciu de nomes "{{ns:widget}}".
+Puen alcontrase widgets fechos pola comunidá en [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]',
+	'widgets-error' => 'Error en [[{{ns:widget}}:$1|widget $1]]',
+	'group-widgeteditor' => 'Editores de widgets',
+	'group-widgeteditor-member' => '{{GENDER:$1|editor|editora}} de widgets',
+	'grouppage-widgeteditor' => '{{ns:project}}:Editores de widgets',
+	'right-editwidgets' => 'Crear y editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] nel espaciu de nomes <tt>{{ns:widget}}</tt>',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
