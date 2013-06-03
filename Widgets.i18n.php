@@ -478,7 +478,7 @@ Widget sumbangan komuniti boleh didapati di [http://www.mediawikiwidgets.org/Mai
 	'right-editwidgets' => 'Mencipta dan menyunting [http://www.mediawiki.org/wiki/Extension:Widgets widget] dalam ruang nama <tt>{{ns:widget}}</tt>',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Danmichaelo
  * @author Nghtwlkr
  */
@@ -506,7 +506,7 @@ Door de gemeenschap ontwikkelde widgets zijn te vinden op [http://www.mediawikiw
 	'right-editwidgets' => '[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] aanmaken en bewerken in de naamruimte <tt>{{ns:widget}}</tt>',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  */
 $messages['nn'] = array(
