@@ -132,14 +132,16 @@ class WidgetRenderer {
 
 		// Hide the widget from the parser.
 		$output = 'ENCODED_CONTENT ' . self::$mRandomString . base64_encode($output) . ' END_ENCODED_CONTENT';
-		return $output;
+		return array( $output, 'noparse' => true, 'isHTML' => true );
 	}
 
 	public static function processEncodedWidgetOutput( &$out, &$text ) {
 		// Find all hidden content and restore to normal
-		$text = preg_replace(
-			'/ENCODED_CONTENT ' . self::$mRandomString . '([0-9a-zA-Z\/+]+=*)* END_ENCODED_CONTENT/esm',
-			'base64_decode("$1")',
+		$text = preg_replace_callback(
+			'/ENCODED_CONTENT ' . self::$mRandomString . '([0-9a-zA-Z\/+]+=*)* END_ENCODED_CONTENT/',
+			function( $matches ) {
+				return base64_decode( $matches[1]);
+			},
 			$text
 		);
 
