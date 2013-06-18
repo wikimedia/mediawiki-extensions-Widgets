@@ -598,6 +598,10 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'widgets-error' => "Errore jndr'à [[{{ns:widget}}:$1|widget $1]]",
+	'group-widgeteditor' => "Cangiature d'u ggegge",
+	'group-widgeteditor-member' => "{{GENDER:$1|cangiatore d'u ggegge}}",
+	'grouppage-widgeteditor' => "{{ns:project}}:Cangiature d'u ggegge",
+	'right-editwidgets' => "Ccreje e cange [http://www.mediawiki.org/wiki/Extension:Widgets le ggegge] jndr'à 'u namespace <tt>{{ns:widget}}</tt>",
 );
 
 /** Russian (русский)
