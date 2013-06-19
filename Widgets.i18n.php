@@ -597,6 +597,8 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'widgets-desc' => "Permette a le amministrature de uicchi de aggiungere 'nu module de ggegge gratis sus a uicchi pe cangià le pàggene cu 'u namespace {{ns:widget}}.
+Le ggegge fatte da 'a comunitate ponne essere acchiate sus a [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	'widgets-error' => "Errore jndr'à [[{{ns:widget}}:$1|widget $1]]",
 	'group-widgeteditor' => "Cangiature d'u ggegge",
 	'group-widgeteditor-member' => "{{GENDER:$1|cangiatore d'u ggegge}}",
