@@ -45,6 +45,11 @@ $magicWords['fa'] = array(
 	'widget' => array( 0, 'ابزار' ),
 );
 
+/** French (français) */
+$magicWords['fr'] = array(
+	'widget' => array( 0, 'widget' ),
+);
+
 /** Japanese (日本語) */
 $magicWords['ja'] = array(
 	'widget' => array( 0, 'ウィジェット' ),
