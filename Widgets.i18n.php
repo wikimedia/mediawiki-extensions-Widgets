@@ -413,7 +413,7 @@ $messages['ja'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'widgets-desc' => '위키 관리자는 {{ns:widget}} 이름공간에서 문서를 편집해 자유로운 형태의 위젯을 더할 수 있습니다.
+	'widgets-desc' => '위키 관리자는 {{ns:widget}} 이름공간에서 문서를 편집해 자유로운 형태의 위젯을 추가할 수 있습니다.
 커뮤니티 기여 위젯은 [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]에서 찾을 수 있습니다',
 	'widgets-error' => '[[{{ns:widget}}:$1|$1 위젯]] 오류',
 	'group-widgeteditor' => '위젯 편집자',
