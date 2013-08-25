@@ -35,6 +35,11 @@ $magicWords['de'] = array(
 	'widget' => array( 0, 'steuerelement' ),
 );
 
+/** Greek (Ελληνικά) */
+$magicWords['el'] = array(
+	'widget' => array( 0, 'πρόσθετο' ),
+);
+
 /** Esperanto (Esperanto) */
 $magicWords['eo'] = array(
 	'widget' => array( 0, 'fenestraĵo', 'fenestrajxo' ),
