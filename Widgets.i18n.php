@@ -520,7 +520,7 @@ $messages['oc'] = array(
 	'widgets-desc' => "Permet als administrators del wiki d'apondre de widgets al wiki en modificant de paginas dins l'espac de noms {{ns:widget}}. Desvolopat a la basa per [http://www.ardorado.com Ardorado.com]", # Fuzzy
 	'widgets-error' => 'Error dins lo [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Modificators de widgets',
-	'group-widgeteditor-member' => 'modificator de widgets', # Fuzzy
+	'group-widgeteditor-member' => '{{GENDER:$1|Modificator de widget}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Modificators de widgets',
 	'right-editwidgets' => "Crear e modificar las [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dins l'espaci de noms « {{ns:widget}} »",
 );
