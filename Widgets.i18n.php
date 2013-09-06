@@ -570,6 +570,7 @@ Widgets fornecidos pela comunidade podem ser encontrados na [http://www.mediawik
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Eduardo.mps
  * @author Giro720
  * @author Helder.wiki
@@ -580,7 +581,7 @@ $messages['pt-br'] = array(
 Widgets fornecidos pela comunidade podem ser encontrados na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	'widgets-error' => 'Erro em [[{{ns:widget}}:$1|widget $1]]',
 	'group-widgeteditor' => 'Editores de widget',
-	'group-widgeteditor-member' => 'Editor de widget', # Fuzzy
+	'group-widgeteditor-member' => '{{GENDER:$1|Editor|Editora}} de widget',
 	'grouppage-widgeteditor' => '{{ns:project}}:Editores de widget',
 	'right-editwidgets' => 'Criar e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>',
 );
