@@ -609,13 +609,14 @@ Le ggegge fatte da 'a comunitate ponne essere acchiate sus a [http://www.mediawi
 
 /** Russian (русский)
  * @author G0rn
+ * @author Okras
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'widgets-desc' => 'Позволяет администраторам вики добавлять различные виджеты, посредством редактирования страниц пространства имён {{ns:widget}}. Поддерживаемые сообществом виджеты можно найти на [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].',
 	'widgets-error' => 'Ошибка в [[{{ns:widget}}:$1|виджете $1]]',
 	'group-widgeteditor' => 'Редакторы виджетов',
-	'group-widgeteditor-member' => 'Редактор виджетов', # Fuzzy
+	'group-widgeteditor-member' => '{{GENDER:$1|Редактор виджетов}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Редакторы виджетов',
 	'right-editwidgets' => 'создавать и редактировать [http://www.mediawiki.org/wiki/Extension:Widgets виджеты] страницы в пространстве имён <tt>{{ns:widget}}</tt>',
 );
