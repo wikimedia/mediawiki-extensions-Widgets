@@ -117,7 +117,7 @@ $magicWords['uk'] = array(
 
 /** Vietnamese (Tiếng Việt) */
 $magicWords['vi'] = array(
-	'widget' => array( 0, 'côngcụđanăng' ),
+	'widget' => array( 0, 'công_cụ_đa_năng', 'côngcụđanăng' ),
 );
 
 /** Simplified Chinese (中文（简体）‎) */
