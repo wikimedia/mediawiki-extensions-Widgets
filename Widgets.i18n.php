@@ -226,6 +226,17 @@ Widgets desarrollados comunitariamente pueden ser encontrados en [http://www.med
 	'right-editwidgets' => 'Crear y editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] en el espacio de nombre "{{ns:widget}}"',
 );
 
+/** Basque (euskara)
+ * @author Theklan
+ */
+$messages['eu'] = array(
+	'widgets-error' => 'Akatsa [[{{ns:widget}}:$1|$1 widgetean]]',
+	'group-widgeteditor' => 'Widget editoreak',
+	'group-widgeteditor-member' => '{{GENDER:$1|widget editorea}}',
+	'grouppage-widgeteditor' => '{{ns:project}}:Widget editoreak',
+	'right-editwidgets' => 'Sortu eta aldatu [http://www.mediawiki.org/wiki/Extension:Widgets widgetak] <tt>{{ns:widget}}</tt> izen-tartean',
+);
+
 /** Persian (فارسی)
  * @author ZxxZxxZ
  */
