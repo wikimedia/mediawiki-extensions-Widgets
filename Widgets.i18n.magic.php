@@ -17,7 +17,7 @@ $magicWords['ar'] = array(
 
 /** Egyptian Spoken Arabic (مصرى) */
 $magicWords['arz'] = array(
-	'widget' => array( 0, 'ودجة', 'widget' ),
+	'widget' => array( 0, 'ودجة' ),
 );
 
 /** South Azerbaijani (تورکجه) */
