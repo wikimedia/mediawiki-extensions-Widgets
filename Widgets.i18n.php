@@ -132,7 +132,7 @@ $messages['ca'] = array(
 	'right-editwidgets' => "Crear i editar [http://www.mediawiki.org/wiki/Extension:Widgets ginys] a l'espai de noms <tt>{{ns:widget}}</tt>",
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Kuvaly
  * @author Matěj Grabovský
  * @author Mormegil
