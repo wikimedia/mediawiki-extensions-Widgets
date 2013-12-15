@@ -35,6 +35,11 @@ $magicWords['de'] = array(
 	'widget' => array( 0, 'steuerelement' ),
 );
 
+/** Zazaki (Zazaki) */
+$magicWords['diq'] = array(
+	'widget' => array( 0, 'çolek' ),
+);
+
 /** Greek (Ελληνικά) */
 $magicWords['el'] = array(
 	'widget' => array( 0, 'πρόσθετο' ),
