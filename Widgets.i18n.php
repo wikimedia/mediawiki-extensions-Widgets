@@ -268,6 +268,7 @@ Yhteisön tekemiä pienoisohjelmia löytyy osoitteesta [http://www.mediawikiwidg
  * @author IAlex
  * @author Jean-Frédéric
  * @author Urhixidur
+ * @author Verdy p
  */
 $messages['fr'] = array(
 	'widgets-desc' => "Permet aux administrateurs du wiki d’ajouter des ''widgets'' (gadgets logiciels) au wiki en modifiant des pages dans l’espace de noms {{ns:widget}}. Les ''widgets'' proposés par la communauté sont disponibles sur [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
@@ -276,6 +277,8 @@ $messages['fr'] = array(
 	'group-widgeteditor-member' => '{{GENDER:$1|Modificateur de widget}}',
 	'grouppage-widgeteditor' => '{{ns:project}}:Modificateurs de widgets',
 	'right-editwidgets' => 'Créer et modifier les [http://www.mediawiki.org/wiki/Extension:Widgets widgets] dans l’espace de noms « {{ns:widget}} »',
+	'group-widgeteditor.css' => '/* Le CSS placé ici n’affectera que les éditeurs de widgets */',
+	'group-widgeteditor.js' => '/* Le Javascript placé ici n’affectera que les éditeurs de widgets */',
 );
 
 /** Franco-Provençal (arpetan)
