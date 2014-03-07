@@ -238,9 +238,12 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
+	'widgets-desc' => 'اجازه سرپرستان ویکی برای افزودن ویدجت‌های رایگان به ویکی توسط ویرایش صفحات درون {{ns:widget}} فضای نام.
+ویدجت‌های کمک به جامعه می‌توانند در [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] پیدا شوند',
 	'widgets-error' => 'خطا در [[{{ns:widget}}:$1|ابزار $1]]',
 	'group-widgeteditor' => 'ویرایشگران ابزار',
 	'group-widgeteditor-member' => '{{GENDER:$1|ویرایشگر ابزار}}',
