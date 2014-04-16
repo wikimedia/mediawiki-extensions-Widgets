@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Tifinaghes"
-        ]
-    },
-    "right-editwidgets": "ⴰⵔⴰ ⵏⵖ ⴱⴷⴷⴻⵍ [http://www.mediawiki.org/wiki/Extension:Widgets widgets] ⴷⵉ <tt>{{ns:widget}}</tt> ⴰⵏⵙⴰ ⵏ ⵡⴰⵙⵙⴰⵖ"
+	"@metadata": {
+		"authors": [
+			"Tifinaghes"
+		]
+	},
+	"right-editwidgets": "ⴰⵔⴰ ⵏⵖ ⴱⴷⴷⴻⵍ [http://www.mediawiki.org/wiki/Extension:Widgets widgets] ⴷⵉ <tt>{{ns:widget}}</tt> ⴰⵏⵙⴰ ⵏ ⵡⴰⵙⵙⴰⵖ"
 }
