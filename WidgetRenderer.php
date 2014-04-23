@@ -16,12 +16,12 @@ class WidgetRenderer {
 	}
 
 	public static function renderWidget( &$parser, $widgetName ) {
-		global $IP;
+		global $IP, $wgWidgetsCompileDir;
 
 		$smarty = new Smarty;
 		$smarty->left_delimiter = '<!--{';
 		$smarty->right_delimiter = '}-->';
-		$smarty->compile_dir = "$IP/extensions/Widgets/compiled_templates/";
+		$smarty->compile_dir = $wgWidgetsCompileDir;
 
 		// registering custom Smarty plugins
 		$smarty->addPluginsDir( "$IP/extensions/Widgets/smarty_plugins/" );

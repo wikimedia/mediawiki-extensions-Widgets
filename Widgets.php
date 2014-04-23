@@ -47,6 +47,9 @@ $wgGroupPermissions['sysop']['editwidgets'] = true;
 // Set this to true to use FlaggedRevs extension's stable version for widget security
 $wgWidgetsUseFlaggedRevs = false;
 
+// Set a default directory for storage of compiled templates
+$wgWidgetsCompileDir = "$IP/extensions/Widgets/compiled_templates/";
+
 $dir = dirname( __FILE__ ) . '/';
 
 // Initialize Smarty
