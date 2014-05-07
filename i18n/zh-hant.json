@@ -11,5 +11,5 @@
 	"group-widgeteditor": "Widget 編輯者",
 	"group-widgeteditor-member": "{{GENDER:$1|Widget 編輯者}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Widget 編輯者",
-	"right-editwidgets": "建立並編輯 <tt>{{ns:widget}}</tt> 名子空間中的 [http://www.mediawiki.org/wiki/Extension:Widgets Widgets]"
+	"right-editwidgets": "建立並編輯 <tt>{{ns:widget}}</tt> 名子空間中的 [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Widgets]"
 }

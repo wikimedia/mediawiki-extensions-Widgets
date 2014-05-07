@@ -11,5 +11,5 @@
 	"group-widgeteditor": "pienoisohjelmien muokkaajat",
 	"group-widgeteditor-member": "{{GENDER:$1|pienoisohjelman muokkaaja}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Pienoisohjelmien muokkaajat",
-	"right-editwidgets": "Luoda ja muokata [http://www.mediawiki.org/wiki/Extension:Widgets pienoisohjelmia] nimiavaruudessa <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Luoda ja muokata [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets pienoisohjelmia] nimiavaruudessa <tt>{{ns:widget}}</tt>"
 }

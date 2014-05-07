@@ -9,5 +9,5 @@
 	"group-widgeteditor": "Wobźěłowarje miniprogramow",
 	"group-widgeteditor-member": "{{GENDER:$1|Wobźěłaŕ miniprogramow|Wobźěłarka miniprogramow}}",
 	"grouppage-widgeteditor": "{{ns:project}}: Wobźěłowarje miniprogramow",
-	"right-editwidgets": "[http://www.mediawiki.org/wiki/Extension:Widgets Woknowe elementy] w mjenjowem rumje <tt>{{ns:widget}}</tt> napóraś a wobźěłaś"
+	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Woknowe elementy] w mjenjowem rumje <tt>{{ns:widget}}</tt> napóraś a wobźěłaś"
 }

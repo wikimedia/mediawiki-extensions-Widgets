@@ -9,5 +9,5 @@
 	"group-widgeteditor": "Уредници елемената",
 	"group-widgeteditor-member": "{{GENDER:$1|Уредник елемената|Уредница елемената|Уредник елемената}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Уредници елемената",
-	"right-editwidgets": "прављење и уређивање [http://www.mediawiki.org/wiki/Extension:Widgets елемената] у именском простору <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "прављење и уређивање [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets елемената] у именском простору <tt>{{ns:widget}}</tt>"
 }

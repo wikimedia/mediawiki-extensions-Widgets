@@ -8,5 +8,5 @@
 	"group-widgeteditor": "Widget-Editeuren",
 	"group-widgeteditor-member": "{{GENDER:$1|Widget-Editeur}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Widget Editeuren",
-	"right-editwidgets": "[http://www.mediawiki.org/wiki/Extension:Widgets widgets] am <tt>{{ns:widget}}</tt> Nummraum uleeën an  änneren"
+	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] am <tt>{{ns:widget}}</tt> Nummraum uleeën an  änneren"
 }

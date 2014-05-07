@@ -11,5 +11,5 @@
 	"group-widgeteditor": "Редактори віджетів",
 	"group-widgeteditor-member": "{{GENDER:$1|Редактор віджетів|Редакторка віджетів}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Редактори віджетів",
-	"right-editwidgets": "Створювати і редагувати [http://www.mediawiki.org/wiki/Extension:Widgets віджети] у просторі назв <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Створювати і редагувати [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets віджети] у просторі назв <tt>{{ns:widget}}</tt>"
 }

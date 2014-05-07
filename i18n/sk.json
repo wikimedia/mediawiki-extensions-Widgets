@@ -10,5 +10,5 @@
 	"group-widgeteditor": "Editori ovládacích prvkov",
 	"group-widgeteditor-member": "{{GENDER:$1|Redaktor|Redaktorka}} ovládacích prvkov",
 	"grouppage-widgeteditor": "{{ns:project}}:Editori ovládacích prvkov",
-	"right-editwidgets": "Tvorba a úprava stránok [http://www.mediawiki.org/wiki/Extension:Widgets ovládacích prvkov] v mennom priestore <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Tvorba a úprava stránok [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ovládacích prvkov] v mennom priestore <tt>{{ns:widget}}</tt>"
 }

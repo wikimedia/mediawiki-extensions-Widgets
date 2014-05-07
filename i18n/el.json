@@ -13,5 +13,5 @@
 	"group-widgeteditor": "Επεξεργαστές widget",
 	"group-widgeteditor-member": "Επεξεργαστής widget",
 	"grouppage-widgeteditor": "{{ns:project}}:Επεξεργαστές widget",
-	"right-editwidgets": "Δημιουργία και επεξεργασία [http://www.mediawiki.org/wiki/Extension:Widgets widget] στο χώρο ονομάτων <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Δημιουργία και επεξεργασία [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widget] στο χώρο ονομάτων <tt>{{ns:widget}}</tt>"
 }

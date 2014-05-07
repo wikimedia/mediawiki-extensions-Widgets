@@ -9,7 +9,7 @@
 	"group-widgeteditor": "위젯 편집자",
 	"group-widgeteditor-member": "{{GENDER:$1|위젯 편집자}}",
 	"grouppage-widgeteditor": "{{ns:project}}:위젯 편집자",
-	"right-editwidgets": "<tt>{{ns:widget}}</tt> 이름공간에서 [http://www.mediawiki.org/wiki/Extension:Widgets 위젯]을 만들고 편집",
+	"right-editwidgets": "<tt>{{ns:widget}}</tt> 이름공간에서 [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets 위젯]을 만들고 편집",
 	"group-widgeteditor.css": "/* 이 CSS 설정은 위젯 편집자에만 적용됩니다 */",
 	"group-widgeteditor.js": "/* 이 자바스크립트 설정은 위젯 편집자에만 적용됩니다 */"
 }

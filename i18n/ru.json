@@ -11,5 +11,5 @@
 	"group-widgeteditor": "Редакторы виджетов",
 	"group-widgeteditor-member": "{{GENDER:$1|Редактор виджетов}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Редакторы виджетов",
-	"right-editwidgets": "создавать и редактировать [http://www.mediawiki.org/wiki/Extension:Widgets виджеты] страницы в пространстве имён <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "создавать и редактировать [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets виджеты] страницы в пространстве имён <tt>{{ns:widget}}</tt>"
 }

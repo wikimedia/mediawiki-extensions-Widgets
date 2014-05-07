@@ -12,5 +12,5 @@
 	"group-widgeteditor": "Editores de widget",
 	"group-widgeteditor-member": "{{GENDER:$1|Editor|Editora}} de widget",
 	"grouppage-widgeteditor": "{{ns:project}}:Editores de widget",
-	"right-editwidgets": "Criar e editar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Criar e editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>"
 }

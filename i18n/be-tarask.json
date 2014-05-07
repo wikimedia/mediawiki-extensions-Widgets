@@ -11,5 +11,5 @@
 	"group-widgeteditor": "Рэдактар віджэтаў",
 	"group-widgeteditor-member": "{{GENDER:$1|Рэдактар|Рэдактарка}} віджэтаў",
 	"grouppage-widgeteditor": "{{ns:project}}:Рэдактары віджэтаў",
-	"right-editwidgets": "стварэньне і рэдагаваньне [http://www.mediawiki.org/wiki/Extension:Widgets дапаўненьняў] у прасторы назваў <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "стварэньне і рэдагаваньне [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets дапаўненьняў] у прасторы назваў <tt>{{ns:widget}}</tt>"
 }

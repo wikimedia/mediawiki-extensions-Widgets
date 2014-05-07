@@ -10,5 +10,5 @@
 	"group-widgeteditor": "Bidragsytere for skjermelement",
 	"group-widgeteditor-member": "{{GENDER:$1|Bidragsyter for skjermelement}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Bidragsytere for skjermelement",
-	"right-editwidgets": "Lag og rediger [http://www.mediawiki.org/wiki/Extension:Widgets skjermelement] i <tt>{{ns:widget}}</tt>-navnerommet"
+	"right-editwidgets": "Lag og rediger [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets skjermelement] i <tt>{{ns:widget}}</tt>-navnerommet"
 }

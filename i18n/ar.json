@@ -12,5 +12,5 @@
 	"group-widgeteditor": "محررو الودجات",
 	"group-widgeteditor-member": "{{GENDER:$1|محرر ودجات}}",
 	"grouppage-widgeteditor": "{{ns:project}}:محررو الودجات",
-	"right-editwidgets": "إنشاء وتحرير [http://www.mediawiki.org/wiki/Extension:Widgets widgets] في الــ <tt>{{ns:widget}}</tt> مكان الاسم"
+	"right-editwidgets": "إنشاء وتحرير [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] في الــ <tt>{{ns:widget}}</tt> مكان الاسم"
 }

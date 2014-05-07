@@ -11,5 +11,5 @@
 	"group-widgeteditor": "Editori widget",
 	"group-widgeteditor-member": "{{GENDER:$1|Editore widget|Editrice widget|Editore\\trice widget}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Editori widget",
-	"right-editwidgets": "Crea e modifica [http://www.mediawiki.org/wiki/Extension:Widgets widget] nel namespace <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Crea e modifica [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widget] nel namespace <tt>{{ns:widget}}</tt>"
 }

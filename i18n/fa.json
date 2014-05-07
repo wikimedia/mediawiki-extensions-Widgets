@@ -10,5 +10,5 @@
 	"group-widgeteditor": "ویرایشگران ابزار",
 	"group-widgeteditor-member": "{{GENDER:$1|ویرایشگر ابزار}}",
 	"grouppage-widgeteditor": "{{ns:project}}:ویرایشگران ابزار",
-	"right-editwidgets": "ایجاد و ویرایش [http://www.mediawiki.org/wiki/Extension:Widgets ابزارها] در فضای‌نام <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "ایجاد و ویرایش [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ابزارها] در فضای‌نام <tt>{{ns:widget}}</tt>"
 }

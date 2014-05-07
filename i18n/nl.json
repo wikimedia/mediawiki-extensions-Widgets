@@ -10,5 +10,5 @@
 	"group-widgeteditor": "Widgetbewerkers",
 	"group-widgeteditor-member": "{{GENDER:$1|widgetbewerker}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Widgetbewerkers",
-	"right-editwidgets": "[http://www.mediawiki.org/wiki/Extension:Widgets Widgets] aanmaken en bewerken in de naamruimte <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Widgets] aanmaken en bewerken in de naamruimte <tt>{{ns:widget}}</tt>"
 }

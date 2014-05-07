@@ -12,7 +12,7 @@
 	"group-widgeteditor": "Editoři ovládacích prvků",
 	"group-widgeteditor-member": "{{GENDER:$1|editor ovládacích prvků|editorka ovládacích prvků}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Editoři ovládacích prvků",
-	"right-editwidgets": "Tvorba a úprava stránek [http://www.mediawiki.org/wiki/Extension:Widgets ovládacích prvků] ve jmenném prostoru <tt>{{ns:widget}}</tt>",
+	"right-editwidgets": "Tvorba a úprava stránek [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ovládacích prvků] ve jmenném prostoru <tt>{{ns:widget}}</tt>",
 	"group-widgeteditor.css": "/* Zde uvedené CSS bude ovlivňovat pouze editory ovládacích prvků */",
 	"group-widgeteditor.js": "/* Zde uvedený JavaScript bude použit pouze pro editory ovládacích prvků */"
 }

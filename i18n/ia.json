@@ -9,5 +9,5 @@
 	"group-widgeteditor": "Modificatores de widgets",
 	"group-widgeteditor-member": "{{GENDER:$1|modificator|modificatrice}} de widgets",
 	"grouppage-widgeteditor": "{{ns:project}}:Modificatores de widgets",
-	"right-editwidgets": "Crear e modificar [http://www.mediawiki.org/wiki/Extension:Widgets widgets] in le spatio de nomines <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Crear e modificar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] in le spatio de nomines <tt>{{ns:widget}}</tt>"
 }

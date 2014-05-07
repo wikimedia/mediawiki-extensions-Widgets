@@ -5,5 +5,5 @@
 			"SMP"
 		]
 	},
-	"right-editwidgets": "Crear i editar [http://www.mediawiki.org/wiki/Extension:Widgets ginys] a l'espai de noms <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Crear i editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ginys] a l'espai de noms <tt>{{ns:widget}}</tt>"
 }

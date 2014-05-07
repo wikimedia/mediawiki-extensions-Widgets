@@ -12,5 +12,5 @@
 	"group-widgeteditor": "Redaktorzy widżetów",
 	"group-widgeteditor-member": "{{GENDER:$1|Redaktor widżetów|Redaktorka widżetów}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Redaktorzy widżetów",
-	"right-editwidgets": "Tworzenie i edycja [http://www.mediawiki.org/wiki/Extension:Widgets widżetów] w przestrzeni nazw <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Tworzenie i edycja [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widżetów] w przestrzeni nazw <tt>{{ns:widget}}</tt>"
 }

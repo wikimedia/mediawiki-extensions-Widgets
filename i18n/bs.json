@@ -9,5 +9,5 @@
 	"group-widgeteditor": "Uređivači dodataka",
 	"group-widgeteditor-member": "Uređivač dodataka",
 	"grouppage-widgeteditor": "{{ns:project}}:Uređivač dodataka",
-	"right-editwidgets": "Pravljenje i uređivanje [http://www.mediawiki.org/wiki/Extension:Widgets widgeta] u imenskom prostoru <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Pravljenje i uređivanje [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgeta] u imenskom prostoru <tt>{{ns:widget}}</tt>"
 }

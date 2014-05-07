@@ -9,5 +9,5 @@
 	"group-widgeteditor": "redaktorët widget",
 	"group-widgeteditor-member": "editor widget",
 	"grouppage-widgeteditor": "Projekti: redaktorët widget",
-	"right-editwidgets": "Krijo dhe ndrysho http://www.mediawiki.org/wiki/Extension:Widgets [Widgets] në <tt>{{ns:widget}}</tt> namespace"
+	"right-editwidgets": "Krijo dhe ndrysho https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets [Widgets] në <tt>{{ns:widget}}</tt> namespace"
 }

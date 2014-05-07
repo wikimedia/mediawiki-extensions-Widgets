@@ -9,5 +9,5 @@
 	"group-widgeteditor": "Penyunting widget",
 	"group-widgeteditor-member": "{{GENDER:$1|Penyunting widget}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Penyunting widget",
-	"right-editwidgets": "Mencipta dan menyunting [http://www.mediawiki.org/wiki/Extension:Widgets widget] dalam ruang nama <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Mencipta dan menyunting [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widget] dalam ruang nama <tt>{{ns:widget}}</tt>"
 }
