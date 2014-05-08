@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher"
+			"Rancher",
+			"Milicevic01"
 		]
 	},
 	"widgets-desc": "Омогућава администраторима да додају елементе на викију уређивањем страница унутар именског простора {{ns:widget}}.\nЕлементи које је направила заједница могу се наћи на [http://www.mediawikiwidgets.org/Main_Page?setlang=sr-ec MediaWikiWidgets.org]",
@@ -9,5 +10,5 @@
 	"group-widgeteditor": "Уредници елемената",
 	"group-widgeteditor-member": "{{GENDER:$1|Уредник елемената|Уредница елемената|Уредник елемената}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Уредници елемената",
-	"right-editwidgets": "прављење и уређивање [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets елемената] у именском простору <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Прављење и уређивање [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets елемената] у именском простору <tt>{{ns:widget}}</tt>"
 }
