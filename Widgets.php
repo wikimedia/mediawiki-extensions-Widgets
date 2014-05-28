@@ -16,7 +16,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'Widgets',
 	'descriptionmsg' => 'widgets-desc',
-	'version' => '1.1.0',
+	'version' => '1.1',
 	'author' => '[http://www.sergeychernyshev.com Sergey Chernyshev]',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Widgets'
 );
