@@ -127,7 +127,7 @@ class WidgetRenderer {
 		try {
 			$output = $smarty->fetch( "wiki:$widgetName" );
 		} catch ( Exception $e ) {
-			return '<div class=\"error\">' . wfMsgExt( 'widgets-error', array( 'parsemag' ), htmlentities( $widgetName ) ) . '</div>';
+			return '<div class=\"error\">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . '</div>';
 		}
 
 		// Hide the widget from the parser.
