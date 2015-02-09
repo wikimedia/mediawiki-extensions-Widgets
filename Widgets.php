@@ -17,7 +17,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'name' => 'Widgets',
 	'descriptionmsg' => 'widgets-desc',
 	'version' => '1.1',
-	'author' => '[http://www.sergeychernyshev.com Sergey Chernyshev]',
+	'author' => array( '[http://www.sergeychernyshev.com Sergey Chernyshev]', '...' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Widgets'
 );
 
@@ -50,11 +50,11 @@ $wgWidgetsUseFlaggedRevs = false;
 // Set a default directory for storage of compiled templates
 $wgWidgetsCompileDir = "$IP/extensions/Widgets/compiled_templates/";
 
-$dir = dirname( __FILE__ ) . '/';
+$dir = __DIR__ . '/';
 
 // Initialize Smarty
 require_once( $dir . 'smarty/libs/Smarty.class.php' );
-$wgMessagesDirs['Widgets'] = __DIR__ . '/i18n';
+$wgMessagesDirs['Widgets'] = $dir . 'i18n';
 $wgExtensionMessagesFiles['Widgets'] = $dir . 'Widgets.i18n.php';
 $wgExtensionMessagesFiles['WidgetsNamespaces'] = $dir . 'Widgets.i18n.namespaces.php';
 $wgAutoloadClasses['WidgetRenderer'] = $dir . 'WidgetRenderer.php';
@@ -65,7 +65,7 @@ $wgExtensionMessagesFiles['WidgetsMagic'] = $dir . 'Widgets.i18n.magic.php';
 $wgExtensionFunctions[] = 'widgetNamespacesInit';
 $wgExtensionFunctions[] = 'WidgetRenderer::initRandomString';
 $wgHooks['ParserFirstCallInit'][] = 'widgetParserFunctions';
-$wgHooks['ParserAfterTidy'][] = 'WidgetRenderer::processEncodedWidgetOutput';
+$wgHooks['ParserAfterTidy'][] = 'WidgetRenderer::outputCompiledWidget';
 $wgHooks['CanonicalNamespaces'][] = 'widgetsAddNamespaces';
 
 /**
@@ -73,7 +73,7 @@ $wgHooks['CanonicalNamespaces'][] = 'widgetsAddNamespaces';
  * @return bool
  */
 function widgetParserFunctions( &$parser ) {
-	$parser->setFunctionHook( 'widget', array( 'WidgetRenderer', 'renderWidget' ) );
+	$parser->setFunctionHook( 'widget', 'WidgetRenderer::renderWidget' );
 
 	return true;
 }

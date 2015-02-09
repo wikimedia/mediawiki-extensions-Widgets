@@ -4,15 +4,16 @@
  */
 
 class WidgetRenderer {
-
-	// A randomly-generated string, used to prevent malicious users from
-	// spoofing the output of #widget in order to have arbitrary
-	// JavaScript show up in the page's output.
-	static $mRandomString;
-
+	// The prefix and suffix for the widget strip marker.
+	private static $markerPrefix = "START_WIDGET";
+	private static $markerSuffix = "END_WIDGET";
+	
+	// Stores the compiled widgets for after the parser has run.
+	private static $widgets = array();
+	
 	public static function initRandomString() {
-		// Set the random string, used in both encoding and decoding.
-		self::$mRandomString = substr( base64_encode( rand() ), 0, 7 );
+		// Add a random string to the prefix to ensure no conflicts with normal content.
+		self::$markerPrefix .= wfRandomString( 16 );
 	}
 
 	public static function renderWidget( &$parser, $widgetName ) {
@@ -127,20 +128,20 @@ class WidgetRenderer {
 		try {
 			$output = $smarty->fetch( "wiki:$widgetName" );
 		} catch ( Exception $e ) {
-			return '<div class=\"error\">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . '</div>';
+			return '<strong class="error">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . '</strong>';
 		}
-
-		// Hide the widget from the parser.
-		$output = 'ENCODED_CONTENT ' . self::$mRandomString . base64_encode($output) . ' END_ENCODED_CONTENT';
-		return array( $output, 'noparse' => true, 'isHTML' => true );
+		
+		// To prevent the widget output from being tampered with, the compiled HTML
+		// is stored and a strip marker with an index to retrieve it later is returned.
+		$index = array_push( self::$widgets, $output ) - 1;
+		return self::$markerPrefix . '-' . $index . self::$markerSuffix;
 	}
 
-	public static function processEncodedWidgetOutput( &$out, &$text ) {
-		// Find all hidden content and restore to normal
+	public static function outputCompiledWidget( &$out, &$text ) {
 		$text = preg_replace_callback(
-			'/ENCODED_CONTENT ' . self::$mRandomString . '([0-9a-zA-Z\/+]+=*)* END_ENCODED_CONTENT/',
+			'/' . self::$markerPrefix . '-(\d+)' . self::$markerSuffix . '/S',
 			function( $matches ) {
-				return base64_decode( $matches[1]);
+				return self::$widgets[$matches[1]];
 			},
 			$text
 		);
