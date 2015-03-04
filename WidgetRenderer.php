@@ -7,12 +7,13 @@ class WidgetRenderer {
 	// The prefix and suffix for the widget strip marker.
 	private static $markerPrefix = "START_WIDGET";
 	private static $markerSuffix = "END_WIDGET";
-	
+
 	// Stores the compiled widgets for after the parser has run.
 	private static $widgets = array();
-	
+
 	public static function initRandomString() {
-		// Add a random string to the prefix to ensure no conflicts with normal content.
+		// Add a random string to the prefix to ensure no conflicts
+		// with normal content.
 		self::$markerPrefix .= wfRandomString( 16 );
 	}
 
@@ -128,11 +129,12 @@ class WidgetRenderer {
 		try {
 			$output = $smarty->fetch( "wiki:$widgetName" );
 		} catch ( Exception $e ) {
-			return '<strong class="error">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . '</strong>';
+			return '<div class="error">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . '</div>';
 		}
-		
-		// To prevent the widget output from being tampered with, the compiled HTML
-		// is stored and a strip marker with an index to retrieve it later is returned.
+
+		// To prevent the widget output from being tampered with, the
+		// compiled HTML is stored and a strip marker with an index to
+		// retrieve it later is returned.
 		$index = array_push( self::$widgets, $output ) - 1;
 		return self::$markerPrefix . '-' . $index . self::$markerSuffix;
 	}
@@ -149,10 +151,11 @@ class WidgetRenderer {
 		return true;
 	}
 
-	// the following four functions are all registered with Smarty
+	// The following four functions are all registered with Smarty.
+
 	public static function wiki_get_template( $widgetName, &$widgetCode, $smarty_obj ) {
 		global $wgWidgetsUseFlaggedRevs;
-	
+
 		$widgetTitle = Title::newFromText( $widgetName, NS_WIDGET );
 
 		if ( $widgetTitle && $widgetTitle->exists() ) {
