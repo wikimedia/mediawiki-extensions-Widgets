@@ -143,7 +143,8 @@ class WidgetRenderer {
 		$text = preg_replace_callback(
 			'/' . self::$markerPrefix . '-(\d+)' . self::$markerSuffix . '/S',
 			function( $matches ) {
-				return self::$widgets[$matches[1]];
+				// Can't use self:: in an anonymous function pre PHP 5.4
+				return WidgetRenderer::$widgets[$matches[1]];
 			},
 			$text
 		);
