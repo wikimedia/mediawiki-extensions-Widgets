@@ -9,7 +9,8 @@ class WidgetRenderer {
 	private static $markerSuffix = "END_WIDGET";
 
 	// Stores the compiled widgets for after the parser has run.
-	private static $widgets = array();
+	// Must be public for use in anonymous callback function in PHP 5.3
+	public static $widgets = array();
 
 	public static function initRandomString() {
 		// Add a random string to the prefix to ensure no conflicts
