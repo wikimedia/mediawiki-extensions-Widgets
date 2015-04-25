@@ -60,6 +60,11 @@ $magicWords['fr'] = array(
 	'widget' => array( 0, 'widget' ),
 );
 
+/** Goan Konkani (Devanagari script) (कोंकणी) */
+$magicWords['gom-deva'] = array(
+	'widget' => array( 0, 'विसाधन' ),
+);
+
 /** Japanese (日本語) */
 $magicWords['ja'] = array(
 	'widget' => array( 0, 'ウィジェット' ),
