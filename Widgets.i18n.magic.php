@@ -30,6 +30,11 @@ $magicWords['ce'] = array(
 	'widget' => array( 0, 'тӀехьажар', 'виджет' ),
 );
 
+/** Chuvash (Чӑвашла) */
+$magicWords['cv'] = array(
+	'widget' => array( 0, 'widget' ),
+);
+
 /** German (Deutsch) */
 $magicWords['de'] = array(
 	'widget' => array( 0, 'steuerelement' ),
