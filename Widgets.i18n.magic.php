@@ -15,7 +15,7 @@ $magicWords['ar'] = array(
 	'widget' => array( 0, 'ودجة' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $magicWords['arz'] = array(
 	'widget' => array( 0, 'ودجة' ),
 );
