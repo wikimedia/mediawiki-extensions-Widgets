@@ -20,7 +20,7 @@ $magicWords['arz'] = array(
 	'widget' => array( 0, 'ودجة' ),
 );
 
-/** South Azerbaijani (تورکجه) */
+/** South Azerbaijani (تۆرکجه) */
 $magicWords['azb'] = array(
 	'widget' => array( 0, 'آراجلار' ),
 );
