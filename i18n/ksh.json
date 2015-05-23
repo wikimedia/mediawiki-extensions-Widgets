@@ -8,8 +8,8 @@
 	"widgets-error": "Doh es ene Fähler em [[{{ns:widget}}:$1|<i lang=\"en\">Widget</i> $1]]",
 	"group-widgeteditor": "Schriiver för <i lang=\"en\">Widgets</i>",
 	"group-widgeteditor-member": "{{GENDER:$1|<i lang=\"en\">Widget</i>-Schriiver}}",
-	"grouppage-widgeteditor": "{{ns:project}}:Widget-Schriiver",
-	"right-editwidgets": "Sigge, alsu <i lang=\"en\">[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Widgets]</i>, em Appachemang „{{ns:widget}}“ ändere udder aanlääje",
+	"grouppage-widgeteditor": "{{ns:project}}:Widget-Schrihver!",
+	"right-editwidgets": "Sigge, alsu <i lang=\"en\">[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Widgets]</i>, em Appachemang „{{ns:widget}}“ ändere udder aanlähje!FUZZY!!",
 	"group-widgeteditor.css": "/* Dat CSS heh aan dä Stell wirrek bloß beim Ändere vun Widgets */",
 	"group-widgeteditor.js": "/* Dat JavaSkrep heh aan dä Stell wirrek bloß beim Ändere vun Widgets */"
 }
