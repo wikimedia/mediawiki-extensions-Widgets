@@ -65,7 +65,7 @@ $magicWords['fr'] = array(
 	'widget' => array( 0, 'widget' ),
 );
 
-/** Goan Konkani (Devanagari script) (कोंकणी) */
+/** Goan Konkani (Devanagari script) (गोवा कोंकणी) */
 $magicWords['gom-deva'] = array(
 	'widget' => array( 0, 'विसाधन' ),
 );
