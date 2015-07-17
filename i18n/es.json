@@ -5,7 +5,8 @@
 			"Armando-Martin",
 			"Crazymadlover",
 			"Diego Grez",
-			"Peter17"
+			"Peter17",
+			"Macofe"
 		]
 	},
 	"widgets-desc": "Permite a los administradores agregar widgets a la wiki editando páginas dentro del espacio de nombres {{ns:widget}}.\nWidgets desarrollados comunitariamente pueden ser encontrados en [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
@@ -13,5 +14,5 @@
 	"group-widgeteditor": "Editores de widget",
 	"group-widgeteditor-member": "{{GENDER:$1|editor|editora}} de widgets",
 	"grouppage-widgeteditor": "{{ns:project}}:Editores de widget",
-	"right-editwidgets": "Crear y editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] en el espacio de nombre \"{{ns:widget}}\""
+	"right-editwidgets": "Crear y editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] en el espacio de nombres \"{{ns:widget}}\""
 }
