@@ -130,6 +130,7 @@ class WidgetRenderer {
 		try {
 			$output = $smarty->fetch( "wiki:$widgetName" );
 		} catch ( Exception $e ) {
+			wfDebugLog( "Widgets", "Smarty exception while parsing '$widgetName': " . $e->getMessage() );
 			return '<div class="error">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . '</div>';
 		}
 
