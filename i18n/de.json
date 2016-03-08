@@ -14,5 +14,5 @@
 	"group-widgeteditor": "Widget-Bearbeiter",
 	"group-widgeteditor-member": "{{GENDER:$1|Widget-Bearbeiter|Widget-Bearbeiterin}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Widget-Bearbeiter",
-	"right-editwidgets": "[https://www.mediawiki.org/wiki/Extension:Widgets Widgets] im <code>{{ns:widget}}</code>-Namensraum bearbeiten und erstellen"
+	"right-editwidgets": "[https://www.mediawiki.org/wiki/Extension:Widgets Widgets] im Namensraum „{{ns:widget}}“ bearbeiten und erstellen"
 }
