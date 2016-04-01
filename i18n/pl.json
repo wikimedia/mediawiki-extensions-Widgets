@@ -10,7 +10,7 @@
 	"widgets-desc": "Pozwala administratorom wiki na dodawanie widżetów w dowolnej formie do wiki poprzez edycję stron w przestrzeni nazw {{ns:widget}}.\nWidżety stworzone przez społeczność można odnaleźć na stronie [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	"widgets-error": "Błąd w [[{{ns:widget}}:$1|widżecie $1]]",
 	"group-widgeteditor": "Redaktorzy widżetów",
-	"group-widgeteditor-member": "{{GENDER:$1|Redaktor widżetów|Redaktorka widżetów}}",
+	"group-widgeteditor-member": "{{GENDER:$1|Redaktor|Redaktorka}} widżetów",
 	"grouppage-widgeteditor": "{{ns:project}}:Redaktorzy widżetów",
 	"right-editwidgets": "Tworzenie i edycja [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widżetów] w przestrzeni nazw <tt>{{ns:widget}}</tt>"
 }
