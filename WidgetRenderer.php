@@ -72,7 +72,7 @@ class WidgetRenderer {
 
 	}
 
-	private static function _renderWidget( $widgetName ) {
+	private static function _renderWidget( $widgetName, $params ) {
 		global $IP, $wgWidgetsCompileDir;
 
 		$smarty = new Smarty;
@@ -115,7 +115,48 @@ class WidgetRenderer {
 			)
 		);
 
+		try {
+			$output = $smarty->fetch( "wiki:$widgetName" );
+		} catch ( Exception $e ) {
+			wfDebugLog( "Widgets", "Smarty exception while parsing '$widgetName': " . $e->getMessage() );
+			return '<div class="error">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . ': ' . $e->getMessage() . '</div>';
+		}
+
+
+		$smarty->assign( self::_getParamTree( $params ) );
+
+		try {
+			return $smarty->fetch( "wiki:$widgetName" );
+		} catch ( Exception $e ) {
+			wfDebugLog( "Widgets", "Smarty exception while parsing '$widgetName': " . $e->getMessage() );
+			return '<div class="error">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . ': ' . $e->getMessage() . '</div>';
+		}
+
+	}
+
+	public static function renderWidgetTag( $input, array $args, Parser $parser, PPFrame $frame ) {
+
+		$args_ = [];
+		foreach ($args as $key => $val) {
+			$args_[$key] = $parser->recursiveTagParse( $val, $frame );
+		}
+
+		if (!isset($args_['widgetname'])) {
+			return '<div class="error">' . wfMessage( 'widgets-error-widgetname-parameter-mandatory' ) . '</div>';
+		}
+		$output = self::_renderWidget( $args['widgetname'], $args_ );
+
+		return $output;
+	}
+
+	public static function renderWidget( &$parser, $widgetName ) {
+
 		$params_ = func_get_args();
+
+		// The first and second params are the parser and the widget
+		// name - we already have both.
+		array_shift( $params_ );
+		array_shift( $params_ );
 
 		$params = [];
 
@@ -128,38 +169,7 @@ class WidgetRenderer {
 			}
 		}
 
-		$params_tree = self::_getParamsTree( $params );
-
-		try {
-			$output = $smarty->fetch( "wiki:$widgetName" );
-		} catch ( Exception $e ) {
-			wfDebugLog( "Widgets", "Smarty exception while parsing '$widgetName': " . $e->getMessage() );
-			return '<div class="error">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . ': ' . $e->getMessage() . '</div>';
-		}
-
-		// The first and second params are the parser and the widget
-		// name - we already have both.
-		array_shift( $params );
-		array_shift( $params );
-
-
-		$smarty->assign( $params_tree );
-
-		try {
-			return $smarty->fetch( "wiki:$widgetName" );
-		} catch ( Exception $e ) {
-			wfDebugLog( "Widgets", "Smarty exception while parsing '$widgetName': " . $e->getMessage() );
-			return '<div class="error">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . ': ' . $e->getMessage() . '</div>';
-		}
-
-	}
-
-	public static function renderWidgetTag( $input, array $args, Parser $parser, PPFrame $frame ) {
-	}
-
-	public static function renderWidget( &$parser, $widgetName ) {
-
-		$output = self::_renderWidget( $widgetName );
+		$output = self::_renderWidget( $widgetName, $params );
 
 		// To prevent the widget output from being tampered with, the
 		// compiled HTML is stored and a strip marker with an index to

@@ -75,6 +75,7 @@ $wgHooks['CanonicalNamespaces'][] = 'widgetsAddNamespaces';
  */
 function widgetParserFunctions( &$parser ) {
 	$parser->setFunctionHook( 'widget', 'WidgetRenderer::renderWidget' );
+	$parser->setHook( 'widget', 'WidgetRenderer::renderWidgetTag' );
 
 	return true;
 }
