@@ -18,67 +18,10 @@ class WidgetRenderer {
 		self::$markerPrefix .= wfRandomString( 16 );
 	}
 
-	public static function renderWidget( &$parser, $widgetName ) {
-		global $IP, $wgWidgetsCompileDir;
-
-		$smarty = new Smarty;
-		$smarty->left_delimiter = '<!--{';
-		$smarty->right_delimiter = '}-->';
-		$smarty->compile_dir = $wgWidgetsCompileDir;
-
-		// registering custom Smarty plugins
-		$smarty->addPluginsDir( "$IP/extensions/Widgets/smarty_plugins/" );
-
-		$smarty->enableSecurity();
-		// These settings were for Smarty v2 - they don't seem to
-		// have an equivalent in Smarty v3.
-		/*
-		$smarty->security_settings = array(
-			'IF_FUNCS' => array(
-					'is_array',
-					'isset',
-					'array',
-					'list',
-					'count',
-					'sizeof',
-					'in_array',
-					'true',
-					'false',
-					'null'
-					),
-			'MODIFIER_FUNCS' => array( 'validate' )
-		);
-		*/
-
-		// Register the Widgets extension functions.
-		$smarty->registerResource(
-			'wiki',
-			array(
-				array( 'WidgetRenderer', 'wiki_get_template' ),
-				array( 'WidgetRenderer', 'wiki_get_timestamp' ),
-				array( 'WidgetRenderer', 'wiki_get_secure' ),
-				array( 'WidgetRenderer', 'wiki_get_trusted' )
-			)
-		);
-
-		$params = func_get_args();
-		// The first and second params are the parser and the widget
-		// name - we already have both.
-		array_shift( $params );
-		array_shift( $params );
-
+	private static function _getParamTree( $params ) {
 		$params_tree = array();
 
-		foreach ( $params as $param ) {
-			$pair = explode( '=', $param, 2 );
-
-			if ( count( $pair ) == 2 ) {
-				$key = trim( $pair[0] );
-				$val = trim( $pair[1] );
-			} else {
-				$key = $param;
-				$val = true;
-			}
+		foreach ( $params as $key => $val ) {
 
 			if ( $val == 'false' ) {
 				$val = false;
@@ -125,7 +68,67 @@ class WidgetRenderer {
 			}
 		}
 
-		$smarty->assign( $params_tree );
+		return $params_tree;
+
+	}
+
+	private static function _renderWidget( $widgetName ) {
+		global $IP, $wgWidgetsCompileDir;
+
+		$smarty = new Smarty;
+		$smarty->left_delimiter = '<!--{';
+		$smarty->right_delimiter = '}-->';
+		$smarty->compile_dir = $wgWidgetsCompileDir;
+
+		// registering custom Smarty plugins
+		$smarty->addPluginsDir( "$IP/extensions/Widgets/smarty_plugins/" );
+
+		$smarty->enableSecurity();
+		// These settings were for Smarty v2 - they don't seem to
+		// have an equivalent in Smarty v3.
+		/*
+		$smarty->security_settings = array(
+			'IF_FUNCS' => array(
+					'is_array',
+					'isset',
+					'array',
+					'list',
+					'count',
+					'sizeof',
+					'in_array',
+					'true',
+					'false',
+					'null'
+					),
+			'MODIFIER_FUNCS' => array( 'validate' )
+		);
+		*/
+
+		// Register the Widgets extension functions.
+		$smarty->registerResource(
+			'wiki',
+			array(
+				array( 'WidgetRenderer', 'wiki_get_template' ),
+				array( 'WidgetRenderer', 'wiki_get_timestamp' ),
+				array( 'WidgetRenderer', 'wiki_get_secure' ),
+				array( 'WidgetRenderer', 'wiki_get_trusted' )
+			)
+		);
+
+		$params_ = func_get_args();
+
+		$params = [];
+
+		foreach ($params_ as $param) {
+			$pair = explode( '=', $param, 2 );
+			if ( count( $pair ) == 2 ) {
+				$params[$pair[0]] = $pair[1];
+			} else {
+				$params[$pair[0]] = true;
+			}
+		}
+
+		$params_tree = self::_getParamsTree( $params );
 
 		try {
 			$output = $smarty->fetch( "wiki:$widgetName" );
@@ -133,6 +136,30 @@ class WidgetRenderer {
 			wfDebugLog( "Widgets", "Smarty exception while parsing '$widgetName': " . $e->getMessage() );
 			return '<div class="error">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . ': ' . $e->getMessage() . '</div>';
 		}
+
+		// The first and second params are the parser and the widget
+		// name - we already have both.
+		array_shift( $params );
+		array_shift( $params );
+
+
+		$smarty->assign( $params_tree );
+
+		try {
+			return $smarty->fetch( "wiki:$widgetName" );
+		} catch ( Exception $e ) {
+			wfDebugLog( "Widgets", "Smarty exception while parsing '$widgetName': " . $e->getMessage() );
+			return '<div class="error">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . ': ' . $e->getMessage() . '</div>';
+		}
+
+	}
+
+	public static function renderWidgetTag( $input, array $args, Parser $parser, PPFrame $frame ) {
+	}
+
+	public static function renderWidget( &$parser, $widgetName ) {
+
+		$output = self::_renderWidget( $widgetName );
 
 		// To prevent the widget output from being tampered with, the
 		// compiled HTML is stored and a strip marker with an index to
