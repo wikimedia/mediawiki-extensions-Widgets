@@ -172,8 +172,9 @@ class WidgetRenderer {
 					$widgetCode = '';
 				}
 			} else {
-				$widgetArticle = new Article( $widgetTitle, 0 );
-				$widgetCode = $widgetArticle->getContent();
+				$widgetArticle = new Article( $widgetTitle );
+				$widgetContent = $widgetArticle->getContentObject();
+				$widgetCode = ContentHandler::getContentText( $widgetContent );
 			}
 
 			// Remove <noinclude> sections and <includeonly> tags from form definition
