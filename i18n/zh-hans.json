@@ -14,5 +14,6 @@
 	"group-widgeteditor-member": "{{GENDER:$1|小部件编辑者}}",
 	"grouppage-widgeteditor": "{{ns:project}}:小部件编辑者",
 	"right-editwidgets": "在<code>{{ns:widget}}</code>名字空间中创建和编辑[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets 小部件]",
-	"group-widgeteditor.css": "/* 这里放置的CSS将只影响小部件编辑者 */"
+	"group-widgeteditor.css": "/* 这里放置的CSS将只影响小部件编辑者 */",
+	"group-widgeteditor.js": "/* 这里放置的CSS将只影响小部件编辑者 */"
 }
