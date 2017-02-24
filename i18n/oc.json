@@ -4,7 +4,7 @@
 			"Cedric31"
 		]
 	},
-	"widgets-desc": "Permet als administrators del wiki d'apondre de widgets al wiki en modificant de paginas dins l'espac de noms {{ns:widget}}. Desvolopat a la basa per [http://www.ardorado.com Ardorado.com]",
+	"widgets-desc": "Permet als administrators del wiki d'apondre de ''widgets'' (gadgets logicials) al wiki en modificant de paginas dins l'espaci de noms {{ns:widget}}. Los ''widgets'' prepausats per la comunautat son disponibles sus [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	"widgets-error": "Error dins lo [[{{ns:widget}}:$1|widget $1]]",
 	"group-widgeteditor": "Modificators de widgets",
 	"group-widgeteditor-member": "{{GENDER:$1|Modificator de widget}}",
