@@ -172,8 +172,8 @@ class WidgetRenderer {
 					$widgetCode = '';
 				}
 			} else {
-				$widgetArticle = new Article( $widgetTitle );
-				$widgetContent = $widgetArticle->getContentObject();
+				$widgetWikiPage = new WikiPage( $widgetTitle );
+				$widgetContent = $widgetWikiPage->getContent();
 				$widgetCode = ContentHandler::getContentText( $widgetContent );
 			}
 
