@@ -27,7 +27,7 @@ class WidgetRenderer {
 		$smarty->compile_dir = $wgWidgetsCompileDir;
 
 		// registering custom Smarty plugins
-		$smarty->addPluginsDir( "$IP/extensions/Widgets/smarty_plugins/" );
+		$smarty->addPluginsDir( __DIR__ . "/smarty_plugins/" );
 
 		$smarty->enableSecurity();
 		// These settings were for Smarty v2 - they don't seem to
