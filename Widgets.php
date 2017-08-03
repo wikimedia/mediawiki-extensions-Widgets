@@ -1,23 +1,33 @@
 <?php
 /**
+ * Widgest - Allows adding free-type widgets to the wiki by editing pages
+ * in Widget namespace
  *
- * {{#widget:<WidgetName>|<param1>=<value1>|<param2>=<value2>}}
+ * @link https://www.mediawiki.org/wiki/Extension:NumberFormat Documentation
+ * @link https://www.mediawikiwidgets.org/ Collection of available widgets
  *
  * @author Sergey Chernyshev
  * @author Yaron Koren
+ *
+ * @license https://www.gnu.org/licenses/gpl-2.0.html GNU General Public License 2.0 or later
  */
 
+// Ensure that the script cannot be executed outside of MediaWiki.
 if ( !defined( 'MEDIAWIKI' ) ) {
-	echo "This file is not a valid entry point.";
-	exit( 1 );
+    die( 'This is an extension to MediaWiki and cannot be run standalone.' );
 }
 
+// Display extension properties on MediaWiki.
 $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'Widgets',
 	'descriptionmsg' => 'widgets-desc',
-	'version' => '1.2.2',
-	'author' => array( '[http://www.sergeychernyshev.com Sergey Chernyshev]', '...' ),
+	'version' => '1.3.0',
+	'author' => array(
+		'[https://www.sergeychernyshev.com Sergey Chernyshev]',
+		'Yaron Koren',
+		'...'
+	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Widgets',
 	'license-name' => 'GPL-2.0+'
 );
@@ -51,20 +61,22 @@ $wgWidgetsUseFlaggedRevs = false;
 // Set a default directory for storage of compiled templates
 $wgWidgetsCompileDir = "$IP/extensions/Widgets/compiled_templates/";
 
-$dir = __DIR__ . '/';
-
 // Initialize Smarty
-require_once( $dir . 'smarty/libs/Smarty.class.php' );
-$wgMessagesDirs['Widgets'] = $dir . 'i18n';
-$wgExtensionMessagesFiles['Widgets'] = $dir . 'Widgets.i18n.php';
-$wgExtensionMessagesFiles['WidgetsNamespaces'] = $dir . 'Widgets.i18n.namespaces.php';
-$wgAutoloadClasses['WidgetRenderer'] = $dir . 'WidgetRenderer.php';
+require_once( __DIR__ . '/smarty/libs/Smarty.class.php' );
 
-$wgExtensionMessagesFiles['WidgetsMagic'] = $dir . 'Widgets.i18n.magic.php';
+// Load extension's classes.
+$wgAutoloadClasses['WidgetRenderer'] = __DIR__ . '/WidgetRenderer.php';
+
+// Register extension messages and other localisation.
+$wgMessagesDirs['Widgets'] = __DIR__ . '/i18n';
+$wgExtensionMessagesFiles['WidgetsMagic'] = __DIR__ . '/Widgets.i18n.magic.php';
+$wgExtensionMessagesFiles['WidgetsNamespaces'] = __DIR__ . '/Widgets.i18n.namespaces.php';
 
 // Parser function registration
 $wgExtensionFunctions[] = 'widgetNamespacesInit';
 $wgExtensionFunctions[] = 'WidgetRenderer::initRandomString';
+
+// Register extension hooks.
 $wgHooks['ParserFirstCallInit'][] = 'widgetParserFunctions';
 $wgHooks['ParserAfterTidy'][] = 'WidgetRenderer::outputCompiledWidget';
 $wgHooks['CanonicalNamespaces'][] = 'widgetsAddNamespaces';
