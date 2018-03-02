@@ -29,7 +29,7 @@ $wgExtensionCredits['parserhook'][] = array(
 		'...'
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Widgets',
-	'license-name' => 'GPL-2.0+'
+	'license-name' => 'GPL-2.0-or-later'
 );
 
 /**
