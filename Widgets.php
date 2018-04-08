@@ -1,9 +1,9 @@
 <?php
 /**
- * Widgest - Allows adding free-type widgets to the wiki by editing pages
+ * Widgets - Allows adding free-type widgets to the wiki by editing pages
  * in Widget namespace
  *
- * @link https://www.mediawiki.org/wiki/Extension:NumberFormat Documentation
+ * @link https://www.mediawiki.org/wiki/Extension:Widgets Documentation
  * @link https://www.mediawikiwidgets.org/ Collection of available widgets
  *
  * @author Sergey Chernyshev
