@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ильнар"
+		]
+	},
+	"widgets-error": "[[{{ns:widget}}:$1|$1 виджетында]] хата",
+	"group-widgeteditor": "Виджет мөхәррире",
+	"group-widgeteditor-member": "{{GENDER:$1|Виджет мөхәррире}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Виджет мөхәррире"
+}
