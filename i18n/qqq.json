@@ -17,5 +17,7 @@
 	"grouppage-widgeteditor": "{{doc-group|widgeteditor|page}}",
 	"right-editwidgets": "{{doc-right|editwidgets}}",
 	"group-widgeteditor.css": "{{doc-group|widgeteditor|css}}",
-	"group-widgeteditor.js": "{{doc-group|widgeteditor|js}}"
+	"group-widgeteditor.js": "{{doc-group|widgeteditor|js}}",
+	"widgets-config-useflaggedrevs": "configuration setting description of $wgWidgetsUseFlaggedRevs",
+	"widgets-config-compiledir": "configuration setting description of $wgWidgetsCompileDir"
 }
