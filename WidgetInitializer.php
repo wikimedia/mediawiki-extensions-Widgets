@@ -2,9 +2,6 @@
 class WidgetInitializer {
 
 	public static function init() {
-		// Initialize Smarty
-		require_once( __DIR__ . '/smarty/libs/Smarty.class.php' );
-
 		// Unsetting required namespace permission rights if using FlaggedRevs
 		global $wgNamespaceProtection, $wgWidgetsUseFlaggedRevs;
 		if ( $wgWidgetsUseFlaggedRevs ) {

@@ -75,5 +75,6 @@
 		"WidgetRenderer": "WidgetRenderer.php"
 	},
 	"callback": "WidgetInitializer::init",
+	"load_composer_autoloader": true,
 	"manifest_version": 2
 }
