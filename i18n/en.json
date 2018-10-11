@@ -11,5 +11,5 @@
 	"group-widgeteditor.css": "/* CSS placed here will affect widget editors only */",
 	"group-widgeteditor.js": "/* JS placed here will affect widget editors only */",
 	"widgets-config-useflaggedrevs": "Set this to true to use FlaggedRevs extension's stable version for widget security",
-	"widgets-config-compiledir": "Seta a default directory for storage of compiled templates"
+	"widgets-config-compiledir": "Set a default directory for storage of compiled templates"
 }
