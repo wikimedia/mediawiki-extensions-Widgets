@@ -15,5 +15,7 @@
 	"grouppage-widgeteditor": "{{ns:project}}:Modificateurs de widgets",
 	"right-editwidgets": "Créer et modifier les [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] dans l’espace de noms « {{ns:widget}} »",
 	"group-widgeteditor.css": "/* Le CSS placé ici n’affectera que les éditeurs de widgets */",
-	"group-widgeteditor.js": "/* Le Javascript placé ici n’affectera que les éditeurs de widgets */"
+	"group-widgeteditor.js": "/* Le Javascript placé ici n’affectera que les éditeurs de widgets */",
+	"widgets-config-useflaggedrevs": "Le mettre à vrai pour utiliser la version stable de FlaggedRev pour la sécurité des widgets",
+	"widgets-config-compiledir": "Définir un répertoire par défaut pour le stockage des modèles compilés"
 }
