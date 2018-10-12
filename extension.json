@@ -27,7 +27,8 @@
 			"public": false
 		}
 	},
-	"namespaces": [{
+	"namespaces": [
+		{
 			"id": 274,
 			"constant": "NS_WIDGET",
 			"name": "Widget",
