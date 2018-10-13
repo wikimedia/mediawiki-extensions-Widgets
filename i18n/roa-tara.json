@@ -9,5 +9,7 @@
 	"group-widgeteditor": "Cangiature d'u ggegge",
 	"group-widgeteditor-member": "{{GENDER:$1|cangiatore d'u ggegge}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Cangiature d'u ggegge",
-	"right-editwidgets": "Ccreje e cange [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets le ggegge] jndr'à 'u namespace <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Ccreje e cange [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets le ggegge] jndr'à 'u namespace <tt>{{ns:widget}}</tt>",
+	"widgets-config-useflaggedrevs": "Mitte quiste a true pe ausà 'na versiona stabbile de l'estenzione FlaggedRevs pu widget de securezze",
+	"widgets-config-compiledir": "Mitte 'na cartelle predefinite pe memorizzà le template combilate"
 }
