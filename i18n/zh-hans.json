@@ -5,7 +5,8 @@
 			"PhiLiP",
 			"Xiaomingyan",
 			"Yfdyh000",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"A Chinese Wikipedian"
 		]
 	},
 	"widgets-desc": "允许wiki管理员编辑{{ns:widget}}名字空间页面以添加各种形式的小部件。您可以在[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]中找到社区贡献的小部件",
@@ -15,5 +16,7 @@
 	"grouppage-widgeteditor": "{{ns:project}}:小部件编辑者",
 	"right-editwidgets": "在<code>{{ns:widget}}</code>名字空间中创建和编辑[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets 小部件]",
 	"group-widgeteditor.css": "/* 这里放置的CSS将只影响小部件编辑者 */",
-	"group-widgeteditor.js": "/* 这里放置的CSS将只影响小部件编辑者 */"
+	"group-widgeteditor.js": "/* 这里放置的CSS将只影响小部件编辑者 */",
+	"widgets-config-useflaggedrevs": "将此设置为true，使用FlaggedRevs扩展的稳定版本用于控件安全性",
+	"widgets-config-compiledir": "用于编译模板存储的默认目录"
 }
