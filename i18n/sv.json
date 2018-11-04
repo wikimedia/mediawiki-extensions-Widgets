@@ -12,5 +12,6 @@
 	"group-widgeteditor": "Widget-redigerare",
 	"group-widgeteditor-member": "{{GENDER:$1|widget-redigerare}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Widget-redigerare",
-	"right-editwidgets": "Skapa och redigera [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] i namnrymden<tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Skapa och redigera [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] i namnrymden<tt>{{ns:widget}}</tt>",
+	"widgets-config-compiledir": "Ange en standardkatalog för lagring av kompilerade mallar"
 }

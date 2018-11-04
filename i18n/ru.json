@@ -14,5 +14,5 @@
 	"grouppage-widgeteditor": "{{ns:project}}:Редакторы виджетов",
 	"right-editwidgets": "создание и редактирование [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets виджетов] в пространстве имён <tt>{{ns:widget}}</tt>",
 	"widgets-config-useflaggedrevs": "Задайте true (истина) стабильной версии для безопасности виджетов расширения Flagged Revs",
-	"widgets-config-compiledir": "Задайте стандартную категорию для хранения компилированных шаблонов"
+	"widgets-config-compiledir": "Задайте категорию по умолчанию для хранения присобранных шаблонов"
 }
