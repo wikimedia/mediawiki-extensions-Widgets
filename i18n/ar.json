@@ -14,6 +14,8 @@
 	"group-widgeteditor-member": "{{GENDER:$1|محرر ودجات}}",
 	"grouppage-widgeteditor": "{{ns:project}}:محررو الودجات",
 	"right-editwidgets": "إنشاء وتحرير [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] في الــ <tt>{{ns:widget}}</tt> مكان الاسم",
+	"group-widgeteditor.css": "/* الأنماط المتراصة CSS المعروضة هنا ستؤثر على محرري الودجات فقط */",
+	"group-widgeteditor.js": "/* الجافا سكريبت المعروضة هنا ستؤثر على محرري الودجات فقط */",
 	"widgets-config-useflaggedrevs": "اضبط هذا كtrue لاستخدام نسخة امتداد المراجعات المعلمة المستقرة لتأمين ودجت",
 	"widgets-config-compiledir": "ضبط مجلدا افتراضيا لتخزين القوالب الجاهزة"
 }
