@@ -15,6 +15,7 @@
 	"group-widgeteditor": "{{doc-group|widgeteditor}}",
 	"group-widgeteditor-member": "{{doc-group|widgeteditor|member}}",
 	"grouppage-widgeteditor": "{{doc-group|widgeteditor|page}}",
+	"action-editwidgets": "{{doc-action|editwidgets}}",
 	"right-editwidgets": "{{doc-right|editwidgets}}",
 	"group-widgeteditor.css": "{{doc-group|widgeteditor|css}}",
 	"group-widgeteditor.js": "{{doc-group|widgeteditor|js}}",
