@@ -5,7 +5,8 @@
 			"DRIHEM",
 			"OsamaK",
 			"زكريا",
-			"Meno25"
+			"Meno25",
+			"ديفيد"
 		]
 	},
 	"widgets-desc": "يتيح لإداريي الويكي إضافة ودجات حرة الشكل إلى الويكي عن طريق تعديل صفحات نطاق {{ns:widget}}.\nالودجات التي يساهم بها المجتمع توجد في [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
@@ -13,6 +14,7 @@
 	"group-widgeteditor": "محررو الودجات",
 	"group-widgeteditor-member": "{{GENDER:$1|محرر ودجات}}",
 	"grouppage-widgeteditor": "{{ns:project}}:محررو الودجات",
+	"action-editwidgets": "إنشاء وتحرير الودجات",
 	"right-editwidgets": "إنشاء وتحرير [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] في الــ <tt>{{ns:widget}}</tt> مكان الاسم",
 	"group-widgeteditor.css": "/* الأنماط المتراصة CSS المعروضة هنا ستؤثر على محرري الودجات فقط */",
 	"group-widgeteditor.js": "/* الجافا سكريبت المعروضة هنا ستؤثر على محرري الودجات فقط */",

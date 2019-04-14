@@ -14,6 +14,7 @@
 	"group-widgeteditor": "Editores de widget",
 	"group-widgeteditor-member": "{{GENDER:$1|Editor|Editora}} de widget",
 	"grouppage-widgeteditor": "{{ns:project}}:Editores de widget",
+	"action-editwidgets": "criar e editar widgets",
 	"right-editwidgets": "Criar e editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>",
 	"group-widgeteditor.css": "/* CSS colocado aqui afetará apenas editores de widgets */",
 	"group-widgeteditor.js": "/* JS colocado aqui afetará apenas os editores de widgets */",
