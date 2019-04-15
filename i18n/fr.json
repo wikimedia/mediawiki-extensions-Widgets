@@ -5,7 +5,8 @@
 			"IAlex",
 			"Jean-Frédéric",
 			"Urhixidur",
-			"Verdy p"
+			"Verdy p",
+			"Wladek92"
 		]
 	},
 	"widgets-desc": "Permet aux administrateurs du wiki d’ajouter des ''widgets'' (gadgets logiciels) au wiki en modifiant des pages dans l’espace de noms {{ns:widget}}. Les ''widgets'' proposés par la communauté sont disponibles sur [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
@@ -13,6 +14,7 @@
 	"group-widgeteditor": "Modificateurs de widgets",
 	"group-widgeteditor-member": "{{GENDER:$1|Modificateur de widget}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Modificateurs de widgets",
+	"action-editwidgets": "créer et modifier les widgets",
 	"right-editwidgets": "Créer et modifier les [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] dans l’espace de noms « {{ns:widget}} »",
 	"group-widgeteditor.css": "/* Le CSS placé ici n’affectera que les éditeurs de widgets */",
 	"group-widgeteditor.js": "/* Le Javascript placé ici n’affectera que les éditeurs de widgets */",
