@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Airon90",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"DannyS712"
 		]
 	},
 	"widgets-error": "Eraro en [[{{ns:widget}}:$1|fenestraĵo $1]]",
 	"group-widgeteditor": "Fenestraĵaj eldonistoj",
 	"group-widgeteditor-member": "{{GENDER:$1|Fenestraĵa eldonisto}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Fenestraĵaj eldonistoj",
-	"right-editwidgets": "Krei kaj redakti [http://www.mediawiki.org/vikia/Extension:Widgets fenestraĵojn] en la nomspaco <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Krei kaj redakti [https://www.mediawiki.org/vikia/Extension:Widgets fenestraĵojn] en la nomspaco <tt>{{ns:widget}}</tt>"
 }
