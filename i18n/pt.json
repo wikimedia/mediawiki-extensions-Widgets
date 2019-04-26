@@ -10,7 +10,8 @@
 	"group-widgeteditor": "Editores de ''widgets''",
 	"group-widgeteditor-member": "{{GENDER:$1|editor|editora}} de ''widgets''",
 	"grouppage-widgeteditor": "{{ns:project}}:Editores de ''widgets''",
-	"right-editwidgets": "Criar e editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] no espaço nominal/domínio <code>{{ns:widget}}</code>",
-	"widgets-config-useflaggedrevs": "Defina isto como verdadeiro (''true'') para usar a versão estável da extensão Revisão de Edições para a segurança de widgets",
+	"action-editwidgets": "criar e editar ''widgets''",
+	"right-editwidgets": "Criar e editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ''widgets''] no espaço nominal/domínio <code>{{ns:widget}}</code>",
+	"widgets-config-useflaggedrevs": "Defina isto como verdadeiro (''true'') para usar a versão estável da extensão Revisão de Edições para a segurança de ''widgets''",
 	"widgets-config-compiledir": "Definir um diretório padrão para o armazenamento das predefinições compiladas"
 }
