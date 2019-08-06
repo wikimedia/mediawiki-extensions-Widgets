@@ -58,7 +58,7 @@
 		"widgeteditor": {
 			"editwidgets": true
 		},
-		"sysop": {
+		"interface-admin": {
 			"editwidgets": true
 		}
 	},
