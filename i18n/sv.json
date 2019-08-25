@@ -14,5 +14,6 @@
 	"grouppage-widgeteditor": "{{ns:project}}:Widget-redigerare",
 	"action-editwidgets": "skapa och redigera widgets",
 	"right-editwidgets": "Skapa och redigera [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] i namnrymden<tt>{{ns:widget}}</tt>",
+	"widgets-config-useflaggedrevs": "Ändra detta till \"true\" för att använda den stabila versionen av tillägget FlaggedRevs för finessäkerhet",
 	"widgets-config-compiledir": "Ange en standardkatalog för lagring av kompilerade mallar"
 }
