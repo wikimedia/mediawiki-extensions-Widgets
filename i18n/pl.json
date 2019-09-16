@@ -5,7 +5,8 @@
 			"Sp5uhe",
 			"ToSter",
 			"Woytecr",
-			"Railfail536"
+			"Railfail536",
+			"Rail"
 		]
 	},
 	"widgets-desc": "Pozwala administratorom wiki na dodawanie widżetów w dowolnej formie do wiki poprzez edycję stron w przestrzeni nazw {{ns:widget}}.\nWidżety stworzone przez społeczność można odnaleźć na stronie [https://mediawikiwidgets.org/ MediaWikiWidgets.org]",
