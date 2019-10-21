@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
+	"group-widgeteditor": "Widget editörleri",
 	"widgets-config-compiledir": "Derlenmiş şablonların saklanması için varsayılan bir dizin ayarla"
 }
