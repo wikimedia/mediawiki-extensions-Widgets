@@ -5,6 +5,13 @@
 			"BaRaN6161 TURK"
 		]
 	},
+	"widgets-desc": "Wiki yöneticilerinin, {{ns:widget}} ad alanındaki sayfaları düzenleyerek wikiye serbest biçimli widget eklemelerine izin verir.\nTopluluğa katkıda bulunan gereçler [https://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] adresinde bulunabilir.",
+	"widgets-error": "Hata [[{{ns:widget}}:$1|widget $1]] içinde",
 	"group-widgeteditor": "Widget editörleri",
+	"group-widgeteditor-member": "{{GENDER:$1|widget editörü}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Widget editörleri",
+	"action-editwidgets": "widget oluştur ve düzenle",
+	"right-editwidgets": "<code>{{ns:widget}}</code> ad alanında [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgetları] oluşturun ve düzenleyin",
+	"widgets-config-useflaggedrevs": "Widget güvenliği için FlaggedRevs eklentisinin kararlı sürümünü kullanmak için bunu true olarak ayarlayın.",
 	"widgets-config-compiledir": "Derlenmiş şablonların saklanması için varsayılan bir dizin ayarla"
 }
