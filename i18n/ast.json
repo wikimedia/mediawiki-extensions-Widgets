@@ -9,5 +9,8 @@
 	"group-widgeteditor": "Editores de widgets",
 	"group-widgeteditor-member": "{{GENDER:$1|editor|editora}} de widgets",
 	"grouppage-widgeteditor": "{{ns:project}}:Editores de widgets",
-	"right-editwidgets": "Crear y editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] nel espaciu de nomes <tt>{{ns:widget}}</tt>"
+	"action-editwidgets": "crear y editar widgets",
+	"right-editwidgets": "Crear y editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] nel espaciu de nomes <tt>{{ns:widget}}</tt>",
+	"widgets-config-useflaggedrevs": "Configurar como verdadero pa usar la versión estable de FlaggedRevs pa seguridá de widgets",
+	"widgets-config-compiledir": "Configurar un direutoriu predetermináu pa guardar les plantíes compilaes"
 }
