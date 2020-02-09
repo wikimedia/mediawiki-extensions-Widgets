@@ -10,9 +10,9 @@ class WidgetInitializer {
 	}
 
 	/**
-	* @param &$parser Parser
-	* @return bool
-	*/
+	 * @param &$parser Parser
+	 * @return bool
+	 */
 	public static function initParserFunctions( &$parser ) {
 		$parser->setFunctionHook( 'widget', 'WidgetRenderer::renderWidget' );
 

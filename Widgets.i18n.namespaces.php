@@ -1,6 +1,6 @@
 <?php
 
-$namespaceNames = array();
+$namespaceNames = [];
 
 // For wikis without Widgets installed.
 if ( !defined( 'NS_WIDGET' ) ) {
@@ -8,11 +8,11 @@ if ( !defined( 'NS_WIDGET' ) ) {
 	define( 'NS_WIDGET_TALK', 275 );
 }
 
-$namespaceNames['en'] = array(
+$namespaceNames['en'] = [
 	NS_WIDGET       => 'Widget',
 	NS_WIDGET_TALK  => 'Widget_talk',
-);
+];
 
-$namespaceNames['de'] = array(
+$namespaceNames['de'] = [
 	NS_WIDGET_TALK  => 'Widget_Diskussion',
-);
+];
