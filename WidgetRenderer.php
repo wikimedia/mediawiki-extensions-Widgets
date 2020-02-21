@@ -159,7 +159,7 @@ class WidgetRenderer {
 	public static function wiki_get_template( $widgetName, &$widgetCode, $smarty_obj ) {
 		global $wgWidgetsUseFlaggedRevs;
 
-		$widgetTitle = Title::newFromText( $widgetName, NS_WIDGET );
+		$widgetTitle = Title::makeTitleSafe( NS_WIDGET, $widgetName );
 
 		if ( $widgetTitle && $widgetTitle->exists() ) {
 			if ( $wgWidgetsUseFlaggedRevs ) {
