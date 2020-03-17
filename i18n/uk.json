@@ -14,7 +14,7 @@
 	"group-widgeteditor-member": "{{GENDER:$1|Редактор віджетів|Редакторка віджетів}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Редактори віджетів",
 	"action-editwidgets": "створення і редагування віджетів",
-	"right-editwidgets": "Створювати і редагувати [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets віджети] у просторі назв <tt>{{ns:widget}}</tt>",
+	"right-editwidgets": "Створення і редагування [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets віджетів] у просторі назв <tt>{{ns:widget}}</tt>",
 	"widgets-config-useflaggedrevs": "Встановіть це значення як «true», щоб використовувати стабільну версію розширення FlaggedRevs для безпеки віджетів",
 	"widgets-config-compiledir": "Вкажіть стандартну категорію для зберігання скомпільованих шаблонів"
 }
