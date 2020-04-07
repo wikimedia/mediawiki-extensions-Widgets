@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia",
-			"PhiLiP",
-			"Xiaomingyan",
-			"Yfdyh000",
-			"Liuxinyu970226",
 			"A Chinese Wikipedian",
-			"VulpesVulpes825"
+			"Anakmalaysia",
+			"Liuxinyu970226",
+			"PhiLiP",
+			"VulpesVulpes825",
+			"Xiaomingyan",
+			"Yfdyh000"
 		]
 	},
 	"widgets-desc": "允许wiki管理员编辑{{ns:widget}}名字空间页面以添加各种形式的小工具。您可以在[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]中找到社区贡献的小工具",

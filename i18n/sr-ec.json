@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher",
-			"Milicevic01"
+			"Milicevic01",
+			"Rancher"
 		]
 	},
 	"widgets-desc": "Омогућава администраторима да додају елементе на викију уређивањем страница унутар именског простора {{ns:widget}}.\nЕлементи које је направила заједница могу се наћи на [http://www.mediawikiwidgets.org/Main_Page?setlang=sr-ec MediaWikiWidgets.org]",

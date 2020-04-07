@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
+			"Kly",
 			"Mark85296341",
-			"Yfdyh000",
-			"Kly"
+			"Yfdyh000"
 		]
 	},
 	"widgets-desc": "容許 wiki 管理員通過編輯 {{ns:widget}} 命名空間中加入自由形式的小工具至 wiki 中。\n[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] 提供社群貢獻的小工具",

@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Airon90",
-			"Robin van der Vliet",
-			"DannyS712"
+			"DannyS712",
+			"Robin van der Vliet"
 		]
 	},
 	"widgets-error": "Eraro en [[{{ns:widget}}:$1|fenestraĵo $1]]",
