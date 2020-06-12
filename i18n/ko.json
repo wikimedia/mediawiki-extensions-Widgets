@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ykhwong",
+			"렌즈",
 			"아라"
 		]
 	},
@@ -10,7 +11,7 @@
 	"group-widgeteditor": "위젯 편집자",
 	"group-widgeteditor-member": "{{GENDER:$1|위젯 편집자}}",
 	"grouppage-widgeteditor": "{{ns:project}}:위젯 편집자",
-	"right-editwidgets": "<tt>{{ns:widget}}</tt> 이름공간에서 [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets 위젯]을 만들고 편집",
+	"right-editwidgets": "<code>{{ns:widget}}</code> 이름공간에서 [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets 위젯]을 만들고 편집",
 	"group-widgeteditor.css": "/* 이 CSS 설정은 위젯 편집자에만 적용됩니다 */",
 	"group-widgeteditor.js": "/* 이 자바스크립트 설정은 위젯 편집자에만 적용됩니다 */",
 	"widgets-config-useflaggedrevs": "위젯 보안을 위한 FlaggedRevs 확장 기능의 안정판을 사용하려면 이것을 true로 설정하십시오",
