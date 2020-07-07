@@ -16,3 +16,8 @@ $namespaceNames['en'] = [
 $namespaceNames['de'] = [
 	NS_WIDGET_TALK  => 'Widget_Diskussion',
 ];
+
+$namespaceNames['ko'] = [
+	NS_WIDGET       => '위젯',
+	NS_WIDGET_TALK  => '위젯토론',
+];
