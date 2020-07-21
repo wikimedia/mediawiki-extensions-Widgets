@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"CERminator",
-			"Srdjan m"
+			"Srdjan m",
+			"Srđan"
 		]
 	},
 	"widgets-desc": "Omogućuje wiki administratorima da dodaju dodatke u slobodnoj formi na wiki putem uređivanja stranica unutar imenskog prostora {{ns:widget}}.\nPrvobitno razvijeni dodaci se mogu naći na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].",
