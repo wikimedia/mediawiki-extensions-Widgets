@@ -13,6 +13,7 @@
 	"group-widgeteditor": "ウィジェット編集者",
 	"group-widgeteditor-member": "{{GENDER:$1|ウィジェット編集者}}",
 	"grouppage-widgeteditor": "{{ns:project}}:ウィジェット編集者",
+	"action-editwidgets": "ウィジェットの作成/編集",
 	"right-editwidgets": "<tt>{{ns:widget}}</tt>名前空間で[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ウィジェット]を作成/編集",
 	"group-widgeteditor.css": "/* ここに記述したCSSはウィジェット編集者のみに影響します */",
 	"group-widgeteditor.js": "/* ここに記述したJSはウィジェット編集者のみに影響します */"
