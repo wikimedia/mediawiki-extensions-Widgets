@@ -1,6 +1,6 @@
 {
 	"name": "Widgets",
-	"version": "1.4.0",
+	"version": "1.4.1",
 	"author": [
 		"[https://www.sergeychernyshev.com Sergey Chernyshev]",
 		"Yaron Koren",
@@ -73,7 +73,8 @@
 	},
 	"AutoloadClasses": {
 		"WidgetInitializer": "WidgetInitializer.php",
-		"WidgetRenderer": "WidgetRenderer.php"
+		"WidgetRenderer": "WidgetRenderer.php",
+		"WidgetSecurity": "WidgetSecurity.php"
 	},
 	"callback": "WidgetInitializer::init",
 	"load_composer_autoloader": true,

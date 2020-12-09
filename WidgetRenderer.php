@@ -29,26 +29,7 @@ class WidgetRenderer {
 		// registering custom Smarty plugins
 		$smarty->addPluginsDir( __DIR__ . "/smarty_plugins/" );
 
-		$smarty->enableSecurity();
-		// These settings were for Smarty v2 - they don't seem to
-		// have an equivalent in Smarty v3.
-		/*
-		$smarty->security_settings = array(
-			'IF_FUNCS' => array(
-					'is_array',
-					'isset',
-					'array',
-					'list',
-					'count',
-					'sizeof',
-					'in_array',
-					'true',
-					'false',
-					'null'
-					),
-			'MODIFIER_FUNCS' => array( 'validate' )
-		);
-		*/
+		$smarty->enableSecurity( 'WidgetSecurity' );
 
 		// Register the Widgets extension functions.
 		$smarty->registerResource(
