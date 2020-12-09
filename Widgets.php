@@ -22,7 +22,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'Widgets',
 	'descriptionmsg' => 'widgets-desc',
-	'version' => '1.3.0',
+	'version' => '1.3.1',
 	'author' => array(
 		'[https://www.sergeychernyshev.com Sergey Chernyshev]',
 		'Yaron Koren',
@@ -66,6 +66,7 @@ require_once( __DIR__ . '/smarty/libs/Smarty.class.php' );
 
 // Load extension's classes.
 $wgAutoloadClasses['WidgetRenderer'] = __DIR__ . '/WidgetRenderer.php';
+$wgAutoloadClasses['WidgetSecurity'] = __DIR__ . '/WidgetSecurity.php';
 
 // Register extension messages and other localisation.
 $wgMessagesDirs['Widgets'] = __DIR__ . '/i18n';
