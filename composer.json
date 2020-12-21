@@ -1,6 +1,6 @@
 {
 	"require": {
-		"smarty/smarty": "~3.1"
+		"smarty/smarty": "~3.1.36"
 	},
 	"require-dev": {
 		"mediawiki/mediawiki-codesniffer": "31.0.0",
