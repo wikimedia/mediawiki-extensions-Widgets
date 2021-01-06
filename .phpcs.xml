@@ -7,8 +7,6 @@
 		<exclude name="MediaWiki.Commenting.PropertyDocumentation.MissingDocumentationPrivate" />
 		<exclude name="MediaWiki.Commenting.PropertyDocumentation.WrongStyle" />
 		<exclude name="MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName" />
-		<exclude name="MediaWiki.NamingConventions.ValidGlobalName.allowedPrefix" />
-		<exclude name="MediaWiki.VariableAnalysis.UnusedGlobalVariables.UnusedGlobal$IP" />
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php,php5,inc"/>

@@ -19,7 +19,7 @@ class WidgetRenderer {
 	}
 
 	public static function renderWidget( &$parser, $widgetName ) {
-		global $IP, $wgWidgetsCompileDir;
+		global $wgWidgetsCompileDir;
 
 		$smarty = new Smarty;
 		$smarty->left_delimiter = '<!--{';
