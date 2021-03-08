@@ -173,7 +173,7 @@ class WidgetRenderer {
 
 		if ( $widgetTitle && $widgetTitle->exists() ) {
 			$widgetArticle = new Article( $widgetTitle, 0 );
-			$widgetTimestamp = $widgetArticle->getTouched();
+			$widgetTimestamp = $widgetArticle->getPage()->getTouched();
 			return true;
 		} else {
 			return false;
