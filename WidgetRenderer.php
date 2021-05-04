@@ -125,7 +125,7 @@ class WidgetRenderer {
 	public static function outputCompiledWidget( &$out, &$text ) {
 		$text = preg_replace_callback(
 			'/' . self::$markerPrefix . '-(\d+)' . self::$markerSuffix . '/S',
-			function ( $matches ) {
+			static function ( $matches ) {
 				// Can't use self:: in an anonymous function pre PHP 5.4
 				return WidgetRenderer::$widgets[$matches[1]];
 			},
