@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Borichèt",
 			"Dragonòt"
 		]
@@ -10,5 +11,5 @@
 	"group-widgeteditor": "Editor ëd widget",
 	"group-widgeteditor-member": "{{GENDER:$1|Editor ëd widget}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Editor ëd widget",
-	"right-editwidgets": "Creé e modifiché ij [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] ant lë spassi nominal <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Creé e modifiché ij [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] ant lë spassi nominal <code>{{ns:widget}}</code>"
 }

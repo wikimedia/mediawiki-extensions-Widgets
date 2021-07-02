@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Dj",
 			"Glanthor Reviol",
 			"Tacsipacsi"
@@ -11,5 +12,5 @@
 	"group-widgeteditor": "minialkalmazás-szerkesztők",
 	"group-widgeteditor-member": "{{GENDER:$1|minialkalmazás-szerkesztő}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Minialkalmazás-szerkesztők",
-	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets minialkalmazások] létrehozása és szerkesztése a(z) <tt>{{ns:widget}}</tt> névtérben"
+	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets minialkalmazások] létrehozása és szerkesztése a(z) <code>{{ns:widget}}</code> névtérben"
 }

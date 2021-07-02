@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Cimon Avaro",
 			"Crt",
 			"Nike",
@@ -13,5 +14,5 @@
 	"group-widgeteditor-member": "{{GENDER:$1|pienoisohjelman muokkaaja}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Pienoisohjelmien muokkaajat",
 	"action-editwidgets": "luoda ja muokata pienoisohjelmia",
-	"right-editwidgets": "Luoda ja muokata [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets pienoisohjelmia] nimiavaruudessa <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Luoda ja muokata [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets pienoisohjelmia] nimiavaruudessa <code>{{ns:widget}}</code>"
 }

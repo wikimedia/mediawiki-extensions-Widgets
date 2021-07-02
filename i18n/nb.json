@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Danmichaelo",
 			"Jon Harald Søby",
 			"Nghtwlkr"
@@ -12,7 +13,7 @@
 	"group-widgeteditor-member": "{{GENDER:$1|Bidragsyter for skjermelement}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Bidragsytere for skjermelement",
 	"action-editwidgets": "opprette og redigere widgeter",
-	"right-editwidgets": "Lag og rediger [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets skjermelement] i <tt>{{ns:widget}}</tt>-navnerommet",
+	"right-editwidgets": "Lag og rediger [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets skjermelement] i <code>{{ns:widget}}</code>-navnerommet",
 	"widgets-config-useflaggedrevs": "Sett denne til true for å bruke FlaggedRevs-utvidelsens stabile versjon for widgetsikkerhet",
 	"widgets-config-compiledir": "Sett en standardmappe for lagring av kompilerte maler"
 }

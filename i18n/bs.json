@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"CERminator",
 			"Srdjan m",
 			"Srđan"
@@ -11,5 +12,5 @@
 	"group-widgeteditor": "Urednici dodataka",
 	"group-widgeteditor-member": "{{GENDER:$1|urednik dodataka|urednica dodataka}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Urednici dodataka",
-	"right-editwidgets": "Pravljenje i uređivanje [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgeta] u imenskom prostoru <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Pravljenje i uređivanje [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgeta] u imenskom prostoru <code>{{ns:widget}}</code>"
 }

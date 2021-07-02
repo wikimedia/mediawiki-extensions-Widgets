@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Toliño"
 		]
 	},
@@ -9,7 +10,7 @@
 	"group-widgeteditor": "Editores de widgets",
 	"group-widgeteditor-member": "{{GENDER:$1|editor|editora}} de widgets",
 	"grouppage-widgeteditor": "{{ns:project}}:Editores de widgets",
-	"right-editwidgets": "Crear e editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] no espazo de nomes <tt>{{ns:widget}}</tt>",
+	"right-editwidgets": "Crear e editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] no espazo de nomes <code>{{ns:widget}}</code>",
 	"group-widgeteditor.css": "/* O CSS que se coloque aquí afectará soamente aos editores de widgets */",
 	"group-widgeteditor.js": "/* O JS que se coloque aquí afectará soamente aos editores de widgets */"
 }

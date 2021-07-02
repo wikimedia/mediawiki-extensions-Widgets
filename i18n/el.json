@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Geraki",
 			"Lou",
 			"Omnipaedista",
@@ -13,5 +14,5 @@
 	"group-widgeteditor": "Επεξεργαστές widget",
 	"group-widgeteditor-member": "{{GENDER:$1|επεξεργαστής|επεξεργάστρια}} widget",
 	"grouppage-widgeteditor": "{{ns:project}}:Επεξεργαστές widget",
-	"right-editwidgets": "Δημιουργία και επεξεργασία [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widget] στο χώρο ονομάτων <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Δημιουργία και επεξεργασία [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widget] στο χώρο ονομάτων <code>{{ns:widget}}</code>"
 }
