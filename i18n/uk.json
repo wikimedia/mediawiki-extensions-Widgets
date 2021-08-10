@@ -3,6 +3,7 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Base",
+			"DDPAT",
 			"Piramidion",
 			"Prima klasy4na",
 			"Vlad5250",
@@ -16,6 +17,8 @@
 	"grouppage-widgeteditor": "{{ns:project}}:Редактори віджетів",
 	"action-editwidgets": "створення і редагування віджетів",
 	"right-editwidgets": "Створення і редагування [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets віджетів] у просторі назв <code>{{ns:widget}}</code>",
+	"group-widgeteditor.css": "/* CSS, розміщений тут, вплине лише на редакторів віджетів */",
+	"group-widgeteditor.js": "/* JS, розміщений тут, вплине лише на редакторів віджетів */",
 	"widgets-config-useflaggedrevs": "Встановіть це значення як «true», щоб використовувати стабільну версію розширення FlaggedRevs для безпеки віджетів",
 	"widgets-config-compiledir": "Вкажіть стандартну категорію для зберігання скомпільованих шаблонів"
 }
