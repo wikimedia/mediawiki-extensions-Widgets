@@ -5,10 +5,11 @@
 			"Anakmalaysia",
 			"Kly",
 			"Mark85296341",
-			"Yfdyh000"
+			"Yfdyh000",
+			"星海"
 		]
 	},
-	"widgets-desc": "容許 wiki 管理員通過編輯 {{ns:widget}} 命名空間中加入自由形式的小工具至 wiki 中。\n[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] 提供社群貢獻的小工具",
+	"widgets-desc": "容許 wiki 管理員通過編輯 {{ns:widget}} 命名空間中加入自由形式的小部件至 wiki 中。\n[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] 提供社群貢獻的小部件",
 	"widgets-error": "在 [[{{ns:widget}}:$1|widget $1]] 發生錯誤",
 	"group-widgeteditor": "Widget 編輯者",
 	"group-widgeteditor-member": "{{GENDER:$1|Widget 編輯者}}",
