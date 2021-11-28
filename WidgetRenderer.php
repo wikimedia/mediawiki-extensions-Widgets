@@ -3,6 +3,8 @@
  * Class holding functions for displaying widgets.
  */
 
+use MediaWiki\MediaWikiServices;
+
 class WidgetRenderer {
 	// The prefix and suffix for the widget strip marker.
 	private static $markerPrefix = "START_WIDGET";
@@ -113,6 +115,18 @@ class WidgetRenderer {
 		} catch ( Exception $e ) {
 			wfDebugLog( "Widgets", "Smarty exception while parsing '$widgetName': " . $e->getMessage() );
 			return '<div class="error">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . ': ' . $e->getMessage() . '</div>';
+		}
+
+		$services = MediaWikiServices::getInstance();
+		if ( method_exists( $services, 'getLanguageConverterFactory' ) ) {
+			// MW 1.35+
+			$languageConverter = $services
+				->getLanguageConverterFactory()
+				->getLanguageConverter( $services->getContentLanguage() );
+			$output = $languageConverter->convert( $output );
+		} else {
+			$parser = $services->getParser();
+			$output = $parser->getTargetLanguage()->convert( $output );
 		}
 
 		// To prevent the widget output from being tampered with, the
