@@ -140,12 +140,17 @@ $magicWords['vi'] = [
 	'widget' => [ 0, 'công_cụ_đa_năng', 'côngcụđanăng' ],
 ];
 
+/** Chinese (中文) */
+$magicWords['zh'] = [
+	'widget' => [ 0, 'widget' ],
+];
+
 /** Simplified Chinese (中文（简体）‎) */
 $magicWords['zh-hans'] = [
-	'widget' => [ 0, '小工具' ],
+	'widget' => [ 0, '微件', '小部件', '小组件', '小元件' ],
 ];
 
 /** Traditional Chinese (中文（繁體）‎) */
 $magicWords['zh-hant'] = [
-	'widget' => [ 0, '小工具' ],
+	'widget' => [ 0, '微件', '小元件', '小部件', '小組件' ],
 ];
