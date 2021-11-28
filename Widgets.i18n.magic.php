@@ -105,6 +105,11 @@ $magicWords['pa'] = [
 	'widget' => [ 0, 'ਵਿਜੈਟ' ],
 ];
 
+/** Polish (Polski) */
+$magicWords['pl'] = [
+	'widget' => [ 0, 'widżet' ],
+];
+
 /** Russian (русский) */
 $magicWords['ru'] = [
 	'widget' => [ 0, 'виджет' ],
