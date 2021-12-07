@@ -4,7 +4,8 @@
 			"G0rn",
 			"Okras",
 			"Vlad5250",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"Ajeje Brazorf"
 		]
 	},
 	"widgets-desc": "Позволяет администраторам вики добавлять различные виджеты, посредством редактирования страниц пространства имён {{ns:widget}}. Поддерживаемые сообществом виджеты можно найти на [https://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].",
@@ -13,7 +14,7 @@
 	"group-widgeteditor-member": "{{GENDER:$1|Редактор виджетов}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Редакторы виджетов",
 	"action-editwidgets": "создавать и редактировать виджеты",
-	"right-editwidgets": "создание и редактирование [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets виджетов] в пространстве имён <tt>{{ns:widget}}</tt>",
+	"right-editwidgets": "создание и редактирование [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets виджетов] в пространстве имён <code>{{ns:widget}}</code>",
 	"widgets-config-useflaggedrevs": "Задайте true (истина) стабильной версии для безопасности виджетов расширения Flagged Revs",
 	"widgets-config-compiledir": "Задайте категорию по умолчанию для хранения присобранных шаблонов"
 }

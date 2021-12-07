@@ -4,7 +4,8 @@
 			"Kuvaly",
 			"Matěj Grabovský",
 			"Mormegil",
-			"Reaperman"
+			"Reaperman",
+			"Ajeje Brazorf"
 		]
 	},
 	"widgets-desc": "Umožňuje správcům wiki přidávat na wiki ovládací prvky úpravou stránek ve jmenném prostoru {{ns:widget}}.\nPrvky vytvořené komunitou lze nalézt na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
@@ -12,7 +13,7 @@
 	"group-widgeteditor": "Editoři ovládacích prvků",
 	"group-widgeteditor-member": "{{GENDER:$1|editor ovládacích prvků|editorka ovládacích prvků}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Editoři ovládacích prvků",
-	"right-editwidgets": "Tvorba a úprava stránek [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ovládacích prvků] ve jmenném prostoru <tt>{{ns:widget}}</tt>",
+	"right-editwidgets": "Tvorba a úprava stránek [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ovládacích prvků] ve jmenném prostoru <code>{{ns:widget}}</code>",
 	"group-widgeteditor.css": "/* Zde uvedené CSS bude ovlivňovat pouze editory ovládacích prvků */",
 	"group-widgeteditor.js": "/* Zde uvedený JavaScript bude použit pouze pro editory ovládacích prvků */"
 }

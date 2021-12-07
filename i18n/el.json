@@ -5,7 +5,8 @@
 			"Lou",
 			"Omnipaedista",
 			"Protnet",
-			"ZaDiak"
+			"ZaDiak",
+			"Ajeje Brazorf"
 		]
 	},
 	"widgets-desc": "Επιτρέπει στους διαχειριστές του wiki να προσθέτουν ελεύθερης μορφής widget στο wiki μέσω επεξεργασίας σελίδων στο χώρο ονομάτων {{ns:widget}}.\nWidget φτιαγμένα από την κοινότητα μπορούν να βρεθούν στο [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
@@ -13,5 +14,5 @@
 	"group-widgeteditor": "Επεξεργαστές widget",
 	"group-widgeteditor-member": "{{GENDER:$1|επεξεργαστής|επεξεργάστρια}} widget",
 	"grouppage-widgeteditor": "{{ns:project}}:Επεξεργαστές widget",
-	"right-editwidgets": "Δημιουργία και επεξεργασία [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widget] στο χώρο ονομάτων <tt>{{ns:widget}}</tt>"
+	"right-editwidgets": "Δημιουργία και επεξεργασία [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widget] στο χώρο ονομάτων <code>{{ns:widget}}</code>"
 }

@@ -5,7 +5,9 @@
 			"Piramidion",
 			"Prima klasy4na",
 			"Vlad5250",
-			"Тест"
+			"Тест",
+			"Ajeje Brazorf",
+			"DDPAT"
 		]
 	},
 	"widgets-desc": "Дозволяє адміністраторам вікі додавати різноманітні віджети шляхом редагування сторінок простору назв {{ns:widget}}.\nПідтримувані спільнотою віджети можна знайти на [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
@@ -14,7 +16,9 @@
 	"group-widgeteditor-member": "{{GENDER:$1|Редактор віджетів|Редакторка віджетів}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Редактори віджетів",
 	"action-editwidgets": "створення і редагування віджетів",
-	"right-editwidgets": "Створення і редагування [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets віджетів] у просторі назв <tt>{{ns:widget}}</tt>",
+	"right-editwidgets": "Створення і редагування [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets віджетів] у просторі назв <code>{{ns:widget}}</code>",
+	"group-widgeteditor.css": "/* CSS, розміщений тут, вплине лише на редакторів віджетів */",
+	"group-widgeteditor.js": "/* JS, розміщений тут, вплине лише на редакторів віджетів */",
 	"widgets-config-useflaggedrevs": "Встановіть це значення як «true», щоб використовувати стабільну версію розширення FlaggedRevs для безпеки віджетів",
 	"widgets-config-compiledir": "Вкажіть стандартну категорію для зберігання скомпільованих шаблонів"
 }
