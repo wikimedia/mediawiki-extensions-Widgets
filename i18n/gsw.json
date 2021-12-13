@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Als-Chlämens",
-			"Als-Holder"
+			"Als-Holder",
+			"Ajeje Brazorf"
 		]
 	},
 	"widgets-desc": "Erlaubt Wikiadministratore Frej-Form-Widgets zum Wiki zuezfiege dur d Bearbeitig vu Syte im {{ns:widget}}-Namensruum.\nVu dr Gmeinschaft aagleiti Widgets chenne unter [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] gfunde wäre.",
@@ -10,5 +11,5 @@
 	"group-widgeteditor": "Widget-Editore",
 	"group-widgeteditor-member": "{{GENDER:$1|Widget-Bearbeiter|Widget-Bearbeiteri}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Widget-Editore",
-	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Widgets] im <tt>{{ns:widget}}</tt>-Namensruum aalege un bearbeite"
+	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Widgets] im <code>{{ns:widget}}</code>-Namensruum aalege un bearbeite"
 }
