@@ -3,13 +3,17 @@
 		"authors": [
 			"Bennylin",
 			"Irwangatot",
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"Daud I.F. Argana"
 		]
 	},
 	"widgets-desc": "Mengizinkan pengurus wiki untuk menambahkan ''free-form widget'' ke wiki dengan menyunting halaman di ruang nama {{ns:widget}}.\nWidget (gawai) kontribusi komunitas dapat ditemukan di [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
 	"widgets-error": "Kesalahan pada [[{{ns:widget}}:$1|widget $1]]",
 	"group-widgeteditor": "Penyunting widget",
-	"group-widgeteditor-member": "Penyunting widget",
+	"group-widgeteditor-member": "{{GENDER:$1|penyunting widget}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Penyunting widget",
-	"right-editwidgets": "Buat dan Sunting halaman [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets]  di <code>{{ns:widget}}</code> ruang nama"
+	"action-editwidgets": "membuat dan menyunting widget",
+	"right-editwidgets": "Buat dan Sunting halaman [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets]  di <code>{{ns:widget}}</code> ruang nama",
+	"widgets-config-useflaggedrevs": "Tetapkan ini menjadi ''true'' untuk menggunakan versi stabil ekstensi FlaggedRevs demi keamanan widget",
+	"widgets-config-compiledir": "Menetapkan direktori standar untuk menyimpan templat yang dikompilasi"
 }
