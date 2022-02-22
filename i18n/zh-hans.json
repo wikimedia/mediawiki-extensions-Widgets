@@ -22,7 +22,7 @@
 	"action-editwidgets": "创建与编辑小部件",
 	"right-editwidgets": "在<code>{{ns:widget}}</code>命名空间中创建和编辑[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets 小部件]",
 	"group-widgeteditor.css": "/* 这里放置的CSS将只影响小部件编辑者 */",
-	"group-widgeteditor.js": "/* 这里放置的CSS将只影响小部件编辑者 */",
+	"group-widgeteditor.js": "/* 这里放置的JavaScript将只影响小部件编辑者 */",
 	"widgets-config-useflaggedrevs": "将此设置为true，使用FlaggedRevs扩展的稳定版本用于控件安全性",
 	"widgets-config-compiledir": "用于编译模板存储的默认目录"
 }
