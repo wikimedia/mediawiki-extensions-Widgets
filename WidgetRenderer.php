@@ -1,17 +1,28 @@
 <?php
-/**
- * Class holding functions for displaying widgets.
- */
 
 use MediaWiki\MediaWikiServices;
 
+/**
+ * Class holding functions for displaying widgets.
+ */
 class WidgetRenderer {
-	// The prefix and suffix for the widget strip marker.
+
+	/**
+	 * @var string The prefix for the widget strip marker.
+	 */
 	private static $markerPrefix = "START_WIDGET";
+
+	/**
+	 * @var string The suffix for the widget strip marker.
+	 */
 	private static $markerSuffix = "END_WIDGET";
 
-	// Stores the compiled widgets for after the parser has run.
-	// Must be public for use in anonymous callback function in PHP 5.3
+	/**
+	 * Stores the compiled widgets for after the parser has run.
+	 * Must be public for use in anonymous callback function in PHP 5.3
+	 *
+	 * @var string[]
+	 */
 	public static $widgets = [];
 
 	public static function initRandomString() {
@@ -20,6 +31,12 @@ class WidgetRenderer {
 		self::$markerPrefix .= wfRandomString( 16 );
 	}
 
+	/**
+	 * @param Parser &$parser
+	 * @param string $widgetName
+	 *
+	 * @return string
+	 */
 	public static function renderWidget( &$parser, $widgetName ) {
 		global $wgWidgetsCompileDir;
 
@@ -37,10 +54,10 @@ class WidgetRenderer {
 		$smarty->registerResource(
 			'wiki',
 			[
-				[ 'WidgetRenderer', 'wiki_get_template' ],
-				[ 'WidgetRenderer', 'wiki_get_timestamp' ],
-				[ 'WidgetRenderer', 'wiki_get_secure' ],
-				[ 'WidgetRenderer', 'wiki_get_trusted' ]
+				[ __CLASS__, 'wiki_get_template' ],
+				[ __CLASS__, 'wiki_get_timestamp' ],
+				[ __CLASS__, 'wiki_get_secure' ],
+				[ __CLASS__, 'wiki_get_trusted' ]
 			]
 		);
 
@@ -114,7 +131,8 @@ class WidgetRenderer {
 			$output = $smarty->fetch( "wiki:$widgetName" );
 		} catch ( Exception $e ) {
 			wfDebugLog( "Widgets", "Smarty exception while parsing '$widgetName': " . $e->getMessage() );
-			return '<div class="error">' . wfMessage( 'widgets-error', htmlentities( $widgetName ) )->text() . ': ' . $e->getMessage() . '</div>';
+			return Html::element( 'div', [ 'class' => 'error' ],
+				wfMessage( 'widgets-error', $widgetName )->text() . ': ' . $e->getMessage() );
 		}
 
 		$services = MediaWikiServices::getInstance();
@@ -136,7 +154,11 @@ class WidgetRenderer {
 		return self::$markerPrefix . '-' . $index . self::$markerSuffix;
 	}
 
-	public static function outputCompiledWidget( &$out, &$text ) {
+	/**
+	 * @param Parser $parser
+	 * @param string &$text
+	 */
+	public static function outputCompiledWidget( $parser, &$text ) {
 		$text = preg_replace_callback(
 			'/' . self::$markerPrefix . '-(\d+)' . self::$markerSuffix . '/S',
 			static function ( $matches ) {
@@ -145,12 +167,17 @@ class WidgetRenderer {
 			},
 			$text
 		);
-
-		return true;
 	}
 
 	// The following four functions are all registered with Smarty.
 
+	/**
+	 * @param string $widgetName
+	 * @param string &$widgetCode
+	 * @param Smarty $smarty_obj
+	 *
+	 * @return bool
+	 */
 	public static function wiki_get_template( $widgetName, &$widgetCode, $smarty_obj ) {
 		global $wgWidgetsUseFlaggedRevs;
 
@@ -182,6 +209,13 @@ class WidgetRenderer {
 		}
 	}
 
+	/**
+	 * @param string $widgetName
+	 * @param string &$widgetTimestamp
+	 * @param Smarty $smarty_obj
+	 *
+	 * @return bool
+	 */
 	public static function wiki_get_timestamp( $widgetName, &$widgetTimestamp, $smarty_obj ) {
 		$widgetTitle = Title::makeTitleSafe( NS_WIDGET, $widgetName );
 
@@ -194,11 +228,20 @@ class WidgetRenderer {
 		}
 	}
 
+	/**
+	 * @param string $tpl_name
+	 * @param Smarty &$smarty_obj
+	 * @return true
+	 */
 	public static function wiki_get_secure( $tpl_name, &$smarty_obj ) {
 		// assume all templates are secure
 		return true;
 	}
 
+	/**
+	 * @param string $tpl_name
+	 * @param Smarty &$smarty_obj
+	 */
 	public static function wiki_get_trusted( $tpl_name, &$smarty_obj ) {
 		// not used for templates
 	}

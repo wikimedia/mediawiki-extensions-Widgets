@@ -1,4 +1,5 @@
 <?php
+
 class WidgetInitializer {
 
 	public static function init() {
@@ -10,9 +11,9 @@ class WidgetInitializer {
 	}
 
 	/**
-	 * @param Parser &$parser
+	 * @param Parser $parser
 	 */
-	public static function initParserFunctions( &$parser ) {
+	public static function initParserFunctions( $parser ) {
 		$parser->setFunctionHook( 'widget', 'WidgetRenderer::renderWidget' );
 	}
 
