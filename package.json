@@ -1,4 +1,5 @@
 {
+	"name": "Widgets",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
