@@ -7,11 +7,10 @@
 		<exclude name="MediaWiki.Commenting.PropertyDocumentation.MissingDocumentationPrivate" />
 		<exclude name="MediaWiki.Commenting.PropertyDocumentation.WrongStyle" />
 		<exclude name="MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName" />
+		<exclude name="MediaWiki.Usage.StaticClosure.StaticClosure" />
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php"/>
 	<arg name="encoding" value="UTF-8"/>
-	<exclude-pattern>vendor</exclude-pattern>
-	<exclude-pattern>node_modules</exclude-pattern>
 	<exclude-pattern>smarty_plugins</exclude-pattern>
 </ruleset>
