@@ -194,7 +194,13 @@ class WidgetRenderer {
 					$widgetCode = '';
 				}
 			} else {
-				$widgetWikiPage = new WikiPage( $widgetTitle );
+				if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
+					// MW 1.36+
+					$widgetWikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()
+						->newFromTitle( $widgetTitle );
+				} else {
+					$widgetWikiPage = new WikiPage( $widgetTitle );
+				}
 				$widgetContent = $widgetWikiPage->getContent();
 				$widgetCode = ContentHandler::getContentText( $widgetContent );
 			}
