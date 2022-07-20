@@ -59,6 +59,11 @@
 			"editwidgets": true
 		}
 	},
+	"GrantPermissions": {
+		"editwidgets": {
+			"editwidgets": true
+		}
+	},
 	"MessagesDirs": {
 		"Widgets": [
 			"i18n"

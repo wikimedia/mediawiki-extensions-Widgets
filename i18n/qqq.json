@@ -17,6 +17,7 @@
 	"grouppage-widgeteditor": "{{doc-group|widgeteditor|page}}",
 	"action-editwidgets": "{{doc-action|editwidgets}}",
 	"right-editwidgets": "{{doc-right|editwidgets}}",
+	"grant-editwidgets": "Name for grant \"editwidgets\".\n{{Related|Grant}}",
 	"group-widgeteditor.css": "{{doc-group|widgeteditor|css}}",
 	"group-widgeteditor.js": "{{doc-group|widgeteditor|js}}",
 	"widgets-config-useflaggedrevs": "configuration setting description of $wgWidgetsUseFlaggedRevs",
