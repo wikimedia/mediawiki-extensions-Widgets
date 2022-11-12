@@ -4,20 +4,25 @@
  */
 
 class WidgetRenderer {
-	// The prefix and suffix for the widget strip marker.
-	private static $markerPrefix = "START_WIDGET";
+
+	/**
+	 * @var string The prefix for the widget strip marker.
+	 *
+	 * \xEF\xBF\xBC = U+FFFC (Object replacement) which is unlikely to be in text.
+	 */
+	private static $markerPrefix = "\xEF\xBF\xBCSTART_WIDGET";
+
+	/**
+	 * @var string The suffix for the widget strip marker.
+	 */
 	private static $markerSuffix = "END_WIDGET";
 
-	// Stores the compiled widgets for after the parser has run.
-	// Must be public for use in anonymous callback function in PHP 5.3
-	public static $widgets = [];
-
-	public static function initRandomString() {
-		// Add a random string to the prefix to ensure no conflicts
-		// with normal content.
-		self::$markerPrefix .= wfRandomString( 16 );
-	}
-
+	/**
+	 * @param Parser &$parser
+	 * @param string $widgetName
+	 *
+	 * @return string
+	 */
 	public static function renderWidget( &$parser, $widgetName ) {
 		global $IP, $wgWidgetsCompileDir;
 
@@ -118,16 +123,31 @@ class WidgetRenderer {
 		// To prevent the widget output from being tampered with, the
 		// compiled HTML is stored and a strip marker with an index to
 		// retrieve it later is returned.
-		$index = array_push( self::$widgets, $output ) - 1;
-		return self::$markerPrefix . '-' . $index . self::$markerSuffix;
+
+		// More reliable replacement. See T149488.
+		$dash = strpos( $output, '"' ) !== false ? "\"'-" : '-';
+		$marker = $dash . wfRandomString( 16 );
+
+		$widgets = (array)$parser->getOutput()->getExtensionData( 'widgetReplacements' );
+		$widgets[$marker] = $output;
+		$parser->getOutput()->setExtensionData( 'widgetReplacements', $widgets );
+		return self::$markerPrefix . $marker . self::$markerSuffix;
 	}
 
-	public static function outputCompiledWidget( &$out, &$text ) {
+	/**
+	 * @param Parser $parser
+	 * @param string &$text
+	 * @return bool
+	 */
+	public static function outputCompiledWidget( $parser, &$text ) {
+		$replacements = $parser->getOutput()->getExtensionData( 'widgetReplacements' );
+		if ( !is_array( $replacements ) ) {
+			return;
+		}
 		$text = preg_replace_callback(
-			'/' . self::$markerPrefix . '-(\d+)' . self::$markerSuffix . '/S',
-			function ( $matches ) {
-				// Can't use self:: in an anonymous function pre PHP 5.4
-				return WidgetRenderer::$widgets[$matches[1]];
+			'/' . self::$markerPrefix . "(\"?'?-[a-z0-9]{16})" . self::$markerSuffix . '/S',
+			function ( $matches ) use ( $replacements ) {
+				return $replacements[$matches[1]];
 			},
 			$text
 		);
