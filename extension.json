@@ -45,9 +45,6 @@
 		"ParserFirstCallInit": "WidgetInitializer::initParserFunctions",
 		"ParserAfterTidy": "WidgetRenderer::outputCompiledWidget"
 	},
-	"ExtensionFunctions": [
-		"WidgetRenderer::initRandomString"
-	],
 	"AvailableRights": [
 		"editwidgets"
 	],
