@@ -10,5 +10,8 @@
 	"group-widgeteditor": "Modificatores de widgets",
 	"group-widgeteditor-member": "{{GENDER:$1|modificator|modificatrice}} de widgets",
 	"grouppage-widgeteditor": "{{ns:project}}:Modificatores de widgets",
-	"right-editwidgets": "Crear e modificar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] in le spatio de nomines <code>{{ns:widget}}</code>"
+	"action-editwidgets": "crear e modificar widgets",
+	"right-editwidgets": "Crear e modificar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] in le spatio de nomines <code>{{ns:widget}}</code>",
+	"widgets-config-useflaggedrevs": "Mitte isto a ver pro usar le version stabile del extension Marcaversiones (FlaggedRevs) pro le securitate de widgets",
+	"widgets-config-compiledir": "Predefinir un directorio pro le immagazinage de patronos compilate"
 }
