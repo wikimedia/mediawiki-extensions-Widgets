@@ -12,5 +12,8 @@
 	"group-widgeteditor": "עורכי וידג'טים",
 	"group-widgeteditor-member": "{{GENDER:$1|עורך|עורכת}} כלים (widgets)",
 	"grouppage-widgeteditor": "{{ns:project}}:עורכי וידג'טים",
-	"right-editwidgets": "יצירה ועריכה של [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets כלים] במרחב השם <code>{{ns:widget}}</code>"
+	"action-editwidgets": "ליצור ולערוך כלים",
+	"right-editwidgets": "יצירה ועריכה של [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets כלים] במרחב השם <code>{{ns:widget}}</code>",
+	"widgets-config-useflaggedrevs": "יש להגדיר את זה ל־true כדי להשתמש בגרסה היציבה לפי הרחבת FlaggedRevs בשביל אבטחת הכלי",
+	"widgets-config-compiledir": "הגדרת תיקיית ברירת מחדל לאחסון תבניות שהודרו"
 }
