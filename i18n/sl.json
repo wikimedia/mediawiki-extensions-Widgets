@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"widgets-desc": "Administratorjem vikijev omogoča dodajanje gradnikov v prosti obliki v viki z urejanjem strani v imenskem prostoru {{ns:widget}}.\nGradnike, ki jih je prispevala skupnost, lahko najdete na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Napaka v [[{{ns:widget}}:$1|gradniku $1]]",
+	"group-widgeteditor": "Urejevalci gradnikov",
+	"group-widgeteditor-member": "{{GENDER:$1|urejevalec gradnikov|urejevalka gradnikov|urejevalec_ka gradnikov}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Urejevalci gradnikov",
+	"action-editwidgets": "ustvarjanje in urejanje gradnikov",
+	"right-editwidgets": "Ustvarjanje in urejanje [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets gradnikov] v imenskem prostoru <code>{{ns:widget}}</code>",
+	"group-widgeteditor.css": "/* Tu postavljeni CSS bo vplival samo na urejevalce gradnikov */",
+	"group-widgeteditor.js": "/* Tu postavljeni JS bo vplival samo na urejevalce gradnikov */",
+	"widgets-config-useflaggedrevs": "To nastavite na »true« (res), če želite za varnost gradnikov uporabiti stabilno različico razširitve FlaggedRevs",
+	"widgets-config-compiledir": "Nastavite privzeti imenik za shranjevanje prevedenih predlog"
+}
