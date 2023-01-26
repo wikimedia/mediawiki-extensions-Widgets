@@ -17,6 +17,7 @@
 	"grouppage-widgeteditor": "{{ns:project}}:Widget-Bearbeiter",
 	"action-editwidgets": "Widgets im Namensraum „Widget“ zu bearbeiten und zu erstellen",
 	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Widgets] bearbeiten",
+	"grant-editwidgets": "Widgets erstellen und bearbeiten",
 	"widgets-config-useflaggedrevs": "Dies auf true festlegen, um die stabile Version der Erweiterung „FlaggedRevs“ für die Widget-Sicherheit zu verwenden.",
 	"widgets-config-compiledir": "Legt ein Standardverzeichnis zur Speicherung von kompilierten Vorlagen fest"
 }

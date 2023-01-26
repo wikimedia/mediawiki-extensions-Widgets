@@ -11,6 +11,7 @@
 	"grouppage-widgeteditor": "{{ns:project}}:Urejevalci gradnikov",
 	"action-editwidgets": "ustvarjanje in urejanje gradnikov",
 	"right-editwidgets": "Ustvarjanje in urejanje [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets gradnikov] v imenskem prostoru <code>{{ns:widget}}</code>",
+	"grant-editwidgets": "Ustvarjanje in urejanje gradnikov",
 	"group-widgeteditor.css": "/* Tu postavljeni CSS bo vplival samo na urejevalce gradnikov */",
 	"group-widgeteditor.js": "/* Tu postavljeni JS bo vplival samo na urejevalce gradnikov */",
 	"widgets-config-useflaggedrevs": "To nastavite na »true« (res), če želite za varnost gradnikov uporabiti stabilno različico razširitve FlaggedRevs",
