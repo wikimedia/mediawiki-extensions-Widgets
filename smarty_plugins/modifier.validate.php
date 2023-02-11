@@ -41,9 +41,12 @@ function smarty_modifier_validate( $string, $type='url' ) {
 		'url-php' => FILTER_VALIDATE_URL,
 		'int' => FILTER_VALIDATE_INT,
 		'boolean' => FILTER_VALIDATE_BOOLEAN,
+		'bool' => FILTER_VALIDATE_BOOLEAN,
 		'float' => FILTER_VALIDATE_FLOAT,
 		'email' => FILTER_VALIDATE_EMAIL,
-		'ip' => FILTER_VALIDATE_IP
+		'ip' => FILTER_VALIDATE_IP,
+		'domain' => FILTER_VALIDATE_DOMAIN,
+		'mac' => FILTER_VALIDATE_MAC,
 	);
 
 	if ( array_key_exists($type, $filters) && filter_var($string, $filters[$type]) !== FALSE ) {
