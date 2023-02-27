@@ -76,7 +76,8 @@
 	"AutoloadClasses": {
 		"WidgetInitializer": "WidgetInitializer.php",
 		"WidgetRenderer": "WidgetRenderer.php",
-		"WidgetSecurity": "WidgetSecurity.php"
+		"WidgetSecurity": "WidgetSecurity.php",
+		"SmartyResourceWiki": "SmartyResourceWiki.php"
 	},
 	"callback": "WidgetInitializer::init",
 	"load_composer_autoloader": true,

@@ -1,9 +1,6 @@
 <?php
 
 class WidgetSecurity extends Smarty_Security {
-	/** @var int How <?php ?> tags are handled in templates */
-	public $php_handling = Smarty::PHP_REMOVE;
-
 	/** @var array|null Trusted static classes; empty array allows all, null allows none */
 	public $static_classes = null;
 
@@ -28,4 +25,16 @@ class WidgetSecurity extends Smarty_Security {
 		'template_object',
 		'current_dir'
 	];
+
+	/**
+	 * @param array ...$args
+	 */
+	public function __construct( ...$args ) {
+		if ( defined( "Smarty::PHP_PASSTHRU" ) ) {
+			// This is removed in newer versions of smarty.
+			// Set as default for consistency.
+			$this->php_handling = Smarty::PHP_PASSTHRU;
+		}
+		parent::__construct( ...$args );
+	}
 }
