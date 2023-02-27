@@ -39,14 +39,10 @@ class WidgetRenderer {
 		$smarty->enableSecurity( 'WidgetSecurity' );
 
 		// Register the Widgets extension functions.
+		$wikiResource = new SmartyResourceWiki( $parser );
 		$smarty->registerResource(
 			'wiki',
-			[
-				[ __CLASS__, 'wiki_get_template' ],
-				[ __CLASS__, 'wiki_get_timestamp' ],
-				[ __CLASS__, 'wiki_get_secure' ],
-				[ __CLASS__, 'wiki_get_trusted' ]
-			]
+			$wikiResource
 		);
 
 		$params = func_get_args();
@@ -166,88 +162,4 @@ class WidgetRenderer {
 			$text
 		);
 	}
-
-	// The following four functions are all registered with Smarty.
-
-	/**
-	 * @param string $widgetName
-	 * @param string &$widgetCode
-	 * @param Smarty $smarty_obj
-	 *
-	 * @return bool
-	 */
-	public static function wiki_get_template( $widgetName, &$widgetCode, $smarty_obj ) {
-		global $wgWidgetsUseFlaggedRevs;
-
-		$widgetTitle = Title::makeTitleSafe( NS_WIDGET, $widgetName );
-
-		if ( $widgetTitle && $widgetTitle->exists() ) {
-			if ( $wgWidgetsUseFlaggedRevs ) {
-				$flaggedWidgetArticle = FlaggedArticle::getTitleInstance( $widgetTitle );
-				$flaggedWidgetArticleRevision = $flaggedWidgetArticle->getStableRev();
-
-				if ( $flaggedWidgetArticleRevision ) {
-					$widgetCode = $flaggedWidgetArticleRevision->getRevText();
-				} else {
-					$widgetCode = '';
-				}
-			} else {
-				if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
-					// MW 1.36+
-					$widgetWikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()
-						->newFromTitle( $widgetTitle );
-				} else {
-					$widgetWikiPage = new WikiPage( $widgetTitle );
-				}
-				$widgetContent = $widgetWikiPage->getContent();
-				$widgetCode = ContentHandler::getContentText( $widgetContent );
-			}
-
-			// Remove <noinclude> sections and <includeonly> tags from form definition
-			$widgetCode = StringUtils::delimiterReplace( '<noinclude>', '</noinclude>', '', $widgetCode );
-			$widgetCode = strtr( $widgetCode, [ '<includeonly>' => '', '</includeonly>' => '' ] );
-
-			return true;
-		} else {
-			return false;
-		}
-	}
-
-	/**
-	 * @param string $widgetName
-	 * @param string &$widgetTimestamp
-	 * @param Smarty $smarty_obj
-	 *
-	 * @return bool
-	 */
-	public static function wiki_get_timestamp( $widgetName, &$widgetTimestamp, $smarty_obj ) {
-		$widgetTitle = Title::makeTitleSafe( NS_WIDGET, $widgetName );
-
-		if ( $widgetTitle && $widgetTitle->exists() ) {
-			$widgetArticle = new Article( $widgetTitle, 0 );
-			$widgetTimestamp = $widgetArticle->getPage()->getTouched();
-			return true;
-		} else {
-			return false;
-		}
-	}
-
-	/**
-	 * @param string $tpl_name
-	 * @param Smarty &$smarty_obj
-	 * @return true
-	 */
-	public static function wiki_get_secure( $tpl_name, &$smarty_obj ) {
-		// assume all templates are secure
-		return true;
-	}
-
-	/**
-	 * @param string $tpl_name
-	 * @param Smarty &$smarty_obj
-	 */
-	public static function wiki_get_trusted( $tpl_name, &$smarty_obj ) {
-		// not used for templates
-	}
-
 }
