@@ -14,5 +14,10 @@ function smarty_modifier_sanitize( $string ) {
 		return '<div class="error">Expects parameter 1 to be string, ' . gettype( $string ) . ' given</div>';
 	}
 
-	return Sanitizer::removeHTMLtags( $string );
+	if ( method_exists( 'Sanitizer', 'removeSomeTags' ) ) {
+		// MW 1.38+
+		return Sanitizer::removeSomeTags( $string );
+	} else {
+		return Sanitizer::removeHTMLtags( $string );
+	}
 }
