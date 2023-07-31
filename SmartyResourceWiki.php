@@ -31,7 +31,7 @@ class SmartyResourceWiki extends Smarty_Resource_Custom {
 
 		if ( $widgetTitle && $widgetTitle->exists() ) {
 			if ( $wgWidgetsUseFlaggedRevs ) {
-				$flaggedWidgetArticle = FlaggedArticle::getTitleInstance( $widgetTitle );
+				$flaggedWidgetArticle = FlaggableWikiPage::getTitleInstance( $widgetTitle );
 				$flaggedWidgetArticleRevision = $flaggedWidgetArticle->getStableRev();
 
 				if ( $flaggedWidgetArticleRevision ) {
