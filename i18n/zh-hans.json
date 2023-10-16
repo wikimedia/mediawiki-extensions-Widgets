@@ -11,18 +11,19 @@
 			"Func",
 			"Xiplus",
 			"Xzonn",
-			"星海"
+			"星海",
+			"LittlePaw365"
 		]
 	},
-	"widgets-desc": "允许wiki管理员编辑{{ns:widget}}命名空间页面以添加各种形式的小部件。您可以在[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]中找到社区贡献的小部件",
+	"widgets-desc": "允许wiki管理员通过编辑{{ns:widget}}命名空间内页面给wiki添加任意形式的小部件。社区贡献的小部件可在[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]上找到。",
 	"widgets-error": "[[{{ns:widget}}:$1|小部件$1]]出错",
 	"group-widgeteditor": "小部件编辑者",
 	"group-widgeteditor-member": "{{GENDER:$1|小部件编辑者}}",
 	"grouppage-widgeteditor": "{{ns:project}}:小部件编辑者",
-	"action-editwidgets": "创建与编辑小部件",
-	"right-editwidgets": "在<code>{{ns:widget}}</code>命名空间中创建和编辑[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets 小部件]",
-	"group-widgeteditor.css": "/* 这里放置的CSS将只影响小部件编辑者 */",
-	"group-widgeteditor.js": "/* 这里放置的JavaScript将只影响小部件编辑者 */",
-	"widgets-config-useflaggedrevs": "将此设置为true，使用FlaggedRevs扩展的稳定版本用于控件安全性",
-	"widgets-config-compiledir": "用于编译模板存储的默认目录"
+	"action-editwidgets": "创建和编辑小部件",
+	"right-editwidgets": "创建和编辑<code>{{ns:widget}}</code>命名空间内的[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets 小部件]",
+	"group-widgeteditor.css": "/* 这里放置的CSS只对小部件编辑者生效 */",
+	"group-widgeteditor.js": "/* 这里放置的JS只对小部件编辑者生效 */",
+	"widgets-config-useflaggedrevs": "把它设置为true以使用FlaggedRevs扩展的稳定版本来确保小部件安全",
+	"widgets-config-compiledir": "设置编译的模板的默认存储目录"
 }
