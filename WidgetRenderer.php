@@ -120,16 +120,9 @@ class WidgetRenderer {
 		}
 
 		$services = MediaWikiServices::getInstance();
-		if ( method_exists( $services, 'getLanguageConverterFactory' ) ) {
-			// MW 1.35+
-			$languageConverter = $services
-				->getLanguageConverterFactory()
-				->getLanguageConverter( $services->getContentLanguage() );
-			$output = $languageConverter->convert( $output );
-		} else {
-			$parser = $services->getParser();
-			$output = $parser->getTargetLanguage()->convert( $output );
-		}
+		$languageConverter = $services->getLanguageConverterFactory()
+			->getLanguageConverter( $services->getContentLanguage() );
+		$output = $languageConverter->convert( $output );
 
 		// To prevent the widget output from being tampered with, the
 		// compiled HTML is stored and a strip marker with an index to

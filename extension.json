@@ -1,6 +1,6 @@
 {
 	"name": "Widgets",
-	"version": "1.4.2",
+	"version": "1.5.0",
 	"author": [
 		"[https://www.sergeychernyshev.com Sergey Chernyshev]",
 		"Yaron Koren",
@@ -11,7 +11,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "parserhook",
 	"requires": {
-		"MediaWiki": ">= 1.30.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"config": {
 		"WidgetsUseFlaggedRevs": {
