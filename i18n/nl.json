@@ -3,7 +3,8 @@
 		"authors": [
 			"SPQRobin",
 			"Siebrand",
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"McDutchie"
 		]
 	},
 	"widgets-desc": "Stelt wikibeheerders in staat naar eigen inzicht widgets aan de wiki toe te voegen door het bewerken van pagina's in de naamruimte {{ns:widget}}.\nDoor de gemeenschap ontwikkelde widgets zijn te vinden op [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
@@ -11,5 +12,8 @@
 	"group-widgeteditor": "Widgetbewerkers",
 	"group-widgeteditor-member": "{{GENDER:$1|widgetbewerker}}",
 	"grouppage-widgeteditor": "{{ns:project}}:Widgetbewerkers",
-	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Widgets] aanmaken en bewerken in de naamruimte <code>{{ns:widget}}</code>"
+	"action-editwidgets": "widgets aan te maken en te bewerken",
+	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Widgets] aanmaken en bewerken in de naamruimte <code>{{ns:widget}}</code>",
+	"widgets-config-useflaggedrevs": "Stel dit in op ‘true’ om de stabiele versie van de uitbreiding FlaggedRevs te gebruiken voor widgetbeveiliging",
+	"widgets-config-compiledir": "Een standaardmap instellen voor de opslag van gecompileerde sjablonen"
 }
