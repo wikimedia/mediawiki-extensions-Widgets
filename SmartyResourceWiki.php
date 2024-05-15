@@ -42,14 +42,8 @@ class SmartyResourceWiki extends Smarty_Resource_Custom {
 					$widgetCode = '';
 				}
 			} else {
-				// FIXME replace with $this->parser->fetchTemplateAndTitle()
-				if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
-					// MW 1.36+
-					$widgetWikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()
-						->newFromTitle( $widgetTitle );
-				} else {
-					$widgetWikiPage = new WikiPage( $widgetTitle );
-				}
+				$widgetWikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()
+					->newFromTitle( $widgetTitle );
 				$widgetContent = $widgetWikiPage->getContent();
 				$widgetCode = ContentHandler::getContentText( $widgetContent );
 				$mtime = wfTimestamp( TS_UNIX, $widgetWikiPage->getTouched() );
