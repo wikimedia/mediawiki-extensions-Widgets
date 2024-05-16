@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Suleiman the Magnificent Television",
 			"Ykhwong",
 			"렌즈",
 			"아라"
@@ -11,6 +12,7 @@
 	"group-widgeteditor": "위젯 편집자",
 	"group-widgeteditor-member": "{{GENDER:$1|위젯 편집자}}",
 	"grouppage-widgeteditor": "{{ns:project}}:위젯 편집자",
+	"action-editwidgets": "위젯을 생성하고 편집",
 	"right-editwidgets": "<code>{{ns:widget}}</code> 이름공간에서 [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets 위젯]을 만들고 편집",
 	"grant-editwidgets": "소도구 만들기 및 편집",
 	"group-widgeteditor.css": "/* 이 CSS 설정은 위젯 편집자에만 적용됩니다 */",
