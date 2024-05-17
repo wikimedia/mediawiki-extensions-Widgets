@@ -32,6 +32,8 @@ class WidgetRenderer {
 		$smarty->left_delimiter = '<!--{';
 		$smarty->right_delimiter = '}-->';
 		$smarty->compile_dir = $wgWidgetsCompileDir;
+		// Avoid displaying warnings, which show up with more frequency with PHP 8.
+		$smarty->error_reporting = E_ERROR;
 
 		// registering custom Smarty plugins
 		$smarty->addPluginsDir( __DIR__ . "/smarty_plugins/" );
