@@ -1,6 +1,6 @@
 {
 	"require": {
-		"smarty/smarty": "~3.1.47|~4.3.0"
+		"smarty/smarty": "~4.5.3"
 	},
 	"require-dev": {
 		"mediawiki/mediawiki-codesniffer": "43.0.0",
