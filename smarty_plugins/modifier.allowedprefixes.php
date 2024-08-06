@@ -3,24 +3,27 @@
 /**
  * Smarty plugin
  * -------------------------------------------------------------
- * File:     modifier.allowedprefix.php
+ * File:     modifier.allowedprefixes.php
  * Type:     modifier
- * Name:     allowedprefix
+ * Name:     allowedprefixes
  * Purpose:  Validates the parameter format by checking whether
  *           it has a prefix from the given list of values.
  * -------------------------------------------------------------
  */
-function smarty_modifier_allowedprefix( $string, $allowedValues = '' ) {
+function smarty_modifier_allowedprefixes( $string, $allowedPrefixes = '' ) {
 	if ( !is_string( $string ) ) {
 		return '<div class="error">Expects parameter 1 to be string, ' . gettype( $string ) . ' given</div>';
 	}
 
-	if ( is_string( $allowedValues ) ) {
-		$allowedValues = explode( ',', $allowedValues );
+	if ( is_string( $allowedPrefixes ) ) {
+		$allowedPrefixes = explode( ',', $allowedPrefixes );
 	}
 
-	foreach ( $allowedValues as $value ) {
-		if ( strncmp( $string, $value, strlen( $value ) ) === 0 ) {
+	foreach ( $allowedPrefixes as $prefix ) {
+		if ( $prefix == '' ) {
+			continue;
+                }
+		if ( strncmp( $string, $prefix, strlen( $prefix ) ) === 0 ) {
 			return $string;
 		}
 	}
