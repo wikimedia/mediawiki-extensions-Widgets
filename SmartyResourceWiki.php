@@ -44,8 +44,7 @@ class SmartyResourceWiki extends Smarty_Resource_Custom {
 			} else {
 				$widgetWikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()
 					->newFromTitle( $widgetTitle );
-				$widgetContent = $widgetWikiPage->getContent();
-				$widgetCode = ContentHandler::getContentText( $widgetContent );
+				$widgetCode = $widgetWikiPage->getContent()->getText();
 				$mtime = wfTimestamp( TS_UNIX, $widgetWikiPage->getTouched() );
 			}
 
