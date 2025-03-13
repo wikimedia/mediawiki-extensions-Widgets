@@ -117,7 +117,13 @@ class WidgetRenderer {
 			$output = $smarty->fetch( "wiki:$widgetName" );
 		} catch ( Exception $e ) {
 			wfDebugLog( "Widgets", "Smarty exception while parsing '$widgetName': " . $e->getMessage() );
-			return Html::element( 'div', [ 'class' => 'error' ],
+			if ( class_exists( 'MediaWiki\Html\Html' ) ) {
+				// MW 1.40+
+				$htmlClass = 'MediaWiki\Html\Html';
+			} else {
+				$htmlClass = 'Html';
+			}
+			return $htmlClass::element( 'div', [ 'class' => 'error' ],
 				wfMessage( 'widgets-error', $widgetName )->text() . ': ' . $e->getMessage() );
 		}
 

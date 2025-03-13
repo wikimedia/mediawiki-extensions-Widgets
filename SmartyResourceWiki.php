@@ -19,6 +19,21 @@ class SmartyResourceWiki extends Smarty_Resource_Custom {
 
 	/**
 	 * @param string $widgetName
+	 *
+	 * @return Title
+	 */
+	private function makeWidgetTitle( $widgetName ) {
+		if ( class_exists( 'MediaWiki\Title\Title' ) ) {
+			// MW 1.40+
+			$titleClass = 'MediaWiki\Title\Title';
+		} else {
+			$titleClass = 'Title';
+		}
+		return $titleClass::makeTitleSafe( NS_WIDGET, $widgetName );
+	}
+
+	/**
+	 * @param string $widgetName
 	 * @param string &$widgetCode Set to null to mean not found
 	 * @param int &$mtime Unix timestamp of last mod. Set to null for not found.
 	 *
@@ -27,7 +42,7 @@ class SmartyResourceWiki extends Smarty_Resource_Custom {
 	public function fetch( $widgetName, &$widgetCode, &$mtime ) {
 		global $wgWidgetsUseFlaggedRevs;
 
-		$widgetTitle = Title::makeTitleSafe( NS_WIDGET, $widgetName );
+		$widgetTitle = $this->makeWidgetTitle( $widgetName );
 
 		if ( $widgetTitle && $widgetTitle->exists() ) {
 			if ( $wgWidgetsUseFlaggedRevs ) {
@@ -63,7 +78,7 @@ class SmartyResourceWiki extends Smarty_Resource_Custom {
 	 * @return bool|int
 	 */
 	protected function fetchTimestamp( $widgetName ) {
-		$widgetTitle = Title::makeTitleSafe( NS_WIDGET, $widgetName );
+		$widgetTitle = $this->makeWidgetTitle( $widgetName );
 
 		if ( $widgetTitle && $widgetTitle->exists() ) {
 			$widgetArticle = new Article( $widgetTitle, 0 );
