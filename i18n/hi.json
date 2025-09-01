@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saurmandal"
+		]
+	},
+	"action-editwidgets": "विजेट्स बनाने और सम्पादित करने",
+	"right-editwidgets": "<code>{{ns:widget}}</code> नामस्थान में [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets विजेट्स] बनाना और सम्पादित करना"
+}
