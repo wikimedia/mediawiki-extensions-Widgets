@@ -5,12 +5,16 @@
 			"Toliño"
 		]
 	},
-	"widgets-desc": "Permite aos administradores do wiki engadir widgets ao editar páxinas no espazo de nomes \"{{ns:widget}}\".\nPódense atopar os widgets desenvolvidos para a comunidade en [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
-	"widgets-error": "Erro no [[{{ns:widget}}:$1|widget \"$1\"]]",
+	"widgets-desc": "Permite aos administradores do wiki engadir widgets ao editar páxinas no espazo de nomes «{{ns:widget}}».\nOs widgets desenvolvidos pola comunidade pódense atopar en [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Erro no [[{{ns:widget}}:$1|widget «$1»]]",
 	"group-widgeteditor": "Editores de widgets",
 	"group-widgeteditor-member": "{{GENDER:$1|editor|editora}} de widgets",
 	"grouppage-widgeteditor": "{{ns:project}}:Editores de widgets",
+	"action-editwidgets": "crear e editar widgets",
 	"right-editwidgets": "Crear e editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] no espazo de nomes <code>{{ns:widget}}</code>",
+	"grant-editwidgets": "Crear e editar widgets",
 	"group-widgeteditor.css": "/* O CSS que se coloque aquí afectará soamente aos editores de widgets */",
-	"group-widgeteditor.js": "/* O JS que se coloque aquí afectará soamente aos editores de widgets */"
+	"group-widgeteditor.js": "/* O JS que se coloque aquí afectará soamente aos editores de widgets */",
+	"widgets-config-useflaggedrevs": "Define isto como «true» para usar a versión estable da extensión FlaggedRevs para a seguranza do widget",
+	"widgets-config-compiledir": "Define un directorio predeterminado para o almacenamento de modelos compilados"
 }
