@@ -3,6 +3,7 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Fulup",
+			"SaldırganSincap",
 			"Y-M D"
 		]
 	},
@@ -11,5 +12,5 @@
 	"group-widgeteditor": "Aozerien widget",
 	"group-widgeteditor-member": "{{GENDER:$1|Aozer|Aozerez}} Widget",
 	"grouppage-widgeteditor": "{{ns:project}}:Aozerien widget",
-	"right-editwidgets": "Krouiñ ha kemmañ ar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgetoù] en esaouenn anv <code>{{ns:widget}}<code>"
+	"right-editwidgets": "Krouiñ ha kemmañ ar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgetoù] en esaouenn anv <code>{{ns:widget}}</code>"
 }
