@@ -16,5 +16,5 @@
 	"action-editwidgets": "стварэньне і рэдагаваньне віджэтаў",
 	"right-editwidgets": "стварэньне і рэдагаваньне [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets дапаўненьняў] у прасторы назваў <code>{{ns:widget}}</code>",
 	"widgets-config-useflaggedrevs": "Пазначце гэта як «true», каб ужываць стабільную вэрсію пашырэньня FlaggedRevs для бясьпекі віджэту",
-	"widgets-config-compiledir": "Пазначце тэчку па змоўчаньні для захаваньня скампіляваных шаблёнаў"
+	"widgets-config-compiledir": "Перадвызначце тэчку для захаваньня скампіляваных шаблёнаў"
 }
