@@ -5,6 +5,7 @@
 			"Martinwiss",
 			"Ozp",
 			"Per",
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
@@ -15,6 +16,7 @@
 	"grouppage-widgeteditor": "{{ns:project}}:Widget-redigerare",
 	"action-editwidgets": "skapa och redigera widgets",
 	"right-editwidgets": "Skapa och redigera [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] i namnrymden<code>{{ns:widget}}</code>",
+	"grant-editwidgets": "Skapa och redigera widgetar",
 	"widgets-config-useflaggedrevs": "Ändra detta till \"true\" för att använda den stabila versionen av tillägget FlaggedRevs för finessäkerhet",
 	"widgets-config-compiledir": "Ange en standardkatalog för lagring av kompilerade mallar"
 }
