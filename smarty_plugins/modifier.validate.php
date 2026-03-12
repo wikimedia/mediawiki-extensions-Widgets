@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * Smarty plugin
  * -------------------------------------------------------------
@@ -30,7 +33,8 @@ function smarty_modifier_validate( $string, $type='url' ) {
 
 		// Note, this matches protocol relative, but not relative urls
 		// and only allows whatever is in $wgUrlProtocols.
-		if ( preg_match( '/^(?i:' . wfUrlProtocols() . ')\S+$/', $string ) ) {
+		$urlProtocols = MediaWikiServices::getInstance()->getUrlUtils()->validProtocols();
+		if ( preg_match( '/^(?i:' . $urlProtocols . ')\S+$/', $string ) ) {
 			return $string;
 		}
 		return '';
