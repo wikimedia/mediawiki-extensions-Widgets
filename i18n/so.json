@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"widgets-desc": "Waxay u oggolaanaysaa maamulayaasha wiki-ga inay ku daraan widgets qaab xor ah wiki-ga iyagoo wax ka beddelaya bogagga ku jira namespace-ka {{ns:widget}}.\n\nWidgets-ka ay bulshada soo kordhisay waxaa laga heli karaa [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Khalad ku jira [[{{ns:widget}}:$1|widget $1]]",
+	"group-widgeteditor": "Tifatirayaasha widgets",
+	"group-widgeteditor-member": "{{GENDER:$1|tifatiraha widget-ka}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Tifatirayaasha widgets",
+	"action-editwidgets": "Abuur oo wax ka beddel widgets",
+	"right-editwidgets": "Abuur oo wax ka beddel [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] ku jira meel-magac <code>{{ns:widget}}</code>",
+	"grant-editwidgets": "Abuur oo wax ka beddel widgets",
+	"widgets-config-useflaggedrevs": "U dhig tan true si aad u isticmaasho nooca xasilloon ee kordhinta FlaggedRevs ee amniga widget-ka",
+	"widgets-config-compiledir": "U deji gal caadi ah oo lagu kaydiyo tusmada la isku soo ururiyay"
+}
