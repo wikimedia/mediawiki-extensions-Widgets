@@ -21,5 +21,7 @@
 	"group-widgeteditor.css": "{{doc-group|widgeteditor|css}}",
 	"group-widgeteditor.js": "{{doc-group|widgeteditor|js}}",
 	"widgets-config-useflaggedrevs": "configuration setting description of $wgWidgetsUseFlaggedRevs",
-	"widgets-config-compiledir": "configuration setting description of $wgWidgetsCompileDir"
+	"widgets-config-compiledir": "configuration setting description of $wgWidgetsCompileDir",
+	"widgets-config-autoregistercspsources": "configuration setting description of $wgWidgetsAutoRegisterCSPSources",
+	"widgets-config-cspsources": "configuration setting description of $wgWidgetsCSPSources"
 }

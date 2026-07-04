@@ -11,7 +11,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "parserhook",
 	"requires": {
-		"MediaWiki": ">= 1.38.0"
+		"MediaWiki": ">= 1.39.0"
 	},
 	"config": {
 		"WidgetsUseFlaggedRevs": {
@@ -24,6 +24,18 @@
 			"value": "compiled_templates/",
 			"path": true,
 			"descriptionmsg": "widgets-config-compiledir",
+			"public": false
+		},
+		"WidgetsAutoRegisterCSPSources": {
+			"value": true,
+			"path": false,
+			"descriptionmsg": "widgets-config-autoregistercspsources",
+			"public": false
+		},
+		"WidgetsCSPSources": {
+			"value": {},
+			"path": false,
+			"descriptionmsg": "widgets-config-cspsources",
 			"public": false
 		}
 	},
@@ -43,7 +55,9 @@
 	],
 	"Hooks": {
 		"ParserFirstCallInit": "WidgetInitializer::initParserFunctions",
-		"ParserAfterTidy": "WidgetRenderer::outputCompiledWidget"
+		"ParserAfterTidy": "WidgetRenderer::outputCompiledWidget",
+		"OutputPageBeforeHTML": "WidgetRenderer::onOutputPageBeforeHTML",
+		"OutputPageParserOutput": "WidgetRenderer::onOutputPageParserOutput"
 	},
 	"AvailableRights": [
 		"editwidgets"
