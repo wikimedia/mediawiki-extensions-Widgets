@@ -3,7 +3,8 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Helix84",
-			"Teslaton"
+			"Teslaton",
+			"Wizzard"
 		]
 	},
 	"widgets-desc": "Umožňuje správcom wiki pridávať ovládacie prvky na wiki úpravou stránky v mennom priestore {{ns:widget}}.\nPrvky vytvorené komunitou možno nájsť na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
@@ -11,5 +12,9 @@
 	"group-widgeteditor": "Editori ovládacích prvkov",
 	"group-widgeteditor-member": "{{GENDER:$1|Redaktor|Redaktorka}} ovládacích prvkov",
 	"grouppage-widgeteditor": "{{ns:project}}:Editori ovládacích prvkov",
-	"right-editwidgets": "Tvorba a úprava stránok [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ovládacích prvkov] v mennom priestore <code>{{ns:widget}}</code>"
+	"action-editwidgets": "vytvárať a upravovať widgety",
+	"right-editwidgets": "Tvorba a úprava stránok [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ovládacích prvkov] v mennom priestore <code>{{ns:widget}}</code>",
+	"grant-editwidgets": "Vytvárať a upravovať widgety",
+	"widgets-config-useflaggedrevs": "Nastavte na true, ak sa má na zabezpečenie widgetov používať stabilná verzia z rozšírenia FlaggedRevs",
+	"widgets-config-compiledir": "Nastavte predvolený adresár na ukladanie skompilovaných šablón"
 }
