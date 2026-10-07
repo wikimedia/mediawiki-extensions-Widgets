@@ -14,6 +14,6 @@
 	"group-widgeteditor.js": "/* JS placed here will affect widget editors only */",
 	"widgets-config-useflaggedrevs": "Set this to true to use FlaggedRevs extension's stable version for widget security",
 	"widgets-config-compiledir": "Set a default directory for storage of compiled templates",
-	"widgets-config-autoregistercspsources": "When $wgCSPHeader is enabled, automatically allow the external hosts referenced by widget markup (scripts, stylesheets, frames and media) in the Content-Security-Policy",
-	"widgets-config-cspsources": "Additional Content-Security-Policy sources allowed on pages containing widgets, as a map of directive name (for example <code>connect-src</code> or <code>font-src</code>) to a list of sources. Use this for resources that widgets load at runtime and cannot be detected from their markup"
+	"widgets-config-autoregistercspsources": "When $wgCSPHeader is enabled, automatically allow the external hosts referenced by widget source code (scripts, stylesheets, frames and media) in the Content-Security-Policy. Hosts that come from widget parameters are not allowed",
+	"widgets-config-cspsources": "Additional Content-Security-Policy sources allowed on pages containing widgets, as a map of directive name (for example <code>connect-src</code> or <code>font-src</code>) to a list of sources. Directives other than <code>script-src</code> and <code>style-src</code> are added to <code>default-src</code>. Use this for resources that widgets load at runtime and cannot be detected from their markup"
 }

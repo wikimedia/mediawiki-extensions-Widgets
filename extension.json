@@ -56,8 +56,8 @@
 	"Hooks": {
 		"ParserFirstCallInit": "WidgetInitializer::initParserFunctions",
 		"ParserAfterTidy": "WidgetRenderer::outputCompiledWidget",
-		"OutputPageBeforeHTML": "WidgetRenderer::onOutputPageBeforeHTML",
-		"OutputPageParserOutput": "WidgetRenderer::onOutputPageParserOutput"
+		"OutputPageParserOutput": "WidgetRenderer::onOutputPageParserOutput",
+		"ContentSecurityPolicyScriptSource": "WidgetRenderer::onContentSecurityPolicyScriptSource"
 	},
 	"AvailableRights": [
 		"editwidgets"

@@ -21,21 +21,14 @@ class WidgetRenderer {
 	private static $markerSuffix = "END_WIDGET";
 
 	/**
-	 * @var string Placeholder inserted as the nonce attribute value on widget
-	 *   <script>/<style> tags at parse time. It is replaced with the real,
-	 *   per-request CSP nonce (or stripped) at output time by
-	 *   ::onOutputPageBeforeHTML().
+	 * Map of CSP directive name, as used in $wgWidgetsCSPSources, to the
+	 * ContentSecurityPolicy setter that adds a source to it.
 	 *
-	 * The nonce cannot be inserted directly during parsing because widget
-	 * output is stored in the parser cache, whereas the nonce changes on every
-	 * request (see $wgCSPHeader). Using a stable placeholder in the cached HTML
-	 * and resolving it post-cache keeps the nonce valid on cache hits.
-	 */
-	private const NONCE_PLACEHOLDER = "\x7fWIDGETS_CSP_NONCE\x7f";
-
-	/**
-	 * Map of CSP directive name to the ContentSecurityPolicy setter that adds a
-	 * source to it. Used for both auto-detected and admin-configured sources.
+	 * Core only lets extensions extend script-src, style-src and default-src.
+	 * The other fetch directives listed here are not sent by core, so browsers
+	 * fall back to default-src for them, and the source is added there instead.
+	 * Note that this also allows the source for every other directive that
+	 * falls back to default-src (and for style-src, which core builds from it).
 	 *
 	 * @var array<string,string>
 	 */
@@ -43,13 +36,14 @@ class WidgetRenderer {
 		'default-src' => 'addDefaultSrc',
 		'script-src' => 'addScriptSrc',
 		'style-src' => 'addStyleSrc',
-		'connect-src' => 'addConnectSrc',
-		'font-src' => 'addFontSrc',
-		'media-src' => 'addMediaSrc',
-		'frame-src' => 'addFrameSrc',
-		'child-src' => 'addChildSrc',
-		'worker-src' => 'addWorkerSrc',
-		'manifest-src' => 'addManifestSrc',
+		'connect-src' => 'addDefaultSrc',
+		'font-src' => 'addDefaultSrc',
+		'img-src' => 'addDefaultSrc',
+		'media-src' => 'addDefaultSrc',
+		'frame-src' => 'addDefaultSrc',
+		'child-src' => 'addDefaultSrc',
+		'worker-src' => 'addDefaultSrc',
+		'manifest-src' => 'addDefaultSrc',
 	];
 
 	/**
@@ -165,30 +159,11 @@ class WidgetRenderer {
 			->getLanguageConverter( $services->getContentLanguage() );
 		$output = $languageConverter->convert( $output );
 
-		// Tag any inline <script>/<style> the widget emits with a CSP nonce
-		// placeholder so they are not blocked when $wgCSPHeader is enabled and
-		// a nonce is in use. The placeholder is resolved to the real nonce at
-		// output time; see ::onOutputPageBeforeHTML().
-		$output = self::addNoncePlaceholder( $output );
-
-		// Collect the external hosts this widget references so they can be
-		// added to the page's Content-Security-Policy at output time (see
-		// ::onOutputPageParserOutput()). Doing it here, and stashing the result
-		// in the ParserOutput, keeps it consistent with the parser cache.
 		global $wgWidgetsAutoRegisterCSPSources;
-		$parserOutput = $parser->getOutput();
 		if ( $wgWidgetsAutoRegisterCSPSources ) {
-			$detected = self::collectExternalCSPSources( $output );
-			if ( $detected ) {
-				$stored = (array)$parserOutput->getExtensionData( 'widgetCSPSources' );
-				foreach ( $detected as $directive => $srcs ) {
-					$stored[$directive] = array_values( array_unique(
-						array_merge( $stored[$directive] ?? [], $srcs )
-					) );
-				}
-				$parserOutput->setExtensionData( 'widgetCSPSources', $stored );
-			}
+			self::registerWidgetCSPSources( $parser->getOutput(), $wikiResource, $widgetName );
 		}
+		self::addInlineScriptHashes( $parser->getOutput(), $output );
 
 		// To prevent the widget output from being tampered with, the
 		// compiled HTML is stored and a strip marker with an index to
@@ -223,48 +198,76 @@ class WidgetRenderer {
 	}
 
 	/**
-	 * Add a CSP nonce placeholder attribute to every inline <script> and
-	 * <style> tag in the given widget HTML.
+	 * Allow the external hosts referenced by a widget's source code in the
+	 * Content-Security-Policy of the page the widget is rendered on.
 	 *
-	 * Only opening tags are matched (the lookahead requires whitespace, '>' or
-	 * '/' to immediately follow the tag name), so closing tags and tags such as
-	 * <scripting> are left untouched. Tags that already carry a nonce attribute
-	 * are skipped.
+	 * The widget source (as written by users with the editwidgets right) is
+	 * scanned rather than the rendered output, so that parameter values, which
+	 * any editor of the page can supply, cannot add sources to the policy.
+	 * Smarty tags are blanked before scanning; a URL whose host comes from a
+	 * template variable is therefore not detected.
 	 *
-	 * @param string $html
-	 * @return string
+	 * The sources are stored in the ParserOutput, which is what OutputPage
+	 * applies to the policy, so they stay correct on parser cache hits.
+	 *
+	 * @param ParserOutput $parserOutput
+	 * @param SmartyResourceWiki $wikiResource
+	 * @param string $widgetName
 	 */
-	private static function addNoncePlaceholder( $html ) {
-		return preg_replace(
-			'/<(script|style)(?![^>]*\snonce=)(?=[\s>\/])/i',
-			'<$1 nonce="' . self::NONCE_PLACEHOLDER . '"',
-			$html
-		);
+	private static function registerWidgetCSPSources( $parserOutput, $wikiResource, $widgetName ) {
+		// Only scan each widget once per parse, however often it is used.
+		$scanned = (array)$parserOutput->getExtensionData( 'widgetCSPScanned' );
+		if ( isset( $scanned[$widgetName] ) ) {
+			return;
+		}
+		$scanned[$widgetName] = true;
+		$parserOutput->setExtensionData( 'widgetCSPScanned', $scanned );
+
+		$wikiResource->fetch( $widgetName, $widgetCode, $mtime );
+		if ( !is_string( $widgetCode ) || $widgetCode === '' ) {
+			return;
+		}
+		$widgetCode = preg_replace( '/<!--\{.*?\}-->/s', '{}', $widgetCode );
+
+		$sources = self::collectExternalCSPSources( $widgetCode );
+		foreach ( $sources['script-src'] ?? [] as $src ) {
+			$parserOutput->addExtraCSPScriptSrc( $src );
+		}
+		foreach ( $sources['style-src'] ?? [] as $src ) {
+			$parserOutput->addExtraCSPStyleSrc( $src );
+		}
+		foreach ( $sources['default-src'] ?? [] as $src ) {
+			$parserOutput->addExtraCSPDefaultSrc( $src );
+		}
 	}
 
 	/**
-	 * Replace the widget CSP nonce placeholder with the real, per-request nonce.
+	 * Remember the CSP hash sources of the inline scripts in the widget output.
 	 *
-	 * Runs at output time (after the parser cache), where the live nonce is
-	 * available. If no nonce is in use (e.g. MediaWiki 1.41+, which relies on
-	 * 'unsafe-inline' instead), the placeholder attribute is simply removed.
+	 * They are only added to the policy when it uses nonces (MediaWiki 1.39 and
+	 * 1.40, see ::onContentSecurityPolicyScriptSource()); there, 'unsafe-inline'
+	 * is ignored, so inline widget scripts would be blocked otherwise. Only
+	 * <script> elements are covered: inline event handler attributes and
+	 * javascript: URLs cannot be allowed by hash.
 	 *
-	 * @param OutputPage $out
-	 * @param string &$text
+	 * @param ParserOutput $parserOutput
+	 * @param string $html Final widget output, exactly as it will be served
 	 */
-	public static function onOutputPageBeforeHTML( $out, &$text ) {
-		if ( strpos( $text, self::NONCE_PLACEHOLDER ) === false ) {
+	private static function addInlineScriptHashes( $parserOutput, $html ) {
+		if ( !preg_match_all( '/<script\b([^>]*)>(.*?)<\/script\s*>/is', $html, $scripts, PREG_SET_ORDER ) ) {
 			return;
 		}
-
-		$nonce = $out->getCSP()->getNonce();
-		if ( $nonce === false || $nonce === null || $nonce === '' ) {
-			// No nonce in use; drop the placeholder attribute entirely.
-			$text = str_replace( ' nonce="' . self::NONCE_PLACEHOLDER . '"', '', $text );
-			return;
+		$hashes = (array)$parserOutput->getExtensionData( 'widgetCSPScriptHashes' );
+		foreach ( $scripts as $script ) {
+			if ( isset( self::parseAttributes( $script[1] )['src'] ) || trim( $script[2] ) === '' ) {
+				continue;
+			}
+			// Browsers normalize newlines before hashing the script text.
+			$code = str_replace( [ "\r\n", "\r" ], "\n", $script[2] );
+			$hash = "'sha256-" . base64_encode( hash( 'sha256', $code, true ) ) . "'";
+			$hashes[$hash] = true;
 		}
-
-		$text = str_replace( self::NONCE_PLACEHOLDER, htmlspecialchars( $nonce, ENT_QUOTES ), $text );
+		$parserOutput->setExtensionData( 'widgetCSPScriptHashes', $hashes );
 	}
 
 	/**
@@ -277,11 +280,15 @@ class WidgetRenderer {
 	 * $wgWidgetsCSPSources instead. Same-origin and relative references are left
 	 * out, as they are already covered by the 'self' source.
 	 *
+	 * Frames and media go to default-src, since core does not send frame-src or
+	 * media-src and browsers fall back to default-src for them.
+	 *
 	 * Note: <object>/<embed> are intentionally ignored, since core's object-src
 	 * defaults to 'none' and exposes no runtime setter to relax it.
 	 *
 	 * @param string $html
-	 * @return array<string,string[]> Directive => list of source hosts
+	 * @return array<string,string[]> Directive (script-src, style-src or
+	 *   default-src) => list of source hosts
 	 */
 	private static function collectExternalCSPSources( $html ) {
 		$sources = [];
@@ -307,20 +314,18 @@ class WidgetRenderer {
 					if ( strpos( $rel, 'stylesheet' ) !== false ) {
 						self::addExternalSource( $sources, 'style-src', $attrs['href'] ?? null );
 					} elseif ( strpos( $rel, 'manifest' ) !== false ) {
-						self::addExternalSource( $sources, 'manifest-src', $attrs['href'] ?? null );
+						self::addExternalSource( $sources, 'default-src', $attrs['href'] ?? null );
 					}
 					break;
 				case 'iframe':
 				case 'frame':
-					self::addExternalSource( $sources, 'frame-src', $attrs['src'] ?? null );
-					break;
 				case 'audio':
 				case 'video':
 				case 'source':
 				case 'track':
-					self::addExternalSource( $sources, 'media-src', $attrs['src'] ?? null );
+					self::addExternalSource( $sources, 'default-src', $attrs['src'] ?? null );
 					if ( $name === 'video' ) {
-						self::addExternalSource( $sources, 'media-src', $attrs['poster'] ?? null );
+						self::addExternalSource( $sources, 'default-src', $attrs['poster'] ?? null );
 					}
 					break;
 			}
@@ -361,6 +366,8 @@ class WidgetRenderer {
 	 * Add the host of an external resource URL to the given directive bucket.
 	 * Relative, fragment and same-scheme-less references without a host are
 	 * skipped; only absolute (or protocol-relative) URLs contribute a source.
+	 * URLs pointing at this wiki's own server are skipped as well, since they
+	 * are covered by 'self'.
 	 *
 	 * @param array<string,string[]> &$sources
 	 * @param string $directive
@@ -379,9 +386,19 @@ class WidgetRenderer {
 		if ( !$bits || empty( $bits['host'] ) ) {
 			return;
 		}
+		$host = strtolower( $bits['host'] );
+		// Reject anything that is not a plain host name, e.g. a host built
+		// from a (blanked) template variable.
+		if ( !preg_match( '/^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$/', $host ) ) {
+			return;
+		}
+		$serverName = MediaWikiServices::getInstance()->getMainConfig()->get( 'ServerName' );
+		if ( $host === strtolower( (string)$serverName ) ) {
+			return;
+		}
 		$source = isset( $bits['scheme'] ) && $bits['scheme'] !== ''
-			? $bits['scheme'] . '://' . $bits['host']
-			: '//' . $bits['host'];
+			? strtolower( $bits['scheme'] ) . '://' . $host
+			: '//' . $host;
 		if ( isset( $bits['port'] ) ) {
 			$source .= ':' . $bits['port'];
 		}
@@ -391,44 +408,81 @@ class WidgetRenderer {
 	}
 
 	/**
-	 * Register the CSP sources a page's widgets need with the page's
-	 * Content-Security-Policy.
+	 * Apply the CSP settings of the widgets on a page.
 	 *
-	 * Runs at output time, before the CSP headers are sent, so add*Src() calls
-	 * still take effect. Two source sets are applied whenever the page contains
-	 * at least one widget:
-	 *  - the hosts auto-detected from widget markup (if
-	 *    $wgWidgetsAutoRegisterCSPSources is enabled), and
-	 *  - the admin-configured $wgWidgetsCSPSources allowlist.
+	 * Adds the admin-configured $wgWidgetsCSPSources to the policy of pages
+	 * that contain at least one widget. This runs at output time rather than
+	 * parse time so that configuration changes take effect without purging the
+	 * parser cache. Sources detected from widget code are stored in the
+	 * ParserOutput instead; see ::registerWidgetCSPSources().
+	 *
+	 * Also collects the hashes of inline widget scripts, which are added to
+	 * script-src by ::onContentSecurityPolicyScriptSource().
 	 *
 	 * @param OutputPage $out
 	 * @param ParserOutput $parserOutput
 	 */
 	public static function onOutputPageParserOutput( $out, $parserOutput ) {
+		global $wgWidgetsCSPSources;
+
 		// Nothing to do unless a widget was actually rendered on this page.
 		if ( $parserOutput->getExtensionData( 'widgetReplacements' ) === null ) {
 			return;
 		}
 
+		$hashes = $parserOutput->getExtensionData( 'widgetCSPScriptHashes' );
+		if ( $hashes ) {
+			$out->setProperty(
+				'widgetCSPScriptHashes',
+				array_merge( (array)$out->getProperty( 'widgetCSPScriptHashes' ), $hashes )
+			);
+		}
+
 		$csp = $out->getCSP();
-
-		$detected = (array)$parserOutput->getExtensionData( 'widgetCSPSources' );
-
-		global $wgWidgetsCSPSources;
-		$configured = is_array( $wgWidgetsCSPSources ) ? $wgWidgetsCSPSources : [];
-
-		foreach ( [ $detected, $configured ] as $sourceSet ) {
-			foreach ( $sourceSet as $directive => $srcs ) {
-				$method = self::CSP_DIRECTIVE_METHODS[$directive] ?? null;
-				if ( $method === null ) {
-					continue;
-				}
-				foreach ( (array)$srcs as $src ) {
-					if ( is_string( $src ) && $src !== '' ) {
-						$csp->$method( $src );
-					}
+		foreach ( (array)$wgWidgetsCSPSources as $directive => $srcs ) {
+			$method = self::CSP_DIRECTIVE_METHODS[$directive] ?? null;
+			if ( $method === null ) {
+				wfDebugLog( 'Widgets', "Ignoring unsupported CSP directive '$directive' in \$wgWidgetsCSPSources" );
+				continue;
+			}
+			foreach ( (array)$srcs as $src ) {
+				if ( is_string( $src ) && $src !== '' ) {
+					$csp->$method( $src );
 				}
 			}
+		}
+	}
+
+	/**
+	 * Allow the inline scripts of the widgets on the page by their hash, when
+	 * the policy uses a nonce.
+	 *
+	 * MediaWiki 1.39 and 1.40 send a nonce by default when $wgCSPHeader is
+	 * enabled, and browsers then ignore 'unsafe-inline'. Widget output is
+	 * parser-cached, so it cannot carry the per-request nonce; hashes do not
+	 * change between requests. Without a nonce (MediaWiki 1.41+, or
+	 * 'useNonces' => false), nothing is added: 'unsafe-inline' already allows
+	 * inline scripts, and adding a hash would make browsers ignore it, blocking
+	 * core's own inline scripts.
+	 *
+	 * ContentSecurityPolicy::addScriptSrc() cannot be used, as it only accepts
+	 * URLs.
+	 *
+	 * @param string[] &$scriptSrc
+	 * @param array $policyConfig
+	 * @param int $mode
+	 */
+	public static function onContentSecurityPolicyScriptSource( &$scriptSrc, $policyConfig, $mode ) {
+		if ( !preg_grep( "/^'nonce-[A-Za-z0-9+\/_=-]+'$/", $scriptSrc ) ) {
+			return;
+		}
+		$contextClass = class_exists( 'MediaWiki\Context\RequestContext' )
+			// MW 1.41+
+			? 'MediaWiki\Context\RequestContext'
+			: 'RequestContext';
+		$hashes = $contextClass::getMain()->getOutput()->getProperty( 'widgetCSPScriptHashes' );
+		if ( $hashes ) {
+			$scriptSrc = array_merge( $scriptSrc, array_keys( $hashes ) );
 		}
 	}
 }
