@@ -4,6 +4,7 @@
 			"A Chinese Wikipedian",
 			"Anakmalaysia",
 			"Func",
+			"GuoPC",
 			"Kelly Hsueh",
 			"LittlePaw365",
 			"Liuxinyu970226",
@@ -27,5 +28,7 @@
 	"group-widgeteditor.css": "/* 这里放置的CSS只对微件编辑者生效 */",
 	"group-widgeteditor.js": "/* 这里放置的JS只对微件编辑者生效 */",
 	"widgets-config-useflaggedrevs": "把它设置为true以使用FlaggedRevs扩展的稳定版本来确保微件安全",
-	"widgets-config-compiledir": "设置编译的模板的默认存储目录"
+	"widgets-config-compiledir": "设置编译的模板的默认存储目录",
+	"widgets-config-autoregistercspsources": "启用$wgCSPHeader后，会自动允许内容安全策略中由微件标记（脚本、样式表、框架和媒体）引用的外部主机",
+	"widgets-config-cspsources": "允许在包含微件的页面上使用额外的内容安全策略源，其形式微指令名称（例如<code>connect-src</code>或<code>font-src</code> ）与源列表之间的映射。请将此设置用于微件在运行时加载且无法通过其标记检测到的资源"
 }

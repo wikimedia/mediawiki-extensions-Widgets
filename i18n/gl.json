@@ -16,5 +16,7 @@
 	"group-widgeteditor.css": "/* O CSS que se coloque aquí afectará soamente aos editores de widgets */",
 	"group-widgeteditor.js": "/* O JS que se coloque aquí afectará soamente aos editores de widgets */",
 	"widgets-config-useflaggedrevs": "Define isto como «true» para usar a versión estable da extensión FlaggedRevs para a seguranza do widget",
-	"widgets-config-compiledir": "Define un directorio predeterminado para o almacenamento de modelos compilados"
+	"widgets-config-compiledir": "Define un directorio predeterminado para o almacenamento de modelos compilados",
+	"widgets-config-autoregistercspsources": "Cando «$wgCSPHeader» está activado, permítense automaticamente os dominios externos aos que fai referencia o código do widget (scripts, follas de estilo, marcos e ficheiros multimedia) na política de seguranza de contido",
+	"widgets-config-cspsources": "Fontes adicionais da política de seguranza de contido permitidas en páxinas que conteñen widgets, como un mapa co nome da directiva (por exemplo, <code>connect-src</code> ou <code>font-src</code>) e unha lista de fontes. Úsao para os recursos que os widgets cargan en tempo de execución e non se poden detectar a partir do seu código."
 }

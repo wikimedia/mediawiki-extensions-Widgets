@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Suleiman the Magnificent Television",
+			"Tensama0415",
 			"Ykhwong",
 			"렌즈",
 			"아라"
@@ -18,5 +19,7 @@
 	"group-widgeteditor.css": "/* 이 CSS 설정은 위젯 편집자에만 적용됩니다 */",
 	"group-widgeteditor.js": "/* 이 자바스크립트 설정은 위젯 편집자에만 적용됩니다 */",
 	"widgets-config-useflaggedrevs": "위젯 보안을 위한 FlaggedRevs 확장 기능의 안정판을 사용하려면 이것을 true로 설정하십시오",
-	"widgets-config-compiledir": "컴파일된 틀의 저장을 위한 기본 디렉터리를 설정합니다"
+	"widgets-config-compiledir": "컴파일된 틀의 저장을 위한 기본 디렉터리를 설정합니다",
+	"widgets-config-autoregistercspsources": "$wgCSPHeader가 활성화되면 위젯 마크업(스크립트, 스타일시트, 프레임 및 미디어)에서 참조하는 외부 호스트를 콘텐츠 보안 정책에서 자동으로 허용합니다.",
+	"widgets-config-cspsources": "위젯이 포함된 문서에서 허용되는 추가 Content-Security-Policy 소스는 지시어 이름(예: <code>connect-src</code> 또는 <code>font-src</code> )과 소스 목록의 매핑 형식으로 제공됩니다. 이 기능은 위젯이 런타임에 로드하고 마크업에서 감지할 수 없는 리소스에 사용합니다."
 }
