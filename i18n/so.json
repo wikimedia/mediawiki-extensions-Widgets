@@ -14,6 +14,6 @@
 	"grant-editwidgets": "Abuur oo wax ka beddel widgets",
 	"widgets-config-useflaggedrevs": "U dhig tan true si aad u isticmaasho nooca xasilloon ee kordhinta FlaggedRevs ee amniga widget-ka",
 	"widgets-config-compiledir": "U deji gal caadi ah oo lagu kaydiyo tusmada la isku soo ururiyay",
-	"widgets-config-autoregistercspsources": "Marka $wgCSPHeader la hawlgeliyo, si toos ah ugu oggolow martigeliyayaasha dibadda ee lagu tixraacay calaamadaynta widget-ka (qoraallada, xaashiyaha qaabka, fareemada iyo warbaahinta) gudaha Content-Security-Policy",
-	"widgets-config-cspsources": "Ilaha dheeraadka ah ee Content-Security-Policy ee loo oggol yahay bogagga ay ku jiraan widget-yadu, oo ah khariidad ka socota magaca tilmaamaha (tusaale ahaan <code>connect-src</code> ama <code>font-src</code>) una socota liiska ilaha. U isticmaal tan khayraadka ay widget-yadu soo dejiyaan inta ay shaqaynayaan oo aan laga ogaan karin calaamadayntooda"
+	"widgets-config-autoregistercspsources": "Marka $wgCSPHeader la hawlgeliyo, si otomaatig ah ugu oggolow siyaasadda Content-Security-Policy martigeliyeyaasha dibadda ee uu tixraacayo koodhka isha widget-ku (qoraallada, xaashiyaha qaabeynta, looxyada iyo warbaahinta). Martigeliyeyaasha ka yimaadda xuduudaha widget-ka lama oggola.",
+	"widgets-config-cspsources": "Ilaha dheeraadka ah ee Content-Security-Policy ee loo oggol yahay bogagga ay ku jiraan widget-yadu, oo ah khariidad ka socota magaca tilmaamaha (tusaale ahaan <code>connect-src</code> ama <code>font-src</code>) una socota liiska ilaha.Tilmaamaha aan ahayn <code>script-src</code> iyo <code>style-src</code> waxaa lagu daraa <code>default-src</code>. U isticmaal tan khayraadka ay widget-yadu soo dejiyaan inta ay shaqaynayaan oo aan laga ogaan karin calaamadayntooda"
 }
