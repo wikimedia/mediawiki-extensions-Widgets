@@ -16,5 +16,7 @@
 	"right-editwidgets": "Tvorba a úprava stránok [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ovládacích prvkov] v mennom priestore <code>{{ns:widget}}</code>",
 	"grant-editwidgets": "Vytvárať a upravovať widgety",
 	"widgets-config-useflaggedrevs": "Nastavte na true, ak sa má na zabezpečenie widgetov používať stabilná verzia z rozšírenia FlaggedRevs",
-	"widgets-config-compiledir": "Nastavte predvolený adresár na ukladanie skompilovaných šablón"
+	"widgets-config-compiledir": "Nastavte predvolený adresár na ukladanie skompilovaných šablón",
+	"widgets-config-autoregistercspsources": "Keď je zapnuté $wgCSPHeader, automaticky povoliť v Content-Security-Policy externé hostiteľské servery, na ktoré odkazuje zdrojový kód widgetov (skripty, štýly, rámce a médiá). Hostitelia pochádzajúci z parametrov widgetov povolení nie sú",
+	"widgets-config-cspsources": "Ďalšie zdroje Content-Security-Policy povolené na stránkach s widgetmi, ako mapa názvu direktívy (napríklad <code>connect-src</code> alebo <code>font-src</code>) na zoznam zdrojov. Iné direktívy ako <code>script-src</code> a <code>style-src</code> sa pridajú do <code>default-src</code>. Použite to pre prostriedky, ktoré widgety načítavajú za behu a ktoré sa nedajú zistiť z ich značkovania"
 }
