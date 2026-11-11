@@ -165,6 +165,15 @@ class WidgetRenderer {
 		}
 		self::addInlineScriptHashes( $parser->getOutput(), $output );
 
+		$parser->getOutput()->setExtensionData( 'widgetRendered', true );
+
+		// ParserAfterTidy does not run when only preprocessing (Parsoid expands
+		// parser functions this way), so the placeholder below would never be
+		// replaced. Hand the HTML over directly there.
+		if ( $parser->getOutputType() === $parser::OT_PREPROCESS ) {
+			return [ $output, 'noparse' => true, 'isHTML' => true ];
+		}
+
 		// To prevent the widget output from being tampered with, the
 		// compiled HTML is stored and a strip marker with an index to
 		// retrieve it later is returned.
@@ -426,7 +435,7 @@ class WidgetRenderer {
 		global $wgWidgetsCSPSources;
 
 		// Nothing to do unless a widget was actually rendered on this page.
-		if ( $parserOutput->getExtensionData( 'widgetReplacements' ) === null ) {
+		if ( $parserOutput->getExtensionData( 'widgetRendered' ) === null ) {
 			return;
 		}
 
